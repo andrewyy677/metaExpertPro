@@ -11,6 +11,9 @@ First, download metaExpertPro container from Docker Hub.
 `
 $ docker pull yingxiaoying1993/metaexpertpro:v1
 `
+
+## Part 1: run metaExpertPro for DDA-MS based spectral library generation and DIA-MS based peptide and protein quantification.
+
 ## Folders and files
 The following folders are required:
 1. A folder as the total directory for metaExpertPro (metaEx).
@@ -19,15 +22,12 @@ The following folders are required:
 4. A folder for microbial protein sequence database input files (metaEx/fasta/Microbiota)
 5. A folder for human, contaminant, and iRT protein sequence database input files (metaEx/fasta/HumanContamIrt).
 6. A folder for analysis results (metaEx/Results)
-7. A folder for sample name, batch ID, and label (metaEx/sampleLabel)
 
 The file format are required as follows:
 1. DDA and DIA raw data input file format are either .d or .mzML.
 2. Microbial protein database input file is required as .fas format.
 3. Human, contaminant, and iRT database input file is required as .fasta format.
-4. Sample label input file is required as .csv format and the example content is shown in above example folder.
 
-## Run metaExpertPro for DDA-MS based spectral library generation and DIA-MS based peptide and protein quantification.
 Get help of all command line parameters:
 
 `
@@ -38,7 +38,7 @@ Note: the settings for DDA RAM and DDA threads
 
 The recommended RAM for the three-step iterative database search is set as default, with 48 GB allocated for cycle1 and cycle2, and 128 GB allocated for cycle3. The user's configured number of threads is equal to the number of parallel tasks in metaExpert, so when setting the number of threads, the user needs to consider whether their computer has sufficient RAM. For example, if the computer has 128GB of RAM and 20 cores, but considering that each task in cycle1 requires 48GB of RAM, the threads should be set to 2.
 
-## Default parameter settings for DDA and DIA database search
+### Default parameter settings for DDA and DIA database search
 For DDA-MS database search:
 - True precursor mass tolerance (unit ppm): 20
 - Fragment mass tolerance units (0 for Da, 1 for ppm): 1
@@ -56,19 +56,57 @@ For DIA-MS database search:
 - Threads: 20
 ### Run the analysis from the command line
 `
-sudo docker run -it --rm \
+docker run -it --rm \
 -u $(id -u):$(id -g) \
 -v /workdir/metaEx/DDAraw/:/metaEx/DDAraw/ \
 -v /workdir/metaEx/DIAraw/:/metaEx/DIAraw/ \
 -v /workdir/metaEx/fasta/:/metaEx/fasta/ \
 -v /workdir/metaEx/sampleLabel/:/metaEx/sampleLabel/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
-yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --total_dir /metaEx --project_name xxx --dda_threads xxx --dia_threads xxx \
+yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
+--total_dir /metaEx --project_name xxx --dda_threads xxx --dia_threads xxx \
+--dda_cycle1_RAM xxx --dda_cycle2_RAM xxx --dda_cycle3_RAM xxx
 `
 
+## Part 2: run metaExpertPro for functional and taxonomic annotation and quantitative matrices generation.
 
+### Folders and files
+1. For eggnog-mapper based eggnog annotation:
 
+To perform eggnog annotation using eggnog-mapper, the eggnog-mapper database files including eggnog.db and eggnog_proteins.dmnd were required to download from the example folder and placed to the folder metaEx/software/eggnog-mapper/eggnog-mapper-data/
 
+Note: The sizes of the eggnog.db and eggnog_proteins.dmnd files are approximately 42 GB.
+
+2. For GhostKOALA based KO annotation:
+
+The GhostKOALA based KO annotation can only be done through the webserver (https://www.kegg.jp/ghostkoala/)
+The users need to upload the .fasta file in the folder metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output generated from the Part 1 run to the GhostKOALA. 
+
+Then, place the results of GhostKOALA to the folder /metaEx/Results
+
+3. A folder for sample name, batch ID, and label (metaEx/sampleLabel):
+
+Sample label input file is required as .csv format and the example content is shown in the example folder.
+
+Get help of all command line parameters:
+
+`
+docker run -it --rm -u $(id -u):$(id -g) yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --help
+`
+
+### Default parameter settings for annotation and quantification
+- threads: 20
+- sample label file: /metaEx/sampleLabel/my_project_sample_label.csv
+
+### Run the analysis from the command line
+`
+docker run -it --rm \
+-u $(id -u):$(id -g) \
+-v /workdir/metaEx/sampleLabel/:/metaEx/sampleLabel/ \
+-v /workdir/metaEx/Results/:/metaEx/Results/ \
+-v /workdir/metaEx/software/eggnog-mapper/eggnog-mapper-data/:/metaEx/software/eggnog-mapper/eggnog-mapper-data/ \
+yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx
+`
 
 
 
