@@ -14,7 +14,7 @@ $ docker pull yingxiaoying1993/metaexpertpro:v1
 
 ## Part 1: run metaExpertPro for DDA-MS based spectral library generation and DIA-MS based peptide and protein quantification.
 
-## Folders and files
+### Folders and files
 The following folders are required:
 1. A folder as the total directory for metaExpertPro (metaEx).
 2. A folder for DDA raw data input files (metaEx/DDAraw).
@@ -28,7 +28,7 @@ The file format are required as follows:
 2. Microbial protein database input file is required as .fas format.
 3. Human, contaminant, and iRT database input file is required as .fasta format.
 
-Get help of all command line parameters:
+### Get help of all command line parameters:
 
 `
 docker run -it --rm -u $(id -u):$(id -g) yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --help
@@ -54,6 +54,7 @@ For DIA-MS database search:
 - Fragment mass tolerance (unit ppm): 10
 - Allowed number of missed cleavages per peptide: 1
 - Threads: 20
+- 
 ### Run the analysis from the command line
 `
 docker run -it --rm \
@@ -88,7 +89,7 @@ Then, place the results of GhostKOALA to the folder /metaEx/Results
 
 Sample label input file is required as .csv format and the example content is shown in the example folder.
 
-Get help of all command line parameters:
+### Get help of all command line parameters:
 
 `
 docker run -it --rm -u $(id -u):$(id -g) yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --help
