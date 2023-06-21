@@ -40,35 +40,21 @@ The recommended RAM for the three-step iterative database search is set as defau
 
 ## Default parameter settings for DDA and DIA database search
 For DDA-MS database search:
-
 True precursor mass tolerance (unit ppm): 20
-
 Fragment mass tolerance units (0 for Da, 1 for ppm): 1
-
 Fragment mass tolerance: 20
-
 Minimum length of peptides to be generated during in-silico digestion: 7
-
 Maximum length of peptides to be generated during in-silico digestion: 50
-
 Allowed number of missed cleavages per peptide: 2
-
 Cleavage site: Trypsin
-
 Threads: 20
 
 For DIA-MS database search:
-
 True precursor mass tolerance (unit ppm): 10 
-
 Fragment mass tolerance (unit ppm): 10
-
 Allowed number of missed cleavages per peptide: 1
-
 Threads: 20
-
 ### Run the analysis from the command line
-
 `
 sudo docker run -it --rm \
 -u $(id -u):$(id -g) \
