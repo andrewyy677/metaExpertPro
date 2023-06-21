@@ -114,7 +114,7 @@ docker run -it --rm \
 yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx
 `
 ### Results
-All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. the folder includes the following folders:
+All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. The folder includes the following folders:
 - all/: all the samples
 - sample/: subjective samples
 - qc/: inter-batch biological replicates
