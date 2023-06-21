@@ -62,12 +62,17 @@ docker run -it --rm \
 -v /workdir/metaEx/DDAraw/:/metaEx/DDAraw/ \
 -v /workdir/metaEx/DIAraw/:/metaEx/DIAraw/ \
 -v /workdir/metaEx/fasta/:/metaEx/fasta/ \
--v /workdir/metaEx/sampleLabel/:/metaEx/sampleLabel/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
 yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
 --total_dir /metaEx --project_name xxx --dda_threads xxx --dia_threads xxx \
 --dda_cycle1_RAM xxx --dda_cycle2_RAM xxx --dda_cycle3_RAM xxx
 `
+### Results
+- DDA-MS based spectral library: metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output/xxx_spectral_library_date.tsv
+- DDA-MS based protein sequences:
+  metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output/xxx.fasta
+- DIA-MS based peptide and protein quantitative matrices:
+metaEx/Results/01.DIAquant
 
 ## Part 2: run metaExpertPro for functional and taxonomic annotation and quantitative matrices generation.
 
@@ -83,7 +88,7 @@ Note: The sizes of the eggnog.db and eggnog_proteins.dmnd files are approximatel
 The GhostKOALA based KO annotation can only be done through the webserver (https://www.kegg.jp/ghostkoala/)
 The users need to upload the .fasta file in the folder metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output generated from the Part 1 run to the GhostKOALA. 
 
-Then, place the results of GhostKOALA to the folder /metaEx/Results
+Then, place the results of GhostKOALA to the folder metaEx/Results
 
 3. A folder for sample name, batch ID, and label (metaEx/sampleLabel):
 
@@ -108,7 +113,17 @@ docker run -it --rm \
 -v /workdir/metaEx/software/eggnog-mapper/eggnog-mapper-data/:/metaEx/software/eggnog-mapper/eggnog-mapper-data/ \
 yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx
 `
+### Results
+All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. the folder includes the following folders:
+- all/: all the samples
+- sample/: subjective samples
+- qc/: inter-batch biological replicates
+- pool/: inter-batch technical replicates
+- biorep/: intra-batch biological replicates
+- techrep/: intra-batch technical replicates
+
+Each of the above folder contains peptide, protein, COG, COG category, KO, KO category, taxa quantitative matrices for the corresponding samples.
 
 
-
+## Publications
 
