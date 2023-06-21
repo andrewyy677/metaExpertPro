@@ -54,7 +54,7 @@ For DIA-MS database search:
 - Fragment mass tolerance (unit ppm): 10
 - Allowed number of missed cleavages per peptide: 1
 - Threads: 20
-- 
+
 ### Run the analysis from the command line
 `
 docker run -it --rm \
@@ -122,7 +122,7 @@ All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. the 
 - biorep/: intra-batch biological replicates
 - techrep/: intra-batch technical replicates
 
-Each of the above folder contains peptide, protein, COG, COG category, KO, KO category, taxa quantitative matrices for the corresponding samples.
+Each of the above folder contains peptide, protein, COG, COG category, KO, KO category, and taxa quantitative matrices for the corresponding samples.
 
 
 ## Publications
