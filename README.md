@@ -8,9 +8,9 @@ The metaExpertPro software is supported by Docker, which is enable running under
 It is recommened having at least 128 GB RAM and 50 GB storage space for one DDA-MS raw data (.d or .mzML) based metaExpertPro analysis.
 First, download metaExpertPro container from Docker Hub.
 
-`
+```
 $ docker pull yingxiaoying1993/metaexpertpro:v1
-`
+```
 
 ## Part 1: run metaExpertPro for DDA-MS based spectral library generation and DIA-MS based peptide and protein quantification.
 
@@ -30,9 +30,9 @@ The file format are required as follows:
 
 ### Get help of all command line parameters:
 
-`
+```
 docker run -it --rm -u $(id -u):$(id -g) yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --help
-`
+```
 
 Note: the settings for DDA RAM and DDA threads
 
@@ -56,7 +56,7 @@ For DIA-MS database search:
 - Threads: 20
 
 ### Run the analysis from the command line
-`
+```
 docker run -it --rm \
 -u $(id -u):$(id -g) \
 -v /workdir/metaEx/DDAraw/:/metaEx/DDAraw/ \
@@ -66,7 +66,7 @@ docker run -it --rm \
 yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
 --total_dir /metaEx --project_name xxx --dda_threads xxx --dia_threads xxx \
 --dda_cycle1_RAM xxx --dda_cycle2_RAM xxx --dda_cycle3_RAM xxx
-`
+```
 ### Results
 - DDA-MS based spectral library: metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output/xxx_spectral_library_date.tsv
 - DDA-MS based protein sequences:
@@ -96,23 +96,23 @@ Sample label input file is required as .csv format and the example content is sh
 
 ### Get help of all command line parameters:
 
-`
+```
 docker run -it --rm -u $(id -u):$(id -g) yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --help
-`
+```
 
 ### Default parameter settings for annotation and quantification
 - threads: 20
 - sample label file: /metaEx/sampleLabel/my_project_sample_label.csv
 
 ### Run the analysis from the command line
-`
+```
 docker run -it --rm \
 -u $(id -u):$(id -g) \
 -v /workdir/metaEx/sampleLabel/:/metaEx/sampleLabel/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
 -v /workdir/metaEx/software/eggnog-mapper/eggnog-mapper-data/:/metaEx/software/eggnog-mapper/eggnog-mapper-data/ \
 yingxiaoying1993/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx
-`
+```
 ### Results
 All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. The folder includes the following folders:
 - all/: all the samples
