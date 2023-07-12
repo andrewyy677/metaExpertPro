@@ -172,11 +172,11 @@ rawtype="d"
 rawnum=`find $DDA_raw_dir -name *.d | wc -l`
 if [ $(($rawnum * 10)) -gt $dda_threads ];then
 sleep_flag_1="yes"
-sleep_time_1=$((560 / $dda_threads * 60))
+sleep_time_1=$((750 / $dda_threads * 60))
 fi
 if [ $rawnum -gt $dda_threads ];then
 sleep_flag_2="yes"
-sleep_time_2=$((220 / $dda_threads * 60))
+sleep_time_2=$((300 / $dda_threads * 60))
 fi
 fi
 
