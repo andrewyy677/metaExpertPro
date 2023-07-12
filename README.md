@@ -9,7 +9,7 @@ It is recommened having at least 128 GB RAM and 50 GB storage space for one DDA-
 First, download metaExpertPro container from Docker Hub.
 
 ```
-$ docker pull yingxiaoying1993/metaexpertpro:v1
+$ docker pull yingxiaoying1993/metaexpertpro:v1.2
 ```
 
 ## Part 1: run metaExpertPro for DDA-MS based spectral library generation and DIA-MS based peptide and protein quantification.
