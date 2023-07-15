@@ -1,4 +1,4 @@
-![Fig1_protocal_paper_workflow_20230713-1527](https://github.com/andrewyy677/metaExpertPro/assets/111746469/0dd7f02e-cd13-48f7-b29f-d1207995367a)# metaExpertPro
+# metaExpertPro
 
 ## Description
 metaExpertPro is a comutational software for effective analysis of DDA-MS and DIA-MS hybrid based metaproteomic data analysis. It provides a complete pipeline for peptide and protein measurement, functional and taxonomic annotation, and generation of quantitative matrices for both microbiota and hosts. It is compatible with DDA-MS and DIA-MS data from both Thermo Fisher Orbitrap ( .raw / .mzML format) or Bruker (.d format) mass spectrometers.
