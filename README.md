@@ -79,7 +79,7 @@ metaEx/Results/01.DIAquant
 ### Folders and files
 1. For eggnog-mapper-based eggnog annotation:
 
-For conducting eggnog annotation via eggnog-mapper, the essential eggnog-mapper database files, namely eggnog.db and eggnog_proteins.dmnd, are necessary. You can obtain the compressed files by accessing the following link () on Baidu Cloud Drive (with the extraction code being ). Subsequently, these files need to be decompressed and positioned within the directory path metaEx/software/eggnog-mapper/eggnog-mapper-data/.
+For conducting eggnog annotation via eggnog-mapper, the essential eggnog-mapper database files, namely eggnog.db and eggnog_proteins.dmnd, are necessary. You can obtain the compressed files by accessing the following link (https://pan.baidu.com/s/11ZTPnbgz5p2c75W-ATJ8JA) on Baidu Cloud Drive (with the extraction code being yosa). Subsequently, these files need to be decompressed and positioned within the directory path metaEx/software/eggnog-mapper/eggnog-mapper-data/.
 
 Note: The sizes of the eggnog.db and eggnog_proteins.dmnd files are approximately 42 GB.
 
