@@ -9,7 +9,7 @@ It is recommended to have at least 128 GB RAM and 50 GB storage space for one DD
 First, download the metaExpertPro container from Docker Hub.
 
 ```
-$ docker pull guomics2017/metaexpertpro:v1
+$ docker pull guomics2017/metaexpertpro:v1.3
 ```
 
 ## Part 1: run metaExpertPro for DDA-MS-based spectral library generation and DIA-MS-based peptide and protein quantification.
@@ -31,7 +31,7 @@ The file format is required as follows:
 ### Get help with all command line parameters:
 
 ```
-docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --help
+docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v1.3 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --help
 ```
 
 Note: the settings for DDA RAM and DDA threads
@@ -63,7 +63,7 @@ docker run -it --rm \
 -v /workdir/metaEx/DIAraw/:/metaEx/DIAraw/ \
 -v /workdir/metaEx/fasta/:/metaEx/fasta/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
-guomics2017/metaexpertpro:v1 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
+guomics2017/metaexpertpro:v1.3 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
 --total_dir /metaEx --project_name xxx --dda_threads xxx --dia_threads xxx \
 --dda_cycle1_RAM xxx --dda_cycle2_RAM xxx --dda_cycle3_RAM xxx
 ```
@@ -94,10 +94,12 @@ Then, place the results of GhostKOALA in the folder metaEx/Results
 
 Sample label input file is required as .csv format and the example content is shown in the example folder.
 
+4. It is recommended to have at least 32 GB RAM for annotation analysis.
+
 ### Get help with all command line parameters:
 
 ```
-docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --help
+docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v1.3 sh /metaEx/src/02.Annotation/01.annotation.sh --help
 ```
 
 ### Default parameter settings for annotation and quantification
@@ -111,7 +113,7 @@ docker run -it --rm \
 -v /workdir/metaEx/sampleLabel/:/metaEx/sampleLabel/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
 -v /workdir/metaEx/software/eggnog-mapper/eggnog-mapper-data/:/metaEx/software/eggnog-mapper/eggnog-mapper-data/ \
-guomics2017/metaexpertpro:v1 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx
+guomics2017/metaexpertpro:v1.3 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx --unipept_switch on --eggnog_switch on --kegg_switch on
 ```
 ### Results
 All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. The folder includes the following folders:
