@@ -1,7 +1,7 @@
 #!/bin/bash
 OPTIONS=hvl:f:
 
-PARSED_OPTIONS=$(getopt -n "$0" -o $OPTIONS --long help,version,total_dir:,project_name:,sample_label:,database:,anno_threads: -- "$@")
+PARSED_OPTIONS=$(getopt -n "$0" -o $OPTIONS --long help,version,total_dir:,project_name:,sample_label:,database:,anno_threads:,unipept_switch:,eggnog_switch:,kegg_switch: -- "$@")
 
 if [ $? -ne 0 ]; then
 echo "Parameter parsing error"
@@ -16,6 +16,9 @@ project_name="my_project"
 sample_label="/metaEx/sampleLabel/${project_name}_sample_label.csv"
 database="IGC_humanswiss"
 anno_threads=20
+unipept_switch=on
+eggnog_switch=on
+kegg_switch=on
 
 while true; do
 case "$1" in
@@ -28,6 +31,9 @@ echo "-p, --project_name <value>   Project name, default: my_project"
 echo "-l, --sample_label <value>   Sample label, default: /metaEx/sampleLabel/${project_name}_sample_label.csv"
 echo "-b, --database <value>   Database name, default: IGC_humanswiss"
 echo "-t, --anno_threads <value>   Annotation threads, default: 20"
+echo "-u --unipept_switch <value>   Run Unipept for taxonomic annotation, default: on"
+echo "-e --eggnog_switch <value>   Run eggnog for eggnog annotation, default: on"
+echo "-k --kegg_switch <value>   Run kegg matrix generation, default: on"
 exit 0
 ;;
 -v|--version)
@@ -57,6 +63,21 @@ shift 2
 -t|--anno_threads)
 anno_threads=$2
 echo "Annotation threads, default: 20; $anno_threads"
+shift 2
+;;
+-u|--unipept_switch)
+unipept_switch=$2
+echo "Run Unipept for taxonomic annotation, default: on; $unipept_switch"
+shift 2
+;;
+-e|--eggnog_switch)
+eggnog_switch=$2
+echo "Run eggnog for eggnog annotation, default: on; $eggnog_switch"
+shift 2
+;;
+-k|--kegg_switch)
+kegg_switch=$2
+echo "Run kegg matrix generation, default: on; $kegg_switch"
 shift 2
 ;;
 --)
@@ -215,6 +236,11 @@ echo "[`date`]: workdir: 04.pep2taxon; 4.0 lib peptide classify DONE" >> $Anno_w
 
 ## step 4.0.1 run unipept using microbiome unique peptides
 ## workdir_now: $Anno_work_dir/04.pep2taxon/00.lib/03.microbiome.unique
+
+#echo "Run Unipept for taxonomic annotation? (yes/no): "
+#read user_input_tax
+#user_input_tax_lower=$(echo "$user_input_tax" | tr '[:upper:]' '[:lower:]')
+if [[ "$unipept_switch" == "on" ]]; then
 echo "[`date`]: workdir: 04.pep2taxon/00.lib/03.microbiome.unique; 4.0.1 run unipept using microbiome unique peptides ..." >> $Anno_work_dir/02.Annotation.log.txt
 cd $Anno_src_dir/04.pep2taxon/00.lib/03.microbiome.unique
 sh 02.unipept.run.format.sh $Anno_work_dir/04.pep2taxon/00.lib/03.microbiome.unique && \
@@ -234,9 +260,19 @@ echo "[`date`]: workdir: 04.pep2taxon/00.lib; 4.0.3 generate taxonname pepcount 
 perl $Anno_src_dir/04.pep2taxon/00.lib/02.taxonname_pepcount.pl -wd $Anno_work_dir -db $database >> $Anno_work_dir/02.Annotation.log.txt 2>&1 && \
 echo "[`date`]: workdir: 04.pep2taxon/00.lib; 4.0.3 generate taxonname pepcount file DONE" >> $Anno_work_dir/02.Annotation.log.txt
 
+elif [[ "$unipept_switch" == "off" ]]; then
+    echo "Skip Unipept-based taxonomic annotation!"
+else
+    echo "Skip Unipept-based taxonomic annotation!"
+fi
+
 ############ 05.eggnog-mapper run
 ## workdir now: $Anno_work_dir/05.eggnog.run/00.lib
 # step 5.1 eggnog-mapper run
+#echo "Run eggnog-mapper for eggnog annotation? (yes/no): "
+#read user_input_cog
+#user_input_cog_lower=$(echo "$user_input_cog" | tr '[:upper:]' '[:lower:]')
+if [[ "$eggnog_switch" == "on" ]]; then
 echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.1 eggnog-mapper run..." >> $Anno_work_dir/02.Annotation.log.txt
 cp $Anno_work_dir/05.eggnog.run/00.lib/*.fasta $total_dir/software/eggnog-mapper/input
 cd $total_dir/software/eggnog-mapper/
@@ -249,14 +285,28 @@ echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annota
 perl $Anno_src_dir/05.eggnog.run/00.lib/01.eggnog_metagroup_progroup.pl -db $database -wd $Anno_work_dir >> $Anno_work_dir/02.Annotation.log.txt 2>&1 && \
 echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation DONE" >> $Anno_work_dir/02.Annotation.log.txt
 
-############### 06.run lib kegg ghostkola
+elif [[ "$eggnog_switch" == "off" ]]; then
+    echo "Skip eggnog-mapper-based eggnog annotation!"
+else
+    echo "Skip eggnog-mapper-based eggnog annotation!"
+fi
+############### 06.run lib kegg ghostkoala
+#echo "Run ghostkoala for kegg annotation? (yes/no): "
+#read user_input_kegg
+#user_input_kegg_lower=$(echo "$user_input_kegg" | tr '[:upper:]' '[:lower:]')
+if [[ "$kegg_switch" == "on" ]]; then
+
 echo "[`date`]: workdir: 06.kegg.run/00.lib; 6.2 metagroup progroup KEGG annotation..." >> $Anno_work_dir/02.Annotation.log.txt
 #workdir now $Anno_work_dir/06.kegg.run/00.lib
 #ssh $Anno_work_dir/06.kegg.run/00.lib/user_ko.txt $Anno_work_dir/06.kegg.run/00.lib/user.out.top
 cp $total_dir/Results/user* $Anno_work_dir/06.kegg.run/00.lib
 perl $Anno_src_dir/06.kegg.run/00.lib/01.kegg.metagroup_progroup.pl -db $database -wd $Anno_work_dir >> $Anno_work_dir/02.Annotation.log.txt 2>&1 && \
 echo "[`date`]: workdir: 06.kegg.run/00.lib; 6.2 metagroup progroup KEGG annotation DONE" >> $Anno_work_dir/02.Annotation.log.txt
-
+elif [[ "$kegg_switch" == "off" ]]; then
+    echo "Skip ghostkoala-based kegg annotation!"
+else
+    echo "Skip ghostkoala-based kegg annotation!"
+fi
 ############################ matrix generation ############################
 ## step 2 generate protein matrix
 ## step 2.1 generate protein matrix

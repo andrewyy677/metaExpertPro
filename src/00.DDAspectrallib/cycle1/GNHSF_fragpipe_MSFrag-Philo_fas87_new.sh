@@ -73,3 +73,4 @@ rm -rf *.mgf
 rm -rf *.pepXML
 rm -rf *.pep.xml
 rm -rf *.fasta.fas
+rm -rf *.mzBIN

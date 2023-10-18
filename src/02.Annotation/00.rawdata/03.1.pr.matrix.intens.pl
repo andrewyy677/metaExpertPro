@@ -83,7 +83,12 @@ while (<MAT>) {
 	if ($line == 1) {
 		@head = split /\t/;
 		for my $i (10..$#head) {
-			$head[$i] = (split /\//, $head[$i])[-1];
+			if ($head[$i] =~ /\//) {
+				$head[$i] = (split /\//, $head[$i])[-1];
+			}
+			if ($head[$i] =~ /\\/) {
+				$head[$i] = (split /\\/, $head[$i])[-1];
+			}
 			if (exists $batchID{$head[$i]}) {
 				push @alli, $i;
 				if ($sam_lab{$head[$i]} =~ /sample/) {

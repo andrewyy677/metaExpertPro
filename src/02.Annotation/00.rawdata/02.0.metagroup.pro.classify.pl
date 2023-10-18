@@ -34,7 +34,7 @@ while (<META>) {
 	my $microf = 0;
 	my $contamf = 0;
 	for my $prosp (@prosp) {
-		if ($prosp =~ /^Human_swiss/) {
+		if ($prosp =~ /Human/i) {
 			$humanf ++;
 		}elsif ($prosp =~ /^MAX/) {
 			$contamf ++;
@@ -114,7 +114,7 @@ while (<PRO>) {
 			$humanf += $metah{$prosp};
 			$contamf += $metac{$prosp};
 			$microf += $metam{$prosp};
-		}elsif ($prosp =~ /^Human_swiss/) {
+		}elsif ($prosp =~ /Human/i) {
 			$humanf ++;
 		}elsif ($prosp =~ /^MAX/) {
 			$contamf ++;
