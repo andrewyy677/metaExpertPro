@@ -6,11 +6,11 @@ metaExpertPro is a computational software for the analysis of DDA-MS and DIA-MS 
 ## Installation
 The metaExpertPro software is supported by Docker, which enables running under both Windows and Linux operating systems.
 
-The docker image packages DIA-NN (v1.8), Unipept (v3.0.2), eggnog-mapper (v2.1.5), and the required environment for software running.
+The Docker image includes DIA-NN (v1.8), Unipept (v3.0.2), eggnog-mapper (v2.1.5), and all the necessary environments of these software tools.
 
-The docker image does not package FragPipe software but packages a 'split-database' workflow and running command for FragPipe v20.0. 
+The Docker image doesn't include FragPipe software, but it provides a 'split-database' workflow and running commands for FragPipe v20.0. 
 
-Please download FragPipe v20.0 (https://github.com/Nesvilab/FragPipe/releases) software and input FragPipe path when DDA-MS-based spectral library generation running.
+To use FragPipe v20.0 for DDA-MS-based spectral library generation, download it from this link (https://github.com/Nesvilab/FragPipe/releases) and specify the FragPipe path during the process.
 
 It is recommended to have at least 128 GB RAM and 50 GB storage space for one DDA-MS raw data (.d or .mzML) based metaExpertPro analysis.
 
@@ -41,6 +41,8 @@ docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v2 sh /metaEx
 ```
 
 ### Default parameter settings for DDA and DIA database search
+The users can choose whether or not to run FragPipe and DIA-NN via the command line.
+
 For DDA-MS database search:
 - True precursor mass tolerance (unit ppm): 20
 - Fragment mass tolerance units (0 for Da, 1 for ppm): 1
@@ -57,6 +59,7 @@ For DIA-MS database search:
 - Allowed number of missed cleavages per peptide: 1
 - Threads: 20
 
+
 ### Run the analysis from the command line
 ```
 docker run -it --rm \
@@ -65,14 +68,14 @@ docker run -it --rm \
 -v /workdir/metaEx/DIAraw/:/metaEx/DIAraw/ \
 -v /workdir/metaEx/fasta/:/metaEx/fasta/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
-guomics2017/metaexpertpro:v1.2 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
---total_dir /metaEx --project_name xxx --dda_threads xxx --dia_threads xxx \
---dda_cycle1_RAM xxx --dda_cycle2_RAM xxx --dda_cycle3_RAM xxx
+guomics2017/metaexpertpro:v2 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
+--total_dir /metaEx --project_name xxx --fragpipe_switch xxx --diann_switch xxx --fasta_name xxx --dia_threads xxx \
+--fragpipe_path xxx --db_split xxx
 ```
 ### Results
-- DDA-MS-based spectral library: metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output/xxx_spectral_library_date.tsv
+- DDA-MS-based spectral library: metaEx/Results/00.DDAspectrallib/library.tsv
 - DDA-MS-based protein sequences:
-  metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output/xxx.fasta
+  metaEx/Results/00.DDAspectrallib/protein.fas
 - DIA-MS-based peptide and protein quantitative matrices:
 metaEx/Results/01.DIAquant
 
@@ -88,7 +91,7 @@ Note: The sizes of the eggnog.db and eggnog_proteins.dmnd files are approximatel
 2. For GhostKOALA-based KO annotation:
 
 The GhostKOALA-based KO annotation can only be done through the webserver (https://www.kegg.jp/ghostkoala/)
-The users need to upload the .fasta file in the folder metaEx/Results/00.DDAspectrallib/proteinInference/s2_inference/output generated from the Part 1 run to the GhostKOALA. 
+The users need to upload the .fas file in the folder metaEx/Results/00.DDAspectrallib/protein.fas generated from the Part 1 run to the GhostKOALA. 
 
 Then, place the results of GhostKOALA in the folder metaEx/Results
 
@@ -101,10 +104,11 @@ Sample label input file is required as .csv format and the example content is sh
 ### Get help with all command line parameters:
 
 ```
-docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v1.2 sh /metaEx/src/02.Annotation/01.annotation.sh --help
+docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v2 sh /metaEx/src/02.Annotation/01.annotation.sh --help
 ```
 
 ### Default parameter settings for annotation and quantification
+The users can choose whether or not to run Unipept, eggnog-mapper, and KEGG annotation via the command line.
 - threads: 20
 - sample label file: /metaEx/sampleLabel/my_project_sample_label.csv
 
@@ -115,7 +119,8 @@ docker run -it --rm \
 -v /workdir/metaEx/sampleLabel/:/metaEx/sampleLabel/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
 -v /workdir/metaEx/software/eggnog-mapper/eggnog-mapper-data/:/metaEx/software/eggnog-mapper/eggnog-mapper-data/ \
-guomics2017/metaexpertpro:v1.2 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx --database xxx --anno_threads xxx --unipept_switch on --eggnog_switch on --kegg_switch on
+guomics2017/metaexpertpro:v2 sh /metaEx/src/02.Annotation/01.annotation.sh --total_dir /metaEx --project_name xxx --sample_label /metaEx/sampleLabel/xxx \
+--database xxx --input_pr_mat_name xxx --input_pg_mat_name xxx --anno_threads xxx --unipept_switch xxx --eggnog_switch xxx --kegg_switch xxx
 ```
 ### Results
 All the matrices are located in the metaEx/Results/02.Annotation/07.matrix. The folder includes the following folders:
