@@ -5,11 +5,19 @@ metaExpertPro is a computational software for the analysis of DDA-MS and DIA-MS 
 
 ## Installation
 The metaExpertPro software is supported by Docker, which enables running under both Windows and Linux operating systems.
+
+The docker image packages DIA-NN (v1.8), Unipept (v3.0.2), eggnog-mapper (v2.1.5), and the required environment for software running.
+
+The docker image does not package FragPipe software but packages a 'split-database' workflow and running command for FragPipe v20.0. 
+
+Please download FragPipe v20.0 (https://github.com/Nesvilab/FragPipe/releases) software and input FragPipe path when DDA-MS-based spectral library generation running.
+
 It is recommended to have at least 128 GB RAM and 50 GB storage space for one DDA-MS raw data (.d or .mzML) based metaExpertPro analysis.
+
 First, download the metaExpertPro container from Docker Hub.
 
 ```
-$ docker pull guomics2017/metaexpertpro:v1.2
+$ docker pull guomics2017/metaexpertpro:v2
 ```
 
 ## Part 1: run metaExpertPro for DDA-MS-based spectral library generation and DIA-MS-based peptide and protein quantification.
@@ -19,24 +27,18 @@ The following folders are required:
 1. A folder as the total directory for metaExpertPro (metaEx).
 2. A folder for DDA raw data input files (metaEx/DDAraw).
 3. A folder for DIA raw data input files (metaEx/DIAraw).
-4. A folder for microbial protein sequence database input files (metaEx/fasta/Microbiota)
-5. A folder for human, contaminant, and iRT protein sequence database input files (metaEx/fasta/HumanContamIrt).
-6. A folder for analysis results (metaEx/Results)
+4. A folder for protein sequence database input files (metaEx/fasta)
+5. A folder for analysis results (metaEx/Results)
 
 The file format is required as follows:
 1. DDA and DIA raw data input file formats are .d or .mzML.
-2. Microbial protein database input file is required as .fas format.
-3. Human, contaminant, and iRT database input file is required in .fasta format.
+2. Database input file is required in .fasta format.
 
 ### Get help with all command line parameters:
 
 ```
-docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v1.2 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --help
+docker run -it --rm -u $(id -u):$(id -g) guomics2017/metaexpertpro:v2 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh --help
 ```
-
-Note: the settings for DDA RAM and DDA threads
-
-The recommended RAM for the three-step iterative database search is set as default, with 48 GB allocated for cycle1 and cycle2, and 128 GB allocated for cycle3. The user's configured number of threads is equal to the number of parallel tasks in metaExpertPro, so when setting the number of threads, the user needs to consider whether their computer has sufficient RAM. For example, if the computer has 128GB of RAM and 20 cores, but considering that each task in cycle 1 requires 48GB of RAM, the threads should be set to 2.
 
 ### Default parameter settings for DDA and DIA database search
 For DDA-MS database search:
