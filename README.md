@@ -6,9 +6,9 @@ metaExpertPro is a computational software for the analysis of DDA-MS and DIA-MS 
 ## Installation
 The metaExpertPro software is supported by Docker, which enables running under both Windows and Linux operating systems.
 
-The Docker image includes DIA-NN (v1.8), Unipept (v3.0.2), eggnog-mapper (v2.1.5), and all the necessary environments of these software tools.
+The Docker container includes Java (11.0.13), Python (v3.9.18), easypqp (v0.1.35), DIA-NN (v1.8), Unipept (v3.1.0), eggnog-mapper (v2.1.5), and all the necessary environments of these software tools.
 
-The Docker image doesn't include FragPipe software, but it provides a 'split-database' workflow and running commands for FragPipe v20.0. 
+The Docker container doesn't include FragPipe software, but it provides a 'split-database' workflow and running commands for FragPipe v20.0. 
 
 To use FragPipe v20.0 for DDA-MS-based spectral library generation, download it from this link (https://github.com/Nesvilab/FragPipe/releases) and specify the FragPipe path during the process.
 
