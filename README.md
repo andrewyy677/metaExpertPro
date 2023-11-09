@@ -68,9 +68,10 @@ docker run -it --rm \
 -v /workdir/metaEx/DIAraw/:/metaEx/DIAraw/ \
 -v /workdir/metaEx/fasta/:/metaEx/fasta/ \
 -v /workdir/metaEx/Results/:/metaEx/Results/ \
+-v /path/to/fragpipe/:/metaEx/software/fragpipe20.0/ \
 guomics2017/metaexpertpro:v2 sh /metaEx/src/00.DDAspectrallib/00.DDA.DIA.sh \
 --total_dir /metaEx --project_name xxx --fragpipe_switch xxx --diann_switch xxx --fasta_name xxx --dia_threads xxx \
---fragpipe_path xxx --db_split xxx
+--fragpipe_path /metaEx/software/fragpipe20.0 --db_split xxx
 ```
 ### Results
 - DDA-MS-based spectral library: metaEx/Results/00.DDAspectrallib/library.tsv
