@@ -13,7 +13,6 @@ if ($help==1) {
 
 open (UNI, "<$workdir/04.pep2taxon/00.lib/03.microbiome.unique/$database\_lib_peptide_micro_oriseq-pept2lca.tsv") or die $!;
 open (OUT1, ">$workdir/04.pep2taxon/00.lib/$database\_lib_micro_peptide2taxon.csv") or die $!;
-#open (OUT3, ">$workdir/04.pep2taxon/00.lib/$database\_lib_micro_peptide2taxon_statistic.csv") or die $!;
 print OUT1 "Peptide\,Taxon_rank\,Taxon_name\,Taxon_id\,Taxon_name_all\n";
 
 my @unirank = qw /superkingdom_name phylum_name class_name order_name family_name genus_name species_name strain_name/;
@@ -34,11 +33,29 @@ my %staxon_rank; my %staxon_name;
 #my %srank_taxon; my %srank_use_taxon;
 my %srank_taxon_name; my %srank_use_taxon_name;
 my %staxon_rank_pep; my %staxon_use_rank_pep;
-
+my $line = 0; my $pepi; my $taxidi; my $taxnamei; my $taxranki; my $knamei;
 while (<UNI>) {
 	chomp; s/\r//g;
-	if (/^peptide/) {
+	$line ++;
+	if ($line == 0) {
 		@uhead = split /\t/;
+		for my $i (0..$#uhead) {
+			if ($uhead[$i] eq "peptide") {
+				$pepi = $i;
+			}
+			if ($uhead[$i] eq "taxon_id") {
+				$taxidi = $i;
+			}
+			if ($uhead[$i] eq "taxon_name") {
+				$taxnamei = $i;
+			}
+			if ($uhead[$i] eq "taxon_rank") {
+				$taxranki = $i;
+			}
+			if ($uhead[$i] eq "superkingdom_name") {
+				$knamei = $i;
+			}
+		}
 		for my $i (0..$#uhead) {
 			for my $unirank (@unirank) {
 				if ($uhead[$i] eq $unirank) {
@@ -46,7 +63,7 @@ while (<UNI>) {
 				}
 			}
 		}
-		for my $i (4..$#uhead) {
+		for my $i ($knamei..$#uhead) {
 			if ($uhead[$i] =~ /(.*)_name/) {
 				push @unirankall, $1;
 			}
@@ -55,19 +72,19 @@ while (<UNI>) {
 		$unipept_pep ++;
 		my @urank;
 		my @udata = split /\t/;
-		my $upep = $udata[0];
-		my $utaxon_id = $udata[1];
-		my $utaxon_name = $udata[2];
-		my $utaxon_rank = $udata[3];
+		my $upep = $udata[$pepi];
+		my $utaxon_id = $udata[$taxidi];
+		my $utaxon_name = $udata[$taxnamei];
+		my $utaxon_rank = $udata[$taxranki];
 		if (($utaxon_rank ne "no rank") and ($utaxon_rank ne "")) {
-			my $flag;
-			if ($udata[5] eq "Eukaryota") {
-				if (($udata[13] eq "Ascomycota") or ($udata[13] eq "Chytridiomycota") or ($udata[13] eq "Basidiomycota") or ($udata[13] eq "Mucoromycota") or ($udata[13] eq "Zoopagomycota")) {
-					$flag = "yes";
-				}
-			}else{
-				$flag = "yes";
-			}
+			my $flag = "yes";
+			#if ($udata[$knamei] eq "Eukaryota") {
+			#	if (($udata[13] eq "Ascomycota") or ($udata[13] eq "Chytridiomycota") or ($udata[13] eq "Basidiomycota") or ($udata[13] eq "Mucoromycota") or ($udata[13] eq "Zoopagomycota")) {
+			#		$flag = "yes";
+			#	}
+			#}else{
+			#	$flag = "yes";
+			#}
 			if ($flag eq "yes") {
 				$staxon_rank{$utaxon_rank} ++;
 				$staxon_name{$utaxon_name} ++;

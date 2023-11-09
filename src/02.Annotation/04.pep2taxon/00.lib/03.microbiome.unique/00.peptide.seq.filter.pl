@@ -75,23 +75,39 @@ for my $k1 (sort keys %ori2filter) {
 }
 open (UNI, "<$workdir/04.pep2taxon/00.lib/03.microbiome.unique/$database\_lib_peptide_micro_filter_unipept_pept2lca.csv") or die $!;
 my $line = 0; my %pep2tax; my %pep2rank; my %pep2all; my %pep2taxmatch; my %taxmatch2all; my %taxname2all; my %taxname2alltax; my %taxname2rank; my %taxname2id;
-my @pept2lcahead;
+my @pept2lcahead; my $pepi; my $taxidi; my $taxnamei; my $taxranki; my $knamei;
 while (<UNI>) {
 	chomp; s/\r//g;
 	$line ++;
 	if ($line == 1) {
 		@pept2lcahead = split /\,/;
-	}
-	if ($line > 1) {
+		for my $i (0..$#pep2lcahead) {
+			if ($pep2lcahead[$i] eq "peptide") {
+				$pepi = $i;
+			}
+			if ($pep2lcahead[$i] eq "taxon_id") {
+				$taxidi = $i;
+			}
+			if ($pep2lcahead[$i] eq "taxon_name") {
+				$taxnamei = $i;
+			}
+			if ($pep2lcahead[$i] eq "taxon_rank") {
+				$taxranki = $i;
+			}
+			if ($pep2lcahead[$i] eq "superkingdom_name") {
+				$knamei = $i;
+			}
+		}
+	}else{
 		my @data = split /\,/;
-		my $pep = $data[0];
-		my $taxname = $data[2];
-		my $taxrank = $data[3];
-		my $taxid = $data[1];
+		my $pep = $data[$pepi];
+		my $taxname = $data[$taxnamei];
+		my $taxrank = $data[$taxranki];
+		my $taxid = $data[$taxidi];
 		$pep2tax{$pep} = $taxname;
 		$pep2rank{$pep} = $taxrank;
-		my $taxonall = join "\t", @data[1..$#data];
-		my $taxonmatch = join "\t", @data[5..$#data];
+		my $taxonall = join "\t", @data[$taxidi..$#data];
+		my $taxonmatch = join "\t", @data[$knamei..$#data];
 		$taxonall =~ s/\[//g;
 		$taxonall =~ s/\]//g;
 		$taxonmatch =~ s/\[//g;
@@ -237,7 +253,7 @@ while (<O2F>) {
 my $count = keys %pep2allnew;
 print STDERR "pep2allnew_oripep\t$count\n";
 open (ORIUNI, ">$workdir/04.pep2taxon/00.lib/03.microbiome.unique/$database\_lib_peptide_micro_oriseq-pept2lca.tsv") or die $!;
-my $head = join "\t", @pept2lcahead[0..$#pept2lcahead];
+my $head = join "\t", @pept2lcahead;
 print ORIUNI "$head\n";
 open (ORI, "<$workdir/04.pep2taxon/00.lib/03.microbiome.unique/$database\_lib_peptide_micro.seq") or die $!;
 while (<ORI>) {

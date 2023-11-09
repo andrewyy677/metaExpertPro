@@ -30,7 +30,7 @@ my @ranks = qw /k p c o f g s t/;
 
 
 ## pepcount
-open (IN, "<$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_all.tsv") or die $!;
+open (IN, "<$workdir/02.pr/$project\_diann_$database\_micropeptide_all.tsv") or die $!;
 my $mari = 0; my @mhead; my %ueachcount; my %taxpepcount; my %taxquan; my %taxeachpepcount;
 while (<IN>) {
 	chomp; s/\r//g;
@@ -70,15 +70,15 @@ while (<IN>) {
 }
 close IN;
 
-open (MED, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept.tsv") or die $!;
-open (MEDF1, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter1.tsv") or die $!;
-open (MEDF2, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter2.tsv") or die $!;
-open (MEDF3, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter3.tsv") or die $!;
-open (MEDF4, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter5.tsv") or die $!;
-open (MEDF5, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter10.tsv") or die $!;
-open (MEDF6, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter15.tsv") or die $!;
-open (MEDF7, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann1.8_$database\_micropeptide_all_unipept_filter20.tsv") or die $!;
-open (MAR, "<$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_all.tsv") or die $!;
+open (MED, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept.tsv") or die $!;
+open (MEDF1, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter1.tsv") or die $!;
+open (MEDF2, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter2.tsv") or die $!;
+open (MEDF3, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter3.tsv") or die $!;
+open (MEDF4, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter5.tsv") or die $!;
+open (MEDF5, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter10.tsv") or die $!;
+open (MEDF6, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter15.tsv") or die $!;
+open (MEDF7, ">$workdir/04.pep2taxon/01.matrix/01.add_unipept_info/$project\_diann_$database\_micropeptide_all_unipept_filter20.tsv") or die $!;
+open (MAR, "<$workdir/02.pr/$project\_diann_$database\_micropeptide_all.tsv") or die $!;
 my $mari = 0; my @mhead;
 while (<MAR>) {
 	chomp; s/\r//g;
@@ -141,7 +141,7 @@ close MED; close MEDF1; close MEDF2; close MEDF3; close MEDF4; close MEDF5; clos
 my @filter = qw /1 2 3 5 10 15 20/;
 for my $filter (@filter) {
 	for my $k1 (sort keys %taxpepcount) {
-		open (OUT, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/$project\_diann1.8_$database\_micropeptide_all_unipept_filter$filter\_$k1\_matrix.txt") or die $!;
+		open (OUT, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/$project\_diann_$database\_micropeptide_all_unipept_filter$filter\_$k1\_matrix.txt") or die $!;
 		my $headp = join "\t", "Taxon_name", @mhead[1..$#mhead];
 		print OUT "$headp\n";
 		for my $k2 (sort keys %{$taxpepcount{$k1}}) {

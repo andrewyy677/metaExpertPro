@@ -39,7 +39,7 @@ while (<TMP>) {
 		$filepre = $1;
 	}
 	my $type;
-	if ($path =~ /KEGGmatrix_all\/$project\_diann1.8_$database\_(.*)_all_keggmatrix.tsv/) {
+	if ($path =~ /KEGGmatrix_all\/$project\_diann_$database\_(.*)_all_keggmatrix.tsv/) {
 		$type = $1;
 	}
 	open (IN, "<$path") or die $!;

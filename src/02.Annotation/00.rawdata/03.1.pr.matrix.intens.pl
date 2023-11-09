@@ -20,19 +20,42 @@ print STDERR "00.rawdata step 3.1 \nparameters: $workdir\n$project\n$database\n$
 open (SAM, "<$filesample") or die $!;
 my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
+my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
+my $filetype;
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
-	if ($line > 1) {
+	if ($line == 1) {
+		@heads = split /\,/;
+		for my $i (0..$#heads) {
+			if ($heads[$i] eq "NameNew") {
+				$filenamei = $i;
+			}
+			if ($heads[$i] eq "BatchID") {
+				$batchidi = $i;
+			}
+			if ($heads[$i] eq "SampleID") {
+				$samidi = $i;
+			}
+			if ($heads[$i] eq "Rep_label") {
+				$replabi = $i;
+			}
+			if ($heads[$i] eq "Sample_label") {
+				$samlabi = $i;
+			}
+		}
+	}else{
 		my @data = split /\,/;
-		my $filename = $data[1];
-		$batchID{$filename} = $data[2];
-		$sampleID{$filename} = $data[6];
-		$rep_lab{$filename} = $data[4];
-		$sam_lab{$filename} = $data[5];
+		my $filename = $data[$filenamei];
+		$filetype = (split /\./, $filename)[-1];
+		$batchID{$filename} = $data[$batchidi];
+		$sampleID{$filename} = $data[$samidi];
+		$rep_lab{$filename} = $data[$replabi];
+		$sam_lab{$filename} = $data[$samlabi];
 	}
 }
-open (CLA, "<$workdir/00.rawdata/$project\_diann1.8_$database\_peptide_classify.txt") or die $!;
+
+open (CLA, "<$workdir/00.rawdata/$project\_diann_$database\_peptide_classify.txt") or die $!;
 my $cline = 0;
 my %peptype;
 while (<CLA>) {
@@ -52,37 +75,48 @@ while (<CLA>) {
 	}
 }
 
-open (BREP, ">$workdir/02.pr/$project\_diann1.8_$database\_peptide_biorep.tsv") or die $!;
-open (TREP, ">$workdir/02.pr/$project\_diann1.8_$database\_peptide_techrep.tsv") or die $!;
-open (POOL, ">$workdir/02.pr/$project\_diann1.8_$database\_peptide_pool.tsv") or die $!;
-open (QC, ">$workdir/02.pr/$project\_diann1.8_$database\_peptide_qc.tsv") or die $!;
-open (OUT, ">$workdir/02.pr/$project\_diann1.8_$database\_peptide_sample.tsv") or die $!;
-open (ALL, ">$workdir/02.pr/$project\_diann1.8_$database\_peptide_all.tsv") or die $!;
+open (BREP, ">$workdir/02.pr/$project\_diann_$database\_peptide_biorep.tsv") or die $!;
+open (TREP, ">$workdir/02.pr/$project\_diann_$database\_peptide_techrep.tsv") or die $!;
+open (POOL, ">$workdir/02.pr/$project\_diann_$database\_peptide_pool.tsv") or die $!;
+open (QC, ">$workdir/02.pr/$project\_diann_$database\_peptide_qc.tsv") or die $!;
+open (OUT, ">$workdir/02.pr/$project\_diann_$database\_peptide_sample.tsv") or die $!;
+open (ALL, ">$workdir/02.pr/$project\_diann_$database\_peptide_all.tsv") or die $!;
 
-open (BREP1, ">$workdir/02.pr/$project\_diann1.8_$database\_humanpeptide_biorep.tsv") or die $!;
-open (TREP1, ">$workdir/02.pr/$project\_diann1.8_$database\_humanpeptide_techrep.tsv") or die $!;
-open (POOL1, ">$workdir/02.pr/$project\_diann1.8_$database\_humanpeptide_pool.tsv") or die $!;
-open (QC1, ">$workdir/02.pr/$project\_diann1.8_$database\_humanpeptide_qc.tsv") or die $!;
-open (OUT1, ">$workdir/02.pr/$project\_diann1.8_$database\_humanpeptide_sample.tsv") or die $!;
-open (ALL1, ">$workdir/02.pr/$project\_diann1.8_$database\_humanpeptide_all.tsv") or die $!;
+open (BREP1, ">$workdir/02.pr/$project\_diann_$database\_humanpeptide_biorep.tsv") or die $!;
+open (TREP1, ">$workdir/02.pr/$project\_diann_$database\_humanpeptide_techrep.tsv") or die $!;
+open (POOL1, ">$workdir/02.pr/$project\_diann_$database\_humanpeptide_pool.tsv") or die $!;
+open (QC1, ">$workdir/02.pr/$project\_diann_$database\_humanpeptide_qc.tsv") or die $!;
+open (OUT1, ">$workdir/02.pr/$project\_diann_$database\_humanpeptide_sample.tsv") or die $!;
+open (ALL1, ">$workdir/02.pr/$project\_diann_$database\_humanpeptide_all.tsv") or die $!;
 
-open (BREP2, ">$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_biorep.tsv") or die $!;
-open (TREP2, ">$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_techrep.tsv") or die $!;
-open (POOL2, ">$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_pool.tsv") or die $!;
-open (QC2, ">$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_qc.tsv") or die $!;
-open (OUT2, ">$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_sample.tsv") or die $!;
-open (ALL2, ">$workdir/02.pr/$project\_diann1.8_$database\_micropeptide_all.tsv") or die $!;
+open (BREP2, ">$workdir/02.pr/$project\_diann_$database\_micropeptide_biorep.tsv") or die $!;
+open (TREP2, ">$workdir/02.pr/$project\_diann_$database\_micropeptide_techrep.tsv") or die $!;
+open (POOL2, ">$workdir/02.pr/$project\_diann_$database\_micropeptide_pool.tsv") or die $!;
+open (QC2, ">$workdir/02.pr/$project\_diann_$database\_micropeptide_qc.tsv") or die $!;
+open (OUT2, ">$workdir/02.pr/$project\_diann_$database\_micropeptide_sample.tsv") or die $!;
+open (ALL2, ">$workdir/02.pr/$project\_diann_$database\_micropeptide_all.tsv") or die $!;
 
 open (MAT, "<$pepfile") or die $!;
 my $line = 0; my %peptideq; my @head;
 my @hsample; my @hall; my @hbiorep; my @htechrep; my @hpool; my @hqc;
 my @samplei; my @alli; my @biorepi; my @techrepi; my @pooli; my @qci;
+my $sampstai; my $pri;
+
 while (<MAT>) {
 	chomp; s/\r//g;
 	$line ++;
 	if ($line == 1) {
 		@head = split /\t/;
-		for my $i (10..$#head) {
+		for my $i (0..$#head) {
+			if ($head[$i] eq "Stripped.Sequence") {
+				$pri = $i;
+			}
+			if ($head[$i] =~ /\.$filetype/) {
+				$sampstai = $i;
+				last;
+			}
+		}
+		for my $i ($sampstai..$#head) {
 			if ($head[$i] =~ /\//) {
 				$head[$i] = (split /\//, $head[$i])[-1];
 			}
@@ -152,9 +186,9 @@ while (<MAT>) {
 		print QC2 "$hqcj\n";
 	}else{
 		my @data = split /\t/;
-		my $pepseq = $data[6];
+		my $pepseq = $data[$pri];
 		if ($peptype{$pepseq} ne "Contam") {
-			for my $i (10..$#head) {
+			for my $i ($sampstai..$#head) {
 				$peptideq{$pepseq}{$head[$i]} += $data[$i];
 			}
 		}
@@ -162,7 +196,7 @@ while (<MAT>) {
 }
 for my $pepseq (sort keys %peptideq) {
 	my @dataall; my @datasample; my @databiorep; my @datatechrep; my @datapool; my @dataqc;
-	for my $i (10..$#head) {
+	for my $i ($sampstai..$#head) {
 		if (($peptideq{$pepseq}{$head[$i]} eq "") or ($peptideq{$pepseq}{$head[$i]} == 0)) {
 			$peptideq{$pepseq}{$head[$i]} = "NA";
 		}

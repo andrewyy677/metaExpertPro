@@ -11,37 +11,7 @@ if ($help==1) {
 	close HELP;	exit(0);
 }
 
-open (META, "<$workdir/04.pep2taxon/00.lib/Metagroup.txt") or die $!;
-my %metah; my %metac; my %metam;
-while (<META>) {
-	chomp; s/\r//g;
-	my @data = split /\,/;
-	my $meta = $data[0];
-	my $procomb;
-	if (@data > 2) {
-		$procomb = join "\,", @data[1..$#data];
-	}else{
-		$procomb = $data[1];
-	}
-	my @prosp = split /\;/, $procomb;
-	my $humanf = 0;
-	my $microf = 0;
-	my $contamf = 0;
-	for my $prosp (@prosp) {
-		if ($prosp =~ /Human/i) {
-			$humanf ++;
-		}elsif ($prosp =~ /^MAX/) {
-			$contamf ++;
-		}else{
-			$microf ++;
-		}
-	}
-	$metah{$meta} = $humanf;
-	$metac{$meta} = $contamf;
-	$metam{$meta} = $microf;
-}
-
-open (PEP2PRO, "<$workdir/04.pep2taxon/00.lib/subset-v10-leave-pep2pro_rmone.txt") or die $!;
+open (PEP2PRO, "<$workdir/04.pep2taxon/00.lib/library_pep2pro.txt") or die $!;
 open (OUTS, ">$workdir/04.pep2taxon/00.lib/01.all.peptide/$database\_lib_peptide.seq") or die $!;
 open (OUTS1, ">$workdir/04.pep2taxon/00.lib/02.human.unique/$database\_lib_peptide_human.seq") or die $!;
 open (OUTS2, ">$workdir/04.pep2taxon/00.lib/03.microbiome.unique/$database\_lib_peptide_micro.seq") or die $!;
@@ -62,11 +32,7 @@ while (<PEP2PRO>) {
 	my $microf = 0;
 	my $contamf = 0;
 	for my $prosp (@prosp) {
-		if ($prosp =~ /^Metagroup/) {
-			$humanf += $metah{$prosp};
-			$contamf += $metac{$prosp};
-			$microf += $metam{$prosp};
-		}elsif ($prosp =~ /Human/i) {
+		if ($prosp =~ /Human/i) {
 			$humanf ++;
 		}elsif ($prosp =~ /^MAX/) {
 			$contamf ++;

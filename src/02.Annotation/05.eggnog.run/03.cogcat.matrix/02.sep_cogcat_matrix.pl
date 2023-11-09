@@ -15,19 +15,43 @@ if ($help==1) {
 print STDERR "05.eggnog.run step5.6.2 \nparameters: $project\n$workdir\n$database\n$filesample\n";
 
 open (SAM, "<$filesample") or die $!;
-my %sampleID; my %rep_lab; my %sam_lab;
+my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
+my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
+my $filetype;
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
-	if ($line > 1) {
+	if ($line == 1) {
+		@heads = split /\,/;
+		for my $i (0..$#heads) {
+			if ($heads[$i] eq "NameNew") {
+				$filenamei = $i;
+			}
+			if ($heads[$i] eq "BatchID") {
+				$batchidi = $i;
+			}
+			if ($heads[$i] eq "SampleID") {
+				$samidi = $i;
+			}
+			if ($heads[$i] eq "Rep_label") {
+				$replabi = $i;
+			}
+			if ($heads[$i] eq "Sample_label") {
+				$samlabi = $i;
+			}
+		}
+	}else{
 		my @data = split /\,/;
-		my $batchID = $data[2];
-		$sampleID{$batchID} = $data[6];
-		$rep_lab{$batchID} = $data[4];
-		$sam_lab{$batchID} = $data[5];
+		my $filename = $data[$filenamei];
+		$filetype = (split /\./, $filename)[-1];
+		$batchID{$filename} = $data[$batchidi];
+		$sampleID{$filename} = $data[$samidi];
+		$rep_lab{$filename} = $data[$replabi];
+		$sam_lab{$filename} = $data[$samlabi];
 	}
 }
+
 my @dir = qw /protein humanprotein microprotein/;
 for my $dir (@dir) {
 	system("ls $workdir/05.eggnog.run/03.cogcat.matrix/$dir/$project\* > $workdir/05.eggnog.run/03.cogcat.matrix/$dir.tmp");

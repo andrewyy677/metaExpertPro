@@ -15,19 +15,43 @@ if ($help==1) {
 print STDERR "04.pep2taxon step4.4 \nparameters: $filesample\n$project\n$workdir\n$database\n";
 
 open (SAM, "<$filesample") or die $!;
-my %sampleID; my %rep_lab; my %sam_lab; my %pg_num;
+my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
+my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
+my $filetype;
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
-	if ($line > 1) {
+	if ($line == 1) {
+		@heads = split /\,/;
+		for my $i (0..$#heads) {
+			if ($heads[$i] eq "NameNew") {
+				$filenamei = $i;
+			}
+			if ($heads[$i] eq "BatchID") {
+				$batchidi = $i;
+			}
+			if ($heads[$i] eq "SampleID") {
+				$samidi = $i;
+			}
+			if ($heads[$i] eq "Rep_label") {
+				$replabi = $i;
+			}
+			if ($heads[$i] eq "Sample_label") {
+				$samlabi = $i;
+			}
+		}
+	}else{
 		my @data = split /\,/;
-		my $batchID = $data[2];
-		$sampleID{$batchID} = $data[6];
-		$rep_lab{$batchID} = $data[4];
-		$sam_lab{$batchID} = $data[5];
+		my $filename = $data[$filenamei];
+		$filetype = (split /\./, $filename)[-1];
+		$batchID{$filename} = $data[$batchidi];
+		$sampleID{$filename} = $data[$samidi];
+		$rep_lab{$filename} = $data[$replabi];
+		$sam_lab{$filename} = $data[$samlabi];
 	}
 }
+
 my @filter = qw /1 2 3 5 10 15 20/;
 for my $filter (@filter) {
 	system("ls $workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/$project\* > $workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/micropeptide.tmp");
@@ -40,12 +64,12 @@ for my $filter (@filter) {
 				$taxon = $1;
 		}
 		open (IN, "<$file") or die $!;
-		open (BREP, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/biorep/$project\_diann1.8_$database\_micropeptide_filter$filter\_$taxon\_biorep.txt") or die $!;
-		open (TREP, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/techrep/$project\_diann1.8_$database\_micropeptide_filter$filter\_$taxon\_techrep.txt") or die $!;
-		open (POOL, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/pool/$project\_diann1.8_$database\_micropeptide_filter$filter\_$taxon\_pool.txt") or die $!;
-		open (QC, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/qc/$project\_diann1.8_$database\_micropeptide_filter$filter\_$taxon\_qc.txt") or die $!;
-		open (OUT, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/sample/$project\_diann1.8_$database\_micropeptide_filter$filter\_$taxon\_sample.txt") or die $!;
-		open (ALL, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/all/$project\_diann1.8_$database\_micropeptide_filter$filter\_$taxon\_all.txt") or die $!;
+		open (BREP, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/biorep/$project\_diann_$database\_filter$filter\_$taxon\_biorep.txt") or die $!;
+		open (TREP, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/techrep/$project\_diann_$database\_filter$filter\_$taxon\_techrep.txt") or die $!;
+		open (POOL, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/pool/$project\_diann_$database\_filter$filter\_$taxon\_pool.txt") or die $!;
+		open (QC, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/qc/$project\_diann_$database\_filter$filter\_$taxon\_qc.txt") or die $!;
+		open (OUT, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/sample/$project\_diann_$database\_filter$filter\_$taxon\_sample.txt") or die $!;
+		open (ALL, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/all/$project\_diann_$database\_filter$filter\_$taxon\_all.txt") or die $!;
 		my $line = 0; my @head;
 		my @hsample; my @hall; my @hbiorep; my @htechrep; my @hpool; my @hqc;
 		my @samplei; my @alli; my @biorepi; my @techrepi; my @pooli; my @qci;

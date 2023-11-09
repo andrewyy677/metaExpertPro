@@ -30,23 +30,6 @@ while (<PG>) {
 	}
 }
 close PG;
-open (META, "<$workdir/06.kegg.run/00.lib/$database\_kegg_metagroup.txt") or die $!;
-my $line = 0;
-my %mkegg;
-while (<META>) {
-	chomp; s/\r//g;
-	$line ++;
-	if ($line > 1) {
-		my @data = split /\t/;
-		my $meta = $data[0];
-		my $mkpro = $data[1];
-		my $mkegg = $data[2];
-		if ((! ($mkegg =~ /\;/)) and ($mkegg ne "") and ($mkpro ne "")) {
-			$mkegg{$meta} = $mkegg;
-		}
-	}
-}
-close META;
 system("ls $workdir/01.pg/*_all.tsv > $workdir/06.kegg.run/02.matrix/all.tsv.tmp");
 open (TMP, "<$workdir/06.kegg.run/02.matrix/all.tsv.tmp") or die $!;
 while (<TMP>) {
@@ -57,7 +40,7 @@ while (<TMP>) {
 		$filepre = $1;
 	}
 	my $type;
-	if ($path =~ /01.pg\/$project\_diann1.8_$database\_(.*)_all.tsv/) {
+	if ($path =~ /01.pg\/$project\_diann_$database\_(.*)_all.tsv/) {
 		$type = $1;
 	}
 	open (IN, "<$path") or die $!;
@@ -74,12 +57,7 @@ while (<TMP>) {
 		}else{
 			my @data = split /\t/;
 			my $pg = (split /\s+/, $data[0])[0];
-			my $kegg;
-			if ($pg =~ /Metagroup/) {
-				$kegg = $mkegg{$pg};
-			}else{
-				$kegg = $pgkegg{$pg};
-			}
+			my $kegg = $pgkegg{$pg};
 			if ($kegg ne "") {
 				my @keggsp = split /\//, $kegg;
 				for my $keggsp (@keggsp) {

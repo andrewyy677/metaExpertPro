@@ -18,20 +18,42 @@ print STDERR "00.rawdata step2.1 \nparameters: $workdir\n$project\n$database\n$p
 open (SAM, "<$filesample") or die $!;
 my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
+my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
+my $filetype;
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
-	if ($line > 1) {
+	if ($line == 1) {
+		@heads = split /\,/;
+		for my $i (0..$#heads) {
+			if ($heads[$i] eq "NameNew") {
+				$filenamei = $i;
+			}
+			if ($heads[$i] eq "BatchID") {
+				$batchidi = $i;
+			}
+			if ($heads[$i] eq "SampleID") {
+				$samidi = $i;
+			}
+			if ($heads[$i] eq "Rep_label") {
+				$replabi = $i;
+			}
+			if ($heads[$i] eq "Sample_label") {
+				$samlabi = $i;
+			}
+		}
+	}else{
 		my @data = split /\,/;
-		my $filename = $data[1];
-		$batchID{$filename} = $data[2];
-		$sampleID{$filename} = $data[6];
-		$rep_lab{$filename} = $data[4];
-		$sam_lab{$filename} = $data[5];
+		my $filename = $data[$filenamei];
+		$filetype = (split /\./, $filename)[-1];
+		$batchID{$filename} = $data[$batchidi];
+		$sampleID{$filename} = $data[$samidi];
+		$rep_lab{$filename} = $data[$replabi];
+		$sam_lab{$filename} = $data[$samlabi];
 	}
 }
 
-open (CLA, "<$workdir/00.rawdata/$project\_diann1.8_$database\_protein_classify.txt") or die $!;
+open (CLA, "<$workdir/00.rawdata/$project\_diann_$database\_protein_classify.txt") or die $!;
 my $cline = 0;
 my %protype;
 while (<CLA>) {
@@ -52,37 +74,47 @@ while (<CLA>) {
 }
 
 open (MAT, "<$profile") or die $!;
-open (BREP, ">$workdir/01.pg/$project\_diann1.8_$database\_protein_biorep.tsv") or die $!;
-open (TREP, ">$workdir/01.pg/$project\_diann1.8_$database\_protein_techrep.tsv") or die $!;
-open (POOL, ">$workdir/01.pg/$project\_diann1.8_$database\_protein_pool.tsv") or die $!;
-open (QC, ">$workdir/01.pg/$project\_diann1.8_$database\_protein_qc.tsv") or die $!;
-open (OUT, ">$workdir/01.pg/$project\_diann1.8_$database\_protein_sample.tsv") or die $!;
-open (ALL, ">$workdir/01.pg/$project\_diann1.8_$database\_protein_all.tsv") or die $!;
+open (BREP, ">$workdir/01.pg/$project\_diann_$database\_protein_biorep.tsv") or die $!;
+open (TREP, ">$workdir/01.pg/$project\_diann_$database\_protein_techrep.tsv") or die $!;
+open (POOL, ">$workdir/01.pg/$project\_diann_$database\_protein_pool.tsv") or die $!;
+open (QC, ">$workdir/01.pg/$project\_diann_$database\_protein_qc.tsv") or die $!;
+open (OUT, ">$workdir/01.pg/$project\_diann_$database\_protein_sample.tsv") or die $!;
+open (ALL, ">$workdir/01.pg/$project\_diann_$database\_protein_all.tsv") or die $!;
 
-open (BREP1, ">$workdir/01.pg/$project\_diann1.8_$database\_humanprotein_biorep.tsv") or die $!;
-open (TREP1, ">$workdir/01.pg/$project\_diann1.8_$database\_humanprotein_techrep.tsv") or die $!;
-open (POOL1, ">$workdir/01.pg/$project\_diann1.8_$database\_humanprotein_pool.tsv") or die $!;
-open (QC1, ">$workdir/01.pg/$project\_diann1.8_$database\_humanprotein_qc.tsv") or die $!;
-open (OUT1, ">$workdir/01.pg/$project\_diann1.8_$database\_humanprotein_sample.tsv") or die $!;
-open (ALL1, ">$workdir/01.pg/$project\_diann1.8_$database\_humanprotein_all.tsv") or die $!;
+open (BREP1, ">$workdir/01.pg/$project\_diann_$database\_humanprotein_biorep.tsv") or die $!;
+open (TREP1, ">$workdir/01.pg/$project\_diann_$database\_humanprotein_techrep.tsv") or die $!;
+open (POOL1, ">$workdir/01.pg/$project\_diann_$database\_humanprotein_pool.tsv") or die $!;
+open (QC1, ">$workdir/01.pg/$project\_diann_$database\_humanprotein_qc.tsv") or die $!;
+open (OUT1, ">$workdir/01.pg/$project\_diann_$database\_humanprotein_sample.tsv") or die $!;
+open (ALL1, ">$workdir/01.pg/$project\_diann_$database\_humanprotein_all.tsv") or die $!;
 
-open (BREP2, ">$workdir/01.pg/$project\_diann1.8_$database\_microprotein_biorep.tsv") or die $!;
-open (TREP2, ">$workdir/01.pg/$project\_diann1.8_$database\_microprotein_techrep.tsv") or die $!;
-open (POOL2, ">$workdir/01.pg/$project\_diann1.8_$database\_microprotein_pool.tsv") or die $!;
-open (QC2, ">$workdir/01.pg/$project\_diann1.8_$database\_microprotein_qc.tsv") or die $!;
-open (OUT2, ">$workdir/01.pg/$project\_diann1.8_$database\_microprotein_sample.tsv") or die $!;
-open (ALL2, ">$workdir/01.pg/$project\_diann1.8_$database\_microprotein_all.tsv") or die $!;
+open (BREP2, ">$workdir/01.pg/$project\_diann_$database\_microprotein_biorep.tsv") or die $!;
+open (TREP2, ">$workdir/01.pg/$project\_diann_$database\_microprotein_techrep.tsv") or die $!;
+open (POOL2, ">$workdir/01.pg/$project\_diann_$database\_microprotein_pool.tsv") or die $!;
+open (QC2, ">$workdir/01.pg/$project\_diann_$database\_microprotein_qc.tsv") or die $!;
+open (OUT2, ">$workdir/01.pg/$project\_diann_$database\_microprotein_sample.tsv") or die $!;
+open (ALL2, ">$workdir/01.pg/$project\_diann_$database\_microprotein_all.tsv") or die $!;
 
 
 my $line = 0; my @head;
 my @hsample; my @hall; my @hbiorep; my @htechrep; my @hpool; my @hqc;
 my @samplei; my @alli; my @biorepi; my @techrepi; my @pooli; my @qci;
+my $sampstai; my $pgi;
 while (<MAT>) {
 	chomp; s/\r//g;
 	$line ++;
 	if ($line == 1) {
 		@head = split /\t/;
-		for my $i (5..$#head) {
+		for my $i (0..$#head) {
+			if ($head[$i] eq "Protein.Group") {
+				$pgi = $i;
+			}
+			if ($head[$i] =~ /\.$filetype/) {
+				$sampstai = $i;
+				last;
+			}
+		}
+		for my $i ($sampstai..$#head) {
 			if ($head[$i] =~ /\//) {
 				$head[$i] = (split /\//, $head[$i])[-1];
 			}
@@ -152,10 +184,10 @@ while (<MAT>) {
 		print QC2 "$hqcj\n";
 	}else{
 		my @data = split /\t/;
-		my $pg = $data[0];
+		my $pg = $data[$pgi];
 		my @dataall; my @datasample; my @databiorep; my @datatechrep; my @datapool; my @dataqc;
 		if ((!($pg =~ /\;/)) and ($protype{$pg} ne "Contam")) {
-			for my $i (5..$#head) {
+			for my $i ($sampstai..$#head) {
 				if ($data[$i] eq "") {
 					$data[$i] = "NA";
 				}

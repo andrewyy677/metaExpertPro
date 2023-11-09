@@ -15,17 +15,40 @@ if ($help==1) {
 print STDERR "06.kegg.run step6.4.2 \nparameters: $project\n$workdir\n$database\n$filesample\n";
 
 open (SAM, "<$filesample") or die $!;
-my %sampleID; my %rep_lab; my %sam_lab;
+my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
+my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
+my $filetype;
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
-	if ($line > 1) {
+	if ($line == 1) {
+		@heads = split /\,/;
+		for my $i (0..$#heads) {
+			if ($heads[$i] eq "NameNew") {
+				$filenamei = $i;
+			}
+			if ($heads[$i] eq "BatchID") {
+				$batchidi = $i;
+			}
+			if ($heads[$i] eq "SampleID") {
+				$samidi = $i;
+			}
+			if ($heads[$i] eq "Rep_label") {
+				$replabi = $i;
+			}
+			if ($heads[$i] eq "Sample_label") {
+				$samlabi = $i;
+			}
+		}
+	}else{
 		my @data = split /\,/;
-		my $batchID = $data[2];
-		$sampleID{$batchID} = $data[6];
-		$rep_lab{$batchID} = $data[4];
-		$sam_lab{$batchID} = $data[5];
+		my $filename = $data[$filenamei];
+		$filetype = (split /\./, $filename)[-1];
+		$batchID{$filename} = $data[$batchidi];
+		$sampleID{$filename} = $data[$samidi];
+		$rep_lab{$filename} = $data[$replabi];
+		$sam_lab{$filename} = $data[$samlabi];
 	}
 }
 my @dir = qw /protein humanprotein microprotein/;
@@ -40,12 +63,12 @@ for my $dir (@dir) {
 			$type = $1; $taxon = $2;
 		}
 		open (IN, "<$file") or die $!;
-		open (BREP, ">$workdir/06.kegg.run/02.matrix/$dir/biorep/$project\_diann1.8_$database\_$type\_$taxon\_biorep.txt") or die $!;
-		open (TREP, ">$workdir/06.kegg.run/02.matrix/$dir/techrep/$project\_diann1.8_$database\_$type\_$taxon\_techrep.txt") or die $!;
-		open (POOL, ">$workdir/06.kegg.run/02.matrix/$dir/pool/$project\_diann1.8_$database\_$type\_$taxon\_pool.txt") or die $!;
-		open (QC, ">$workdir/06.kegg.run/02.matrix/$dir/qc/$project\_diann1.8_$database\_$type\_$taxon\_qc.txt") or die $!;
-		open (OUT, ">$workdir/06.kegg.run/02.matrix/$dir/sample/$project\_diann1.8_$database\_$type\_$taxon\_sample.txt") or die $!;
-		open (ALL, ">$workdir/06.kegg.run/02.matrix/$dir/all/$project\_diann1.8_$database\_$type\_$taxon\_all.txt") or die $!;
+		open (BREP, ">$workdir/06.kegg.run/02.matrix/$dir/biorep/$project\_diann_$database\_$type\_$taxon\_biorep.txt") or die $!;
+		open (TREP, ">$workdir/06.kegg.run/02.matrix/$dir/techrep/$project\_diann_$database\_$type\_$taxon\_techrep.txt") or die $!;
+		open (POOL, ">$workdir/06.kegg.run/02.matrix/$dir/pool/$project\_diann_$database\_$type\_$taxon\_pool.txt") or die $!;
+		open (QC, ">$workdir/06.kegg.run/02.matrix/$dir/qc/$project\_diann_$database\_$type\_$taxon\_qc.txt") or die $!;
+		open (OUT, ">$workdir/06.kegg.run/02.matrix/$dir/sample/$project\_diann_$database\_$type\_$taxon\_sample.txt") or die $!;
+		open (ALL, ">$workdir/06.kegg.run/02.matrix/$dir/all/$project\_diann_$database\_$type\_$taxon\_all.txt") or die $!;
 		my $line = 0; my @head;
 		my @hsample; my @hall; my @hbiorep; my @htechrep; my @hpool; my @hqc;
 		my @samplei; my @alli; my @biorepi; my @techrepi; my @pooli; my @qci;
