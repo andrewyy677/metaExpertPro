@@ -18,5 +18,7 @@ open (RAW, "<$total_dir/Results/00.DDAspectrallib/rawdata_file.txt") or die $!;
 open (OUT, ">$total_dir/Results/00.DDAspectrallib/manifest.nogroup.nobiorep.manifest") or die $!;
 while (<RAW>) {
 	chomp; s/\r//g;
-	print OUT "$_\t\t\t$rawdata_MS_type\n";
+	my $file = (split /\//)[-1];
+	my $filenew = "$total_dir/Results/00.DDAspectrallib/$file";
+	print OUT "$filenew\t\t\t$rawdata_MS_type\n";
 }

@@ -1,0 +1,2 @@
+Taxon	b14_10	b14_20
+k__Bacteria|p__Thermodesulfobacteriota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila|s__Bilophila_wadsworthia|t__Bilophila_wadsworthia_3_1_6	47073.3	36086.5

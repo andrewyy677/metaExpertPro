@@ -15,10 +15,10 @@ if ($help==1) {
 print STDERR "06.kegg.run step6.4.2 \nparameters: $project\n$workdir\n$database\n$filesample\n";
 
 open (SAM, "<$filesample") or die $!;
-my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
+my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
 my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
-my $filetype;
+
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
@@ -43,12 +43,10 @@ while (<SAM>) {
 		}
 	}else{
 		my @data = split /\,/;
-		my $filename = $data[$filenamei];
-		$filetype = (split /\./, $filename)[-1];
-		$batchID{$filename} = $data[$batchidi];
-		$sampleID{$filename} = $data[$samidi];
-		$rep_lab{$filename} = $data[$replabi];
-		$sam_lab{$filename} = $data[$samlabi];
+		my $batchID = $data[$batchidi];
+		$sampleID{$batchID} = $data[$samidi];
+		$rep_lab{$batchID} = $data[$replabi];
+		$sam_lab{$batchID} = $data[$samlabi];
 	}
 }
 my @dir = qw /protein humanprotein microprotein/;

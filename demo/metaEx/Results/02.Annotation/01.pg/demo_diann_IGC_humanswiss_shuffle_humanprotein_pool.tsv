@@ -1,0 +1,162 @@
+Protein.Group	b14_27
+Human_swiss_sp|A0A0A0MS15|HV349_HUMAN Immunoglobulin heavy variable 3-49 OS=Homo sapiens OX=9606 GN=IGHV3-49 PE=3 SV=1	22685.9
+Human_swiss_sp|A0A0B4J1V0|HV315_HUMAN Immunoglobulin heavy variable 3-15 OS=Homo sapiens OX=9606 GN=IGHV3-15 PE=3 SV=1	12469.3
+Human_swiss_sp|A0A0B4J1Y9|HV372_HUMAN Immunoglobulin heavy variable 3-72 OS=Homo sapiens OX=9606 GN=IGHV3-72 PE=3 SV=1	131500
+Human_swiss_sp|A0A0C4DH25|KVD20_HUMAN Immunoglobulin kappa variable 3D-20 OS=Homo sapiens OX=9606 GN=IGKV3D-20 PE=3 SV=1	24514.4
+Human_swiss_sp|A8K7I4|CLCA1_HUMAN Calcium-activated chloride channel regulator 1 OS=Homo sapiens OX=9606 GN=CLCA1 PE=1 SV=3	470116
+Human_swiss_sp|O14493|CLD4_HUMAN Claudin-4 OS=Homo sapiens OX=9606 GN=CLDN4 PE=1 SV=1	38985.9
+Human_swiss_sp|O14638|ENPP3_HUMAN Ectonucleotide pyrophosphatase/phosphodiesterase family member 3 OS=Homo sapiens OX=9606 GN=ENPP3 PE=1 SV=2	26916.9
+Human_swiss_sp|O14773|TPP1_HUMAN Tripeptidyl-peptidase 1 OS=Homo sapiens OX=9606 GN=TPP1 PE=1 SV=2	7555.33
+Human_swiss_sp|O15393|TMPS2_HUMAN Transmembrane protease serine 2 OS=Homo sapiens OX=9606 GN=TMPRSS2 PE=1 SV=3	11272.2
+Human_swiss_sp|O15484|CAN5_HUMAN Calpain-5 OS=Homo sapiens OX=9606 GN=CAPN5 PE=1 SV=2	5244.08
+Human_swiss_sp|O43451|MGA_HUMAN Maltase-glucoamylase, intestinal OS=Homo sapiens OX=9606 GN=MGAM PE=1 SV=5	113975
+Human_swiss_sp|O43895|XPP2_HUMAN Xaa-Pro aminopeptidase 2 OS=Homo sapiens OX=9606 GN=XPNPEP2 PE=1 SV=3	449891
+Human_swiss_sp|O60844|ZG16_HUMAN Zymogen granule membrane protein 16 OS=Homo sapiens OX=9606 GN=ZG16 PE=1 SV=2	1.11705e+06
+Human_swiss_sp|O75874|IDHC_HUMAN Isocitrate dehydrogenase [NADP] cytoplasmic OS=Homo sapiens OX=9606 GN=IDH1 PE=1 SV=2	2912.9
+Human_swiss_sp|O95497|VNN1_HUMAN Pantetheinase OS=Homo sapiens OX=9606 GN=VNN1 PE=1 SV=2	10661.7
+Human_swiss_sp|P00738|HPT_HUMAN Haptoglobin OS=Homo sapiens OX=9606 GN=HP PE=1 SV=1	9461.03
+Human_swiss_sp|P00813|ADA_HUMAN Adenosine deaminase OS=Homo sapiens OX=9606 GN=ADA PE=1 SV=3	26805.5
+Human_swiss_sp|P01009|A1AT_HUMAN Alpha-1-antitrypsin OS=Homo sapiens OX=9606 GN=SERPINA1 PE=1 SV=3	220303
+Human_swiss_sp|P01023|A2MG_HUMAN Alpha-2-macroglobulin OS=Homo sapiens OX=9606 GN=A2M PE=1 SV=3	9807.66
+Human_swiss_sp|P01591|IGJ_HUMAN Immunoglobulin J chain OS=Homo sapiens OX=9606 GN=JCHAIN PE=1 SV=4	421912
+Human_swiss_sp|P01700|LV147_HUMAN Immunoglobulin lambda variable 1-47 OS=Homo sapiens OX=9606 GN=IGLV1-47 PE=1 SV=2	188681
+Human_swiss_sp|P01764|HV323_HUMAN Immunoglobulin heavy variable 3-23 OS=Homo sapiens OX=9606 GN=IGHV3-23 PE=1 SV=2	142934
+Human_swiss_sp|P01833|PIGR_HUMAN Polymeric immunoglobulin receptor OS=Homo sapiens OX=9606 GN=PIGR PE=1 SV=4	645262
+Human_swiss_sp|P01834|IGKC_HUMAN Immunoglobulin kappa constant OS=Homo sapiens OX=9606 GN=IGKC PE=1 SV=2	1.95563e+06
+Human_swiss_sp|P01857|IGHG1_HUMAN Immunoglobulin heavy constant gamma 1 OS=Homo sapiens OX=9606 GN=IGHG1 PE=1 SV=1	60198.5
+Human_swiss_sp|P01871|IGHM_HUMAN Immunoglobulin heavy constant mu OS=Homo sapiens OX=9606 GN=IGHM PE=1 SV=4	95316.8
+Human_swiss_sp|P01876|IGHA1_HUMAN Immunoglobulin heavy constant alpha 1 OS=Homo sapiens OX=9606 GN=IGHA1 PE=1 SV=2	5.32411e+06
+Human_swiss_sp|P02458|CO2A1_HUMAN Collagen alpha-1(II) chain OS=Homo sapiens OX=9606 GN=COL2A1 PE=1 SV=3	36970.3
+Human_swiss_sp|P02538|K2C6A_HUMAN Keratin, type II cytoskeletal 6A OS=Homo sapiens OX=9606 GN=KRT6A PE=1 SV=3	37058.4
+Human_swiss_sp|P02766|TTHY_HUMAN Transthyretin OS=Homo sapiens OX=9606 GN=TTR PE=1 SV=1	7891.63
+Human_swiss_sp|P02768|ALBU_HUMAN Albumin OS=Homo sapiens OX=9606 GN=ALB PE=1 SV=2	227726
+Human_swiss_sp|P02788|TRFL_HUMAN Lactotransferrin OS=Homo sapiens OX=9606 GN=LTF PE=1 SV=6	115330
+Human_swiss_sp|P02792|FRIL_HUMAN Ferritin light chain OS=Homo sapiens OX=9606 GN=FTL PE=1 SV=2	20943.7
+Human_swiss_sp|P02794|FRIH_HUMAN Ferritin heavy chain OS=Homo sapiens OX=9606 GN=FTH1 PE=1 SV=2	53092.2
+Human_swiss_sp|P04054|PA21B_HUMAN Phospholipase A2 OS=Homo sapiens OX=9606 GN=PLA2G1B PE=1 SV=3	422085
+Human_swiss_sp|P04075|ALDOA_HUMAN Fructose-bisphosphate aldolase A OS=Homo sapiens OX=9606 GN=ALDOA PE=1 SV=2	27334.5
+Human_swiss_sp|P04083|ANXA1_HUMAN Annexin A1 OS=Homo sapiens OX=9606 GN=ANXA1 PE=1 SV=2	18390.9
+Human_swiss_sp|P04264|K2C1_HUMAN Keratin, type II cytoskeletal 1 OS=Homo sapiens OX=9606 GN=KRT1 PE=1 SV=6	252994
+Human_swiss_sp|P04406|G3P_HUMAN Glyceraldehyde-3-phosphate dehydrogenase OS=Homo sapiens OX=9606 GN=GAPDH PE=1 SV=3	247209
+Human_swiss_sp|P04746|AMYP_HUMAN Pancreatic alpha-amylase OS=Homo sapiens OX=9606 GN=AMY2A PE=1 SV=2	567144
+Human_swiss_sp|P05026|AT1B1_HUMAN Sodium/potassium-transporting ATPase subunit beta-1 OS=Homo sapiens OX=9606 GN=ATP1B1 PE=1 SV=1	25218.3
+Human_swiss_sp|P05109|S10A8_HUMAN Protein S100-A8 OS=Homo sapiens OX=9606 GN=S100A8 PE=1 SV=1	2.08841e+06
+Human_swiss_sp|P05164|PERM_HUMAN Myeloperoxidase OS=Homo sapiens OX=9606 GN=MPO PE=1 SV=1	303421
+Human_swiss_sp|P05186|PPBT_HUMAN Alkaline phosphatase, tissue-nonspecific isozyme OS=Homo sapiens OX=9606 GN=ALPL PE=1 SV=4	15358.7
+Human_swiss_sp|P05451|REG1A_HUMAN Lithostathine-1-alpha OS=Homo sapiens OX=9606 GN=REG1A PE=1 SV=3	383354
+Human_swiss_sp|P05976|MYL1_HUMAN Myosin light chain 1/3, skeletal muscle isoform OS=Homo sapiens OX=9606 GN=MYL1 PE=1 SV=3	41659.9
+Human_swiss_sp|P06702|S10A9_HUMAN Protein S100-A9 OS=Homo sapiens OX=9606 GN=S100A9 PE=1 SV=1	466402
+Human_swiss_sp|P06731|CEAM5_HUMAN Carcinoembryonic antigen-related cell adhesion molecule 5 OS=Homo sapiens OX=9606 GN=CEACAM5 PE=1 SV=3	671667
+Human_swiss_sp|P06732|KCRM_HUMAN Creatine kinase M-type OS=Homo sapiens OX=9606 GN=CKM PE=1 SV=2	172434
+Human_swiss_sp|P06748|NPM_HUMAN Nucleophosmin OS=Homo sapiens OX=9606 GN=NPM1 PE=1 SV=2	24812.9
+Human_swiss_sp|P07355|ANXA2_HUMAN Annexin A2 OS=Homo sapiens OX=9606 GN=ANXA2 PE=1 SV=2	246370
+Human_swiss_sp|P07437|TBB5_HUMAN Tubulin beta chain OS=Homo sapiens OX=9606 GN=TUBB PE=1 SV=2	8315.17
+Human_swiss_sp|P07477|TRY1_HUMAN Trypsin-1 OS=Homo sapiens OX=9606 GN=PRSS1 PE=1 SV=1	1.06129e+06
+Human_swiss_sp|P07478|TRY2_HUMAN Trypsin-2 OS=Homo sapiens OX=9606 GN=PRSS2 PE=1 SV=1	313436
+Human_swiss_sp|P08217|CEL2A_HUMAN Chymotrypsin-like elastase family member 2A OS=Homo sapiens OX=9606 GN=CELA2A PE=1 SV=1	123601
+Human_swiss_sp|P08246|ELNE_HUMAN Neutrophil elastase OS=Homo sapiens OX=9606 GN=ELANE PE=1 SV=1	27303
+Human_swiss_sp|P08311|CATG_HUMAN Cathepsin G OS=Homo sapiens OX=9606 GN=CTSG PE=1 SV=2	8596.76
+Human_swiss_sp|P08473|NEP_HUMAN Neprilysin OS=Homo sapiens OX=9606 GN=MME PE=1 SV=2	90523.5
+Human_swiss_sp|P08861|CEL3B_HUMAN Chymotrypsin-like elastase family member 3B OS=Homo sapiens OX=9606 GN=CELA3B PE=1 SV=3	494965
+Human_swiss_sp|P09093|CEL3A_HUMAN Chymotrypsin-like elastase family member 3A OS=Homo sapiens OX=9606 GN=CELA3A PE=1 SV=3	6.55667e+06
+Human_swiss_sp|P09327|VILI_HUMAN Villin-1 OS=Homo sapiens OX=9606 GN=VIL1 PE=1 SV=4	8114.59
+Human_swiss_sp|P09525|ANXA4_HUMAN Annexin A4 OS=Homo sapiens OX=9606 GN=ANXA4 PE=1 SV=4	173417
+Human_swiss_sp|P09923|PPBI_HUMAN Intestinal-type alkaline phosphatase OS=Homo sapiens OX=9606 GN=ALPI PE=1 SV=2	565624
+Human_swiss_sp|P0DOX2|IGA2_HUMAN Immunoglobulin alpha-2 heavy chain OS=Homo sapiens OX=9606 PE=1 SV=2	667460
+Human_swiss_sp|P0DOX7|IGK_HUMAN Immunoglobulin kappa light chain OS=Homo sapiens OX=9606 PE=1 SV=1	250100
+Human_swiss_sp|P0DOY2|IGLC2_HUMAN Immunoglobulin lambda constant 2 OS=Homo sapiens OX=9606 GN=IGLC2 PE=1 SV=1	1.58744e+06
+Human_swiss_sp|P0DP23|CALM1_HUMAN Calmodulin-1 OS=Homo sapiens OX=9606 GN=CALM1 PE=1 SV=1	29688.5
+Human_swiss_sp|P10253|LYAG_HUMAN Lysosomal alpha-glucosidase OS=Homo sapiens OX=9606 GN=GAA PE=1 SV=4	9071.3
+Human_swiss_sp|P11142|HSP7C_HUMAN Heat shock cognate 71 kDa protein OS=Homo sapiens OX=9606 GN=HSPA8 PE=1 SV=1	10624.6
+Human_swiss_sp|P11217|PYGM_HUMAN Glycogen phosphorylase, muscle form OS=Homo sapiens OX=9606 GN=PYGM PE=1 SV=6	61535.1
+Human_swiss_sp|P11678|PERE_HUMAN Eosinophil peroxidase OS=Homo sapiens OX=9606 GN=EPX PE=1 SV=2	53994.2
+Human_swiss_sp|P12273|PIP_HUMAN Prolactin-inducible protein OS=Homo sapiens OX=9606 GN=PIP PE=1 SV=1	54602.5
+Human_swiss_sp|P12429|ANXA3_HUMAN Annexin A3 OS=Homo sapiens OX=9606 GN=ANXA3 PE=1 SV=3	3696.73
+Human_swiss_sp|P12544|GRAA_HUMAN Granzyme A OS=Homo sapiens OX=9606 GN=GZMA PE=1 SV=2	11835.1
+Human_swiss_sp|P12814|ACTN1_HUMAN Alpha-actinin-1 OS=Homo sapiens OX=9606 GN=ACTN1 PE=1 SV=2	53105.8
+Human_swiss_sp|P12821|ACE_HUMAN Angiotensin-converting enzyme OS=Homo sapiens OX=9606 GN=ACE PE=1 SV=1	41717.6
+Human_swiss_sp|P12882|MYH1_HUMAN Myosin-1 OS=Homo sapiens OX=9606 GN=MYH1 PE=1 SV=3	17218.2
+Human_swiss_sp|P12883|MYH7_HUMAN Myosin-7 OS=Homo sapiens OX=9606 GN=MYH7 PE=1 SV=5	38120.1
+Human_swiss_sp|P13645|K1C10_HUMAN Keratin, type I cytoskeletal 10 OS=Homo sapiens OX=9606 GN=KRT10 PE=1 SV=6	358836
+Human_swiss_sp|P13647|K2C5_HUMAN Keratin, type II cytoskeletal 5 OS=Homo sapiens OX=9606 GN=KRT5 PE=1 SV=3	84010.8
+Human_swiss_sp|P13688|CEAM1_HUMAN Carcinoembryonic antigen-related cell adhesion molecule 1 OS=Homo sapiens OX=9606 GN=CEACAM1 PE=1 SV=2	161532
+Human_swiss_sp|P14555|PA2GA_HUMAN Phospholipase A2, membrane associated OS=Homo sapiens OX=9606 GN=PLA2G2A PE=1 SV=2	17369.5
+Human_swiss_sp|P14618|KPYM_HUMAN Pyruvate kinase PKM OS=Homo sapiens OX=9606 GN=PKM PE=1 SV=4	23105.8
+Human_swiss_sp|P15085|CBPA1_HUMAN Carboxypeptidase A1 OS=Homo sapiens OX=9606 GN=CPA1 PE=1 SV=2	343298
+Human_swiss_sp|P15086|CBPB1_HUMAN Carboxypeptidase B OS=Homo sapiens OX=9606 GN=CPB1 PE=1 SV=4	3.82389e+06
+Human_swiss_sp|P15144|AMPN_HUMAN Aminopeptidase N OS=Homo sapiens OX=9606 GN=ANPEP PE=1 SV=4	153029
+Human_swiss_sp|P15311|EZRI_HUMAN Ezrin OS=Homo sapiens OX=9606 GN=EZR PE=1 SV=4	67407.7
+Human_swiss_sp|P15880|RS2_HUMAN 40S ribosomal protein S2 OS=Homo sapiens OX=9606 GN=RPS2 PE=1 SV=2	22131.6
+Human_swiss_sp|P16444|DPEP1_HUMAN Dipeptidase 1 OS=Homo sapiens OX=9606 GN=DPEP1 PE=1 SV=3	337360
+Human_swiss_sp|P17538|CTRB1_HUMAN Chymotrypsinogen B OS=Homo sapiens OX=9606 GN=CTRB1 PE=2 SV=2	246515
+Human_swiss_sp|P19237|TNNI1_HUMAN Troponin I, slow skeletal muscle OS=Homo sapiens OX=9606 GN=TNNI1 PE=1 SV=3	64248.4
+Human_swiss_sp|P19835|CEL_HUMAN Bile salt-activated lipase OS=Homo sapiens OX=9606 GN=CEL PE=1 SV=3	92942.4
+Human_swiss_sp|P20160|CAP7_HUMAN Azurocidin OS=Homo sapiens OX=9606 GN=AZU1 PE=1 SV=3	70762.1
+Human_swiss_sp|P20339|RAB5A_HUMAN Ras-related protein Rab-5A OS=Homo sapiens OX=9606 GN=RAB5A PE=1 SV=2	30438.6
+Human_swiss_sp|P21589|5NTD_HUMAN 5'-nucleotidase OS=Homo sapiens OX=9606 GN=NT5E PE=1 SV=1	6994.23
+Human_swiss_sp|P21796|VDAC1_HUMAN Voltage-dependent anion-selective channel protein 1 OS=Homo sapiens OX=9606 GN=VDAC1 PE=1 SV=2	11660.4
+Human_swiss_sp|P22748|CAH4_HUMAN Carbonic anhydrase 4 OS=Homo sapiens OX=9606 GN=CA4 PE=1 SV=2	16938.5
+Human_swiss_sp|P25311|ZA2G_HUMAN Zinc-alpha-2-glycoprotein OS=Homo sapiens OX=9606 GN=AZGP1 PE=1 SV=2	110280
+Human_swiss_sp|P25705|ATPA_HUMAN ATP synthase subunit alpha, mitochondrial OS=Homo sapiens OX=9606 GN=ATP5F1A PE=1 SV=1	97672.2
+Human_swiss_sp|P27487|DPP4_HUMAN Dipeptidyl peptidase 4 OS=Homo sapiens OX=9606 GN=DPP4 PE=1 SV=2	23673.1
+Human_swiss_sp|P29992|GNA11_HUMAN Guanine nucleotide-binding protein subunit alpha-11 OS=Homo sapiens OX=9606 GN=GNA11 PE=1 SV=2	20885.5
+Human_swiss_sp|P30740|ILEU_HUMAN Leukocyte elastase inhibitor OS=Homo sapiens OX=9606 GN=SERPINB1 PE=1 SV=1	68133.3
+Human_swiss_sp|P31415|CASQ1_HUMAN Calsequestrin-1 OS=Homo sapiens OX=9606 GN=CASQ1 PE=1 SV=3	26506.5
+Human_swiss_sp|P31930|QCR1_HUMAN Cytochrome b-c1 complex subunit 1, mitochondrial OS=Homo sapiens OX=9606 GN=UQCRC1 PE=1 SV=3	12268.6
+Human_swiss_sp|P35237|SPB6_HUMAN Serpin B6 OS=Homo sapiens OX=9606 GN=SERPINB6 PE=1 SV=3	222201
+Human_swiss_sp|P35527|K1C9_HUMAN Keratin, type I cytoskeletal 9 OS=Homo sapiens OX=9606 GN=KRT9 PE=1 SV=3	18751.2
+Human_swiss_sp|P35908|K22E_HUMAN Keratin, type II cytoskeletal 2 epidermal OS=Homo sapiens OX=9606 GN=KRT2 PE=1 SV=2	205096
+Human_swiss_sp|P40199|CEAM6_HUMAN Carcinoembryonic antigen-related cell adhesion molecule 6 OS=Homo sapiens OX=9606 GN=CEACAM6 PE=1 SV=3	23622.2
+Human_swiss_sp|P48052|CBPA2_HUMAN Carboxypeptidase A2 OS=Homo sapiens OX=9606 GN=CPA2 PE=1 SV=3	125763
+Human_swiss_sp|P48735|IDHP_HUMAN Isocitrate dehydrogenase [NADP], mitochondrial OS=Homo sapiens OX=9606 GN=IDH2 PE=1 SV=2	9649.46
+Human_swiss_sp|P49411|EFTU_HUMAN Elongation factor Tu, mitochondrial OS=Homo sapiens OX=9606 GN=TUFM PE=1 SV=2	11967.2
+Human_swiss_sp|P50995|ANX11_HUMAN Annexin A11 OS=Homo sapiens OX=9606 GN=ANXA11 PE=1 SV=1	41526.9
+Human_swiss_sp|P51648|AL3A2_HUMAN Aldehyde dehydrogenase family 3 member A2 OS=Homo sapiens OX=9606 GN=ALDH3A2 PE=1 SV=1	6117.64
+Human_swiss_sp|P53801|PTTG_HUMAN Pituitary tumor-transforming gene 1 protein-interacting protein OS=Homo sapiens OX=9606 GN=PTTG1IP PE=1 SV=1	28513.3
+Human_swiss_sp|P55259|GP2_HUMAN Pancreatic secretory granule membrane major glycoprotein GP2 OS=Homo sapiens OX=9606 GN=GP2 PE=1 SV=3	842327
+Human_swiss_sp|P56470|LEG4_HUMAN Galectin-4 OS=Homo sapiens OX=9606 GN=LGALS4 PE=1 SV=1	52747.5
+Human_swiss_sp|P59665|DEF1_HUMAN Neutrophil defensin 1 OS=Homo sapiens OX=9606 GN=DEFA1 PE=1 SV=1	10996.1
+Human_swiss_sp|P60174|TPIS_HUMAN Triosephosphate isomerase OS=Homo sapiens OX=9606 GN=TPI1 PE=1 SV=4	114260
+Human_swiss_sp|P60709|ACTB_HUMAN Actin, cytoplasmic 1 OS=Homo sapiens OX=9606 GN=ACTB PE=1 SV=1	10944.7
+Human_swiss_sp|P61224|RAP1B_HUMAN Ras-related protein Rap-1b OS=Homo sapiens OX=9606 GN=RAP1B PE=1 SV=1	14874.6
+Human_swiss_sp|P62241|RS8_HUMAN 40S ribosomal protein S8 OS=Homo sapiens OX=9606 GN=RPS8 PE=1 SV=2	39197.2
+Human_swiss_sp|P62805|H4_HUMAN Histone H4 OS=Homo sapiens OX=9606 GN=H4C1 PE=1 SV=2	814718
+Human_swiss_sp|P63316|TNNC1_HUMAN Troponin C, slow skeletal and cardiac muscles OS=Homo sapiens OX=9606 GN=TNNC1 PE=1 SV=1	31808.5
+Human_swiss_sp|P69905|HBA_HUMAN Hemoglobin subunit alpha OS=Homo sapiens OX=9606 GN=HBA1 PE=1 SV=2	62282.1
+Human_swiss_sp|P80188|NGAL_HUMAN Neutrophil gelatinase-associated lipocalin OS=Homo sapiens OX=9606 GN=LCN2 PE=1 SV=2	264108
+Human_swiss_sp|P98088|MUC5A_HUMAN Mucin-5AC OS=Homo sapiens OX=9606 GN=MUC5AC PE=1 SV=4	51863.6
+Human_swiss_sp|Q00872|MYPC1_HUMAN Myosin-binding protein C, slow-type OS=Homo sapiens OX=9606 GN=MYBPC1 PE=1 SV=2	31544.2
+Human_swiss_sp|Q02817|MUC2_HUMAN Mucin-2 OS=Homo sapiens OX=9606 GN=MUC2 PE=1 SV=2	386806
+Human_swiss_sp|Q03154|ACY1_HUMAN Aminoacylase-1 OS=Homo sapiens OX=9606 GN=ACY1 PE=1 SV=1	15359.2
+Human_swiss_sp|Q03403|TFF2_HUMAN Trefoil factor 2 OS=Homo sapiens OX=9606 GN=TFF2 PE=1 SV=2	590049
+Human_swiss_sp|Q08380|LG3BP_HUMAN Galectin-3-binding protein OS=Homo sapiens OX=9606 GN=LGALS3BP PE=1 SV=1	20613.3
+Human_swiss_sp|Q13228|SBP1_HUMAN Methanethiol oxidase OS=Homo sapiens OX=9606 GN=SELENBP1 PE=1 SV=2	25100.7
+Human_swiss_sp|Q13232|NDK3_HUMAN Nucleoside diphosphate kinase 3 OS=Homo sapiens OX=9606 GN=NME3 PE=1 SV=2	13427.6
+Human_swiss_sp|Q13642|FHL1_HUMAN Four and a half LIM domains protein 1 OS=Homo sapiens OX=9606 GN=FHL1 PE=1 SV=4	106204
+Human_swiss_sp|Q14002|CEAM7_HUMAN Carcinoembryonic antigen-related cell adhesion molecule 7 OS=Homo sapiens OX=9606 GN=CEACAM7 PE=1 SV=1	53792
+Human_swiss_sp|Q14CN2|CLCA4_HUMAN Calcium-activated chloride channel regulator 4 OS=Homo sapiens OX=9606 GN=CLCA4 PE=1 SV=2	17977.3
+Human_swiss_sp|Q16819|MEP1A_HUMAN Meprin A subunit alpha OS=Homo sapiens OX=9606 GN=MEP1A PE=1 SV=2	229765
+Human_swiss_sp|Q16820|MEP1B_HUMAN Meprin A subunit beta OS=Homo sapiens OX=9606 GN=MEP1B PE=1 SV=3	27914
+Human_swiss_sp|Q6P4A8|PLBL1_HUMAN Phospholipase B-like 1 OS=Homo sapiens OX=9606 GN=PLBD1 PE=1 SV=2	17394.4
+Human_swiss_sp|Q6UWV6|ENPP7_HUMAN Ectonucleotide pyrophosphatase/phosphodiesterase family member 7 OS=Homo sapiens OX=9606 GN=ENPP7 PE=1 SV=3	215077
+Human_swiss_sp|Q6W4X9|MUC6_HUMAN Mucin-6 OS=Homo sapiens OX=9606 GN=MUC6 PE=1 SV=3	8496.22
+Human_swiss_sp|Q86UP6|CUZD1_HUMAN CUB and zona pellucida-like domain-containing protein 1 OS=Homo sapiens OX=9606 GN=CUZD1 PE=2 SV=1	339506
+Human_swiss_sp|Q86YZ3|HORN_HUMAN Hornerin OS=Homo sapiens OX=9606 GN=HRNR PE=1 SV=2	6594.98
+Human_swiss_sp|Q8IVL8|CBPO_HUMAN Carboxypeptidase O OS=Homo sapiens OX=9606 GN=CPO PE=1 SV=1	16480
+Human_swiss_sp|Q8TE67|ES8L3_HUMAN Epidermal growth factor receptor kinase substrate 8-like protein 3 OS=Homo sapiens OX=9606 GN=EPS8L3 PE=1 SV=2	33332.7
+Human_swiss_sp|Q8WUM4|PDC6I_HUMAN Programmed cell death 6-interacting protein OS=Homo sapiens OX=9606 GN=PDCD6IP PE=1 SV=1	22992.4
+Human_swiss_sp|Q8WWA0|ITLN1_HUMAN Intelectin-1 OS=Homo sapiens OX=9606 GN=ITLN1 PE=1 SV=1	448510
+Human_swiss_sp|Q8WWU7|ITLN2_HUMAN Intelectin-2 OS=Homo sapiens OX=9606 GN=ITLN2 PE=2 SV=1	303242
+Human_swiss_sp|Q8WZ42|TITIN_HUMAN Titin OS=Homo sapiens OX=9606 GN=TTN PE=1 SV=4	23350.2
+Human_swiss_sp|Q92485|ASM3B_HUMAN Acid sphingomyelinase-like phosphodiesterase 3b OS=Homo sapiens OX=9606 GN=SMPDL3B PE=1 SV=2	36847.7
+Human_swiss_sp|Q969X1|LFG3_HUMAN Protein lifeguard 3 OS=Homo sapiens OX=9606 GN=TMBIM1 PE=1 SV=2	16305.9
+Human_swiss_sp|Q99828|CIB1_HUMAN Calcium and integrin-binding protein 1 OS=Homo sapiens OX=9606 GN=CIB1 PE=1 SV=4	8352.87
+Human_swiss_sp|Q99895|CTRC_HUMAN Chymotrypsin-C OS=Homo sapiens OX=9606 GN=CTRC PE=1 SV=2	2.93423e+06
+Human_swiss_sp|Q9BYE9|CDHR2_HUMAN Cadherin-related family member 2 OS=Homo sapiens OX=9606 GN=CDHR2 PE=1 SV=2	354345
+Human_swiss_sp|Q9H3R2|MUC13_HUMAN Mucin-13 OS=Homo sapiens OX=9606 GN=MUC13 PE=1 SV=3	332228
+Human_swiss_sp|Q9HBB8|CDHR5_HUMAN Cadherin-related family member 5 OS=Homo sapiens OX=9606 GN=CDHR5 PE=1 SV=3	7933.79
+Human_swiss_sp|Q9HD89|RETN_HUMAN Resistin OS=Homo sapiens OX=9606 GN=RETN PE=1 SV=1	27201.5
+Human_swiss_sp|Q9UGM3|DMBT1_HUMAN Deleted in malignant brain tumors 1 protein OS=Homo sapiens OX=9606 GN=DMBT1 PE=1 SV=2	592779
+Human_swiss_sp|Q9UKX2|MYH2_HUMAN Myosin-2 OS=Homo sapiens OX=9606 GN=MYH2 PE=1 SV=1	121897
+Human_swiss_sp|Q9Y277|VDAC3_HUMAN Voltage-dependent anion-selective channel protein 3 OS=Homo sapiens OX=9606 GN=VDAC3 PE=1 SV=1	18820.9
+Human_swiss_sp|Q9Y6R7|FCGBP_HUMAN IgGFc-binding protein OS=Homo sapiens OX=9606 GN=FCGBP PE=1 SV=3	872099

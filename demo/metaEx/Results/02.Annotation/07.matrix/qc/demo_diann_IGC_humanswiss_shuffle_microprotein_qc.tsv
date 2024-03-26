@@ -1,0 +1,673 @@
+Protein.Group	b14_24
+1045856.EcWSU1_02743 [Complete]:-  codon-table.11	22992.2
+158458797-stool1_revised_scaffold34175_2_gene30677 strand:+  start:1 stop:1077 length:1077 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	11661.1
+158499257-stool1_revised_C1444234_1_gene215443 strand:+  start:2647 stop:3606 length:960 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	26907.9
+158499257-stool2_revised_scaffold35535_1_gene209918 strand:+  start:1 stop:1326 length:1326 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	104108
+158499257-stool2_revised_scaffold63407_1_gene111170 strand:-  start:3 stop:815 length:813 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	368182
+158499257-stool2_revised_scaffold71908_2_gene145395 strand:+  start:1 stop:1185 length:1185 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	11532.2
+158499257-stool2_revised_scaffold9750_2_gene92208 strand:-  start:4342 stop:5466 length:1125 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	18753.1
+158802708-stool1_revised_C968191_1_gene1204 strand:-  start:1 stop:1314 length:1314 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	24796.2
+158802708-stool1_revised_scaffold20802_1_gene152869 strand:-  start:2 stop:973 length:972 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	131965
+159207311-stool2_revised_scaffold1962_1_gene150337 strand:+  start:3 stop:347 length:345 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	21937.4
+159369152-stool1_revised_C218669_1_gene6717 strand:+  start:3 stop:848 length:846 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	14734.7
+159632143-stool1_revised_scaffold14390_1_gene87151 strand:+  start:393 stop:1688 length:1296 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	13635
+159814214-stool1_revised_C570103_1_gene1164 strand:-  start:24 stop:860 length:837 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	10990.7
+160400887-stool1_revised_scaffold28677_2_gene32473 strand:+  start:10797 stop:12230 length:1434 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	21077
+160502038-stool1_revised_C1040582_1_gene113012 strand:+  start:3 stop:941 length:939 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	20516.3
+160603188-stool1_revised_C1017314_1_gene151369 strand:+  start:1 stop:2223 length:2223 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	61628.4
+195103.CPF_1048 [Complete]:-  codon-table.11	315029
+206672.BL1295 [Complete]:-  codon-table.11	4773.48
+340101.Vvad_PD0976 [Complete]:-  codon-table.11	14933.2
+411470.RUMGNA_02682 [Complete]:-  codon-table.11	17999.3
+445972.ANACOL_04358 [Complete]:-  codon-table.11	25129.6
+457421.CBFG_05949 [Complete]:-  codon-table.11	53752.8
+467705.SGO_1968 [Complete]:-  codon-table.11	50989.5
+473819.BIFDEN_02183 [Complete]:-  codon-table.11	31264
+483218.BACPEC_02137 [Complete]:-  codon-table.11	1655.88
+500635.MITSMUL_03099 [Complete]:-  codon-table.11	9098.87
+508703490-stool1_revised_scaffold22466_1_gene94327 strand:-  start:214 stop:1548 length:1335 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	24943.2
+553973.CLOHYLEM_06522 [Complete]:-  codon-table.11	3240.12
+585501.HMPREF6123_1051 [Complete]:-  codon-table.11	52851.4
+591001.Acfer_1512 [Complete]:-  codon-table.11	17580.8
+638301.HMPREF0444_1482 [Complete]:-  codon-table.11	8848.46
+667015.Bacsa_0163 [Complete]:-  codon-table.11	17152.2
+763435843-stool1_revised_scaffold13751_1_gene1966 strand:-  start:1048 stop:2976 length:1929 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	5069.4
+763496533-stool2_revised_C1130836_1_gene41026 strand:-  start:1 stop:924 length:924 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	57600.5
+763577454-stool1_revised_C1011481_1_gene183717 strand:-  start:311 stop:727 length:417 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	60246.7
+763678604-stool2_revised_C1156166_1_gene163714 strand:-  start:3145 stop:4878 length:1734 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	19736.9
+763820215-stool1_revised_C751164_1_gene6323 strand:+  start:983 stop:1711 length:729 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	17777.8
+763860675-stool1_revised_C1092989_1_gene136767 strand:+  start:471 stop:788 length:318 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	10442.1
+763860675-stool1_revised_scaffold55788_1_gene56140 strand:-  start:2 stop:1066 length:1065 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	17281.3
+763860675-stool1_revised_scaffold59412_1_gene91082 strand:-  start:1518 stop:2303 length:786 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	2877.09
+763901136-stool1_revised_C1052885_1_gene40766 strand:-  start:538 stop:822 length:285 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	15087.7
+764042746-stool2_revised_C474634_1_gene25976 strand:+  start:122 stop:427 length:306 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	27181.1
+764143897-stool1_revised_scaffold24180_1_gene160122 strand:+  start:2 stop:1003 length:1002 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	284018
+764184357-stool1_revised_scaffold9152_1_gene56916 strand:-  start:1526 stop:3733 length:2208 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	40148.1
+764487809-stool2_revised_scaffold53060_2_gene28846 strand:+  start:3 stop:3431 length:3429 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	3857.02
+764669880-stool1_revised_C437453_1_gene44917 strand:-  start:872 stop:1504 length:633 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	19269.1
+764669880-stool1_revised_scaffold9976_1_gene9843 strand:-  start:1 stop:1269 length:1269 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	9545.72
+764669880-stool2_revised_scaffold12597_1_gene66287 strand:+  start:2 stop:1603 length:1602 start_codon:no stop_codon:yes gene_type:incomplete [Lack 5'-end] codon-table.11	5816.11
+765701615-stool1_revised_C1225298_1_gene174302 strand:-  start:1 stop:507 length:507 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	20228.7
+765701615-stool1_revised_C1367528_1_gene217883 strand:+  start:1 stop:1257 length:1257 start_codon:no stop_codon:no gene_type:incomplete [Lack both ends] codon-table.11	51438.9
+765701615-stool1_revised_C1367806_1_gene31727 strand:-  start:2 stop:427 length:426 start_codon:yes stop_codon:no gene_type:incomplete [Lack 3'-end] codon-table.11	2686.13
+765701615-stool1_revised_scaffold47263_3_gene161730 strand:+  start:1184 stop:2356 length:1173 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	31859.7
+809635352-stool1_revised_scaffold40418_1_gene11041 strand:-  start:39 stop:215 length:177 start_codon:yes stop_codon:yes gene_type:complete [Complete] codon-table.11	8839.65
+DLF003_GL0036465  [gene]  locus=scaffold38582_1:16325:17074:+ [Complete] codon-table.11	5555.59
+DLF012_GL0025371  [gene]  locus=scaffold6031_3:80:2257:- [Complete] codon-table.11	9975.64
+DLM003_GL0001559  [gene]  locus=scaffold30636_3:2:673:+ [Lack both ends] codon-table.11	17915.2
+DLM007_GL0041666  [gene]  locus=scaffold45367_1:2677:5331:- [Lack 5'-end] codon-table.11	64428.7
+DLM013_GL0037970  [gene]  locus=scaffold10749_9:3302:5011:+ [Complete] codon-table.11	14962.9
+DLM013_GL0044983  [gene]  locus=scaffold40429_3:1349:2581:+ [Complete] codon-table.11	55020.3
+DLM018_GL0012508  [gene]  locus=scaffold3733_2:972:2219:+ [Complete] codon-table.11	233058
+DLM019_GL0082439  [gene]  locus=scaffold315_1:918:2042:+ [Complete] codon-table.11	13086
+DOM001_GL0092950  [gene]  locus=scaffold34794_8:3510:4757:+ [Complete] codon-table.11	7397.71
+DOM005_GL0004772  [gene]  locus=scaffold91_6:21891:22553:+ [Complete] codon-table.11	11853.8
+DOM005_GL0023957  [gene]  locus=scaffold12453_6:835:1902:- [Complete] codon-table.11	27258.2
+DOM005_GL0025443  [gene]  locus=scaffold37_7:31881:33218:- [Complete] codon-table.11	41816.6
+DOM005_GL0032002  [gene]  locus=scaffold37_1:2961:4859:+ [Complete] codon-table.11	27083.1
+DOM012_GL0021177  [gene]  locus=scaffold10320_21:1963:3039:+ [Complete] codon-table.11	5890.83
+DOM012_GL0033406  [gene]  locus=scaffold36877_2:1:474:- [Lack 3'-end] codon-table.11	304416
+DOM012_GL0066649  [gene]  locus=scaffold8378_5:449:1210:- [Complete] codon-table.11	7414
+DOM026_GL0034732  [gene]  locus=scaffold26149_7:3:974:+ [Lack 5'-end] codon-table.11	41625.7
+ED12A_GL0077137  [gene]  locus=scaffold32507_3:423:572:+ [Lack 3'-end] codon-table.11	23844.2
+ED13A_GL0021636  [gene]  locus=scaffold1322_2:1:555:- [Lack 3'-end] codon-table.11	22404.1
+ED15A_GL0082445  [gene]  locus=scaffold12893_1:12785:13981:- [Complete] codon-table.11	23396.1
+ED20A_GL0039802  [gene]  locus=scaffold17724_1:2:775:+ [Lack 5'-end] codon-table.11	5671.6
+Fungitr.E7NKC5.E7NKC5_YEASO Ubi4p (Fragment) OS=Saccharomyces cerevisiae (strain FostersO) GN=FOSTERSO_3014 PE=4 SV=1	43482.2
+HM403CO_revised_scaffold116_1_gene33180 strand:- start:8813 stop:9595 length:783 start_codon:yes stop_codon:yes gene_type:complete	4528.46
+HM403CO_revised_scaffold142_2_gene34425 strand:+ start:8041 stop:9432 length:1392 start_codon:yes stop_codon:yes gene_type:complete	40977
+HM403CO_revised_scaffold3899_2_gene43346 strand:+ start:26519 stop:27742 length:1224 start_codon:yes stop_codon:yes gene_type:complete	97291.2
+HM414CO_combine_revised_scaffold52574_1_gene54100 strand:+ start:3 stop:368 length:366 start_codon:no stop_codon:yes gene_type:incomplete	8398.79
+HM415TI_revised_scaffold27291_1_gene77074 strand:+ start:2 stop:583 length:582 start_codon:no stop_codon:no gene_type:incomplete	11320.4
+HM437CO_revised_scaffold23842_1_gene88996 strand:+ start:5906 stop:7864 length:1959 start_codon:yes stop_codon:yes gene_type:complete	8769.91
+HM437CO_revised_scaffold36926_1_gene1102 strand:+ start:2 stop:583 length:582 start_codon:no stop_codon:no gene_type:incomplete	9879.17
+HM438CO_revised_scaffold45904_1_gene74669 strand:+ start:2 stop:520 length:519 start_codon:no stop_codon:no gene_type:incomplete	268344
+HM466CO_revised_scaffold71503_1_gene21138 strand:+ start:1 stop:1050 length:1050 start_codon:no stop_codon:yes gene_type:incomplete	9570.2
+HM494TI_revised_C961297_1_gene41203 strand:+ start:307 stop:522 length:216 start_codon:yes stop_codon:no gene_type:incomplete	15511.4
+HM494TI_revised_scaffold22508_12_gene231958 strand:+ start:2 stop:1507 length:1506 start_codon:no stop_codon:yes gene_type:incomplete	8263.66
+HM494TI_revised_scaffold67459_1_gene54744 strand:- start:46703 stop:47572 length:870 start_codon:yes stop_codon:yes gene_type:complete	10976.1
+HT14A_GL0085213  [gene]  locus=scaffold26776_1:2:367:+ [Lack 5'-end] codon-table.11	29177.3
+HT14A_GL0104544  [gene]  locus=scaffold8377_7:1:2925:+ [Lack both ends] codon-table.11	30529.4
+HT14A_GL0106378  [gene]  locus=scaffold24973_3:20944:21483:- [Complete] codon-table.11	122035
+HT8A_GL0051954  [gene]  locus=scaffold34690_1:16107:16964:- [Complete] codon-table.11	9021.7
+MH0001_GL0006365  [gene]  locus=scaffold16894_2:4140:6275:- [Complete] codon-table.11	31002.6
+MH0001_GL0017996  [gene]  locus=scaffold221_3:6671:9112:- [Complete] codon-table.11	16613.8
+MH0001_GL0020755  [gene]  locus=scaffold17758_1:840:1856:+ [Complete] codon-table.11	5377.1
+MH0003_GL0003148  [gene]  locus=scaffold31787_1:14836:18108:- [Complete] codon-table.11	12023.5
+MH0003_GL0010170  [gene]  locus=scaffold28388_2:15184:16260:- [Complete] codon-table.11	3266.95
+MH0003_GL0055966  [gene]  locus=scaffold14777_1:6864:7979:+ [Complete] codon-table.11	8387.03
+MH0004_GL0011122  [gene]  locus=scaffold23472_1:17113:17589:+ [Complete] codon-table.11	30256.8
+MH0005_GL0013865  [gene]  locus=scaffold167_11:1050:1319:+ [Complete] codon-table.11	18459.8
+MH0005_GL0017606  [gene]  locus=scaffold6966_1:8057:9790:- [Complete] codon-table.11	46531.8
+MH0005_GL0021441  [gene]  locus=scaffold4384_2:33167:36454:- [Complete] codon-table.11	6671.74
+MH0006_GL0032494  [gene]  locus=scaffold60560_2:151:1089:+ [Complete] codon-table.11	227374
+MH0006_GL0121937  [gene]  locus=scaffold117095_4:7822:8802:+ [Complete] codon-table.11	35977.6
+MH0006_GL0131422  [gene]  locus=scaffold117722_1:142:528:- [Complete] codon-table.11	5697.87
+MH0006_GL0137136  [gene]  locus=scaffold189532_2:2489:4219:- [Complete] codon-table.11	19117.5
+MH0006_GL0181988  [gene]  locus=scaffold189532_3:32877:35060:- [Complete] codon-table.11	5902.23
+MH0006_GL0199332  [gene]  locus=scaffold26721_1:15855:16511:+ [Complete] codon-table.11	246310
+MH0007_GL0003438  [gene]  locus=scaffold60316_8:2889:3995:- [Complete] codon-table.11	29645.4
+MH0008_GL0040329  [gene]  locus=scaffold10806_5:16383:17471:+ [Complete] codon-table.11	14857.3
+MH0009_GL0015794  [gene]  locus=scaffold4312_1:2:1318:+ [Lack 5'-end] codon-table.11	24604
+MH0011_GL0000961  [gene]  locus=scaffold17229_1:3:1049:+ [Lack 5'-end] codon-table.11	15086.7
+MH0011_GL0097746  [gene]  locus=scaffold13877_3:15343:16863:+ [Complete] codon-table.11	262773
+MH0012_GL0008469  [gene]  locus=scaffold3920_1:589:1371:- [Complete] codon-table.11	28575
+MH0012_GL0026546  [gene]  locus=scaffold10603_9:11706:13022:- [Complete] codon-table.11	27250.6
+MH0012_GL0038842  [gene]  locus=scaffold9613_9:4403:6583:+ [Complete] codon-table.11	1445.17
+MH0012_GL0101972  [gene]  locus=scaffold133838_1:3941:5314:+ [Complete] codon-table.11	91758
+MH0012_GL0114975  [gene]  locus=scaffold23230_3:16987:18192:+ [Complete] codon-table.11	214543
+MH0012_GL0135518  [gene]  locus=scaffold88748_1:302:502:- [Complete] codon-table.11	23848.9
+MH0012_GL0144040  [gene]  locus=scaffold3418_3:9639:10358:- [Complete] codon-table.11	54776.2
+MH0012_GL0193636  [gene]  locus=scaffold991_3:17079:18740:- [Complete] codon-table.11	98967.8
+MH0012_GL0199393  [gene]  locus=scaffold55328_8:2805:3824:+ [Complete] codon-table.11	15001.4
+MH0012_GL0205813  [gene]  locus=scaffold24325_3:12368:13369:- [Complete] codon-table.11	3235.5
+MH0013_GL0020747  [gene]  locus=scaffold5881_4:1966:2775:- [Complete] codon-table.11	8271.05
+MH0014_GL0027038  [gene]  locus=scaffold8815_1:425:1180:- [Complete] codon-table.11	117734
+MH0015_GL0033518  [gene]  locus=scaffold13241_16:411:1832:- [Complete] codon-table.11	6630.51
+MH0016_GL0030768  [gene]  locus=scaffold720_2:630:4334:+ [Complete] codon-table.11	11005.1
+MH0016_GL0042520  [gene]  locus=scaffold264_3:1870:3150:+ [Complete] codon-table.11	15256.2
+MH0017_GL0006411  [gene]  locus=scaffold1075_1:3837:4934:- [Complete] codon-table.11	12371.5
+MH0018_GL0003216  [gene]  locus=scaffold7107_1:3501:6698:+ [Complete] codon-table.11	4860.21
+MH0019_GL0005571  [gene]  locus=scaffold26662_7:2:301:+ [Lack 5'-end] codon-table.11	9188.65
+MH0020_GL0031208  [gene]  locus=scaffold23813_9:204:3755:- [Complete] codon-table.11	142734
+MH0020_GL0052377  [gene]  locus=scaffold8565_5:10487:11824:+ [Complete] codon-table.11	4874.93
+MH0021_GL0021757  [gene]  locus=scaffold57271_5:1798:2523:- [Complete] codon-table.11	76532.1
+MH0021_GL0032172  [gene]  locus=scaffold43479_2:47:796:- [Complete] codon-table.11	47553.6
+MH0023_GL0022168  [gene]  locus=scaffold9839_2:270:2297:+ [Complete] codon-table.11	4472.22
+MH0028_GL0056621  [gene]  locus=scaffold25695_3:1:1182:- [Lack both ends] codon-table.11	3833.7
+MH0030_GL0001621  [gene]  locus=scaffold19675_1:28901:30028:+ [Complete] codon-table.11	6530.37
+MH0031_GL0007986  [gene]  locus=scaffold2298_1:672:1886:- [Lack 5'-end] codon-table.11	5343.19
+MH0032_GL0020556  [gene]  locus=scaffold16595_2:2230:3441:+ [Complete] codon-table.11	7273.59
+MH0035_GL0038031  [gene]  locus=scaffold344_1:5173:5478:- [Complete] codon-table.11	22626.3
+MH0035_GL0049006  [gene]  locus=scaffold418_1:12366:13286:- [Complete] codon-table.11	53222.2
+MH0035_GL0054364  [gene]  locus=scaffold25478_1:1759:3381:+ [Complete] codon-table.11	3070.9
+MH0037_GL0001414  [gene]  locus=scaffold44295_2:2488:4014:+ [Complete] codon-table.11	18271.1
+MH0037_GL0013923  [gene]  locus=scaffold19589_2:15494:16831:+ [Complete] codon-table.11	403223
+MH0037_GL0054773  [gene]  locus=scaffold24377_5:9881:10438:+ [Complete] codon-table.11	19257.4
+MH0039_GL0044146  [gene]  locus=scaffold9172_1:2965:5502:- [Complete] codon-table.11	8641.29
+MH0039_GL0047513  [gene]  locus=scaffold9830_1:9055:11184:- [Complete] codon-table.11	26191
+MH0041_GL0016776  [gene]  locus=scaffold17723_9:3685:4065:+ [Complete] codon-table.11	9712.64
+MH0043_GL0013824  [gene]  locus=scaffold49959_1:3:521:+ [Lack both ends] codon-table.11	12053.4
+MH0045_GL0054558  [gene]  locus=scaffold14900_1:322:732:+ [Complete] codon-table.11	2525.66
+MH0046_GL0038096  [gene]  locus=scaffold8379_1:11142:12416:- [Complete] codon-table.11	9645.87
+MH0047_GL0010726  [gene]  locus=scaffold623_5:26118:27278:- [Complete] codon-table.11	62224.8
+MH0047_GL0036394  [gene]  locus=scaffold10973_2:6796:7989:- [Complete] codon-table.11	1.95341e+06
+MH0055_GL0042560  [gene]  locus=scaffold2132_24:2:421:+ [Lack 5'-end] codon-table.11	57669.8
+MH0055_GL0056634  [gene]  locus=scaffold23420_4:160:714:- [Complete] codon-table.11	3712.24
+MH0055_GL0059787  [gene]  locus=scaffold14603_4:3560:3793:+ [Complete] codon-table.11	24792.9
+MH0057_GL0001908  [gene]  locus=scaffold4543_2:18886:21912:- [Complete] codon-table.11	73799.1
+MH0057_GL0016580  [gene]  locus=scaffold7813_2:70624:71892:- [Complete] codon-table.11	46252.1
+MH0057_GL0018775  [gene]  locus=scaffold3775_2:10396:12717:- [Complete] codon-table.11	64448.5
+MH0057_GL0024940  [gene]  locus=scaffold2661_2:4393:5457:- [Complete] codon-table.11	5592.96
+MH0057_GL0035401  [gene]  locus=scaffold2274_1:25628:26671:+ [Complete] codon-table.11	11488.9
+MH0061_GL0042306  [gene]  locus=scaffold27479_1:8666:9847:+ [Complete] codon-table.11	17302.5
+MH0067_GL0024690  [gene]  locus=scaffold27079_1:164:550:+ [Complete] codon-table.11	14481.7
+MH0069_GL0051054  [gene]  locus=scaffold6973_1:299:856:+ [Complete] codon-table.11	15570.7
+MH0069_GL0062737  [gene]  locus=scaffold7366_1:1443:1703:+ [Lack 3'-end] codon-table.11	9584.94
+MH0069_GL0065137  [gene]  locus=scaffold4867_1:1:246:+ [Lack 5'-end] codon-table.11	218755
+MH0069_GL0078305  [gene]  locus=scaffold16771_2:17758:18186:- [Complete] codon-table.11	5272.91
+MH0071_GL0042226  [gene]  locus=scaffold29869_3:1949:2392:- [Complete] codon-table.11	69173.2
+MH0074_GL0068292  [gene]  locus=scaffold41595_2:24801:26327:- [Complete] codon-table.11	19113.9
+MH0076_GL0052556  [gene]  locus=scaffold44954_1:3333:3950:+ [Complete] codon-table.11	62214.6
+MH0077_GL0035462  [gene]  locus=scaffold44732_1:3:260:+ [Lack 5'-end] codon-table.11	65254.2
+MH0077_GL0049008  [gene]  locus=scaffold23411_3:40672:43083:+ [Complete] codon-table.11	4996.7
+MH0083_GL0030394  [gene]  locus=scaffold41741_4:20927:22210:+ [Complete] codon-table.11	5889.52
+MH0086_GL0112737  [gene]  locus=scaffold4985_33:1261:3891:- [Complete] codon-table.11	25774.6
+MH0087_GL0000047  [gene]  locus=scaffold4355_7:65:541:+ [Complete] codon-table.11	5239.28
+MH0088_GL0029926  [gene]  locus=scaffold62925_5:13743:14837:- [Complete] codon-table.11	12367.7
+MH0088_GL0062493  [gene]  locus=scaffold15642_5:5672:7168:+ [Complete] codon-table.11	31688.1
+MH0088_GL0090143  [gene]  locus=scaffold37168_13:288:1754:- [Complete] codon-table.11	9026.65
+MH0088_GL0094142  [gene]  locus=scaffold14013_4:1973:2653:- [Complete] codon-table.11	10592.5
+MH0088_GL0107046  [gene]  locus=scaffold3235_6:916:1284:+ [Complete] codon-table.11	5894.26
+MH0090_GL0002748  [gene]  locus=scaffold72457_1:38495:38740:+ [Complete] codon-table.11	9571.58
+MH0092_GL0040972  [gene]  locus=C1457098_1:146:679:+ [Complete] codon-table.11	19107.6
+MH0092_GL0140375  [gene]  locus=scaffold10033_22:11147:13237:- [Complete] codon-table.11	13912.9
+MH0093_GL0010665  [gene]  locus=scaffold696_2:7290:8045:- [Complete] codon-table.11	29298.2
+MH0094_GL0075871  [gene]  locus=scaffold33864_1:2:457:- [Lack 3'-end] codon-table.11	13570.8
+MH0094_GL0107622  [gene]  locus=scaffold53895_3:5934:7679:+ [Complete] codon-table.11	11968.3
+MH0096_GL0013876  [gene]  locus=scaffold16120_3:6442:7896:+ [Complete] codon-table.11	44185.4
+MH0100_GL0114735  [gene]  locus=scaffold52094_9:1210:3852:- [Complete] codon-table.11	19280.8
+MH0100_GL0127516  [gene]  locus=scaffold25263_24:212:730:+ [Complete] codon-table.11	306260
+MH0100_GL0129471  [gene]  locus=scaffold8032_1:959:2164:- [Complete] codon-table.11	195865
+MH0102_GL0050400  [gene]  locus=scaffold10351_1:45176:47419:+ [Complete] codon-table.11	46086.8
+MH0102_GL0062733  [gene]  locus=scaffold51879_3:66920:69154:+ [Complete] codon-table.11	33863.3
+MH0102_GL0131793  [gene]  locus=scaffold18891_5:120:374:- [Complete] codon-table.11	14196
+MH0103_GL0067022  [gene]  locus=scaffold22849_3:11:1441:+ [Complete] codon-table.11	101425
+MH0107_GL0053514  [gene]  locus=scaffold24612_14:875:1309:- [Complete] codon-table.11	5268.44
+MH0107_GL0113046  [gene]  locus=scaffold98830_1:24346:25989:- [Complete] codon-table.11	37546
+MH0110_GL0025297  [gene]  locus=scaffold1370_2:7987:10617:+ [Complete] codon-table.11	205722
+MH0110_GL0034529  [gene]  locus=scaffold54626_5:12050:13447:+ [Complete] codon-table.11	16810.9
+MH0113_GL0003321  [gene]  locus=scaffold23972_30:808:2697:- [Complete] codon-table.11	199992
+MH0113_GL0037816  [gene]  locus=scaffold75803_3:2715:5969:+ [Complete] codon-table.11	162324
+MH0113_GL0085823  [gene]  locus=scaffold13666_8:147:1220:- [Complete] codon-table.11	5616.02
+MH0116_GL0116313  [gene]  locus=scaffold1120_25_2:29:736:- [Complete] codon-table.11	11579.5
+MH0116_GL0133348  [gene]  locus=scaffold7924_1:286:852:+ [Complete] codon-table.11	4147.05
+MH0122_GL0076036  [gene]  locus=scaffold9888_13:2:637:+ [Lack 5'-end] codon-table.11	10792.6
+MH0122_GL0076627  [gene]  locus=scaffold36241_4:686:2254:- [Complete] codon-table.11	11225
+MH0122_GL0102458  [gene]  locus=scaffold15481_4:21000:22307:- [Complete] codon-table.11	11412.9
+MH0124_GL0004871  [gene]  locus=scaffold98603_1:25539:28238:+ [Complete] codon-table.11	51758.3
+MH0124_GL0059575  [gene]  locus=scaffold81527_4:2642:3334:+ [Complete] codon-table.11	16507.6
+MH0124_GL0087622  [gene]  locus=scaffold17220_2:49710:51206:- [Complete] codon-table.11	137187
+MH0124_GL0143174  [gene]  locus=scaffold80274_6:11485:13302:+ [Complete] codon-table.11	38614.8
+MH0125_GL0073399  [gene]  locus=scaffold1078_1:3781:8082:+ [Complete] codon-table.11	75124.3
+MH0126_GL0001187  [gene]  locus=scaffold90753_2:45726:47108:- [Complete] codon-table.11	6423.13
+MH0126_GL0019349  [gene]  locus=scaffold42195_5:3099:5663:- [Complete] codon-table.11	27651.7
+MH0130_GL0077888  [gene]  locus=scaffold1658_1:6472:6837:+ [Complete] codon-table.11	9929.41
+MH0131_GL0041219  [gene]  locus=scaffold20378_10:1233:2561:- [Complete] codon-table.11	15348
+MH0131_GL0089619  [gene]  locus=scaffold79399_1:1:525:+ [Lack both ends] codon-table.11	184297
+MH0131_GL0110658  [gene]  locus=scaffold20572_3:429:1700:- [Complete] codon-table.11	285224
+MH0131_GL0135871  [gene]  locus=scaffold43_8:114:2027:+ [Complete] codon-table.11	25226.8
+MH0131_GL0154213  [gene]  locus=scaffold56856_2:309:1688:+ [Complete] codon-table.11	114740
+MH0135_GL0082397  [gene]  locus=scaffold8650_2:28:1614:- [Complete] codon-table.11	44251.6
+MH0135_GL0099849  [gene]  locus=scaffold12189_21:953:2287:+ [Complete] codon-table.11	53893.9
+MH0136_GL0083951  [gene]  locus=scaffold4214_4:2248:3681:+ [Complete] codon-table.11	90040.6
+MH0140_GL0046792  [gene]  locus=scaffold51631_2:2:298:+ [Lack 5'-end] codon-table.11	40978
+MH0141_GL0094531  [gene]  locus=scaffold4355_2:2373:3755:+ [Complete] codon-table.11	580773
+MH0143_GL0009130  [gene]  locus=scaffold8249_1:3610:4782:+ [Complete] codon-table.11	21223.2
+MH0143_GL0060465  [gene]  locus=scaffold15227_4:1087:1626:+ [Complete] codon-table.11	8965.9
+MH0143_GL0064120  [gene]  locus=scaffold26663_6:746:2155:- [Complete] codon-table.11	101832
+MH0143_GL0076916  [gene]  locus=scaffold32491_12:881:1297:+ [Complete] codon-table.11	182527
+MH0143_GL0159952  [gene]  locus=scaffold4780_12:4130:4822:+ [Complete] codon-table.11	58325.3
+MH0144_GL0085682  [gene]  locus=scaffold93115_8:2254:3084:- [Complete] codon-table.11	61332.4
+MH0147_GL0020541  [gene]  locus=scaffold3895_10:193:546:- [Complete] codon-table.11	97557.4
+MH0147_GL0070598  [gene]  locus=scaffold37410_6:34:1656:- [Complete] codon-table.11	95892
+MH0149_GL0085441  [gene]  locus=scaffold3870_17:11427:12134:+ [Complete] codon-table.11	91072.2
+MH0151_GL0025677  [gene]  locus=scaffold12006_1:8470:9759:- [Complete] codon-table.11	27555.1
+MH0152_GL0013968  [gene]  locus=scaffold1212_12:667:1602:+ [Complete] codon-table.11	18083.1
+MH0152_GL0080942  [gene]  locus=scaffold33886_22:158:1711:+ [Complete] codon-table.11	91228
+MH0157_GL0038338  [gene]  locus=scaffold48715_12:299:898:- [Complete] codon-table.11	11550.5
+MH0157_GL0125105  [gene]  locus=scaffold30650_18:3:548:+ [Lack both ends] codon-table.11	99280.4
+MH0164_GL0060041  [gene]  locus=scaffold9392_14:7067:7618:+ [Complete] codon-table.11	71858.4
+MH0172_GL0127064  [gene]  locus=scaffold15153_1:6321:7250:+ [Complete] codon-table.11	5429.75
+MH0185_GL0020303  [gene]  locus=scaffold37503_7:2:961:+ [Lack 5'-end] codon-table.11	5331.96
+MH0185_GL0062621  [gene]  locus=scaffold14438_4:3:1481:+ [Lack 5'-end] codon-table.11	28421.1
+MH0187_GL0088968  [gene]  locus=C1138128_1:874:1821:+ [Complete] codon-table.11	11352
+MH0188_GL0088680  [gene]  locus=scaffold57666_1:1:1902:+ [Lack 5'-end] codon-table.11	48935.4
+MH0188_GL0089797  [gene]  locus=scaffold28458_1:16536:17315:+ [Complete] codon-table.11	23014.8
+MH0189_GL0011618  [gene]  locus=scaffold52067_2:2598:3989:+ [Complete] codon-table.11	11119.3
+MH0189_GL0016411  [gene]  locus=scaffold31315_17:2:484:+ [Lack 5'-end] codon-table.11	5150.68
+MH0189_GL0025386  [gene]  locus=scaffold34704_1:81688:82554:- [Complete] codon-table.11	28644.4
+MH0189_GL0044111  [gene]  locus=scaffold24883_3:79:1764:- [Complete] codon-table.11	2176.48
+MH0192_GL0022877  [gene]  locus=scaffold46081_5:330:962:- [Lack 5'-end] codon-table.11	56711.3
+MH0192_GL0026361  [gene]  locus=scaffold23855_5:291:803:- [Lack 5'-end] codon-table.11	74793.1
+MH0193_GL0012773  [gene]  locus=scaffold35712_4:4860:8516:+ [Complete] codon-table.11	267733
+MH0193_GL0057191  [gene]  locus=scaffold35935_9:890:1108:+ [Complete] codon-table.11	4057.96
+MH0193_GL0168892  [gene]  locus=scaffold13802_1:36752:37963:+ [Complete] codon-table.11	35098.2
+MH0193_GL0185667  [gene]  locus=scaffold47270_2:28675:29685:+ [Complete] codon-table.11	37839.5
+MH0195_GL0090764  [gene]  locus=scaffold67953_1:4870:6462:- [Complete] codon-table.11	20719.8
+MH0195_GL0143964  [gene]  locus=scaffold11719_17:10101:10391:- [Complete] codon-table.11	7993.58
+MH0195_GL0157558  [gene]  locus=scaffold4699_5:166:651:- [Complete] codon-table.11	5908.94
+MH0196_GL0115268  [gene]  locus=scaffold132441_1:2140:4731:- [Complete] codon-table.11	31882.5
+MH0197_GL0112220  [gene]  locus=scaffold16482_3:231:632:- [Complete] codon-table.11	17949.6
+MH0200_GL0110436  [gene]  locus=scaffold139_1:12326:13237:+ [Complete] codon-table.11	40235.1
+MH0203_GL0045149  [gene]  locus=scaffold151039_1:45413:46759:- [Complete] codon-table.11	318146
+MH0203_GL0205096  [gene]  locus=scaffold72276_2:5456:7600:- [Lack 5'-end] codon-table.11	36437.2
+MH0204_GL0076954  [gene]  locus=scaffold82546_1:3571:4095:+ [Lack 3'-end] codon-table.11	120232
+MH0206_GL0111989  [gene]  locus=scaffold2752_2:1415:2989:+ [Complete] codon-table.11	2143.73
+MH0211_GL0027677  [gene]  locus=scaffold114_4:50483:52186:+ [Complete] codon-table.11	2086.61
+MH0212_GL0006589  [gene]  locus=scaffold36994_5:3033:4376:- [Complete] codon-table.11	487631
+MH0212_GL0049950  [gene]  locus=scaffold37465_3:1476:2588:- [Complete] codon-table.11	134174
+MH0212_GL0084820  [gene]  locus=scaffold364_4:5504:6334:+ [Complete] codon-table.11	15220.7
+MH0217_GL0160322  [gene]  locus=scaffold44939_4:446:988:- [Complete] codon-table.11	130038
+MH0222_GL0071646  [gene]  locus=scaffold43141_12:2826:6095:+ [Complete] codon-table.11	28832.3
+MH0224_GL0070636  [gene]  locus=scaffold862_4:237:2015:+ [Complete] codon-table.11	13582.4
+MH0224_GL0112161  [gene]  locus=scaffold4914_6:3:824:+ [Lack both ends] codon-table.11	16125.3
+MH0227_GL0015156  [gene]  locus=scaffold9648_1:595:2424:- [Complete] codon-table.11	90392.6
+MH0229_GL0090301  [gene]  locus=scaffold25139_1:689:1183:+ [Lack 3'-end] codon-table.11	1.17926e+06
+MH0230_GL0059391  [gene]  locus=scaffold35288_4:3573:4442:+ [Complete] codon-table.11	9844.18
+MH0230_GL0070365  [gene]  locus=scaffold40295_5:11148:13235:+ [Complete] codon-table.11	517997
+MH0233_GL0003750  [gene]  locus=scaffold69290_2:5167:6303:+ [Complete] codon-table.11	39578.6
+MH0233_GL0021837  [gene]  locus=scaffold35399_4:156:1172:- [Lack 5'-end] codon-table.11	24847.3
+MH0233_GL0103635  [gene]  locus=C868015_1:23358:25937:+ [Complete] codon-table.11	13625.8
+MH0233_GL0105808  [gene]  locus=scaffold55138_2:2:592:- [Lack both ends] codon-table.11	18034.1
+MH0238_GL0067109  [gene]  locus=scaffold100632_1:7:1101:- [Complete] codon-table.11	26969.7
+MH0239_GL0065227  [gene]  locus=scaffold41431_1:24:617:+ [Complete] codon-table.11	23374.8
+MH0244_GL0086909  [gene]  locus=scaffold33687_1:11685:12971:- [Complete] codon-table.11	13035.5
+MH0251_GL0072568  [gene]  locus=scaffold29409_2:3986:5398:+ [Complete] codon-table.11	148144
+MH0251_GL0121713  [gene]  locus=scaffold3056_1:2562:3755:+ [Complete] codon-table.11	163144
+MH0251_GL0175798  [gene]  locus=scaffold28199_5:3832:4506:+ [Complete] codon-table.11	4729.81
+MH0252_GL0039289  [gene]  locus=scaffold128261_2:8627:8986:- [Complete] codon-table.11	15009.2
+MH0252_GL0125144  [gene]  locus=scaffold138210_1:15988:18630:+ [Complete] codon-table.11	13578.7
+MH0252_GL0184446  [gene]  locus=scaffold12902_28:7380:8756:+ [Complete] codon-table.11	44401
+MH0257_GL0093519  [gene]  locus=scaffold91802_1:604:1827:- [Complete] codon-table.11	6049.56
+MH0257_GL0147322  [gene]  locus=scaffold110287_1:2421:3995:+ [Complete] codon-table.11	11309.5
+MH0259_GL0120051  [gene]  locus=scaffold46595_1:729:1877:- [Complete] codon-table.11	160652
+MH0259_GL0139137  [gene]  locus=scaffold57712_10:321:1547:+ [Lack 3'-end] codon-table.11	9176.73
+MH0262_GL0028975  [gene]  locus=scaffold37432_10:897:1451:+ [Complete] codon-table.11	21671.5
+MH0265_GL0002602  [gene]  locus=scaffold25056_2:334:4146:+ [Complete] codon-table.11	35901.3
+MH0265_GL0162741  [gene]  locus=scaffold70745_1:2:571:- [Lack both ends] codon-table.11	11380.2
+MH0267_GL0117850  [gene]  locus=scaffold114226_1:2:1741:+ [Lack 5'-end] codon-table.11	80248.4
+MH0267_GL0184495  [gene]  locus=scaffold85515_2:3:707:- [Lack both ends] codon-table.11	34687.9
+MH0268_GL0082510  [gene]  locus=scaffold15093_3:8573:10177:- [Complete] codon-table.11	304266
+MH0268_GL0173004  [gene]  locus=scaffold509_3:798:1811:+ [Complete] codon-table.11	3004.2
+MH0270_GL0022394  [gene]  locus=scaffold76415_3:2:1897:+ [Lack 5'-end] codon-table.11	31916.2
+MH0270_GL0058843  [gene]  locus=scaffold19022_13:1237:1929:+ [Lack 3'-end] codon-table.11	114046
+MH0271_GL0126954  [gene]  locus=scaffold65880_1:127:993:- [Complete] codon-table.11	63656.5
+MH0274_GL0006991  [gene]  locus=scaffold93964_1:9195:10727:+ [Complete] codon-table.11	13694.6
+MH0274_GL0054087  [gene]  locus=scaffold82707_1:1276:2319:- [Complete] codon-table.11	18192.1
+MH0274_GL0147438  [gene]  locus=scaffold82492_6:928:2403:- [Complete] codon-table.11	755581
+MH0275_GL0129479  [gene]  locus=scaffold49198_4:1155:2504:+ [Lack 3'-end] codon-table.11	39847.4
+MH0276_GL0157470  [gene]  locus=scaffold28258_4:15351:16535:- [Complete] codon-table.11	14842.3
+MH0276_GL0224587  [gene]  locus=scaffold86842_1:9899:10684:+ [Complete] codon-table.11	9027.38
+MH0281_GL0038819  [gene]  locus=scaffold19484_5:2:514:- [Lack 3'-end] codon-table.11	13999.4
+MH0281_GL0071487  [gene]  locus=scaffold81060_2:20049:20747:- [Complete] codon-table.11	24795.4
+MH0281_GL0096870  [gene]  locus=scaffold34195_2:2:616:- [Lack both ends] codon-table.11	37344
+MH0287_GL0131882  [gene]  locus=scaffold731_1:624:2000:- [Complete] codon-table.11	13185.5
+MH0288_GL0076807  [gene]  locus=scaffold40111_1:4265:4822:+ [Complete] codon-table.11	13293.3
+MH0290_GL0087955  [gene]  locus=C1356422_1:1596:4568:- [Lack 5'-end] codon-table.11	36475.5
+MH0292_GL0017180  [gene]  locus=scaffold48687_2:1418:2323:+ [Complete] codon-table.11	114068
+MH0303_GL0006468  [gene]  locus=scaffold63135_11:2980:4191:+ [Complete] codon-table.11	8836.03
+MH0303_GL0014066  [gene]  locus=scaffold113267_6:1:1041:+ [Lack 5'-end] codon-table.11	169819
+MH0307_GL0180694  [gene]  locus=C1420144_1:1:402:+ [Lack 5'-end] codon-table.11	30176.8
+MH0309_GL0017860  [gene]  locus=scaffold94780_1:443:2080:+ [Complete] codon-table.11	156466
+MH0309_GL0174644  [gene]  locus=scaffold58266_1:225:653:- [Complete] codon-table.11	6544.27
+MH0310_GL0096639  [gene]  locus=scaffold225_8:2453:3718:- [Complete] codon-table.11	1965.31
+MH0311_GL0045966  [gene]  locus=C878096_1:1:1398:+ [Lack 5'-end] codon-table.11	23939.2
+MH0313_GL0016480  [gene]  locus=scaffold81889_2:6601:7572:- [Complete] codon-table.11	9330.26
+MH0314_GL0028678  [gene]  locus=scaffold22051_4:885:2489:+ [Complete] codon-table.11	387242
+MH0314_GL0154708  [gene]  locus=scaffold70347_1:26278:27630:- [Complete] codon-table.11	196122
+MH0315_GL0028193  [gene]  locus=scaffold30210_2:1027:1446:+ [Lack 3'-end] codon-table.11	11774
+MH0318_GL0009298  [gene]  locus=scaffold11941_1:105:2138:- [Complete] codon-table.11	19823.5
+MH0318_GL0044972  [gene]  locus=scaffold117565_2:3567:4937:+ [Lack 3'-end] codon-table.11	4472.23
+MH0318_GL0139235  [gene]  locus=scaffold101879_5:997:1422:- [Complete] codon-table.11	5348.42
+MH0318_GL0187019  [gene]  locus=scaffold162117_1:4707:5567:+ [Complete] codon-table.11	7626.26
+MH0318_GL0197751  [gene]  locus=scaffold119198_2:2:1285:- [Lack 3'-end] codon-table.11	24536.7
+MH0323_GL0149024  [gene]  locus=scaffold40007_2:102:1568:+ [Complete] codon-table.11	7265.39
+MH0325_GL0024659  [gene]  locus=scaffold20098_5:1:774:+ [Lack 5'-end] codon-table.11	9465.27
+MH0326_GL0086705  [gene]  locus=scaffold48630_6:22:1026:- [Lack 5'-end] codon-table.11	412663
+MH0329_GL0210519  [gene]  locus=scaffold25336_2:1:2610:+ [Lack 5'-end] codon-table.11	45818.4
+MH0333_GL0067146  [gene]  locus=scaffold37662_1:3815:7636:+ [Complete] codon-table.11	20764.2
+MH0335_GL0070054  [gene]  locus=scaffold38620_20:385:1320:+ [Complete] codon-table.11	7582.83
+MH0335_GL0094895  [gene]  locus=scaffold38519_1:3:1196:+ [Lack 5'-end] codon-table.11	29141.3
+MH0336_GL0095773  [gene]  locus=scaffold16849_2:8271:9686:- [Complete] codon-table.11	200879
+MH0336_GL0097832  [gene]  locus=scaffold102009_3:318:581:- [Lack 5'-end] codon-table.11	82880.5
+MH0336_GL0141460  [gene]  locus=scaffold96072_1:946:1338:+ [Complete] codon-table.11	19594.1
+MH0337_GL0003002  [gene]  locus=scaffold20343_8:13:1305:- [Complete] codon-table.11	73607.6
+MH0337_GL0012713  [gene]  locus=scaffold68545_1:45998:47182:- [Complete] codon-table.11	92240.3
+MH0339_GL0201051  [gene]  locus=scaffold77245_10:275:1684:+ [Complete] codon-table.11	7403.15
+MH0339_GL0215019  [gene]  locus=scaffold88157_7:179:1000:- [Lack 5'-end] codon-table.11	16022.6
+MH0340_GL0132716  [gene]  locus=scaffold14357_1:1:765:+ [Lack 5'-end] codon-table.11	382239
+MH0341_GL0102431  [gene]  locus=scaffold4981_11:3873:5954:- [Complete] codon-table.11	9562.37
+MH0343_GL0015628  [gene]  locus=scaffold14462_12:464:862:+ [Complete] codon-table.11	47481.2
+MH0343_GL0074680  [gene]  locus=scaffold72058_2:1:159:- [Lack 3'-end] codon-table.11	432606
+MH0345_GL0087811  [gene]  locus=scaffold81319_3:13945:16572:+ [Complete] codon-table.11	53088.5
+MH0351_GL0006420  [gene]  locus=scaffold11286_9:1:1077:+ [Lack 5'-end] codon-table.11	35921.7
+MH0351_GL0072984  [gene]  locus=scaffold45948_2:12376:14103:- [Complete] codon-table.11	4448.09
+MH0354_GL0078014  [gene]  locus=C1109777_1:5992:7389:+ [Complete] codon-table.11	17968.8
+MH0355_GL0148797  [gene]  locus=scaffold18455_64:275:976:+ [Complete] codon-table.11	90825.6
+MH0356_GL0152792  [gene]  locus=scaffold19610_3:1:705:+ [Lack 5'-end] codon-table.11	10119.3
+MH0358_GL0026334  [gene]  locus=scaffold27265_15:8205:10508:+ [Complete] codon-table.11	26912.6
+MH0358_GL0033673  [gene]  locus=scaffold44751_3:16416:16673:+ [Complete] codon-table.11	6433.9
+MH0361_GL0045501  [gene]  locus=scaffold1141_5:351:1958:- [Complete] codon-table.11	492231
+MH0362_GL0054677  [gene]  locus=scaffold92284_2:471:1661:+ [Complete] codon-table.11	3242.89
+MH0365_GL0135523  [gene]  locus=scaffold54625_9:2:838:+ [Lack both ends] codon-table.11	22587.3
+MH0367_GL0050854  [gene]  locus=scaffold85351_2:3:2165:+ [Lack 5'-end] codon-table.11	65223.4
+MH0369_GL0026310  [gene]  locus=scaffold128997_2:3950:5269:- [Complete] codon-table.11	4064.69
+MH0370_GL0021527  [gene]  locus=scaffold87598_1:138:1967:+ [Complete] codon-table.11	6742.93
+MH0370_GL0029760  [gene]  locus=scaffold87499_1:1334:2758:+ [Complete] codon-table.11	17051.1
+MH0371_GL0087622  [gene]  locus=scaffold50606_4:2:1222:+ [Lack 5'-end] codon-table.11	10197.3
+MH0372_GL0033251  [gene]  locus=scaffold27170_9:1809:3353:- [Complete] codon-table.11	23396.4
+MH0372_GL0043015  [gene]  locus=scaffold80949_2:2174:3628:- [Complete] codon-table.11	28222
+MH0373_GL0050012  [gene]  locus=scaffold26856_4:295:1011:+ [Lack 3'-end] codon-table.11	44244.9
+MH0373_GL0112954  [gene]  locus=scaffold34309_4:2476:4569:+ [Complete] codon-table.11	13176.1
+MH0373_GL0116967  [gene]  locus=scaffold58922_2:697:1719:- [Complete] codon-table.11	10800.2
+MH0376_GL0120645  [gene]  locus=scaffold94997_1:8094:9095:- [Complete] codon-table.11	318177
+MH0377_GL0162010  [gene]  locus=scaffold72728_5:3650:4159:+ [Complete] codon-table.11	70256
+MH0378_GL0156280  [gene]  locus=scaffold95535_1:1:771:- [Lack both ends] codon-table.11	10929.4
+MH0381_GL0041614  [gene]  locus=scaffold44555_3:22224:24860:- [Complete] codon-table.11	88124.9
+MH0381_GL0118587  [gene]  locus=scaffold66542_1:3:1802:+ [Lack 5'-end] codon-table.11	151080
+MH0385_GL0030117  [gene]  locus=C1778906_1:116:1327:- [Lack 5'-end] codon-table.11	147443
+MH0385_GL0116243  [gene]  locus=scaffold104423_2:1171:1920:+ [Complete] codon-table.11	9287.82
+MH0385_GL0121908  [gene]  locus=scaffold8683_2:301:675:+ [Complete] codon-table.11	18951.8
+MH0385_GL0206702  [gene]  locus=scaffold124732_1:1128:3749:- [Complete] codon-table.11	217542
+MH0389_GL0025499  [gene]  locus=scaffold117422_1:4746:6836:- [Complete] codon-table.11	33503.1
+MH0389_GL0029301  [gene]  locus=scaffold13915_4:92:382:+ [Complete] codon-table.11	2554.91
+MH0389_GL0063168  [gene]  locus=scaffold40641_5:2038:2295:- [Complete] codon-table.11	7002.12
+MH0389_GL0130251  [gene]  locus=scaffold118556_1:6443:6964:- [Complete] codon-table.11	32418.2
+MH0389_GL0142223  [gene]  locus=scaffold1117_2:3914:5953:+ [Complete] codon-table.11	15760.4
+MH0389_GL0154539  [gene]  locus=scaffold109700_1:1267:1998:+ [Lack 3'-end] codon-table.11	7257.41
+MH0389_GL0174798  [gene]  locus=scaffold56763_2:592:4416:+ [Complete] codon-table.11	99095.8
+MH0390_GL0033768  [gene]  locus=scaffold55362_1:1:1119:+ [Lack 5'-end] codon-table.11	2335.75
+MH0390_GL0125747  [gene]  locus=scaffold69887_2:1:555:+ [Lack both ends] codon-table.11	6920.99
+MH0393_GL0083918  [gene]  locus=scaffold11007_2:3:869:- [Lack both ends] codon-table.11	13590.8
+MH0402_GL0025865  [gene]  locus=scaffold55774_20:5254:6702:+ [Lack 3'-end] codon-table.11	9636
+MH0402_GL0168365  [gene]  locus=scaffold88437_1:109:948:- [Complete] codon-table.11	6485.21
+MH0406_GL0147645  [gene]  locus=scaffold66760_4:2:826:+ [Lack 5'-end] codon-table.11	21526
+MH0406_GL0176763  [gene]  locus=scaffold32739_2:3:683:- [Lack both ends] codon-table.11	2361.62
+MH0407_GL0040794  [gene]  locus=scaffold18621_8:212:3301:+ [Complete] codon-table.11	40454.7
+MH0407_GL0127135  [gene]  locus=scaffold39803_3:6517:9774:- [Complete] codon-table.11	6860.38
+MH0408_GL0013184  [gene]  locus=scaffold17800_1:21:233:+ [Complete] codon-table.11	81023.5
+MH0409_GL0027800  [gene]  locus=scaffold30802_2:1498:2244:+ [Complete] codon-table.11	14035.3
+MH0409_GL0082970  [gene]  locus=scaffold2631_15:1833:2795:+ [Lack 3'-end] codon-table.11	22429.2
+MH0412_GL0094349  [gene]  locus=scaffold97694_2:37055:38569:+ [Complete] codon-table.11	15306.6
+MH0412_GL0096195  [gene]  locus=scaffold70983_2:14229:14627:+ [Complete] codon-table.11	54740.9
+MH0413_GL0200687  [gene]  locus=scaffold31175_1:1356:2678:- [Complete] codon-table.11	12978.8
+MH0414_GL0038383  [gene]  locus=scaffold41945_1:1:330:- [Lack 3'-end] codon-table.11	41013.3
+MH0415_GL0240971  [gene]  locus=scaffold132678_4:82788:86489:- [Complete] codon-table.11	60342.9
+MH0421_GL0021620  [gene]  locus=scaffold140292_1:682:1299:+ [Complete] codon-table.11	13955.9
+MH0421_GL0080121  [gene]  locus=scaffold150013_2:2:958:- [Lack 3'-end] codon-table.11	19145.7
+MH0422_GL0145500  [gene]  locus=scaffold64184_7:524:949:+ [Complete] codon-table.11	52804
+MH0424_GL0104348  [gene]  locus=scaffold24449_1:13876:14658:+ [Complete] codon-table.11	69024.2
+MH0430_GL0056455  [gene]  locus=scaffold4018_1:856:3435:- [Complete] codon-table.11	12392.9
+MH0431_GL0151069  [gene]  locus=scaffold56776_2:39265:40620:- [Complete] codon-table.11	32924.5
+MH0432_GL0032032  [gene]  locus=scaffold579_2:3:1316:+ [Lack 5'-end] codon-table.11	36844.8
+MH0433_GL0173376  [gene]  locus=scaffold61490_6:441:1466:+ [Complete] codon-table.11	33011.8
+MH0433_GL0213379  [gene]  locus=scaffold16498_5:552:2177:- [Complete] codon-table.11	30703.5
+MH0433_GL0227617  [gene]  locus=scaffold1139_2:151:1350:+ [Lack 3'-end] codon-table.11	4569.45
+MH0434_GL0080937  [gene]  locus=scaffold76263_12:10512:10859:- [Complete] codon-table.11	26275.1
+MH0434_GL0217453  [gene]  locus=scaffold76079_4:1:543:- [Lack both ends] codon-table.11	87162
+MH0437_GL0149308  [gene]  locus=scaffold91845_9_1:15232:18006:+ [Complete] codon-table.11	15942.6
+MH0437_GL0266761  [gene]  locus=scaffold6939_2:1085:3607:- [Complete] codon-table.11	6695.19
+MH0438_GL0184626  [gene]  locus=scaffold141784_2:6566:7489:+ [Complete] codon-table.11	48846
+MH0439_GL0140099  [gene]  locus=scaffold65061_2:13742:14947:- [Complete] codon-table.11	79126.8
+MH0442_GL0171854  [gene]  locus=scaffold142164_1:518:2449:+ [Complete] codon-table.11	16196.5
+MH0445_GL0073145  [gene]  locus=C1678367_1:1:543:- [Lack both ends] codon-table.11	4876.17
+MH0448_GL0015869  [gene]  locus=scaffold178940_2:286:1452:+ [Complete] codon-table.11	71583.6
+MH0448_GL0107970  [gene]  locus=scaffold112246_14:2396:3589:+ [Complete] codon-table.11	23208.9
+MH0456_GL0115094  [gene]  locus=scaffold31881_5:1554:2900:- [Lack 5'-end] codon-table.11	101072
+MH0457_GL0265018  [gene]  locus=scaffold172861_1:2744:4672:+ [Complete] codon-table.11	149074
+MH0458_GL0182669  [gene]  locus=scaffold11737_1:3:2831:+ [Lack 5'-end] codon-table.11	48638.3
+N013A_GL0045648  [gene]  locus=scaffold59469_1:5039:6394:+ [Complete] codon-table.11	8176.84
+N037A_GL0039670  [gene]  locus=scaffold64774_4:1589:2587:+ [Complete] codon-table.11	51215.1
+N042A_GL0053817  [gene]  locus=scaffold9989_8:2:1852:+ [Lack both ends] codon-table.11	2103.41
+N047A_GL0082718  [gene]  locus=scaffold16829_1:3:629:+ [Lack both ends] codon-table.11	10382.3
+N056A_GL0035389  [gene]  locus=scaffold30873_1:2:2623:+ [Lack both ends] codon-table.11	48358.9
+N075A_GL0045434  [gene]  locus=scaffold58069_1:31041:32744:+ [Complete] codon-table.11	30819.7
+N083A_GL0014387  [gene]  locus=scaffold37881_5:423:971:+ [Lack 3'-end] codon-table.11	134140
+N085A_GL0063783  [gene]  locus=scaffold31864_1:65431:67551:+ [Complete] codon-table.11	36473.6
+N087A_GL0036390  [gene]  locus=scaffold16724_4:3:179:- [Lack 3'-end] codon-table.11	10788
+N103A_GL0062765  [gene]  locus=scaffold880_3:1:1335:- [Lack both ends] codon-table.11	5749.02
+NLF002_GL0035223  [gene]  locus=scaffold15474_15:2470:3759:- [Complete] codon-table.11	188115
+NLF005_GL0042379  [gene]  locus=scaffold1430_1:1335:2741:+ [Complete] codon-table.11	1714.5
+NLF007_GL0039190  [gene]  locus=scaffold8041_2:2:439:+ [Lack 5'-end] codon-table.11	15577.8
+NLF007_GL0074228  [gene]  locus=scaffold2130_11:1:711:- [Lack both ends] codon-table.11	50530.5
+NLM022_GL0077515  [gene]  locus=scaffold34328_1:125:592:- [Complete] codon-table.11	74114
+NLM026_GL0105071  [gene]  locus=scaffold75453_1:71536:71976:- [Complete] codon-table.11	4221.52
+NLM027_GL0076654  [gene]  locus=scaffold17706_6:678:2063:+ [Lack 3'-end] codon-table.11	4901.13
+NLM031_GL0025221  [gene]  locus=scaffold6775_4:5605:6264:- [Lack 5'-end] codon-table.11	166601
+NLM031_GL0047477  [gene]  locus=scaffold73_2:4302:5276:+ [Complete] codon-table.11	166133
+NLM031_GL0097197  [gene]  locus=scaffold8839_5:2079:2525:- [Complete] codon-table.11	7592.2
+NLM032_GL0042211  [gene]  locus=scaffold40471_1:3:1007:+ [Lack both ends] codon-table.11	5583.11
+NOF010_GL0020186  [gene]  locus=scaffold31144_9:9533:10819:+ [Complete] codon-table.11	50864.7
+NOF013_GL0054476  [gene]  locus=scaffold73_15:848:1882:+ [Complete] codon-table.11	35903.5
+NOF013_GL0069648  [gene]  locus=scaffold16332_1:19979:22459:- [Complete] codon-table.11	21554.3
+NOF013_GL0079114  [gene]  locus=scaffold117_2:8796:10484:- [Complete] codon-table.11	26525
+NOM002_GL0026844  [gene]  locus=scaffold161_1:62097:63602:- [Complete] codon-table.11	10524.7
+NOM025_GL0058808  [gene]  locus=C314341_1:14:865:- [Lack 5'-end] codon-table.11	6222.43
+NOM026_GL0021166  [gene]  locus=scaffold561_3:257:1495:- [Complete] codon-table.11	13718.8
+O2.CD1-0-PT_GL0025396  [gene]  locus=scaffold38686_1:21897:23297:+ [Complete] codon-table.11	12561.3
+O2.CD1-0-PT_GL0040017  [gene]  locus=scaffold37187_2:3203:4537:- [Complete] codon-table.11	822042
+O2.CD2-0_GL0019958  [gene]  locus=scaffold22829_4:68:820:- [Lack 5'-end] codon-table.11	1447.56
+O2.CD3-0-PT_GL0064000  [gene]  locus=scaffold24092_1:3016:4671:- [Lack 5'-end] codon-table.11	143664
+O2.CD3-0-PT_GL0107880  [gene]  locus=scaffold157_1:962:1594:+ [Complete] codon-table.11	33340.9
+O2.CD3-0-PT_GL0115878  [gene]  locus=scaffold78670_1:949:2013:- [Complete] codon-table.11	10750.9
+O2.CD3-0-PT_GL0160447  [gene]  locus=scaffold9643_2:1931:2809:+ [Lack 3'-end] codon-table.11	5297.5
+O2.CD3-0-PT_GL0171651  [gene]  locus=scaffold65255_1:3:1379:- [Lack 3'-end] codon-table.11	92139.2
+O2.CD3-0-PT_GL0189461  [gene]  locus=scaffold9536_2:7486:8223:- [Complete] codon-table.11	29157.1
+O2.UC1-0_GL0025713  [gene]  locus=scaffold9252_4:2:691:+ [Lack 5'-end] codon-table.11	10919.3
+O2.UC1-1_GL0131701  [gene]  locus=scaffold82711_1:31200:33155:+ [Complete] codon-table.11	12535.8
+O2.UC1-2_GL0017058  [gene]  locus=scaffold82159_2:3439:3630:- [Lack 5'-end] codon-table.11	34724.5
+O2.UC1-2_GL0162923  [gene]  locus=scaffold63816_2:606:1442:- [Complete] codon-table.11	5138.93
+O2.UC11-2_GL0001946  [gene]  locus=scaffold977_1:3:635:+ [Lack both ends] codon-table.11	326978
+O2.UC11-2_GL0030688  [gene]  locus=scaffold6013_5:2:1186:+ [Lack 5'-end] codon-table.11	8668.51
+O2.UC11-2_GL0032512  [gene]  locus=scaffold5696_9:6840:8399:- [Complete] codon-table.11	59783.7
+O2.UC12-1_GL0156190  [gene]  locus=scaffold857_1:305:1000:- [Lack 5'-end] codon-table.11	105240
+O2.UC12-2_GL0031978  [gene]  locus=scaffold65141_3:2:517:- [Lack both ends] codon-table.11	17897.1
+O2.UC14-1_GL0150373  [gene]  locus=scaffold6734_8:2:460:+ [Lack 5'-end] codon-table.11	58832.8
+O2.UC15-0_GL0002094  [gene]  locus=scaffold32150_7:11763:12281:- [Complete] codon-table.11	14527.3
+O2.UC15-0_GL0067565  [gene]  locus=scaffold5060_3:311:1699:- [Complete] codon-table.11	4649.73
+O2.UC15-2_GL0047446  [gene]  locus=scaffold56362_7:1:1311:+ [Lack 5'-end] codon-table.11	54434
+O2.UC16-1_GL0056008  [gene]  locus=scaffold88453_1:1418:3256:- [Complete] codon-table.11	72394
+O2.UC19-1_GL0020611  [gene]  locus=scaffold28245_1:37223:38803:+ [Complete] codon-table.11	25605.3
+O2.UC19-1_GL0085858  [gene]  locus=scaffold26485_1:6729:9701:+ [Complete] codon-table.11	25015.4
+O2.UC19-2_GL0006821  [gene]  locus=scaffold6127_4:203:889:- [Lack 5'-end] codon-table.11	14414.9
+O2.UC20-1_GL0070924  [gene]  locus=scaffold23194_5:496:966:+ [Complete] codon-table.11	113188
+O2.UC26-0_GL0053006  [gene]  locus=scaffold3007_2:3070:6489:+ [Complete] codon-table.11	31115.4
+O2.UC26-1_GL0012827  [gene]  locus=C257449_1:3:545:+ [Lack both ends] codon-table.11	30568.5
+O2.UC28-0_GL0177312  [gene]  locus=scaffold65304_3:2:730:+ [Lack 5'-end] codon-table.11	20290.3
+O2.UC30-0_GL0018369  [gene]  locus=scaffold40181_4:136:783:+ [Complete] codon-table.11	32536.6
+O2.UC30-1_GL0110213  [gene]  locus=scaffold2757_1:822:1211:+ [Lack 3'-end] codon-table.11	4379.55
+O2.UC30-1_GL0166449  [gene]  locus=scaffold64447_1:19190:20671:+ [Complete] codon-table.11	161085
+O2.UC31-0_GL0061897  [gene]  locus=scaffold19473_8:3:464:- [Lack 3'-end] codon-table.11	5834.89
+O2.UC31-2_GL0055008  [gene]  locus=scaffold82536_2:3:884:- [Lack 3'-end] codon-table.11	5664.6
+O2.UC31-2_GL0087171  [gene]  locus=scaffold5663_1:3:827:+ [Lack both ends] codon-table.11	63622.4
+O2.UC32-1_GL0136691  [gene]  locus=scaffold20400_1:122:1324:+ [Complete] codon-table.11	17122.2
+O2.UC35-0_GL0052172  [gene]  locus=scaffold27738_1:2:640:+ [Lack 5'-end] codon-table.11	19304.4
+O2.UC36-0_GL0035328  [gene]  locus=scaffold47791_1:3:842:+ [Lack 5'-end] codon-table.11	22642.5
+O2.UC36-0_GL0164929  [gene]  locus=scaffold73327_1:226:1101:+ [Complete] codon-table.11	14316.6
+O2.UC37-0_GL0035042  [gene]  locus=scaffold33152_3:45:1079:- [Lack 5'-end] codon-table.11	16628.5
+O2.UC4-2_GL0090005  [gene]  locus=scaffold56944_3:857:1201:- [Lack 5'-end] codon-table.11	20390.6
+O2.UC40-1_GL0085028  [gene]  locus=scaffold34768_5:428:571:- [Lack 5'-end] codon-table.11	8435.55
+O2.UC41-1_GL0179726  [gene]  locus=scaffold44543_1:10814:11914:- [Complete] codon-table.11	10823.4
+O2.UC41-1_GL0201535  [gene]  locus=scaffold759_1:52158:53645:- [Complete] codon-table.11	5304.92
+O2.UC44-2_GL0124520  [gene]  locus=scaffold128039_3:7615:8040:+ [Complete] codon-table.11	3008.49
+O2.UC46-1_GL0055169  [gene]  locus=scaffold31283_1:117:1112:+ [Complete] codon-table.11	137907
+O2.UC47-2_GL0070787  [gene]  locus=scaffold88929_1:246:1034:+ [Lack 3'-end] codon-table.11	22883.4
+O2.UC47-2_GL0084279  [gene]  locus=scaffold28917_11:870:3122:+ [Complete] codon-table.11	416547
+O2.UC48-0_GL0016850  [gene]  locus=C1983239_1:178:771:- [Lack 5'-end] codon-table.11	118666
+O2.UC48-0_GL0026589  [gene]  locus=scaffold58230_15:1379:2599:+ [Complete] codon-table.11	18386.2
+O2.UC48-0_GL0067553  [gene]  locus=scaffold8660_1:1008:2018:+ [Complete] codon-table.11	1.4024e+06
+O2.UC48-0_GL0194480  [gene]  locus=scaffold46303_16:4742:5920:+ [Complete] codon-table.11	26673.9
+O2.UC48-0_GL0229333  [gene]  locus=scaffold95831_2:933:1892:- [Lack 5'-end] codon-table.11	107657
+O2.UC48-1_GL0066693  [gene]  locus=scaffold807_8:2:1423:+ [Lack 5'-end] codon-table.11	9015.73
+O2.UC48-1_GL0138538  [gene]  locus=scaffold48939_1:1:504:- [Lack 3'-end] codon-table.11	16290.9
+O2.UC48-1_GL0231303  [gene]  locus=scaffold60979_1:3:413:+ [Lack 5'-end] codon-table.11	464205
+O2.UC49-0_GL0126417  [gene]  locus=scaffold5427_12:2311:3324:- [Complete] codon-table.11	4148.67
+O2.UC53-0_GL0121379  [gene]  locus=scaffold26227_1:2241:3575:+ [Complete] codon-table.11	157633
+O2.UC53-0_GL0250574  [gene]  locus=scaffold4411_10:1111:1488:- [Lack 5'-end] codon-table.11	11686.2
+O2.UC54-0_GL0038963  [gene]  locus=scaffold62400_1:229:1119:+ [Lack 3'-end] codon-table.11	146380
+O2.UC54-0_GL0073016  [gene]  locus=scaffold7919_8:3:1292:+ [Lack 5'-end] codon-table.11	2818.43
+O2.UC57-2_GL0024171  [gene]  locus=scaffold412_1:631:1656:- [Complete] codon-table.11	2767.47
+O2.UC58-0_GL0077866  [gene]  locus=scaffold53845_9:868:1119:+ [Complete] codon-table.11	6789.36
+O2.UC59-2_GL0054788  [gene]  locus=scaffold8998_6:7973:9085:+ [Complete] codon-table.11	53903.2
+O2.UC60-0_GL0127173  [gene]  locus=scaffold107957_2:1:1002:- [Lack both ends] codon-table.11	46927
+O2.UC7-1_GL0032402  [gene]  locus=scaffold20375_1:25996:27078:+ [Complete] codon-table.11	37069
+O2.UC8-2_GL0036959  [gene]  locus=scaffold29584_5:231:1061:+ [Complete] codon-table.11	6916.24
+SZEY-103A_GL0074872  [gene]  locus=scaffold49884_1:3:1661:+ [Lack 5'-end] codon-table.11	13037.1
+SZEY-10A_GL0053902  [gene]  locus=scaffold2590_13:1777:2517:- [Complete] codon-table.11	5679.47
+SZEY-39A_GL0038601  [gene]  locus=scaffold32813_2:579:3326:- [Complete] codon-table.11	6415.76
+SZEY-39A_GL0071586  [gene]  locus=scaffold11122_1:37724:39217:+ [Complete] codon-table.11	9728.52
+SZEY-41A_GL0005116  [gene]  locus=scaffold18605_3:7400:8170:- [Lack 5'-end] codon-table.11	264849
+SZEY-78A_GL0051543  [gene]  locus=scaffold8780_7:224:811:+ [Complete] codon-table.11	5625.19
+SZEY-97A_GL0059457  [gene]  locus=scaffold31668_2:829:2760:+ [Complete] codon-table.11	435441
+T2D-106A_GL0068179  [gene]  locus=scaffold30378_6:1:594:+ [Lack both ends] codon-table.11	4970.57
+T2D-107A_GL0011039  [gene]  locus=scaffold68535_1:4283:5677:- [Complete] codon-table.11	13691
+T2D-107A_GL0032354  [gene]  locus=scaffold35611_8:2:2476:+ [Lack 5'-end] codon-table.11	672403
+T2D-10A_GL0084588  [gene]  locus=scaffold6103_2:226:798:- [Complete] codon-table.11	13518
+T2D-118A_GL0013346  [gene]  locus=scaffold9806_4:2:250:+ [Lack 5'-end] codon-table.11	12812.7
+T2D-11A_GL0016640  [gene]  locus=scaffold147_14:1800:3308:- [Complete] codon-table.11	49704.8
+T2D-11A_GL0017526  [gene]  locus=scaffold52170_1:1:1050:- [Lack 3'-end] codon-table.11	5699.47
+T2D-11A_GL0159105  [gene]  locus=scaffold61490_1:8:385:- [Complete] codon-table.11	566923
+T2D-123A_GL0023222  [gene]  locus=scaffold24425_1:179:1294:- [Complete] codon-table.11	44239.2
+T2D-123A_GL0138790  [gene]  locus=scaffold19857_3:734:1993:- [Complete] codon-table.11	30378.2
+T2D-135A_GL0085761  [gene]  locus=scaffold47830_1:49179:51464:+ [Complete] codon-table.11	16228.4
+T2D-135A_GL0119532  [gene]  locus=scaffold41848_1:1341:3551:- [Lack 5'-end] codon-table.11	17818.3
+T2D-140A_GL0094866  [gene]  locus=C762853_1:1:765:- [Lack both ends] codon-table.11	10665
+T2D-140A_GL0097992  [gene]  locus=scaffold29999_3:931:1374:- [Lack 5'-end] codon-table.11	19088.7
+T2D-146A_GL0061511  [gene]  locus=scaffold20765_1:5832:7682:+ [Complete] codon-table.11	12955.7
+T2D-14A_GL0076289  [gene]  locus=scaffold48826_1:6881:8530:- [Complete] codon-table.11	116929
+T2D-155A_GL0006484  [gene]  locus=scaffold31716_2:1194:2222:- [Complete] codon-table.11	266203
+T2D-15A_GL0140265  [gene]  locus=scaffold74731_2:3:1514:- [Lack both ends] codon-table.11	4035.14
+T2D-163A_GL0074891  [gene]  locus=scaffold14924_1:41640:42410:+ [Lack 3'-end] codon-table.11	4529.33
+T2D-19A_GL0112307  [gene]  locus=scaffold7059_4:345:1268:- [Complete] codon-table.11	58700
+T2D-29A_GL0087222  [gene]  locus=scaffold24600_5:2:877:+ [Lack both ends] codon-table.11	11391.3
+T2D-2A_GL0042169  [gene]  locus=scaffold14499_1:2:682:- [Lack both ends] codon-table.11	3952.64
+T2D-31A_GL0068466  [gene]  locus=scaffold33525_3:41:829:+ [Lack 3'-end] codon-table.11	55001.5
+T2D-31A_GL0076719  [gene]  locus=scaffold30865_1:89728:90939:+ [Complete] codon-table.11	48611.1
+T2D-33A_GL0090503  [gene]  locus=scaffold6372_3:45352:46635:+ [Complete] codon-table.11	34532.4
+T2D-33A_GL0119486  [gene]  locus=scaffold59439_1:9071:10363:- [Complete] codon-table.11	22284.4
+T2D-45A_GL0141028  [gene]  locus=scaffold20076_3:531:2255:- [Lack 5'-end] codon-table.11	17880.8
+T2D-45A_GL0146717  [gene]  locus=scaffold26083_1:371:766:- [Lack 5'-end] codon-table.11	44370.8
+T2D-47A_GL0144718  [gene]  locus=scaffold28318_4:286:852:- [Lack 5'-end] codon-table.11	86124.5
+T2D-49A_GL0055834  [gene]  locus=scaffold6378_3:3:2552:+ [Lack 5'-end] codon-table.11	4940.81
+T2D-51A_GL0053560  [gene]  locus=C1065656_1:87:1436:- [Complete] codon-table.11	11691.8
+T2D-51A_GL0153538  [gene]  locus=scaffold31800_5:95:679:+ [Complete] codon-table.11	702261
+T2D-57A_GL0056046  [gene]  locus=scaffold49359_1:3:200:+ [Lack 5'-end] codon-table.11	12365.8
+T2D-62A_GL0016915  [gene]  locus=scaffold6398_1:219:2330:- [Complete] codon-table.11	27407.1
+T2D-62A_GL0036996  [gene]  locus=scaffold1151_15:6046:7167:+ [Complete] codon-table.11	2676.97
+T2D-63A_GL0011150  [gene]  locus=scaffold33559_1:259:750:+ [Lack 3'-end] codon-table.11	93349.6
+T2D-68A_GL0003999  [gene]  locus=scaffold34468_1:77476:79575:+ [Complete] codon-table.11	7610.08
+T2D-76A_GL0031068  [gene]  locus=scaffold23959_1:131:682:- [Lack 5'-end] codon-table.11	12420.1
+T2D-87A_GL0024570  [gene]  locus=scaffold38715_1:29292:30779:+ [Complete] codon-table.11	15595.3
+T2D-8A_GL0019548  [gene]  locus=scaffold40477_1:23844:25244:+ [Complete] codon-table.11	25031
+T2D-8A_GL0076399  [gene]  locus=scaffold16844_2:3:1664:- [Lack 3'-end] codon-table.11	19466.4
+V1.CD1-0-PN_GL0124215  [gene]  locus=scaffold12634_1:285:1304:- [Complete] codon-table.11	26480.6
+V1.CD15-3_GL0046367  [gene]  locus=scaffold50005_1:2942:3712:- [Complete] codon-table.11	18832.8
+V1.CD15-3_GL0105671  [gene]  locus=scaffold27047_2:3442:5694:- [Complete] codon-table.11	9099.79
+V1.CD16-0_GL0066099  [gene]  locus=scaffold77224_4:6615:6851:- [Lack 5'-end] codon-table.11	13280.8
+V1.CD17-4_GL0074442  [gene]  locus=scaffold31318_2:15149:16258:- [Complete] codon-table.11	15819.2
+V1.CD18-3_GL0001732  [gene]  locus=scaffold12343_2:1608:3713:+ [Complete] codon-table.11	27937.2
+V1.CD20-4_GL0090266  [gene]  locus=scaffold68012_1:33:923:- [Lack 5'-end] codon-table.11	11704.1
+V1.CD20-4_GL0113357  [gene]  locus=scaffold69221_1:4542:5726:- [Complete] codon-table.11	7461.37
+V1.CD21-0_GL0032301  [gene]  locus=scaffold10_5:4288:5847:- [Complete] codon-table.11	11824
+V1.CD21-0_GL0043370  [gene]  locus=scaffold21790_1:2:1123:- [Lack 3'-end] codon-table.11	67594.8
+V1.CD21-0_GL0063243  [gene]  locus=scaffold5274_3:463:1785:- [Complete] codon-table.11	46783.8
+V1.CD22-0_GL0140481  [gene]  locus=scaffold97207_1:401:1507:- [Complete] codon-table.11	3732.43
+V1.CD25-0_GL0078316  [gene]  locus=scaffold3575_24:180:1304:- [Complete] codon-table.11	3097.75
+V1.CD3-0-PN_GL0040984  [gene]  locus=scaffold14110_3:1:957:- [Lack 3'-end] codon-table.11	7587.46
+V1.CD3-0-PN_GL0042405  [gene]  locus=scaffold39053_4:3:1835:+ [Lack both ends] codon-table.11	12340.9
+V1.CD3-0-PN_GL0056499  [gene]  locus=scaffold41914_3:37837:40077:- [Complete] codon-table.11	18572.7
+V1.CD3-0-PN_GL0090600  [gene]  locus=scaffold39005_4:996:1532:+ [Lack 3'-end] codon-table.11	15397.8
+V1.CD3-0-PN_GL0107865  [gene]  locus=scaffold46956_2:105:515:+ [Lack 3'-end] codon-table.11	14168.7
+V1.CD3-0-PN_GL0126652  [gene]  locus=scaffold48540_2:5493:6812:+ [Complete] codon-table.11	12202.6
+V1.CD3-0-PT_GL0058972  [gene]  locus=scaffold261_6:174728:176266:+ [Complete] codon-table.11	28201.5
+V1.CD3-0-PT_GL0063334  [gene]  locus=scaffold15026_3:26615:27553:- [Complete] codon-table.11	12699.5
+V1.CD32-4_GL0115466  [gene]  locus=scaffold20189_9:9509:12169:- [Complete] codon-table.11	101591
+V1.CD38-0_GL0060643  [gene]  locus=scaffold93087_1:26108:29800:- [Complete] codon-table.11	56059.9
+V1.CD4-0-PN_GL0157440  [gene]  locus=scaffold84880_1:9615:11219:- [Complete] codon-table.11	52099.6
+V1.CD46-0_GL0033514  [gene]  locus=scaffold3383_14:3906:4952:+ [Complete] codon-table.11	10714.4
+V1.CD46-0_GL0114986  [gene]  locus=scaffold25550_1:3:629:+ [Lack 5'-end] codon-table.11	50375.2
+V1.CD49-0_GL0005458  [gene]  locus=scaffold67268_2:3:1304:+ [Lack both ends] codon-table.11	118218
+V1.CD52-0_GL0142355  [gene]  locus=scaffold48353_2:1018:1386:+ [Complete] codon-table.11	10627.3
+V1.CD54-0_GL0041206  [gene]  locus=C642935_1:3:1691:+ [Lack 5'-end] codon-table.11	179089
+V1.CD54-0_GL0104492  [gene]  locus=scaffold48009_1:7692:10889:- [Complete] codon-table.11	8491.08
+V1.CD54-0_GL0126661  [gene]  locus=scaffold40961_1:339550:340695:- [Complete] codon-table.11	58325
+V1.CD55-0_GL0075271  [gene]  locus=scaffold129266_1:27:542:- [Lack 5'-end] codon-table.11	5636.52
+V1.CD55-0_GL0162064  [gene]  locus=scaffold148312_1:51500:53092:- [Complete] codon-table.11	16309.8
+V1.CD6-0-PN_GL0010683  [gene]  locus=scaffold51399_2:10355:11380:- [Complete] codon-table.11	215426
+V1.CD6-0-PN_GL0116224  [gene]  locus=scaffold5629_2:2:625:+ [Lack both ends] codon-table.11	56964.9
+V1.CD6-0-PT_GL0119813  [gene]  locus=scaffold43384_2:1:1110:- [Lack both ends] codon-table.11	11698.4
+V1.CD6-0-PT_GL0198958  [gene]  locus=scaffold22785_1:28241:30799:- [Complete] codon-table.11	39749.3
+V1.CD6-4_GL0133420  [gene]  locus=scaffold79542_1:10578:11510:- [Complete] codon-table.11	21534.5
+V1.CD7-0-PN_GL0036778  [gene]  locus=scaffold22411_2:52505:54631:+ [Complete] codon-table.11	3609.98
+V1.CD7-0-PN_GL0043943  [gene]  locus=scaffold21230_2:32820:33302:+ [Complete] codon-table.11	9318.52
+V1.CD7-4_GL0053469  [gene]  locus=scaffold200_38:2033:3529:+ [Complete] codon-table.11	38774.1
+V1.CD7-4_GL0072878  [gene]  locus=scaffold11345_2:3704:4144:- [Complete] codon-table.11	26196
+V1.CD7-4_GL0090881  [gene]  locus=scaffold10923_3:1234:4392:+ [Complete] codon-table.11	4165.5
+V1.FI02_GL0099471  [gene]  locus=scaffold69993_1:201:6092:+ [Complete] codon-table.11	16148.7
+V1.FI05_GL0053724  [gene]  locus=scaffold9252_1:114:3692:- [Complete] codon-table.11	15659
+V1.FI05_GL0060428  [gene]  locus=scaffold39577_1:144855:148703:+ [Complete] codon-table.11	31893.9
+V1.FI07_GL0051232  [gene]  locus=scaffold27339_3:3689:3985:- [Complete] codon-table.11	121091
+V1.FI09_GL0189061  [gene]  locus=scaffold52135_9:618:1205:- [Lack 5'-end] codon-table.11	192704
+V1.FI12_GL0041124  [gene]  locus=scaffold56840_1:43:579:+ [Complete] codon-table.11	16162.4
+V1.FI14_GL0088842  [gene]  locus=scaffold23194_15:6731:9355:- [Complete] codon-table.11	108195
+V1.FI14_GL0179546  [gene]  locus=scaffold1919_4:19826:20269:- [Complete] codon-table.11	11204.4
+V1.FI17_GL0046395  [gene]  locus=scaffold94950_3:3:641:+ [Lack 5'-end] codon-table.11	69155.6
+V1.FI17_GL0059730  [gene]  locus=scaffold98353_1:1:738:+ [Lack 5'-end] codon-table.11	26424.3
+V1.FI17_GL0076740  [gene]  locus=scaffold88585_8:25670:26404:- [Complete] codon-table.11	233126
+V1.FI24_GL0031614  [gene]  locus=scaffold39233_5:2024:3550:- [Complete] codon-table.11	21347.3
+V1.FI24_GL0033041  [gene]  locus=scaffold17692_27:4147:4545:+ [Complete] codon-table.11	53185.7
+V1.FI25_GL0156514  [gene]  locus=scaffold82682_1:2313:3200:- [Lack 5'-end] codon-table.11	6749.92
+V1.FI28_GL0220650  [gene]  locus=scaffold78700_1:476:1411:- [Lack 5'-end] codon-table.11	33619.9
+V1.FI31_GL0008447  [gene]  locus=scaffold69936_2:2:559:+ [Lack 5'-end] codon-table.11	36382.4
+V1.FI33_GL0022502  [gene]  locus=scaffold172_1:293:1639:- [Complete] codon-table.11	19988.2
+V1.FI34_GL0136726  [gene]  locus=scaffold29282_7:1:1386:+ [Lack both ends] codon-table.11	117009
+V1.FI36_GL0094039  [gene]  locus=scaffold30920_3:93452:95536:- [Complete] codon-table.11	88782.2
+V1.FI36_GL0156545  [gene]  locus=scaffold348_1:32620:35850:+ [Complete] codon-table.11	44297.8
+V1.UC10-2_GL0070312  [gene]  locus=scaffold60_6:1:2874:+ [Lack 5'-end] codon-table.11	5308.27
+V1.UC11-0_GL0030916  [gene]  locus=scaffold54008_2:3956:4744:+ [Complete] codon-table.11	7993.31
+V1.UC11-5_GL0013869  [gene]  locus=scaffold3365_1:252:785:+ [Lack 3'-end] codon-table.11	60617.3
+V1.UC11-5_GL0076153  [gene]  locus=scaffold16127_4:204:767:+ [Complete] codon-table.11	3704.77
+V1.UC11-5_GL0187668  [gene]  locus=scaffold9962_13:10272:11663:+ [Complete] codon-table.11	119264
+V1.UC13-0_GL0035836  [gene]  locus=scaffold1585_7:881:1714:- [Complete] codon-table.11	120884
+V1.UC13-3_GL0117811  [gene]  locus=scaffold48980_1:2:652:- [Lack both ends] codon-table.11	12723.4
+V1.UC14-1_GL0081888  [gene]  locus=scaffold5687_1:1:1575:+ [Lack 5'-end] codon-table.11	74700
+V1.UC15-3_GL0110486  [gene]  locus=scaffold4808_18:3:749:+ [Lack both ends] codon-table.11	46442.5
+V1.UC15-3_GL0116846  [gene]  locus=scaffold57713_1:2:1150:+ [Lack both ends] codon-table.11	9544.63
+V1.UC16-0_GL0009562  [gene]  locus=scaffold4265_5:510:1562:+ [Lack 3'-end] codon-table.11	6713.15
+V1.UC16-0_GL0020775  [gene]  locus=scaffold852_7:290:838:- [Lack 5'-end] codon-table.11	25182.4
+V1.UC16-0_GL0067758  [gene]  locus=scaffold1026_2:3:425:+ [Lack 5'-end] codon-table.11	10563.4
+V1.UC17-2_GL0079076  [gene]  locus=scaffold24926_1:10468:11661:- [Complete] codon-table.11	63966.5
+V1.UC24-0_GL0002146  [gene]  locus=scaffold86987_3:2:658:+ [Lack both ends] codon-table.11	87650.2
+V1.UC25-0_GL0055143  [gene]  locus=scaffold16612_9:3:887:+ [Lack 5'-end] codon-table.11	42989.5
+V1.UC26-0_GL0155513  [gene]  locus=scaffold7473_4:2:691:- [Lack both ends] codon-table.11	23382.2
+V1.UC26-4_GL0136685  [gene]  locus=scaffold22366_2:16609:18468:+ [Complete] codon-table.11	32179.4
+V1.UC27-0_GL0117561  [gene]  locus=scaffold102666_1:2215:2433:+ [Lack 3'-end] codon-table.11	25539
+V1.UC34-0_GL0003452  [gene]  locus=scaffold13889_4:53631:54503:+ [Complete] codon-table.11	13282.9
+V1.UC34-0_GL0035774  [gene]  locus=C686342_1:702:902:+ [Lack 3'-end] codon-table.11	24168.1
+V1.UC34-0_GL0057212  [gene]  locus=scaffold12895_13:550:1350:+ [Lack 3'-end] codon-table.11	9353.9
+V1.UC4-0_GL0059678  [gene]  locus=scaffold29816_4:4225:7650:+ [Complete] codon-table.11	35071.2
+V1.UC4-5_GL0030814  [gene]  locus=scaffold23968_1:1:549:+ [Lack 5'-end] codon-table.11	14908.8
+V1.UC4-5_GL0090328  [gene]  locus=scaffold89155_4:1:549:+ [Lack 5'-end] codon-table.11	2282.39
+V1.UC47-4_GL0187740  [gene]  locus=scaffold112503_2:15860:17317:+ [Complete] codon-table.11	16144.3
+V1.UC50-1_GL0034110  [gene]  locus=scaffold65309_10:583:1959:- [Complete] codon-table.11	68086.7
+V1.UC50-1_GL0090363  [gene]  locus=scaffold645_2:6457:8184:+ [Lack 3'-end] codon-table.11	14953.7
+V1.UC52-0_GL0125727  [gene]  locus=scaffold118804_1:165:1085:- [Complete] codon-table.11	20032.1
+V1.UC52-0_GL0147636  [gene]  locus=scaffold39495_1:2756:4135:+ [Complete] codon-table.11	11950.1
+V1.UC52-1_GL0196554  [gene]  locus=scaffold42497_2:114:1028:- [Lack 5'-end] codon-table.11	8970.69
+V1.UC53-4_GL0068965  [gene]  locus=scaffold52172_1:1:414:- [Lack 3'-end] codon-table.11	21063.3
+V1.UC55-0_GL0212922  [gene]  locus=scaffold93464_2:194:640:+ [Complete] codon-table.11	12746.7
+V1.UC58-0_GL0004459  [gene]  locus=scaffold71849_2:1:585:- [Lack 3'-end] codon-table.11	47360.8
+V1.UC60-0_GL0052142  [gene]  locus=scaffold879_2:1:3867:+ [Lack 5'-end] codon-table.11	35711.8
+V1.UC8-0_GL0009569  [gene]  locus=C1233143_1:1:540:+ [Lack both ends] codon-table.11	7571.34
+V1.UC9-0_GL0020202  [gene]  locus=scaffold20772_2:3:1352:+ [Lack 5'-end] codon-table.11	6063.5

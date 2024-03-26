@@ -23,7 +23,7 @@ while (<LIB>) {
 	$line ++;
 	if ($line == 1) {
 		@head = split /\t/;
-		for $i (0..$#head) {
+		for my $i (0..$#head) {
 			if ($head[$i] eq "ProteinId") {
 				$proi = $i;
 			}

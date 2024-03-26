@@ -1,0 +1,2 @@
+Taxon	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium	1004406.42	976139.89	1046351.31	1597612.28	1734624.86	NA	1007856.39

@@ -1,0 +1,47 @@
+KEGGcat	b14_10	b14_20
+09101 Carbohydrate metabolism	2734103.45	3163382.58
+09102 Energy metabolism	354373.64	441377.15
+09103 Lipid metabolism	1521296.88	760779.31
+09104 Nucleotide metabolism	59127.92	35708.45
+09105 Amino acid metabolism	69688.82	34407.02
+09106 Metabolism of other amino acids	288615.71	182907.88
+09107 Glycan biosynthesis and metabolism	12085	14548.7
+09108 Metabolism of cofactors and vitamins	752472.63	743888.73
+09109 Metabolism of terpenoids and polyketides	8041.47	4788.8
+09111 Xenobiotics biodegradation and metabolism	229095.42	589532.95
+09121 Transcription	8635.91	NA
+09122 Translation	132858.16	26391.2
+09123 Folding, sorting and degradation	8635.91	NA
+09132 Signal transduction	10324097.91	9707130.73
+09133 Signaling molecules and interaction	1493577.91	342238.69
+09141 Transport and catabolism	8550708.76	8633783.88
+09142 Cell motility	26012.5	72484.33
+09143 Cell growth and death	168242.41	259429.8
+09144 Cellular community - eukaryotes	79366.99	143161.46
+09145 Cellular community - prokaryotes	51045.3	53503.8
+09149 Aging	8635.91	9079.13
+09151 Immune system	11375278.43	15705551.29
+09152 Endocrine system	1446087.34	1658180.02
+09153 Circulatory system	1009665.09	623095.89
+09154 Digestive system	21107207.11	29108977.58
+09155 Excretory system	41096.19	27737.24
+09156 Nervous system	14581.7	50018.27
+09157 Sensory system	20424.2	32500.92
+09158 Development and regeneration	NA	5924.41
+09159 Environmental adaptation	77562.3	131096.1
+09161 Cancer: overview	8603382.97	8864669.28
+09162 Cancer: specific types	814814	1118529.77
+09163 Immune disease	8387096.2	8107401.35
+09164 Neurodegenerative disease	497078.69	571968.18
+09165 Substance dependence	14581.7	31549.33
+09166 Cardiovascular disease	8820852.92	8810427.53
+09167 Endocrine and metabolic disease	8425614.21	8153570.4
+09171 Infectious disease: bacterial	8975547.28	8851833.4
+09172 Infectious disease: viral	9926319.52	8572924.18
+09174 Infectious disease: parasitic	9425091.11	9129690.21
+09176 Drug resistance: antineoplastic	3330.4	10013.1
+09181 Protein families: metabolism	20102025.04	29009149.77
+09182 Protein families: genetic information processing	12268698.43	10645737.12
+09183 Protein families: signaling and cellular processes	13278004.07	17249569.12
+09191 Unclassified: metabolism	15596.7	8132.75
+09193 Unclassified: signaling and cellular processes	1184516.7	820660.8

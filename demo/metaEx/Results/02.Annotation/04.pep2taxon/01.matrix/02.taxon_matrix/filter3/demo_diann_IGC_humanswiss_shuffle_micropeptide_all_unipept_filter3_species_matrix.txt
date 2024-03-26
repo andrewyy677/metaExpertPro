@@ -1,0 +1,9 @@
+Taxon_name	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella|s__Collinsella_aerofaciens	84109.56	191380.07	134244.46	63011.44	518196.33	NA	216680.97
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Agathobacter|s__Agathobacter_rectalis	29923.76	38062.89	167980.5	34990.41	60620.3	NA	55322.05
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Lachnospira|s__Lachnospira_eligens	33958.98	NA	NA	139378.269	52074.13	NA	102903.08
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Roseburia|s__Roseburia_faecis	NA	NA	NA	NA	NA	NA	24777.47
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium|s__Faecalibacterium_prausnitzii	136537.52	127089.27	80360.19	119505.74	209783.06	NA	154189.44
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_bromii	NA	NA	NA	33912.94	NA	NA	NA
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides|s__Bacteroides_uniformis	NA	NA	NA	276794.92	NA	8516.41	95645.38
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella|s__Segatella_copri	349748.17	840852.8	NA	772395.2	1248095.24	NA	198699.29

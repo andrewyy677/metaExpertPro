@@ -1,0 +1,3 @@
+Taxon	b14_24
+k__Bacteria|p__Bacillota|c__Clostridia	8295618.53
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	3110605.29

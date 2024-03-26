@@ -1,0 +1,8 @@
+Taxon	F3NL2582	F3NL0496	F3NL1002	F2NL4627	F2NL2504
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales	NA	555110.12	217987.57	214055.25	229355.29
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales	790600.7	938697.29	179481.24	1510276.11	NA
+k__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales	NA	NA	NA	104022.3	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales	11140454.04	6942527.68	18040025.709	11732622.43	3854965.011
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Acidaminococcales	430094.91	NA	NA	NA	NA
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Veillonellales	118352.2	300727.2	NA	NA	NA
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	8421593.32	7417450.07	2965914.6	5446734.605	1464174.62

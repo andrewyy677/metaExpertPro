@@ -1,0 +1,5 @@
+# FragPipe v20.0ui state cache
+
+path.file.out=/metaEx/Results/00.DDAspectrallib
+path.params.bins.in=/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher
+path.store.configs=/metaEx/Results/00.DDAspectrallib

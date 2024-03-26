@@ -1,0 +1,11 @@
+Taxon	b14_24
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales	384414.85
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales	646129.77
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Eggerthellales	14720.5
+k__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales	53185.7
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales	7908363.77
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Acidaminococcales	79339.87
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Veillonellales	49817.54
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2917567.32
+k__Bacteria|p__Thermodesulfobacteriota|c__Desulfovibrionia|o__Desulfovibrionales	27591.47
+k__Eukaryota|p__Streptophyta|c__Lycopodiopsida|o__Selaginellales	182527

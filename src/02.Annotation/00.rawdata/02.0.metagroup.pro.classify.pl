@@ -16,7 +16,7 @@ print STDERR "00.rawdata step2.0 \nparameters: $workdir\n$project\n$database\n$p
 
 
 open (PRO, "<$profile") or die $!;
-my $humanU = 0; my $microU = 0; my $contamU = 0; my $HMshared = 0; my $HCshared = 0; my $MCshared = 0; my @head; my $line = 0; my $proi;
+my $humanU = 0; my $microU = 0; my $contamU = 0; my $HMshared = 0; my $HCshared = 0; my $MCshared = 0; my @head; my $line = 0; my $proi; my $genei;
 my %protype; my %protype_sta;
 while (<PRO>) {
 	chomp; s/\r//g;
@@ -27,6 +27,9 @@ while (<PRO>) {
 			if ($head[$i] eq "Protein.Group") {
 				$proi = $i;
 			}
+			if ($head[$i] eq "Genes") {
+				$genei = $i;
+			}
 		}
 	}else{
 		my @data = split /\t/;
@@ -35,10 +38,10 @@ while (<PRO>) {
 			my $humanf = 0;
 			my $microf = 0;
 			my $contamf = 0;
-			if ($prosp =~ /Human/i) {
-				$humanf ++;
-			}elsif ($prosp =~ /^MAX/) {
+			if ($prosp =~ /^MAX/) {
 				$contamf ++;
+			}elsif (($prosp =~ /Human/i) or ($data[$genei] ne "")) {
+				$humanf ++;
 			}else{
 				$microf ++;
 			}

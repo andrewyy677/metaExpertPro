@@ -1,0 +1,14 @@
+Taxon_name	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales	107626.6	24644.8	555110.12	217987.57	214055.25	229355.29	384414.85
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales	226865.46	790600.7	938697.29	179481.24	1510276.11	1516.18	646129.77
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Eggerthellales	NA	NA	NA	12122.3	NA	NA	14720.5
+k__Bacteria|p__Bacillota|c__Bacilli|o__Lactobacillales	59195.9	97388.3	38399	265187	104022.3	104500	53185.7
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales	6462749.46000001	11140454.04	6942527.68	18040025.709	11732622.43	3854965.011	7908363.77
+k__Bacteria|p__Bacillota|c__Erysipelotrichia|o__Erysipelotrichales	NA	15930.8	NA	NA	NA	23388.6	NA
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Acidaminococcales	54684.7	430094.91	NA	NA	NA	NA	79339.87
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Selenomonadales	NA	NA	NA	NA	NA	1801.02	NA
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Veillonellales	27873.8	118352.2	300727.2	35797.39	21778.6	9502.6	49817.54
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2473677.53	8421593.32	7417450.07	2965914.6	5446734.605	1464174.62	2917567.32
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales	NA	NA	64082.4	NA	NA	NA	NA
+k__Bacteria|p__Thermodesulfobacteriota|c__Desulfovibrionia|o__Desulfovibrionales	NA	44198.2	11521.34	47073.3	36086.5	NA	27591.47
+k__Eukaryota|p__Streptophyta|c__Lycopodiopsida|o__Selaginellales	174170	265270	252838	109676	621533	125601	182527

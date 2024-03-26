@@ -16,7 +16,7 @@ print STDERR "00.rawdata step3.0 \nparameters: $workdir\n$project\n$database\n$p
 
 open (PEP, "<$pepfile") or die $!;
 my %protype; my %protype_sta; my %pep2procomb; my %count;
-my @head; my $line = 0; my $proi; my $pepi;
+my @head; my $line = 0; my $proi; my $pepi; my $genei;
 while (<PEP>) {
 	chomp; s/\r//g;
 	$line ++;
@@ -29,6 +29,9 @@ while (<PEP>) {
 			if ($head[$i] eq "Stripped.Sequence") {
 				$pepi = $i;
 			}
+			if ($head[$i] eq "Genes") {
+				$genei = $i;
+			}
 		}
 	}else{
 		my @data = split /\t/;
@@ -40,10 +43,10 @@ while (<PEP>) {
 		my $microf = 0;
 		my $contamf = 0;
 		for my $prosp (@prosp) {
-			if ($prosp =~ /Human/i) {
-				$humanf ++;
-			}elsif ($prosp =~ /^MAX/) {
+			if ($prosp =~ /^MAX/) {
 				$contamf ++;
+			}elsif (($prosp =~ /Human/i) or ($data[$genei] ne "")) {
+				$humanf ++;
 			}else{
 				$microf ++;
 			}

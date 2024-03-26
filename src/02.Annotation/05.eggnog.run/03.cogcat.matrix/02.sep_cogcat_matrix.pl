@@ -15,10 +15,10 @@ if ($help==1) {
 print STDERR "05.eggnog.run step5.6.2 \nparameters: $project\n$workdir\n$database\n$filesample\n";
 
 open (SAM, "<$filesample") or die $!;
-my %batchID; my %sampleID; my %rep_lab; my %sam_lab;
+my %sampleID; my %rep_lab; my %sam_lab;
 my $line = 0;
 my @heads; my $filenamei; my $batchidi; my $samidi; my $replabi; my $samlabi;
-my $filetype;
+
 while (<SAM>) {
 	chomp; s/\r//g;
 	$line ++;
@@ -43,12 +43,10 @@ while (<SAM>) {
 		}
 	}else{
 		my @data = split /\,/;
-		my $filename = $data[$filenamei];
-		$filetype = (split /\./, $filename)[-1];
-		$batchID{$filename} = $data[$batchidi];
-		$sampleID{$filename} = $data[$samidi];
-		$rep_lab{$filename} = $data[$replabi];
-		$sam_lab{$filename} = $data[$samlabi];
+		my $batchID = $data[$batchidi];
+		$sampleID{$batchID} = $data[$samidi];
+		$rep_lab{$batchID} = $data[$replabi];
+		$sam_lab{$batchID} = $data[$samlabi];
 	}
 }
 
@@ -64,12 +62,12 @@ for my $dir (@dir) {
 			$type = $1; $taxon = $2;
 		}
 		open (IN, "<$file") or die $!;
-		open (BREP, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/biorep/$project\_diann1.8_$database\_$type\_$taxon\_biorep.txt") or die $!;
-		open (TREP, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/techrep/$project\_diann1.8_$database\_$type\_$taxon\_techrep.txt") or die $!;
-		open (POOL, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/pool/$project\_diann1.8_$database\_$type\_$taxon\_pool.txt") or die $!;
-		open (QC, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/qc/$project\_diann1.8_$database\_$type\_$taxon\_qc.txt") or die $!;
-		open (OUT, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/sample/$project\_diann1.8_$database\_$type\_$taxon\_sample.txt") or die $!;
-		open (ALL, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/all/$project\_diann1.8_$database\_$type\_$taxon\_all.txt") or die $!;
+		open (BREP, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/biorep/$project\_diann_$database\_$type\_$taxon\_biorep.txt") or die $!;
+		open (TREP, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/techrep/$project\_diann_$database\_$type\_$taxon\_techrep.txt") or die $!;
+		open (POOL, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/pool/$project\_diann_$database\_$type\_$taxon\_pool.txt") or die $!;
+		open (QC, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/qc/$project\_diann_$database\_$type\_$taxon\_qc.txt") or die $!;
+		open (OUT, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/sample/$project\_diann_$database\_$type\_$taxon\_sample.txt") or die $!;
+		open (ALL, ">$workdir/05.eggnog.run/03.cogcat.matrix/$dir/all/$project\_diann_$database\_$type\_$taxon\_all.txt") or die $!;
 		my $line = 0; my @head;
 		my @hsample; my @hall; my @hbiorep; my @htechrep; my @hpool; my @hqc;
 		my @samplei; my @alli; my @biorepi; my @techrepi; my @pooli; my @qci;

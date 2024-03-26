@@ -38,7 +38,7 @@ while (<TMP>) {
 		$filepre = $1;
 	}
 	my $type;
-	if ($path =~ /COGmatrix_all\/$project\_diann1.8_$database\_(.*)_all_cogmatrix.tsv/) {
+	if ($path =~ /COGmatrix_all\/$project\_diann_$database\_(.*)_all_cogmatrix.tsv/) {
 		$type = $1;
 	}
 	open (IN, "<$path") or die $!;

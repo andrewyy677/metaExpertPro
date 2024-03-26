@@ -1,0 +1,5 @@
+Taxon	b14_27
+k__Bacteria|p__Actinomycetota	334492.06
+k__Bacteria|p__Bacillota	7867472.37600001
+k__Bacteria|p__Bacteroidota	2726443.88
+k__Eukaryota|p__Streptophyta	174170

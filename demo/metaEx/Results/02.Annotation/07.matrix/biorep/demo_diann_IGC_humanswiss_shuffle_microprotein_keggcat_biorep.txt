@@ -1,0 +1,45 @@
+KEGGcat	b14_02	b14_21
+09101 Carbohydrate metabolism	19880117.95	6420433.39
+09102 Energy metabolism	15298957.66	6175959.11
+09103 Lipid metabolism	388395.41	260734.85
+09104 Nucleotide metabolism	2338927.07	988915.4
+09105 Amino acid metabolism	4509958.01	2272501.89
+09106 Metabolism of other amino acids	423243.96	303354.54
+09107 Glycan biosynthesis and metabolism	815656.72	294398.19
+09108 Metabolism of cofactors and vitamins	1347716.19	694443.81
+09109 Metabolism of terpenoids and polyketides	462177.46	140711.14
+09110 Biosynthesis of other secondary metabolites	1015929.77	377498.6
+09111 Xenobiotics biodegradation and metabolism	1405691.13	711571.06
+09121 Transcription	1308752.8	357377.57
+09122 Translation	8971587.71	4167331.87
+09123 Folding, sorting and degradation	3028364.35	798718
+09124 Replication and repair	57318.36	14229.36
+09131 Membrane transport	1109130.45	200498.9
+09132 Signal transduction	2209697.49	1467456.81
+09141 Transport and catabolism	94082.18	77311.13
+09142 Cell motility	1060934.25	920654.78
+09143 Cell growth and death	734937.3	324490.68
+09145 Cellular community - prokaryotes	536412.7	141712.49
+09149 Aging	2047561.45	638220.24
+09151 Immune system	204722.71	938538.16
+09152 Endocrine system	819014.4	151046.1
+09154 Digestive system	44726.6	3183.53
+09155 Excretory system	NA	7985.55
+09156 Nervous system	320748.1	242773
+09159 Environmental adaptation	3500607.61	4090794.95
+09161 Cancer: overview	602648.98	115441.56
+09162 Cancer: specific types	43798.1	22214.56
+09164 Neurodegenerative disease	720478.94	37690.48
+09166 Cardiovascular disease	1272406.69	209857.86
+09167 Endocrine and metabolic disease	720433.86	205252.79
+09171 Infectious disease: bacterial	2908108.2	1933898.59
+09174 Infectious disease: parasitic	154236	129394
+09175 Drug resistance: antimicrobial	15416.9	39462.95
+09176 Drug resistance: antineoplastic	17267.5	34764.42
+09181 Protein families: metabolism	3842810.7	873045.7
+09182 Protein families: genetic information processing	18787210.42	9078802.79
+09183 Protein families: signaling and cellular processes	11110608.88	6247850.24
+09191 Unclassified: metabolism	868516.82	520288.57
+09192 Unclassified: genetic information processing	210327.1	134185.86
+09193 Unclassified: signaling and cellular processes	59060.1	16200.99
+09194 Poorly characterized	73328.67	14891.19

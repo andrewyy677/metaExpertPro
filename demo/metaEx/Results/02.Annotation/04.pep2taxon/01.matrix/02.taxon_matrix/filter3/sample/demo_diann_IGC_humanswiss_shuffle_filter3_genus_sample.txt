@@ -1,0 +1,13 @@
+Taxon	F3NL2582	F3NL0496	F3NL1002	F2NL4627	F2NL2504
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales|f__Bifidobacteriaceae|g__Bifidobacterium	NA	185609.4	NA	52181.43	NA
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella	212252.77	146993.56	63011.44	553338.83	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Eubacteriaceae|g__Eubacterium	NA	NA	33000.78	NA	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Agathobacter	38062.89	167980.5	34990.41	60620.3	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia	691843.14	261750.96	2843708.74	656161.12	317193.45
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Lachnospira	NA	NA	139378.269	52074.13	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Roseburia	191612.62	NA	87649.1	94554.81	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium	976139.89	1046351.31	1597612.28	1734624.86	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Oscillibacter	107665.75	79359.9	419137	122139.5	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus	87133.93	NA	33912.94	NA	NA
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	NA	NA	322202.5	NA	93750.22
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella	969178.8	NA	772395.2	1270506.34	NA

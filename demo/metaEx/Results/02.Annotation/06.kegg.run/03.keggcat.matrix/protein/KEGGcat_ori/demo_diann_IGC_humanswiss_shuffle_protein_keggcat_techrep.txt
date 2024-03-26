@@ -1,0 +1,53 @@
+KEGGcat	b14_10	b14_20
+09101 Carbohydrate metabolism	17870627.76	18565931.6
+09102 Energy metabolism	15593215.75	15330746.39
+09103 Lipid metabolism	1878779.57	1408968.18
+09104 Nucleotide metabolism	2795184.31	2086651.2
+09105 Amino acid metabolism	5310871.38	5093934.77
+09106 Metabolism of other amino acids	1072169.23	919004.29
+09107 Glycan biosynthesis and metabolism	458781.98	589296.46
+09108 Metabolism of cofactors and vitamins	2548770.95	1952257.61
+09109 Metabolism of terpenoids and polyketides	281642.21	423864.33
+09110 Biosynthesis of other secondary metabolites	775954.77	839944.78
+09111 Xenobiotics biodegradation and metabolism	1888270.67	1956659.86
+09121 Transcription	943163.69	1257329.1
+09122 Translation	10734557.08	11374271.49
+09123 Folding, sorting and degradation	3444454.33	2984145.79
+09124 Replication and repair	67500.85	66426.88
+09131 Membrane transport	1917319.35	1229426.72
+09132 Signal transduction	13004982.57	12001653.23
+09133 Signaling molecules and interaction	1493577.91	342238.69
+09141 Transport and catabolism	8585865.4	8633783.88
+09142 Cell motility	1803578.86	1268590.93
+09143 Cell growth and death	846615.21	930566.02
+09144 Cellular community - eukaryotes	79366.99	143161.46
+09145 Cellular community - prokaryotes	438784.8	478462.73
+09149 Aging	2575054.32	2102135.89
+09151 Immune system	12307489.23	16306702.73
+09152 Endocrine system	2054502.29	2476151.86
+09153 Circulatory system	1009665.09	623095.89
+09154 Digestive system	21120796.71	29125049.18
+09155 Excretory system	51191.89	87372.34
+09156 Nervous system	407696.3	252701.05
+09157 Sensory system	20424.2	32500.92
+09158 Development and regeneration	NA	5924.41
+09159 Environmental adaptation	6459534.2	6311203.6
+09161 Cancer: overview	9086638.47	9365998.92
+09162 Cancer: specific types	852499	1207788.11
+09163 Immune disease	8387096.2	8107401.35
+09164 Neurodegenerative disease	715224.29	1235214.26
+09165 Substance dependence	14581.7	31549.33
+09166 Cardiovascular disease	10249960.6	10166262.25
+09167 Endocrine and metabolic disease	9713201.92	9026471.21
+09171 Infectious disease: bacterial	12988855.49	12179117.31
+09172 Infectious disease: viral	9926319.52	8572924.18
+09174 Infectious disease: parasitic	9604495.11	9558350.21
+09175 Drug resistance: antimicrobial	40826.6	6814.8
+09176 Drug resistance: antineoplastic	59468.7	43324.4
+09181 Protein families: metabolism	22632229.79	32190658.08
+09182 Protein families: genetic information processing	34901557.25	33762010.07
+09183 Protein families: signaling and cellular processes	28390536.65	30554590.47
+09191 Unclassified: metabolism	1323771.83	912560.47
+09192 Unclassified: genetic information processing	245862.8	150692.1
+09193 Unclassified: signaling and cellular processes	1414391.28	1175560.26
+09194 Poorly characterized	22625	45187.74

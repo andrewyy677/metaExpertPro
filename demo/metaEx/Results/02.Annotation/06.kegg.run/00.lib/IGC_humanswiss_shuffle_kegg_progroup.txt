@@ -1,0 +1,1648 @@
+ProteinGroup	KEGGNumber	SecondOrganisms	ThirdOrganisms	GenusNCBI	KEGGGene	KEGGScore
+1028307.EAE_00665	K00088	Bacteria	Enterobacteria	Raoultella	ror:RORB6_00385	880.552
+158458797-stool1_revised_scaffold34175_2_gene30677	K02564	Bacteria	Bacteroidota	Paramuribaculum	pii:NF347_01440	624.78
+158499257-stool2_revised_scaffold35535_1_gene209918	K00351	Bacteria	Bacteroidota	Bacteroides	bth:BT_1155	797.349
+158499257-stool2_revised_scaffold63407_1_gene111170	K01624	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_01085	509.99
+158802708-stool1_revised_scaffold20802_1_gene152869	K02358	Bacteria	Bacteroidota	Butyricimonas	buy:D8S85_09775	618.231
+158802708-stool2_revised_C1043175_1_gene65425	K03545	Bacteria	Bacteroidota	Bacteroides	bth:BT_3841	866.685
+159369152-stool1_revised_C218669_1_gene6717	K01715	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1017	515.383
+159733294-stool1_revised_scaffold3642_1_gene6041		Bacteria	Clostridia	Proteiniclasticum	proq:P6M73_02010	332.413
+160502038-stool1_revised_C1040582_1_gene113012	K01710	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_01740	587.8
+195103.CPF_1048	K01818	Bacteria	Clostridia	Paraclostridium	psor:RSJ16_09025	1149.42
+206672.BL1295	K00013	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1295	895.575
+340101.Vvad_PD0976	K04077	Bacteria	Other PVC group	(no genus)	vbc:C5Q97_07425	916.376
+391904.BLIJ_1032	K01869	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1450	2003.41
+411467.BACCAP_01900		Bacteria	Clostridia	Anaerotruncus	acol:K5I23_02540	1810.04
+411903.COLAER_00124	K02519	Bacteria	Actinomycetota	Collinsella	caer:CSV91_02240	1400.19
+445972.ANACOL_04358	K01933	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_14370	675.241
+457421.CBFG_05949	K03070	Bacteria	Clostridia	Enterocloster	cbol:CGC65_25880	1593.56
+467705.SGO_1968	K02988	Bacteria	Bacilli	Streptococcus	spy:SPy_0069	283.878
+469595.CSAG_00404	K11932	Bacteria	Enterobacteria	Salmonella	sty:STY0662	265.388
+473819.BIFDEN_02183	K01937	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0874	1058.9
+553973.CLOHYLEM_06522	K01756	Bacteria	Clostridia	Dorea	dlo:K5I24_02405	842.417
+763435843-stool1_revised_scaffold13751_1_gene1966	K11085	Bacteria	Bacteroidota	Segatella	pcoi:LK433_02750	1173.3
+763496533-stool2_revised_C1130836_1_gene41026	K00008	Bacteria	Clostridia	Anaerocolumna	anr:Ana3638_14580	513.842
+763597684-stool1_revised_scaffold65274_2_gene44004	K01847	Bacteria	Other Bacillota	Selenomonas	ssg:Selsp_0915	335.88
+763820215-stool1_revised_C751164_1_gene6323	K02906	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_04720	419.468
+763860675-stool1_revised_scaffold59412_1_gene91082	K03521	Bacteria	Clostridia	Emergencia	etm:CE91St48_30840	431.024
+763901136-stool1_revised_C1052885_1_gene40766	K10672	Bacteria	Clostridia	Coprococcus	ccom:I6K69_02940	162.925
+764042746-stool2_revised_C474634_1_gene25976	K02946	Bacteria	Bacteroidota	Aureibaculum	fbe:FF125_17095	190.274
+764062976-stool1_revised_scaffold25359_1_gene47430	K01933	Bacteria	Actinomycetota	Collinsella	caer:CSV91_07850	701.049
+764143897-stool1_revised_C800416_1_gene139564	K01952	Bacteria	Clostridia	Christensenella	cmiu:B1H56_11520	329.331
+764143897-stool1_revised_scaffold24180_1_gene160122	K02358	Bacteria	Clostridia	Qiania	qdo:H9Q78_06280	611.683
+764143897-stool1_revised_scaffold27221_1_gene93111		Bacteria	Clostridia	Anaerobutyricum	ehl:EHLA_2541	1026.54
+765701615-stool1_revised_C1225298_1_gene174302	K01006	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_08070	328.561
+765701615-stool1_revised_C1367528_1_gene217883	K02406	Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_03535	334.339
+765701615-stool1_revised_scaffold47263_3_gene161730	K00248	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_32600	607.06
+809635352-stool1_revised_scaffold40418_1_gene11041	K02970	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_00370	83.5741
+888833.HMPREF9961_1305		Bacteria	Bacilli	Abiotrophia	adc:FOC79_07735	2048.86
+BGI-33A_GL0071332	K01889	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2237	513.072
+DLF003_GL0036465	K09810	Bacteria	Bacteroidota	Segatella	pcoi:LK433_05280	430.254
+DLF012_GL0025371	K15533	Bacteria	Clostridia	Mediterraneibacter	rgn:RGna_06805	977.237
+DLM003_GL0001559	K18118	Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_00905	375.941
+DLM005_GL0056174	K04043	Bacteria	Other Bacillota	Megasphaera	med:MELS_1453	1093.57
+DLM007_GL0041666		Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1286	914.835
+DLM013_GL0037970	K01881	Bacteria	Actinomycetota	Collinsella	caer:CSV91_03410	1139.79
+DLM018_GL0012508	K02358	Bacteria	Actinomycetota	Olsenella	ols:Olsu_1629	772.696
+DLM019_GL0082439	K03286	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_4065	462.611
+DOM005_GL0004772	K03612	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3887	283.878
+DOM005_GL0023957	K00831	Bacteria	Bacteroidota	Bacteroides	bth:BT_1153	678.322
+DOM005_GL0032002	K01847	Bacteria	Bacteroidota	Bacteroides	bth:BT_2091	1126.69
+DOM005_GL0053327	K26113	Bacteria	Clostridia	(no genus)	bprs:CK3_30750	811.601
+DOM012_GL0021177	K00134	Bacteria	Clostridia	(no genus)	esr:ES1_19200	542.347
+DOM012_GL0033406		Bacteria	Other Bacillota	Selenomonas	ssg:Selsp_0548	286.189
+DOM026_GL0034732	K02358	Bacteria	Other Bacillota	(no genus)	ehn:H9Q80_08615	649.818
+ED13A_GL0021636	K02886	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_02460	356.681
+ED15A_GL0082445		Bacteria	Clostridia	Enterocloster	cbol:CGC65_20610	769.229
+ED20A_GL0039802		Bacteria	Bacteroidota	Prevotella	pher:prwr041_21290	192.971
+Fungitr.E7NKC5.E7NKC5_YEASO		Fungi	Ascomycetes	Verticillium	vda:VDAG_05595	248.44
+HM403CO_revised_scaffold142_2_gene34425	K01893	Bacteria	Clostridia	(no genus)	bprm:CL3_03220	842.417
+HM403CO_revised_scaffold3899_2_gene43346	K00927	Bacteria	Clostridia	(no genus)	bprs:CK3_33090	695.656
+HM415TI_revised_scaffold27291_1_gene77074	K01596	Bacteria	Actinomycetota	Schaalia	amy:ADJ76_08670	398.282
+HM437CO_revised_scaffold36926_1_gene1102	K00266	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_10880	311.612
+HM438CO_revised_scaffold45904_1_gene74669	K03737	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_18150	325.479
+HM466CO_revised_scaffold71503_1_gene21138	K03553	Bacteria	Bacteroidota	Bacteroides	bth:BT_4610	597.045
+HM494TI_revised_C961297_1_gene41203	K00939	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09680	112.849
+HM494TI_revised_scaffold22508_12_gene231958	K04043	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_12170	787.334
+HM494TI_revised_scaffold67459_1_gene54744	K03442	Bacteria	Bacteroidota	Bacteroides	bth:BT_2389	379.793
+HM494TI_revised_scaffold75696_1_gene174760	K11176	Bacteria	Clostridia	Dorea	dlo:K5I24_15075	382.489
+HM503CO_revised_C360503_1_gene47121	K01464	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_03550	378.637
+HT14A_GL0104544	K03737	Bacteria	Clostridia	Emergencia	etm:CE91St48_36820	1941.01
+HT14A_GL0126877	K04077	Bacteria	Clostridia	Caproicibacterium	caml:H6X83_03050	303.523
+Human_swiss_sp|A0A0A0MS15|HV349_HUMAN		Animals	Mammals	Cebus	cimi:108298707	207.223
+Human_swiss_sp|A0A0B4J1V0|HV315_HUMAN		Animals	Mammals	Mandrillus	mleu:105537377	218.394
+Human_swiss_sp|A0A0B4J1Y9|HV372_HUMAN		Animals	Mammals	Cebus	cimi:108298707	210.305
+Human_swiss_sp|A8K7I4|CLCA1_HUMAN	K05027	Animals	Mammals	Pan	ptr:456640	1794.63
+Human_swiss_sp|O00391|QSOX1_HUMAN	K10758	Animals	Mammals	Pan	ptr:457558	1473.76
+Human_swiss_sp|O00754|MA2B1_HUMAN	K12311	Animals	Mammals	Pan	ptr:455745	2011.11
+Human_swiss_sp|O14638|ENPP3_HUMAN	K01513	Animals	Mammals	Nomascus	nle:100603928	1767.28
+Human_swiss_sp|O43451|MGA_HUMAN	K12047	Animals	Mammals	Pan	ptr:463789	3535.35
+Human_swiss_sp|O43895|XPP2_HUMAN	K14208	Animals	Mammals	Nomascus	nle:100605868	1353.19
+Human_swiss_sp|O60494|CUBN_HUMAN	K14616	Animals	Mammals	Pan	ptr:450327	7560.68
+Human_swiss_sp|O60814|H2B1K_HUMAN	K11252	Animals	Mammals	Delphinapterus	dle:111168525	209.92
+Human_swiss_sp|O60844|ZG16_HUMAN	K25747	Animals	Mammals	Pan	ptr:107966320	316.62
+Human_swiss_sp|O75112|LDB3_HUMAN	K19867	Animals	Mammals	Macaca	mcc:697140	1240.71
+Human_swiss_sp|O75306|NDUS2_HUMAN	K03935	Animals	Mammals	Pan	ptr:747334	954.125
+Human_swiss_sp|O75882|ATRN_HUMAN	K24332	Animals	Mammals	Pan	ptr:458060	2885.52
+Human_swiss_sp|O94832|MYO1D_HUMAN	K10356	Animals	Mammals	Nomascus	nle:100596491	2006.49
+Human_swiss_sp|O95497|VNN1_HUMAN	K08069	Animals	Mammals	Pan	ptr:746544	1035.79
+Human_swiss_sp|P00441|SODC_HUMAN	K04565	Animals	Mammals	Pan	ptr:449637	320.857
+Human_swiss_sp|P01008|ANT3_HUMAN	K03911	Animals	Mammals	Pan	ptr:457528	922.154
+Human_swiss_sp|P01009|A1AT_HUMAN	K03984	Animals	Mammals	Pan	ptr:467541	827.394
+Human_swiss_sp|P01023|A2MG_HUMAN	K03910	Animals	Mammals	Pan	ptr:465372	2890.52
+Human_swiss_sp|P01591|IGJ_HUMAN	K25567	Animals	Mammals	Pan	ptr:461276	327.02
+Human_swiss_sp|P01764|HV323_HUMAN		Animals	Mammals	Equus	epz:103542403	214.542
+Human_swiss_sp|P01782|HV309_HUMAN		Animals	Mammals	Equus	epz:103542403	214.927
+Human_swiss_sp|P01833|PIGR_HUMAN	K13073	Animals	Mammals	Pan	ptr:457685	1435.62
+Human_swiss_sp|P01834|IGKC_HUMAN		Animals	Mammals	Gorilla	ggo:101151870	195.282
+Human_swiss_sp|P01857|IGHG1_HUMAN	K06856	Animals	Mammals	Sus	ssc:396781	463.381
+Human_swiss_sp|P01871|IGHM_HUMAN	K19720	Animals	Mammals	Balaenoptera	bacu:103000818	653.284
+Human_swiss_sp|P01876|IGHA1_HUMAN	K06856	Animals	Mammals	Bos	bta:524810	475.707
+Human_swiss_sp|P01903|DRA_HUMAN	K06752	Animals	Mammals	Pan	ptr:462591	494.582
+Human_swiss_sp|P02647|APOA1_HUMAN	K08757	Animals	Mammals	Pan	ptr:107967226	519.235
+Human_swiss_sp|P02766|TTHY_HUMAN	K20731	Animals	Mammals	Pan	ptr:493188	287.73
+Human_swiss_sp|P02768|ALBU_HUMAN	K16141	Animals	Mammals	Pan	ptr:461260	1237.25
+Human_swiss_sp|P02788|TRFL_HUMAN	K17283	Animals	Mammals	Nomascus	nle:100581103	1336.24
+Human_swiss_sp|P02792|FRIL_HUMAN	K13625	Animals	Mammals	Nomascus	nle:100592671	347.821
+Human_swiss_sp|P02794|FRIH_HUMAN	K00522	Animals	Mammals	Pan	ptr:738986	377.481
+Human_swiss_sp|P04054|PA21B_HUMAN	K01047	Animals	Mammals	Pan	ptr:742280	295.819
+Human_swiss_sp|P04066|FUCO_HUMAN	K01206	Animals	Mammals	Pan	ptr:469222	995.727
+Human_swiss_sp|P04075|ALDOA_HUMAN	K01623	Animals	Reptiles	Chelonoidis	cabi:116819368	714.916
+Human_swiss_sp|P04118|COL_HUMAN	K14460	Animals	Mammals	Nomascus	nle:100593647	221.09
+Human_swiss_sp|P04264|K2C1_HUMAN	K07605	Animals	Mammals	Pan	ptr:738375	693.73
+Human_swiss_sp|P04406|G3P_HUMAN	K00134	Animals	Reptiles	Chelonoidis	cabi:116816504	674.085
+Human_swiss_sp|P04439|HLAA_HUMAN	K06751	Animals	Mammals	Nomascus	nle:100587765	664.84
+Human_swiss_sp|P04746|AMYP_HUMAN	K01176	Animals	Mammals	Pan	ptr:457067	1082.4
+Human_swiss_sp|P05026|AT1B1_HUMAN	K01540	Animals	Mammals	Pan	ptr:457497	628.632
+Human_swiss_sp|P05109|S10A8_HUMAN	K21127	Animals	Mammals	Pan	ptr:457319	191.43
+Human_swiss_sp|P05164|PERM_HUMAN	K10789	Animals	Mammals	Pan	ptr:748680	1491.48
+Human_swiss_sp|P05451|REG1A_HUMAN	K25727	Animals	Mammals	Pan	ptr:459348	352.829
+Human_swiss_sp|P05976|MYL1_HUMAN	K05738	Animals	Mammals	Macaca	mcc:711561	325.865
+Human_swiss_sp|P06702|S10A9_HUMAN	K21128	Animals	Mammals	Pan	ptr:457998	239.195
+Human_swiss_sp|P06731|CEAM5_HUMAN	K06499	Animals	Mammals	Pan	ptr:456062	1378.62
+Human_swiss_sp|P06732|KCRM_HUMAN	K27382	Animals	Mammals	Pan	ptr:744935	779.63
+Human_swiss_sp|P06744|G6PI_HUMAN	K01810	Animals	Mammals	Nomascus	nle:100584474	1137.09
+Human_swiss_sp|P06748|NPM_HUMAN	K11276	Animals	Mammals	Nomascus	nle:100604251	520.005
+Human_swiss_sp|P07148|FABPL_HUMAN	K08750	Animals	Mammals	Pan	ptr:736471	249.595
+Human_swiss_sp|P07355|ANXA2_HUMAN	K17092	Animals	Mammals	Pan	ptr:747018	668.692
+Human_swiss_sp|P07437|TBB5_HUMAN	K07375	Animals	Birds	Gallus	gga:396254	867.07
+Human_swiss_sp|P07477|TRY1_HUMAN	K01312	Animals	Mammals	Pan	ptr:742453	479.174
+Human_swiss_sp|P07478|TRY2_HUMAN	K01312	Animals	Mammals	Pan	ptr:100615529	489.96
+Human_swiss_sp|P08217|CEL2A_HUMAN	K01346	Animals	Mammals	Pan	ptr:747215	554.288
+Human_swiss_sp|P08237|PFKAM_HUMAN	K00850	Animals	Mammals	Pan	ptr:451863	1548.87
+Human_swiss_sp|P08311|CATG_HUMAN	K01319	Animals	Mammals	Pan	ptr:467413	477.248
+Human_swiss_sp|P08473|NEP_HUMAN	K01389	Animals	Mammals	Pan	ptr:460792	1479.54
+Human_swiss_sp|P08758|ANXA5_HUMAN	K16646	Animals	Mammals	Pan	ptr:461466	620.928
+Human_swiss_sp|P08861|CEL3B_HUMAN	K01345	Animals	Mammals	Pan	ptr:456491	543.888
+Human_swiss_sp|P09093|CEL3A_HUMAN	K01345	Animals	Mammals	Pan	ptr:749169	530.02
+Human_swiss_sp|P09327|VILI_HUMAN	K05761	Animals	Mammals	Pan	ptr:470646	1662.12
+Human_swiss_sp|P09493|TPM1_HUMAN	K10373	Animals	Mammals	Mus	mmu:22003	501.516
+Human_swiss_sp|P09525|ANXA4_HUMAN	K17093	Animals	Mammals	Nomascus	nle:100601937	623.239
+Human_swiss_sp|P09923|PPBI_HUMAN	K01077	Animals	Mammals	Pan	ptr:100614390	1011.13
+Human_swiss_sp|P0DOX2|IGA2_HUMAN	K06856	Animals	Mammals	Bos	bta:524810	574.704
+Human_swiss_sp|P0DOY2|IGLC2_HUMAN		Animals	Mammals	Pan	ptr:101057112	213.001
+Human_swiss_sp|P10153|RNAS2_HUMAN	K01168	Animals	Mammals	Pan	ptr:473325	332.413
+Human_swiss_sp|P11142|HSP7C_HUMAN	K03283	Animals	Mammals	Dipodomys	dord:105980747	1197.57
+Human_swiss_sp|P11217|PYGM_HUMAN	K00688	Animals	Mammals	Pan	ptr:451299	1689.86
+Human_swiss_sp|P11678|PERE_HUMAN	K10788	Animals	Mammals	Pan	ptr:468420	1425.99
+Human_swiss_sp|P12273|PIP_HUMAN	K25717	Animals	Mammals	Pan	ptr:494144	286.189
+Human_swiss_sp|P12429|ANXA3_HUMAN	K17089	Animals	Mammals	Pan	ptr:737760	631.713
+Human_swiss_sp|P12814|ACTN1_HUMAN	K05699	Animals	Mammals	Lemur	lcat:123647516	1801.56
+Human_swiss_sp|P12821|ACE_HUMAN	K01283	Animals	Mammals	Pan	ptr:449567	2644
+Human_swiss_sp|P12882|MYH1_HUMAN	K24220	Animals	Mammals	Pan	ptr:745774	3561.93
+Human_swiss_sp|P12883|MYH7_HUMAN	K17751	Animals	Mammals	Pan	ptr:745215	3586.19
+Human_swiss_sp|P13645|K1C10_HUMAN	K07604	Animals	Mammals	Pan	ptr:468240	622.083
+Human_swiss_sp|P13727|PRG2_HUMAN	K10786	Animals	Mammals	Pan	ptr:100612951	417.542
+Human_swiss_sp|P13929|ENOB_HUMAN	K01689	Animals	Mammals	Pan	ptr:454457	850.121
+Human_swiss_sp|P14410|SUIS_HUMAN	K01203	Animals	Mammals	Pan	ptr:470988	3748.36
+Human_swiss_sp|P14555|PA2GA_HUMAN	K01047	Animals	Mammals	Pan	ptr:456587	303.138
+Human_swiss_sp|P14618|KPYM_HUMAN	K00873	Animals	Mammals	Macaca	mcc:697742	1049.27
+Human_swiss_sp|P15085|CBPA1_HUMAN	K08779	Animals	Mammals	Pan	ptr:100614351	841.647
+Human_swiss_sp|P15086|CBPB1_HUMAN	K01291	Animals	Mammals	Pan	ptr:460763	821.231
+Human_swiss_sp|P15144|AMPN_HUMAN	K11140	Animals	Mammals	Pan	ptr:107968418	1899.79
+Human_swiss_sp|P15814|IGLL1_HUMAN	K06554	Animals	Mammals	Pan	ptr:104003698	384.8
+Human_swiss_sp|P15880|RS2_HUMAN	K02981	Animals	Mammals	Lemur	lcat:123631473	494.967
+Human_swiss_sp|P16233|LIPP_HUMAN	K14073	Animals	Mammals	Pan	ptr:739640	967.222
+Human_swiss_sp|P16444|DPEP1_HUMAN	K01273	Animals	Mammals	Pan	ptr:739771	806.594
+Human_swiss_sp|P17538|CTRB1_HUMAN	K01310	Animals	Mammals	Nomascus	nle:115836698	516.153
+Human_swiss_sp|P19835|CEL_HUMAN	K12298	Animals	Mammals	Pan	ptr:473081	1316.98
+Human_swiss_sp|P19961|AMY2B_HUMAN	K01176	Animals	Mammals	Pan	ptr:457067	1094.72
+Human_swiss_sp|P20042|IF2B_HUMAN	K03238	Animals	Mammals	Nomascus	nle:100603124	641.728
+Human_swiss_sp|P20929|NEBU_HUMAN	K18267	Animals	Mammals	Tupaia	tup:102476536	12927.7
+Human_swiss_sp|P21589|5NTD_HUMAN	K19970	Animals	Mammals	Pan	ptr:462864	1134.01
+Human_swiss_sp|P21796|VDAC1_HUMAN	K05862	Animals	Mammals	Pan	ptr:745717	574.318
+Human_swiss_sp|P22695|QCR2_HUMAN	K00415	Animals	Mammals	Pan	ptr:468094	840.106
+Human_swiss_sp|P22748|CAH4_HUMAN	K18246	Animals	Mammals	Pan	ptr:454807	583.948
+Human_swiss_sp|P25311|ZA2G_HUMAN		Animals	Mammals	Pan	ptr:737709	603.208
+Human_swiss_sp|P27487|DPP4_HUMAN	K01278	Animals	Mammals	Pan	ptr:459689	1561.97
+Human_swiss_sp|P28799|GRN_HUMAN	K23879	Animals	Mammals	Pan	ptr:454728	1349.34
+Human_swiss_sp|P28838|AMPL_HUMAN	K11142	Animals	Mammals	Pan	ptr:461132	1015.76
+Human_swiss_sp|P30740|ILEU_HUMAN	K23425	Animals	Mammals	Pan	ptr:471841	719.539
+Human_swiss_sp|P35527|K1C9_HUMAN	K07604	Animals	Mammals	Pan	ptr:454664	648.277
+Human_swiss_sp|P35749|MYH11_HUMAN	K10352	Animals	Mammals	Nomascus	nle:100601489	3571.94
+Human_swiss_sp|P35908|K22E_HUMAN	K07605	Animals	Mammals	Pan	ptr:738196	700.664
+Human_swiss_sp|P40199|CEAM6_HUMAN	K06499	Animals	Mammals	Pan	ptr:100614697	685.641
+Human_swiss_sp|P45378|TNNT3_HUMAN	K12046	Animals	Mammals	Pan	ptr:746911	390.578
+Human_swiss_sp|P48052|CBPA2_HUMAN	K01298	Animals	Mammals	Pan	ptr:742070	850.121
+Human_swiss_sp|P48735|IDHP_HUMAN	K00031	Animals	Mammals	Pan	ptr:453645	921.383
+Human_swiss_sp|P49411|EFTU_HUMAN	K02358	Animals	Mammals	Pan	ptr:454018	870.922
+Human_swiss_sp|P50416|CPT1A_HUMAN	K08765	Animals	Mammals	Pan	ptr:451382	1580.07
+Human_swiss_sp|P50995|ANX11_HUMAN	K17095	Animals	Mammals	Macaca	mcc:707628	770.77
+Human_swiss_sp|P53801|PTTG_HUMAN	K26099	Animals	Mammals	Nomascus	nle:100600004	306.99
+Human_swiss_sp|P55259|GP2_HUMAN	K19899	Animals	Mammals	Pan	ptr:741636	1084.32
+Human_swiss_sp|P56470|LEG4_HUMAN	K10091	Animals	Mammals	Pan	ptr:456011	648.662
+Human_swiss_sp|P60174|TPIS_HUMAN	K01803	Animals	Mammals	Nomascus	nle:100593490	502.671
+Human_swiss_sp|P60709|ACTB_HUMAN	K05692	Animals	Mammals	Galeopterus	gvr:103593038	759.599
+Human_swiss_sp|P61204|ARF3_HUMAN	K07938	Animals	Mammals	Echinops	etf:101648894	366.311
+Human_swiss_sp|P61224|RAP1B_HUMAN	K07836	Animals	Mammals	Castor	ccan:109699305	362.844
+Human_swiss_sp|P62258|1433E_HUMAN	K06630	Animals	Mammals	Bos	bta:282125	504.597
+Human_swiss_sp|P62736|ACTA_HUMAN	K12313	Animals	Mammals	Sarcophilus	shr:100916692	765.377
+Human_swiss_sp|P62805|H4_HUMAN		Animals	Mammals	Pteronotus	ppam:129063801	185.652
+Human_swiss_sp|P63173|RL38_HUMAN	K02923	Animals	Birds	Gallus	gga:771528	120.168
+Human_swiss_sp|P63316|TNNC1_HUMAN	K05865	Animals	Mammals	Pan	ptr:746369	315.849
+Human_swiss_sp|P68871|HBB_HUMAN	K13823	Animals	Mammals	Pan	ptr:450978	305.064
+Human_swiss_sp|P69905|HBA_HUMAN	K13822	Animals	Mammals	Pan	ptr:732485	286.96
+Human_swiss_sp|P80365|DHI2_HUMAN	K00071	Animals	Mammals	Pan	ptr:468001	721.465
+Human_swiss_sp|P98073|ENTK_HUMAN	K01316	Animals	Mammals	Pan	ptr:458478	2071.2
+Human_swiss_sp|P98088|MUC5A_HUMAN	K13908	Animals	Mammals	Pan	ptr:742948	4299.58
+Human_swiss_sp|Q00872|MYPC1_HUMAN	K12557	Animals	Mammals	Pan	ptr:452173	2191.39
+Human_swiss_sp|Q02817|MUC2_HUMAN	K10955	Animals	Mammals	Pan	ptr:745783	2907.47
+Human_swiss_sp|Q03154|ACY1_HUMAN	K14677	Animals	Mammals	Pan	ptr:460414	813.142
+Human_swiss_sp|Q03403|TFF2_HUMAN	K22453	Animals	Mammals	Pan	ptr:470096	275.404
+Human_swiss_sp|Q04609|FOLH1_HUMAN	K14592	Animals	Mammals	Pan	ptr:451475	1494.18
+Human_swiss_sp|Q05639|EF1A2_HUMAN	K03231	Animals	Mammals	Camelus	cfr:102522434	932.939
+Human_swiss_sp|Q07654|TFF3_HUMAN	K22454	Animals	Mammals	Pan	ptr:474124	176.407
+Human_swiss_sp|Q07837|SLC31_HUMAN	K14210	Animals	Mammals	Pan	ptr:459194	1377.84
+Human_swiss_sp|Q08043|ACTN3_HUMAN	K21073	Animals	Mammals	Pan	ptr:466680	1758.04
+Human_swiss_sp|Q08380|LG3BP_HUMAN	K17300	Animals	Mammals	Pan	ptr:454930	1168.3
+Human_swiss_sp|Q12864|CAD17_HUMAN	K06811	Animals	Mammals	Pan	ptr:464286	1616.67
+Human_swiss_sp|Q12929|EPS8_HUMAN	K17277	Animals	Mammals	Pan	ptr:473379	1521.91
+Human_swiss_sp|Q13228|SBP1_HUMAN	K17285	Animals	Mammals	Macaca	mcc:716741	981.089
+Human_swiss_sp|Q13642|FHL1_HUMAN	K14365	Animals	Mammals	Pan	ptr:747985	721.465
+Human_swiss_sp|Q14002|CEAM7_HUMAN	K06499	Animals	Mammals	Pan	ptr:468892	531.561
+Human_swiss_sp|Q14315|FLNC_HUMAN	K04437	Animals	Mammals	Macaca	mcc:700223	5517.97
+Human_swiss_sp|Q14CN2|CLCA4_HUMAN	K05030	Animals	Mammals	Nomascus	nle:100604855	1730.3
+Human_swiss_sp|Q16651|PRSS8_HUMAN	K08664	Animals	Mammals	Pan	ptr:454065	677.167
+Human_swiss_sp|Q16819|MEP1A_HUMAN	K01395	Animals	Mammals	Pan	ptr:462745	1514.98
+Human_swiss_sp|Q16820|MEP1B_HUMAN	K08606	Animals	Mammals	Pan	ptr:468515	1440.63
+Human_swiss_sp|Q6P4A8|PLBL1_HUMAN		Animals	Mammals	Pan	ptr:465304	1090.1
+Human_swiss_sp|Q6PIF6|MYO7B_HUMAN	K21868	Animals	Mammals	Pan	ptr:459596	4176.32
+Human_swiss_sp|Q6UWV6|ENPP7_HUMAN	K12354	Animals	Mammals	Pan	ptr:742055	911.368
+Human_swiss_sp|Q6UX06|OLFM4_HUMAN	K25447	Animals	Mammals	Pan	ptr:467367	938.332
+Human_swiss_sp|Q6W4X9|MUC6_HUMAN	K22023	Animals	Mammals	Nomascus	nle:100579916	4002.98
+Human_swiss_sp|Q7L5L3|GDPD3_HUMAN	K22387	Animals	Mammals	Pan	ptr:739446	645.966
+Human_swiss_sp|Q86UP6|CUZD1_HUMAN	K24793	Animals	Mammals	Pan	ptr:466224	1209.51
+Human_swiss_sp|Q86Y39|NDUAB_HUMAN	K03956	Animals	Mammals	Pan	ptr:739803	287.73
+Human_swiss_sp|Q86YZ3|HORN_HUMAN	K23757	Animals	Mammals	Pan	ptr:469491	592.423
+Human_swiss_sp|Q8TE67|ES8L3_HUMAN	K17277	Animals	Mammals	Nomascus	nle:100589393	1117.83
+Human_swiss_sp|Q8WUM4|PDC6I_HUMAN	K12200	Animals	Mammals	Pan	ptr:470783	1503.8
+Human_swiss_sp|Q8WWU7|ITLN2_HUMAN	K17527	Animals	Mammals	Pan	ptr:457441	674.855
+Human_swiss_sp|Q8WZ42|TITIN_HUMAN	K12567	Animals	Mammals	Pan	ptr:459784	44580.7
+Human_swiss_sp|Q92485|ASM3B_HUMAN	K01128	Animals	Mammals	Pan	ptr:456681	918.687
+Human_swiss_sp|Q96JP2|MY15B_HUMAN	K10361	Animals	Mammals	Pan	ptr:454883	2419.81
+Human_swiss_sp|Q99102|MUC4_HUMAN	K22017	Animals	Mammals	Pan	ptr:460952	6912.39
+Human_swiss_sp|Q99895|CTRC_HUMAN	K01311	Animals	Mammals	Pan	ptr:739685	529.635
+Human_swiss_sp|Q9BS40|LXN_HUMAN	K23594	Animals	Mammals	Nomascus	nle:100600526	459.529
+Human_swiss_sp|Q9BV40|VAMP8_HUMAN	K08512	Animals	Mammals	Macaca	mcc:695851	181.415
+Human_swiss_sp|Q9BYE9|CDHR2_HUMAN	K16502	Animals	Mammals	Pan	ptr:462292	2456.79
+Human_swiss_sp|Q9H3R2|MUC13_HUMAN	K17298	Animals	Mammals	Pan	ptr:460647	918.687
+Human_swiss_sp|Q9HAT2|SIAE_HUMAN	K05970	Animals	Mammals	Pan	ptr:451636	1068.14
+Human_swiss_sp|Q9HC84|MUC5B_HUMAN	K13908	Animals	Mammals	Nomascus	nle:100588600	3740.66
+Human_swiss_sp|Q9UGM3|DMBT1_HUMAN	K13912	Animals	Mammals	Pan	ptr:466221	4074.24
+Human_swiss_sp|Q9UKX2|MYH2_HUMAN	K24220	Animals	Mammals	Pan	ptr:455073	3559.23
+Human_swiss_sp|Q9ULA0|DNPEP_HUMAN	K01267	Animals	Mammals	Pan	ptr:459964	969.533
+Human_swiss_sp|Q9Y281|COF2_HUMAN	K05765	Animals	Mammals	Propithecus	pcoq:105821541	330.487
+Human_swiss_sp|Q9Y3B3|TMED7_HUMAN	K20349	Animals	Mammals	Pan	ptr:471605	431.409
+Human_swiss_sp|Q9Y6R7|FCGBP_HUMAN		Animals	Mammals	Macaca	mcc:700539	10744.7
+MAX_P02769	K16141	Animals	Mammals	Bos	bta:280717	1239.94
+MH0001_GL0008109	K02600	Bacteria	Bacteroidota	Segatella	pcoi:LK433_01570	813.527
+MH0001_GL0017996	K12524	Bacteria	Bacteroidota	Segatella	pcoi:LK433_07785	1538.09
+MH0001_GL0020755	K00826	Bacteria	Bacteroidota	Segatella	pcoi:LK433_13840	704.131
+MH0002_GL0072932	K02111	Bacteria	Bacteroidota	Bacteroides	bth:BT_0718	917.146
+MH0003_GL0003148		Bacteria	Bacteroidota	Prevotella	pmuf:J4864_09525	1515.36
+MH0003_GL0055966	K01854	Bacteria	Clostridia	Ruminococcus	rum:CK1_38130	698.353
+MH0004_GL0011122	K02992	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0808	299.671
+MH0005_GL0021441		Bacteria	Bacteroidota	Prevotella	pmuf:J4864_09525	1335.86
+MH0006_GL0121407	K12573	Bacteria	Bacteroidota	Pseudoprevotella	alq:C7Y71_008025	1060.44
+MH0006_GL0131422	K02948	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_02250	249.21
+MH0006_GL0137136		Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_00330	1154.81
+MH0006_GL0154183	K01953	Bacteria	Bacteroidota	Alistipes	afd:Alfi_1461	1124.77
+MH0006_GL0155615	K00012	Bacteria	Clostridia	Enterocloster	cbol:CGC65_21580	717.613
+MH0007_GL0003438	K02406	Bacteria	Bacilli	Salicibibacter	rue:DT065_15865	331.643
+MH0008_GL0040329	K21572	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0311	459.529
+MH0009_GL0015794	K00895	Bacteria	Bacteroidota	Hoylesella	peo:AS203_05915	778.859
+MH0011_GL0000961	K01940	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_28090	593.964
+MH0011_GL0025206	K01951	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3587	959.133
+MH0011_GL0097746	K02112	Bacteria	Bacteroidota	Bacteroides	bth:BT_0711	885.56
+MH0012_GL0026546		Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2564	874.004
+MH0012_GL0114975	K02358	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_15725	632.869
+MH0012_GL0193636	K01848	Bacteria	Other Bacillota	Dialister	dho:Dia5BBH33_14380	974.156
+MH0012_GL0205813	K00134	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_0287	614.379
+MH0012_GL0219073	K02355	Bacteria	Other Bacillota	Megasphaera	med:MELS_0769	1366.67
+MH0012_GL0231513	K01639	Bacteria	Bacteroidota	Bacteroides	bfr:BF1706	589.726
+MH0014_GL0027038	K00240	Bacteria	Bacteroidota	Hoylesella	peo:AS203_11950	501.13
+MH0016_GL0030768	K03046	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00284	2138.61
+MH0016_GL0081173		Bacteria	Bacteroidota	Parabacteroides	pmer:INE87_03932	864.759
+MH0017_GL0006177	K02406	Bacteria	Clostridia	(no genus)	bpen:NQ488_12740	235.343
+MH0017_GL0006411	K19802	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_32170	679.478
+MH0020_GL0031208	K03737	Bacteria	Bacteroidota	Parabacteroides	parc:CI960_05425	2359.33
+MH0021_GL0032172	K01803	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1524	467.233
+MH0023_GL0022168		Bacteria	Bacteroidota	Segatella	shoi:KUA50_009975	1246.88
+MH0026_GL0025473	K03324	Bacteria	Bacteroidota	Segatella	pcoi:LK433_02580	854.744
+MH0030_GL0015353	K01889	Bacteria	Bacteroidota	Segatella	pcoi:LK433_11020	651.744
+MH0032_GL0020556	K00027	Bacteria	Other Bacillota	Dialister	dpn:BCB69_04315	628.246
+MH0035_GL0038031		Bacteria	Clostridia	Simiaoa	ssun:H9Q77_03260	142.895
+MH0037_GL0001414	K21572	Bacteria	Bacteroidota	Bacteroides	bth:BT_3311	658.292
+MH0037_GL0013923	K00262	Bacteria	Bacteroidota	Bacteroides	bth:BT_1973	888.256
+MH0039_GL0044146	K00525	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0003	1546.56
+MH0039_GL0047513	K03770	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2560	1212.98
+MH0041_GL0016776	K02952	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2357	207.608
+MH0045_GL0054558	K18700	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_32500	184.496
+MH0046_GL0038096	K01945	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1095	739.954
+MH0047_GL0036394	K02358	Bacteria	Clostridia	Sellimonas	sint:K5I26_04795	743.036
+MH0047_GL0038084	K06942	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_2502	658.292
+MH0047_GL0039022	K16150	Bacteria	Bacteroidota	Hoylesella	peo:AS203_02240	756.133
+MH0055_GL0012904	K01277	Bacteria	Bacteroidota	Bacteroides	bth:BT_1846	983.015
+MH0057_GL0001908		Bacteria	Bacteroidota	Phocaeicola	bdo:EL88_24420	1639.4
+MH0057_GL0008260	K12251	Bacteria	Bacteroidota	Prevotella	pmz:HMPREF0659_A5981	492.271
+MH0057_GL0016580	K00351	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_18230	733.021
+MH0057_GL0017159	K01874	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_03040	1379
+MH0057_GL0018775	K12373	Bacteria	Bacteroidota	Bacteroides	bth:BT_1051	1214.52
+MH0057_GL0032782	K01918	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2898	451.44
+MH0057_GL0035401	K00053	Bacteria	Bacteroidota	Segatella	pcoi:LK433_06995	667.537
+MH0063_GL0005273		Bacteria	Bacteroidota	Segatella	shoi:KUA50_005415	1165.21
+MH0069_GL0051054	K02931	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0793	350.517
+MH0069_GL0062737	K03615	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_23110	144.821
+MH0069_GL0065137	K02994	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_14850	163.696
+MH0071_GL0042226	K02431	Bacteria	Clostridia	Blautia	rob:CK5_18570	292.737
+MH0074_GL0068292	K01804	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2320	969.918
+MH0076_GL0052556	K02906	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0805	403.675
+MH0077_GL0035462	K10254	Bacteria	Clostridia	Roseburia	rho:RHOM_02400	152.14
+MH0087_GL0000047		Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_16090	256.914
+MH0088_GL0047812		Bacteria	Clostridia	Simiaoa	ssun:H9Q77_08625	475.707
+MH0088_GL0062493	K00864	Bacteria	Clostridia	(no genus)	bprm:CL3_07730	982.245
+MH0088_GL0090143	K00848	Bacteria	Clostridia	Ruminococcus	rum:CK1_37730	938.332
+MH0088_GL0107046	K02874	Bacteria	Clostridia	Lacrimispora	csh:Closa_3757	207.994
+MH0092_GL0040972		Bacteria	Other Bacillota	Megamonas	mhg:MHY_05360	367.466
+MH0093_GL0010665	K01803	Bacteria	Bacteroidota	Bacteroides	bth:BT_3929	465.692
+MH0094_GL0075871	K02406	Bacteria	Clostridia	Agathobacter	ere:EUBREC_3396	253.832
+MH0100_GL0052617		Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_26440	712.22
+MH0100_GL0127516	K02867	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_12970	267.7
+MH0100_GL0129471	K02358	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_18790	766.918
+MH0101_GL0030337	K03544	Bacteria	Clostridia	Blautia	rob:CK5_19240	509.22
+MH0103_GL0067022	K01571	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_02975	843.958
+MH0105_GL0016783	K02601	Bacteria	Clostridia	Paludihabitans	palm:RBG61_05425	231.876
+MH0107_GL0113046	K02390	Bacteria	Clostridia	Roseburia	rho:RHOM_06985	660.988
+MH0110_GL0025297	K01006	Bacteria	Clostridia	Blautia	rob:CK5_25200	1695.25
+MH0110_GL0034529	K01689	Bacteria	Clostridia	Roseburia	rho:RHOM_10580	759.599
+MH0113_GL0003321	K04043	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01360	1093.95
+MH0113_GL0009195	K02470	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1388	1263.06
+MH0119_GL0114321	K10540	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_10020	703.36
+MH0122_GL0076036		Bacteria	Clostridia	Blautia	bwx:NQ550_20945	402.905
+MH0122_GL0076627		Bacteria	Clostridia	Subdoligranulum	svj:NQ490_12015	875.544
+MH0122_GL0102458	K01740	Bacteria	Clostridia	Coprococcus	coo:CCU_13740	742.651
+MH0124_GL0004871	K01006	Bacteria	Mycoplasmatota	(no genus)	tbz:BK011_04800	1280
+MH0124_GL0059575	K00939	Bacteria	Clostridia	Butyrivibrio	bpb:bpr_I0615	224.942
+MH0124_GL0143174	K04043	Bacteria	Clostridia	Pseudoclostridium	cthd:CDO33_05470	830.476
+MH0125_GL0073399	K03046	Bacteria	Bacteroidota	Bacteroides	bth:BT_2733	2617.8
+MH0126_GL0001151	K00656	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2880	1333.16
+MH0126_GL0001187	K18139	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_0383	690.649
+MH0126_GL0019349	K02469	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3298	1495.72
+MH0130_GL0013384	K07107	Bacteria	Bacteroidota	Segatella	pcoi:LK433_01990	272.322
+MH0130_GL0067967	K01885	Bacteria	Bacteroidota	Segatella	pcoi:LK433_00650	1004.2
+MH0131_GL0110658		Bacteria	Clostridia	Subdoligranulum	svj:NQ490_12235	803.897
+MH0131_GL0154213	K03545	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0947	843.958
+MH0135_GL0007871	K02926	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0804	340.887
+MH0135_GL0082397	K00040	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_24750	990.719
+MH0136_GL0083951	K01812	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_23370	945.266
+MH0140_GL0038883		Bacteria	Clostridia	Butyrivibrio	bcro:NQ527_05700	575.089
+MH0140_GL0046792	K02965	Bacteria	Clostridia	Lacrimispora	csh:Closa_3763	187.963
+MH0141_GL0094531	K02406	Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_03535	471.855
+MH0143_GL0027970	K01881	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_15395	830.476
+MH0143_GL0060465		Bacteria	Clostridia	Terrisporobacter	tgc:L0P85_19150	285.419
+MH0143_GL0159952		Bacteria	Clostridia	Cellulosilyticum	cle:Clole_1703	414.075
+MH0144_GL0012049	K01955	Bacteria	Other Bacillota	Dialister	dpn:BCB69_01880	1838.93
+MH0144_GL0085682	K02886	Bacteria	Other Bacillota	Turicibacter	tur:AT726_06680	439.499
+MH0147_GL0033645	K01006	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_17100	1450.65
+MH0147_GL0042942	K00013	Bacteria	Clostridia	Dorea	dlo:K5I24_01260	842.802
+MH0149_GL0085441		Bacteria	Clostridia	Anaerobutyricum	ehl:EHLA_1655	438.728
+MH0152_GL0080942	K01604	Bacteria	Bacteroidota	Bacteroides	bth:BT_1686	1003.82
+MH0157_GL0094076	K02886	Bacteria	Clostridia	Agathobaculum	agat:RWV98_03265	420.624
+MH0157_GL0125105	K00625	Bacteria	Clostridia	Blautia	rob:CK5_24860	307.76
+MH0164_GL0060041	K19824	Bacteria	Other Bacillota	Megasphaera	med:MELS_0116	332.798
+MH0172_GL0127064	K02357	Bacteria	Clostridia	Wujia	wcp:H9Q76_07260	431.409
+MH0185_GL0020303	K01876	Bacteria	Bacteroidota	Segatella	pcoi:LK433_08775	589.726
+MH0185_GL0062621	K01868	Bacteria	Bacteroidota	Segatella	pcoi:LK433_10945	877.085
+MH0185_GL0075117	K01006	Bacteria	Bacteroidota	Prevotella	pmz:HMPREF0659_A5567	629.402
+MH0187_GL0008403	K03569	Bacteria	Bacteroidota	Bacteroides	bth:BT_3813	641.343
+MH0188_GL0001615	K00134	Bacteria	Clostridia	Anaerobutyricum	ehl:EHLA_0909	662.144
+MH0188_GL0088680		Bacteria	Clostridia	Blautia	blab:EYS05_04245	1083.94
+MH0188_GL0089797	K09013	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0870	514.227
+MH0188_GL0185721		Bacteria	Clostridia	Subdoligranulum	svj:NQ490_04465	444.506
+MH0189_GL0025386	K01624	Bacteria	Other Bacillota	Miniphocaeibacter	mhap:JFY71_01115	373.244
+MH0192_GL0022877	K04077	Bacteria	Clostridia	Blautia	rob:CK5_03110	332.028
+MH0192_GL0026361	K02745	Bacteria	Actinomycetota	Coriobacterium	cgo:Corgl_0405	276.174
+MH0193_GL0012773	K03046	Bacteria	Clostridia	Roseburia	rho:RHOM_00985	2137.46
+MH0193_GL0057191	K02970	Bacteria	Clostridia	Ruminococcus	ral:Rumal_3099	83.9593
+MH0195_GL0090764		Bacteria	Clostridia	Subdoligranulum	svj:NQ490_05415	922.154
+MH0197_GL0126175		Bacteria	Bacteroidota	Alistipes	afd:Alfi_1826	860.136
+MH0200_GL0025472		Bacteria	Clostridia	Blautia	blab:EYS05_10190	1664.05
+MH0200_GL0196781	K03969	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01560	337.806
+MH0203_GL0045149	K00262	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_26170	688.723
+MH0203_GL0058270	K03553	Bacteria	Clostridia	Caproicibacter	cfem:HCR03_10620	385.956
+MH0204_GL0076954	K01610	Bacteria	Clostridia	Dorea	dlo:K5I24_04655	333.183
+MH0206_GL0111989	K06901	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_30730	837.41
+MH0212_GL0006589	K00262	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_16760	906.746
+MH0212_GL0084820	K02886	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_14740	552.362
+MH0217_GL0160322		Bacteria	Clostridia	Christensenella	cmiu:B1H56_02185	295.819
+MH0224_GL0070636	K10254	Bacteria	Clostridia	(no genus)	bpen:NQ488_03170	1055.05
+MH0224_GL0112161	K02519	Bacteria	Other Bacillota	Solobacterium	smoe:RGT18_13280	442.965
+MH0227_GL0015156	K04043	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_12320	1138.64
+MH0229_GL0090301		Bacteria	Clostridia	Blautia	rob:CK5_01020	296.204
+MH0230_GL0070365	K01915	Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_00577	1327.77
+MH0233_GL0021837	K01818	Bacteria	Clostridia	Blautia	rob:CK5_18380	701.434
+MH0233_GL0102149	K04759	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_07750	285.804
+MH0236_GL0075610	K14260	Bacteria	Clostridia	Anaerostipes	bprl:CL2_25400	980.704
+MH0239_GL0065227	K02986	Bacteria	Clostridia	Blautia	rob:CK5_20860	375.17
+MH0243_GL0103565		Bacteria	Bacteroidota	Segatella	shoi:KUA50_006740	1798.48
+MH0244_GL0124662	K02470	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_20050	1306.58
+MH0250_GL0262281	K01624	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_07360	531.176
+MH0251_GL0072568		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_08210	841.262
+MH0251_GL0121713	K02358	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_13300	747.658
+MH0252_GL0039289	K02874	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_07865	212.231
+MH0252_GL0184446	K10200	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_10310	699.508
+MH0259_GL0120051	K00048	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_03020	734.947
+MH0259_GL0139137	K00262	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_07060	769.229
+MH0259_GL0176399	K06942	Bacteria	Bacteroidota	Porphyromonas	pgi:PG_0048	551.977
+MH0265_GL0002602	K03043	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0813	2366.27
+MH0265_GL0162741		Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_02220	361.303
+MH0267_GL0117850		Bacteria	Clostridia	Lacrimispora	lxa:OW255_06045	206.453
+MH0268_GL0082510	K01610	Bacteria	Clostridia	(no genus)	bpen:NQ488_10840	1004.59
+MH0268_GL0173004	K03856	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_01430	641.728
+MH0270_GL0022394		Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_12240	814.298
+MH0270_GL0058843		Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_00900	431.795
+MH0271_GL0126954	K01624	Bacteria	Clostridia	(no genus)	ruk:A4V00_16635	470.314
+MH0274_GL0044822	K01493	Bacteria	Clostridia	Blautia	rob:CK5_21140	174.866
+MH0274_GL0147438	K00088	Bacteria	Bacteroidota	Bacteroides	bth:BT_3845	887.1
+MH0275_GL0129479		Bacteria	Clostridia	Hungatella	hhj:NQ487_03870	196.823
+MH0276_GL0172881	K00767	Bacteria	Bacteroidota	Segatella	pcoi:LK433_10785	561.222
+MH0276_GL0224587	K02886	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_14215	385.956
+MH0281_GL0038819	K04077	Bacteria	Clostridia	Christensenella	cmiu:B1H56_04435	261.536
+MH0281_GL0071487		Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0015	449.514
+MH0281_GL0096870	K00962	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_04960	325.094
+MH0286_GL0104996	K22396	Bacteria	Other Bacillota	Megasphaera	mhw:ACT01_13560	766.918
+MH0303_GL0006468	K02358	Bacteria	Clostridia	(no genus)	cbaf:JS518_03255	628.632
+MH0303_GL0014066	K01006	Bacteria	Clostridia	(no genus)	esr:ES1_08210	560.836
+MH0305_GL0102266		Bacteria	Clostridia	Hungatella	hhj:NQ487_20845	571.237
+MH0307_GL0180694		Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_04080	280.026
+MH0308_GL0034488	K03431	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_31530	879.782
+MH0309_GL0017860	K04077	Bacteria	Clostridia	Ruminococcus	ral:Rumal_0116	841.647
+MH0310_GL0096639	K03406	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_09790	658.677
+MH0313_GL0016480	K01714	Bacteria	Clostridia	Hungatella	hhj:NQ487_30335	628.632
+MH0314_GL0028678	K01610	Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_23550	1033.86
+MH0314_GL0154708	K00346	Bacteria	Bacteroidota	Bacteroides	bth:BT_1160	752.666
+MH0315_GL0028193	K02906	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_06200	267.314
+MH0318_GL0009298	K04567	Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_03720	1096.65
+MH0318_GL0139235	K02867	Bacteria	Clostridia	Intestinibacillus	int:RX717_15270	247.284
+MH0326_GL0086705		Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_16440	644.81
+MH0333_GL0067146	K01952	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_13650	2103.56
+MH0333_GL0119601	K11176	Bacteria	Clostridia	Dorea	dlo:K5I24_15075	425.246
+MH0335_GL0094895		Bacteria	Bacteroidota	Bacteroides	bth:BT_4367	706.442
+MH0336_GL0097832	K03521	Bacteria	Clostridia	Roseburia	rho:RHOM_02780	156.762
+MH0337_GL0003002	K01740	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_24380	735.332
+MH0337_GL0012713	K02358	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_10455	744.962
+MH0338_GL0049524	K02071	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_15400	504.982
+MH0339_GL0215019	K11176	Bacteria	Clostridia	Dorea	dlo:K5I24_15075	429.869
+MH0340_GL0132716	K10540	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_30680	479.559
+MH0341_GL0054772	K00789	Bacteria	Other Bacillota	Turicibacter	tur:AT726_07585	326.25
+MH0341_GL0102431	K02355	Bacteria	Bacilli	Streptococcus	spy:SPy_0273	1305.04
+MH0343_GL0015628	K02994	Bacteria	Clostridia	Ruminococcus	ral:Rumal_0050	224.557
+MH0345_GL0087811	K01006	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_06300	1609.73
+MH0348_GL0135260	K02355	Bacteria	Clostridia	Aristaeella	alac:JYE50_05835	1157.13
+MH0351_GL0006420	K10254	Bacteria	Clostridia	Solibaculum	sman:C12CBH8_11820	607.06
+MH0351_GL0072984	K04567	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_4107	1040.02
+MH0354_GL0078014	K21571	Bacteria	Bacteroidota	Tannerella	tfo:BFO_2268	194.897
+MH0355_GL0148797		Bacteria	Clostridia	Agathobacter	ere:EUBREC_2146	446.817
+MH0356_GL0152792	K02355	Bacteria	Clostridia	Blautia	rob:CK5_25310	434.876
+MH0358_GL0016713	K01939	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_12560	811.601
+MH0361_GL0166495		Bacteria	Bacteroidota	Bacteroides	bsal:K6V25_07840	1686.77
+MH0365_GL0135523	K01006	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_06300	506.523
+MH0369_GL0026310	K03977	Bacteria	Bacteroidota	Paramuribaculum	pii:NF347_09645	797.734
+MH0370_GL0021527	K01953	Bacteria	Clostridia	Wansuia	whj:H9Q79_07660	870.537
+MH0370_GL0029760	K01222	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_07725	688.723
+MH0371_GL0087622	K00927	Bacteria	Clostridia	Anaerostipes	bprl:CL2_29540	783.097
+MH0372_GL0033251	K01951	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_12570	911.368
+MH0372_GL0043015	K00088	Bacteria	Clostridia	Enterocloster	cbol:CGC65_07945	938.332
+MH0373_GL0081818	K00335	Bacteria	Clostridia	Anaerocolumna	anr:Ana3638_22195	1077.39
+MH0373_GL0112954	K02355	Bacteria	Clostridia	(no genus)	ruk:A4V00_07180	1151.73
+MH0373_GL0116967	K00874	Bacteria	Bacteroidota	Duncaniella	dun:FDZ78_01120	611.298
+MH0376_GL0120645	K01624	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_09805	635.18
+MH0381_GL0118587	K00239	Bacteria	Bacteroidota	Bacteroides	bth:BT_3054	1133.63
+MH0381_GL0148015	K00652	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3166	680.248
+MH0385_GL0030117	K02358	Bacteria	Clostridia	Christensenella	cmiu:B1H56_10285	699.893
+MH0385_GL0206702	K04072	Bacteria	Chloroflexota	Pelolinea	psub:Pelsub_P2016	1366.29
+MH0389_GL0025499		Bacteria	Bacteroidota	Segatella	pcoi:LK433_13285	1291.17
+MH0389_GL0029301	K02990	Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_04345	154.836
+MH0389_GL0063168	K02961	Bacteria	Clostridia	Mediterraneibacter	rgn:RGna_08260	165.622
+MH0389_GL0082784	K06942	Bacteria	Clostridia	Enterocloster	cbol:CGC65_11675	317.39
+MH0389_GL0130251	K03768	Bacteria	Clostridia	Enterocloster	cbol:CGC65_03850	305.834
+MH0389_GL0154539	K00134	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_17440	410.609
+MH0389_GL0174798	K03043	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_14005	2418.27
+MH0390_GL0125747	K04077	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_15155	275.789
+MH0390_GL0194280		Bacteria	Clostridia	Vescimonas	vcop:MM50RIKEN_23060	511.146
+MH0394_GL0018582		Bacteria	Other Bacillota	Selenomonas	ssg:Selsp_0548	332.798
+MH0402_GL0025865	K21572	Bacteria	Bacteroidota	Petrimonas	pmuc:ING2E5A_1209	699.508
+MH0407_GL0040794	K21573	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_2681	982.63
+MH0407_GL0127135		Bacteria	Bacteroidota	Prevotella	pfus:ADJ77_09670	1551.95
+MH0409_GL0027800	K01803	Bacteria	Clostridia	(no genus)	cbaf:JS518_03540	340.117
+MH0415_GL0161389	K03737	Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_00084	1349.73
+MH0415_GL0240971	K01952	Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_12950	1838.16
+MH0421_GL0021620	K02906	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2380	366.696
+MH0421_GL0080121	K00134	Bacteria	Clostridia	(no genus)	esr:ES1_19200	547.74
+MH0422_GL0145500	K02867	Bacteria	Clostridia	Wansuia	whj:H9Q79_15955	271.937
+MH0430_GL0056455		Bacteria	Clostridia	Anaerocolumna	acht:bsdcttw_38720	172.17
+MH0432_GL0032032	K21071	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_05410	758.829
+MH0433_GL0173376	K00134	Bacteria	Actinomycetota	Collinsella	caer:CSV91_00875	648.277
+MH0434_GL0217453	K02931	Bacteria	Clostridia	Caloramator	cale:FDN13_09140	276.944
+MH0437_GL0149308	K01006	Bacteria	Clostridia	Coprococcus	coo:CCU_15430	1591.25
+MH0437_GL0266761	K01872	Bacteria	Clostridia	Roseburia	rho:RHOM_06690	1252.65
+MH0438_GL0184626		Bacteria	Clostridia	Ruminococcus	rus:RBI_II00328	422.55
+MH0441_GL0161345	K01523	Bacteria	Clostridia	Caproicibacterium	caml:H6X83_06910	162.54
+MH0442_GL0171854	K04043	Bacteria	Bacteroidota	Hoylesella	peo:AS203_06930	1053.89
+MH0445_GL0073145	K03043	Bacteria	Clostridia	Caproiciproducens	capr:EQM14_07535	342.813
+MH0446_GL0035937	K01870	Bacteria	Clostridia	(no genus)	bpen:NQ488_13930	565.459
+MH0448_GL0107970	K02358	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_04980	665.225
+MH0448_GL0122599	K02503	Bacteria	Clostridia	Dorea	dlo:K5I24_10545	279.641
+MH0448_GL0236255	K13479	Bacteria	Clostridia	Vescimonas	vcop:MM50RIKEN_11780	518.85
+MH0450_GL0212819	K01755	Bacteria	Clostridia	Wansuia	whj:H9Q79_02545	774.237
+N013A_GL0045648	K00346	Bacteria	Bacteroidota	Segatella	pcoi:LK433_08690	878.626
+N037A_GL0039670		Bacteria	Clostridia	Clostridium	cac:CA_C2564	588.186
+N039A_GL0080189		Bacteria	Clostridia	Subdoligranulum	svj:NQ490_09810	355.525
+N042A_GL0053817		Bacteria	Clostridia	Mediterraneibacter	rlr:NQ541_10615	1071.23
+N047A_GL0082718	K01889	Bacteria	Clostridia	Hungatella	hhj:NQ487_16160	275.404
+N075A_GL0045434	K12574	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_23260	966.066
+N083A_GL0014387	K03737	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_20590	336.65
+N085A_GL0063783		Bacteria	Bacteroidota	Bacteroides	bhl:Bache_2506	1360.9
+N085A_GL0088056	K03530	Bacteria	Bacteroidota	Bacteroides	bth:BT_1499	172.555
+N088A_GL0066402	K01955	Bacteria	Clostridia	Anaerostipes	bprl:CL2_09720	1025.39
+N103A_GL0062765		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_10425	905.59
+NLF002_GL0035223		Bacteria	Clostridia	Roseburia	rho:RHOM_11810	805.823
+NLF007_GL0039190	K01892	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_16140	275.018
+NLM006_GL0071422		Bacteria	Bacteroidota	Bacteroides	bis:DXK01_008685	269.626
+NLM009_GL0019946		Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_29940	1251.11
+NLM022_GL0077515		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_27530	206.068
+NLM027_GL0076654	K01868	Bacteria	Clostridia	Blautia	rob:CK5_21060	870.922
+NLM031_GL0025221	K01006	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_11200	397.127
+NLM031_GL0047477	K00850	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_07600	626.706
+NOF010_GL0020186	K01689	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3395	785.023
+NOF013_GL0054476	K01784	Bacteria	Bacteroidota	Bacteroides	bth:BT_0623	641.728
+NOM025_GL0058808	K02406	Bacteria	Clostridia	(no genus)	bpen:NQ488_12740	445.662
+NOM026_GL0021166	K00005	Bacteria	Other Bacillota	Thomasclavelia	ciu:G4D55_17005	585.104
+O2.CD1-0-PT_GL0025396	K00848	Bacteria	Clostridia	Blautia	rob:CK5_18710	948.732
+O2.CD1-0-PT_GL0117146		Bacteria	Clostridia	Blautia	rob:CK5_36550	495.738
+O2.CD2-0_GL0019958	K01803	Bacteria	Other Bacillota	Catenibacterium	cmit:NQ499_02865	492.656
+O2.CD2-0_GL0067511	K04079	Bacteria	Bacteroidota	Segatella	pcoi:LK433_09925	1143.26
+O2.CD3-0-PT_GL0002951	K01835	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01623	799.275
+O2.CD3-0-PT_GL0064000	K03043	Bacteria	Clostridia	Blautia	rob:CK5_14710	986.867
+O2.CD3-0-PT_GL0107880	K02906	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00299	405.216
+O2.CD3-0-PT_GL0115878	K03553	Bacteria	Clostridia	Blautia	rob:CK5_06950	601.282
+O2.CD3-0-PT_GL0160447		Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_32580	557.755
+O2.UC1-2_GL0091686		Bacteria	Bacteroidota	Porphyromonas	pah:Poras_1710	1035.4
+O2.UC11-2_GL0001946	K03737	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_18150	380.178
+O2.UC11-2_GL0032512	K00088	Bacteria	Actinomycetota	Eggerthella	ele:Elen_0407	881.708
+O2.UC11-2_GL0090880	K00656	Bacteria	Clostridia	Sellimonas	sint:K5I26_02950	600.512
+O2.UC12-1_GL0156190	K00850	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1058	407.527
+O2.UC12-2_GL0031978	K00266	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1829	310.457
+O2.UC15-0_GL0002094	K01653	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_24080	310.842
+O2.UC15-0_GL0067565	K13922	Bacteria	Clostridia	Mediterraneibacter	rgn:RGna_15045	904.049
+O2.UC15-1_GL0007728	K22373	Bacteria	Clostridia	Coprococcus	cct:CC1_13270	917.146
+O2.UC15-2_GL0047446	K03737	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_20590	733.406
+O2.UC16-1_GL0056008	K02406	Bacteria	Bacilli	Domibacillus	dom:RRU94_10875	310.457
+O2.UC17-2_GL0030573	K01687	Bacteria	Clostridia	(no genus)	lbx:lbkm_2681	971.459
+O2.UC19-1_GL0013253	K15023	Bacteria	Clostridia	Ruminococcus	rum:CK1_12640	445.277
+O2.UC19-1_GL0085858	K01869	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1450	1816.59
+O2.UC2-1_GL0049255	K04079	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_10055	1308.51
+O2.UC20-1_GL0070924	K02992	Bacteria	Clostridia	(no genus)	lbx:lbkm_3180	276.944
+O2.UC26-0_GL0053006		Bacteria	Bacteroidota	Bacteroides	bth:BT_1507	828.55
+O2.UC26-1_GL0012827	K03737	Bacteria	Clostridia	Anaerostipes	bprl:CL2_05360	325.479
+O2.UC27-2_GL0058698	K00942	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_23100	348.977
+O2.UC3-2_GL0062989	K18682	Bacteria	Clostridia	Dorea	dlo:K5I24_00820	521.931
+O2.UC30-1_GL0166449	K02406	Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_03535	471.855
+O2.UC31-0_GL0061897	K02355	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_14040	296.204
+O2.UC31-2_GL0087171	K00925	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01064	456.832
+O2.UC35-0_GL0052172	K01710	Bacteria	Clostridia	(no genus)	bprs:CK3_03380	417.542
+O2.UC36-0_GL0164929	K01923	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_16160	556.984
+O2.UC37-0_GL0035042	K00688	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_02895	444.506
+O2.UC37-2_GL0048550		Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_12345	503.056
+O2.UC38-2_GL0065595	K03086	Bacteria	Bacteroidota	Bacteroides	bth:BT_1311	322.398
+O2.UC41-1_GL0029795	K01955	Bacteria	Clostridia	Ruminococcus	ral:Rumal_2380	1935.23
+O2.UC41-1_GL0179726	K21071	Bacteria	Clostridia	Blautia	rob:CK5_02560	667.537
+O2.UC41-1_GL0201535	K00854	Bacteria	Clostridia	Blautia	rob:CK5_32710	937.947
+O2.UC43-0_GL0054854		Bacteria	Bacteroidota	Segatella	pcoi:LK433_05410	104.375
+O2.UC43-2_GL0054545	K01647	Bacteria	Clostridia	Faecalibacterium	fpa:FPR_26140	312.383
+O2.UC46-1_GL0144405	K03628	Bacteria	Clostridia	Wansuia	whj:H9Q79_16440	672.544
+O2.UC47-0_GL0067414	K00297	Bacteria	Clostridia	Qiania	qdo:H9Q78_01490	463.766
+O2.UC47-2_GL0070787	K04077	Bacteria	Clostridia	Blautia	rob:CK5_03110	463.766
+O2.UC47-2_GL0084279	K00656	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_15390	1392.1
+O2.UC48-0_GL0016850	K02986	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_08590	356.681
+O2.UC48-0_GL0026589		Bacteria	Clostridia	Intestinimonas	ibu:IB211_02575	359.377
+O2.UC48-0_GL0067553		Bacteria	Clostridia	Sellimonas	sint:K5I26_10035	627.091
+O2.UC48-0_GL0194480	K00602	Bacteria	Clostridia	Blautia	rob:CK5_03150	689.108
+O2.UC48-0_GL0229333	K03040	Bacteria	Clostridia	Blautia	byl:A4V09_15450	600.897
+O2.UC48-1_GL0138538	K02837	Bacteria	Clostridia	Wansuia	whj:H9Q79_18075	301.982
+O2.UC49-0_GL0126417	K00134	Bacteria	Clostridia	Dorea	dlo:K5I24_00865	606.675
+O2.UC50-2_GL0137382		Bacteria	Actinomycetota	Bifidobacterium	bang:BBAG_1396	560.451
+O2.UC53-0_GL0121379	K00262	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3809	879.782
+O2.UC53-0_GL0250574	K02994	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_19140	234.958
+O2.UC54-0_GL0038963	K02355	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_18780	554.673
+O2.UC57-2_GL0024171	K01784	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_19840	683.715
+O2.UC59-2_GL0054788	K00826	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_10125	612.068
+O2.UC60-0_GL0127173	K01955	Bacteria	Bacteroidota	Segatella	pcoi:LK433_07195	643.269
+O2.UC8-0_GL0128475	K01881	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3320	943.34
+O2.UC8-2_GL0036959	K02886	Bacteria	Actinomycetota	Slackia	shi:Shel_23440	523.087
+SZEY-103A_GL0074872	K00895	Bacteria	Bacteroidota	Segatella	pcoi:LK433_09800	1089.72
+SZEY-26A_GL0072743	K01710	Bacteria	Actinomycetota	Collinsella	caer:CSV91_03715	549.28
+SZEY-39A_GL0038601	K01872	Bacteria	Actinomycetota	Collinsella	caer:CSV91_02485	1662.12
+SZEY-41A_GL0005116	K02358	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_14045	480.715
+SZEY-97A_GL0059457	K04043	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1906	1187.17
+T2D-107A_GL0011039	K01893	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_13760	814.298
+T2D-107A_GL0032354	K01006	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_08070	1535.39
+T2D-10A_GL0084588		Bacteria	Actinomycetota	Collinsella	caer:CSV91_04735	327.791
+T2D-110A_GL0017208	K00175	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0985	627.861
+T2D-118A_GL0013346	K03718	Bacteria	Bacteroidota	Bacteroides	bth:BT_2978	148.673
+T2D-11A_GL0016640	K10542	Bacteria	Clostridia	Blautia	byl:A4V09_01350	909.827
+T2D-11A_GL0017526	K01652	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2555	600.512
+T2D-11A_GL0159105	K02935	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2265	189.889
+T2D-123A_GL0138790	K00927	Bacteria	Bacteroidota	Alistipes	afd:Alfi_1473	616.69
+T2D-135A_GL0085761	K00029	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0245	1472.99
+T2D-135A_GL0119532	K00688	Bacteria	Bacteroidota	Bacteroides	bth:BT_1293	1442.17
+T2D-140A_GL0097992	K00849	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_18550	250.366
+T2D-14A_GL0116543		Bacteria	Clostridia	Intestinibacillus	int:RX717_00230	494.967
+T2D-155A_GL0006484	K00134	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_04040	640.958
+T2D-189A_GL0039459	K01190	Bacteria	Clostridia	Blautia	rob:CK5_36690	445.277
+T2D-29A_GL0087222	K00602	Bacteria	Clostridia	Sellimonas	sint:K5I26_06620	515.383
+T2D-31A_GL0076719	K00008	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09070	739.954
+T2D-33A_GL0090503	K00975	Bacteria	Clostridia	Roseburia	rho:RHOM_13160	779.63
+T2D-33A_GL0119486	K01939	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_09935	785.793
+T2D-45A_GL0141028	K04567	Bacteria	Bacteroidota	Prevotella	pmz:HMPREF0659_A6046	1018.84
+T2D-45A_GL0146717	K00925	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_14620	246.514
+T2D-47A_GL0144718		Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_04175	337.035
+T2D-49A_GL0055834	K00688	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1054	1404.42
+T2D-51A_GL0053560	K00346	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_1125	758.829
+T2D-51A_GL0153538		Bacteria	Clostridia	Agathobacter	ere:EUBREC_0289	351.673
+T2D-57A_GL0056046	K14534	Bacteria	Other Bacillota	Megasphaera	med:MELS_0342	102.834
+T2D-62A_GL0016915	K04079	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_05530	1169.45
+T2D-63A_GL0011150	K03737	Bacteria	Clostridia	Blautia	rob:CK5_30850	303.908
+T2D-66A_GL0076810	K02838	Bacteria	Clostridia	Blautia	rob:CK5_30130	293.893
+T2D-68A_GL0003999	K02355	Bacteria	Actinomycetota	Atopobium	atb:J4859_02110	1261.9
+T2D-68A_GL0058436	K00927	Bacteria	Actinomycetota	Atopobium	atb:J4859_11745	730.324
+T2D-87A_GL0024570		Bacteria	Bacteroidota	Segatella	shoi:KUA50_004970	533.872
+T2D-8A_GL0076399		Bacteria	Bacteroidota	Segatella	shoi:KUA50_014890	1093.18
+V1.CD15-3_GL0046367	K01803	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_04580	453.366
+V1.CD15-3_GL0105671	K00656	Bacteria	Clostridia	Anaerobutyricum	ehl:EHLA_2966	1521.91
+V1.CD17-4_GL0074442		Bacteria	Fusobacteriota	Fusobacterium	fva:FV113G1_06610	462.611
+V1.CD18-3_GL0001732	K04567	Bacteria	Clostridia	Dorea	dlo:K5I24_11205	1100.5
+V1.CD20-4_GL0090266	K21071	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_26310	442.965
+V1.CD20-4_GL0113357	K02012	Bacteria	Clostridia	Enterocloster	cbol:CGC65_08075	685.256
+V1.CD21-0_GL0043370	K04077	Bacteria	Clostridia	Enterocloster	cbol:CGC65_07225	684.485
+V1.CD21-0_GL0063243		Bacteria	Clostridia	Mediterraneibacter	rlr:NQ541_10585	674.085
+V1.CD3-0-PN_GL0040984	K06871	Bacteria	Clostridia	Blautia	rob:CK5_09120	577.785
+V1.CD3-0-PN_GL0042405	K03043	Bacteria	Clostridia	Wansuia	whj:H9Q79_16000	1121.3
+V1.CD3-0-PN_GL0056499	K15533	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_12370	1357.43
+V1.CD3-0-PN_GL0090600	K00939	Bacteria	Clostridia	(no genus)	bpen:NQ488_12520	284.263
+V1.CD3-0-PN_GL0107865	K00925	Bacteria	Clostridia	Qiania	qdo:H9Q78_13585	203.371
+V1.CD3-0-PN_GL0126652	K01939	Bacteria	Clostridia	Roseburia	rho:RHOM_09290	718.768
+V1.CD32-0_GL0067539	K01139	Bacteria	Clostridia	Blautia	rob:CK5_09250	1211.82
+V1.CD38-0_GL0060643		Bacteria	Other Bacillota	Catenibacterium	cmit:NQ499_04245	545.428
+V1.CD4-0-PN_GL0157440	K01610	Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_23550	1003.43
+V1.CD40-0_GL0151177	K06346	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0645	293.893
+V1.CD49-0_GL0005458	K00656	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_15390	791.571
+V1.CD54-0_GL0041206	K01938	Bacteria	Clostridia	Blautia	rob:CK5_28620	1034.25
+V1.CD54-0_GL0126661	K00133	Bacteria	Clostridia	Blautia	rob:CK5_23820	649.432
+V1.CD55-0_GL0075271	K01923	Bacteria	Clostridia	Blautia	rob:CK5_23060	338.961
+V1.CD55-0_GL0162064	K07576	Bacteria	Clostridia	Herbinix	hsd:SD1D_0276	643.269
+V1.CD6-0-PN_GL0010683	K00053	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01373	667.537
+V1.CD6-0-PN_GL0116224	K01938	Bacteria	Clostridia	Blautia	rob:CK5_32720	404.06
+V1.CD6-0-PT_GL0119813	K03043	Bacteria	Clostridia	Flavonifractor	fpla:A4U99_12970	555.058
+V1.CD6-0-PT_GL0189128	K06076	Bacteria	Bacteroidota	Segatella	pcoi:LK433_00660	850.506
+V1.CD6-0-PT_GL0198958	K00688	Bacteria	Bacteroidota	Segatella	pcoi:LK433_07845	1694.86
+V1.CD6-4_GL0133420	K16370	Bacteria	Actinomycetota	Collinsella	caer:CSV91_02575	623.624
+V1.CD7-0-PN_GL0036778	K01868	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0724	1236.09
+V1.CD7-4_GL0053469	K10441	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_10520	888.641
+V1.CD7-4_GL0094066	K04042	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_26990	397.127
+V1.FI01_GL0238534		Bacteria	Bacteroidota	Bacteroides	bfe:K6V30_06270	362.073
+V1.FI02_GL0099471	K01361	Bacteria	Clostridia	Vescimonas	vcop:MM50RIKEN_03730	1931.76
+V1.FI05_GL0060428	K01952	Bacteria	Actinomycetota	Collinsella	caer:CSV91_00640	1865.51
+V1.FI07_GL0051232		Bacteria	Clostridia	Blautia	rob:CK5_18270	166.777
+V1.FI07_GL0112517	K00615	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_32120	337.035
+V1.FI09_GL0189061		Bacteria	Clostridia	(no genus)	esr:ES1_17530	372.474
+V1.FI12_GL0041124	K02992	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0808	304.679
+V1.FI14_GL0088842	K01006	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_06300	1506.12
+V1.FI17_GL0046395	K00616	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_15220	372.859
+V1.FI17_GL0059730	K02118	Bacteria	Clostridia	Lachnoclostridium	cpy:Cphy_3071	434.491
+V1.FI17_GL0076740		Bacteria	Actinomycetota	Parolsenella	pcat:Pcatena_04880	491.886
+V1.FI24_GL0031614		Bacteria	Thermodesulfobacteriota	Lawsonia	lip:LI0461	402.905
+V1.FI25_GL0156514	K01677	Bacteria	Clostridia	Roseburia	rho:RHOM_00065	494.197
+V1.FI34_GL0136726	K00656	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0951	909.057
+V1.FI35_GL0048884	K03340	Bacteria	Clostridia	Enterocloster	cbol:CGC65_18255	554.288
+V1.FI36_GL0113911	K02111	Bacteria	Clostridia	Sellimonas	sint:K5I26_03075	793.497
+V1.FI36_GL0156545		Bacteria	Bacteroidota	Segatella	shoi:KUA50_009890	2095.86
+V1.UC10-2_GL0070312		Bacteria	Clostridia	Lachnospira	eel:EUBELI_00337	1829.3
+V1.UC11-5_GL0013869	K01880	Bacteria	Actinomycetota	Gardnerella	gvg:HMPREF0421_20511	348.206
+V1.UC11-5_GL0076153	K00939	Bacteria	Actinomycetota	Gardnerella	gvg:HMPREF0421_21262	311.227
+V1.UC13-0_GL0035836	K02886	Bacteria	Clostridia	(no genus)	ruk:A4V00_09965	521.161
+V1.UC13-0_GL0055417	K09157	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1209	402.519
+V1.UC15-3_GL0116846	K01835	Bacteria	Clostridia	Hungatella	hhj:NQ487_03130	677.167
+V1.UC16-0_GL0020775	K01710	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_03670	358.221
+V1.UC16-0_GL0067758	K00626	Bacteria	Other Bacillota	Faecalitalea	euc:EC1_11740	255.373
+V1.UC17-2_GL0079076	K02358	Bacteria	Other Bacillota	Parvimonas	pmic:NW74_01380	775.393
+V1.UC23-1_GL0092596		Bacteria	Clostridia	Blautia	bwx:NQ550_19030	374.4
+V1.UC24-0_GL0002146	K00927	Bacteria	Clostridia	Dorea	dlo:K5I24_00870	397.897
+V1.UC25-0_GL0055143	K01923	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_16160	600.512
+V1.UC26-0_GL0155513	K00134	Bacteria	Clostridia	Acetivibrio	cth:Cthe_0137	383.645
+V1.UC26-4_GL0136685	K04043	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_12130	1058.13
+V1.UC27-0_GL0117561	K01790	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_23170	153.295
+V1.UC32-0_GL0204431	K00975	Bacteria	Clostridia	(no genus)	bprs:CK3_09660	574.318
+V1.UC34-0_GL0003452	K03521	Bacteria	Bacteroidota	Bacteroides	bth:BT_1804	566.614
+V1.UC34-0_GL0035774	K00925	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_17680	125.946
+V1.UC35-0_GL0094530	K01652	Bacteria	Clostridia	Dorea	dlo:K5I24_03275	931.784
+V1.UC4-0_GL0059678		Bacteria	Bacteroidota	Phocaeicola	bdo:EL88_19825	449.899
+V1.UC4-5_GL0030814	K02933	Bacteria	Clostridia	Blautia	rob:CK5_20730	332.798
+V1.UC43-0_GL0134438	K08483	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_03695	978.393
+V1.UC50-1_GL0034110	K10200	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_10310	671.774
+V1.UC52-0_GL0147636	K10192	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_24230	826.624
+V1.UC52-1_GL0132897	K02118	Bacteria	Clostridia	Blautia	rob:CK5_01280	884.404
+V1.UC52-1_GL0196554	K00925	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_18970	555.058
+V1.UC55-0_GL0159623	K21071	Bacteria	Clostridia	Blautia	rob:CK5_25190	402.905
+V1.UC55-0_GL0212922	K04488	Bacteria	Clostridia	Blautia	rob:CK5_07040	263.848
+V1.UC58-0_GL0004459	K02863	Bacteria	Bacteroidota	Segatella	pcoi:LK433_00555	366.696
+V1.UC60-0_GL0052142	K01952	Bacteria	Clostridia	Blautia	rob:CK5_21050	2334.68
+V1.UC8-0_GL0009569	K00262	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0630	315.079
+V1.UC9-0_GL0020202		Bacteria	Other Bacillota	Dialister	dho:Dia5BBH33_15240	372.089
+HM437CO_revised_scaffold23842_1_gene88996	K03628	Bacteria	Bacteroidota	Bacteroides	bth:BT_1595	922.539
+Human_swiss_sp|O15263|DFB4A_HUMAN	K21100	Animals	Mammals	Pan	ptr:450193	132.494
+Human_swiss_sp|P00813|ADA_HUMAN	K01488	Animals	Mammals	Nomascus	nle:100596557	733.406
+Human_swiss_sp|P02458|CO2A1_HUMAN	K19719	Animals	Reptiles	Dermochelys	dcc:119845619	1880.14
+Human_swiss_sp|P0DTE7|AMY1B_HUMAN	K01176	Animals	Mammals	Pan	ptr:469397	1092.41
+Human_swiss_sp|P12236|ADT3_HUMAN	K05863	Animals	Mammals	Pan	ptr:107972834	588.571
+Human_swiss_sp|P25705|ATPA_HUMAN	K02132	Animals	Mammals	Pan	ptr:455397	1046.96
+Human_swiss_sp|P35237|SPB6_HUMAN	K13963	Animals	Mammals	Pan	ptr:100611419	721.465
+Human_swiss_sp|P51648|AL3A2_HUMAN	K00128	Animals	Mammals	Pan	ptr:454505	936.791
+Human_swiss_sp|P62491|RB11A_HUMAN	K07904	Animals	Mammals	Eumetopias	eju:114206465	430.254
+Human_swiss_sp|Q10588|BST1_HUMAN	K18152	Animals	Mammals	Pan	ptr:461126	596.66
+Human_swiss_sp|Q7Z406|MYH14_HUMAN	K10352	Animals	Mammals	Pan	ptr:468959	3223.34
+Human_swiss_sp|Q9Y277|VDAC3_HUMAN	K15041	Animals	Mammals	Pan	ptr:737891	582.022
+MH0005_GL0013865	K02965	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_2111	179.489
+MH0006_GL0199332	K02982	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_11955	407.912
+MH0046_GL0026004		Bacteria	Bacteroidota	Parabacteroides	pgol:K6V26_20325	1696.4
+MH0094_GL0107622	K01835	Bacteria	Bacteroidota	Bacteroides	bth:BT_1548	1157.13
+MH0101_GL0063548	K03545	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_22280	696.812
+MH0126_GL0122878	K01854	Bacteria	Bacteroidota	Rhizosphaericola	arac:E0W69_011725	226.098
+MH0139_GL0081691		Bacteria	Clostridia	Eubacterium	evn:NQ558_06605	378.637
+MH0143_GL0064120	K01880	Bacteria	Clostridia	Blautia	rob:CK5_25180	917.531
+MH0147_GL0070598	K04077	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_20480	871.307
+MH0212_GL0049950	K10112	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_10320	673.7
+MH0217_GL0159351	K02867	Bacteria	Clostridia	Christensenella	cmiu:B1H56_06710	155.606
+MH0238_GL0179904	K02965	Bacteria	Clostridia	Intestinibacillus	int:RX717_13530	160.229
+MH0274_GL0006991	K18682	Bacteria	Bacteroidota	Hoylesella	peo:AS203_02755	857.825
+MH0328_GL0066329		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_14395	597.816
+MH0335_GL0070054		Bacteria	Clostridia	Blautia	rob:CK5_35060	498.819
+MH0370_GL0042170		Bacteria	Clostridia	Enterocloster	cbol:CGC65_06235	441.425
+MH0400_GL0080982	K02557	Bacteria	Bacteroidota	Segatella	pcoi:LK433_03645	480.33
+MH0413_GL0200687	K01805	Bacteria	Clostridia	Ruminococcus	rch:RUM_11300	737.258
+MH0457_GL0265018	K00239	Bacteria	Verrucomicrobiota	Coraliomargarita	caa:Caka_1739	964.14
+O2.UC14-1_GL0150373	K02876	Bacteria	Clostridia	(no genus)	bprm:CL3_14410	279.641
+T2D-146A_GL0061511		Bacteria	Actinomycetota	Bifidobacterium	bsca:BBSC_1099	487.648
+V1.CD15-3_GL0014752	K03769	Bacteria	Clostridia	Dorea	dlo:K5I24_15955	325.865
+V1.CD54-0_GL0105338	K00052	Bacteria	Clostridia	Blautia	byl:A4V09_04155	680.248
+V1.FI01_GL0059745	K00927	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_06100	402.905
+V1.FI18_GL0012374	K07056	Bacteria	Clostridia	Blautia	rob:CK5_11210	511.916
+V1.FI33_GL0022502	K00262	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_10355	819.305
+V1.UC14-1_GL0081888		Bacteria	Clostridia	Enterocloster	cbol:CGC65_26770	750.74
+V1.UC52-1_GL0103564	K07407	Bacteria	Clostridia	Anaerocolumna	anr:Ana3638_13910	971.074
+V1.UC55-0_GL0059169	K03695	Bacteria	Clostridia	Blautia	rob:CK5_20150	421.394
+160603188-stool1_revised_C1017314_1_gene151369	K21574	Bacteria	Bacteroidota	Bacteroides	bth:BT_3703	1531.15
+591001.Acfer_1512	K01876	Bacteria	Other Bacillota	Acidaminococcus	afn:Acfer_1512	1177.93
+764184357-stool1_revised_scaffold9152_1_gene56916		Bacteria	Clostridia	Agathobaculum	agat:RWV98_17680	865.529
+DLM019_GL0031527	K10112	Bacteria	Clostridia	Ruminococcus	ral:Rumal_0475	493.812
+Human_swiss_sp|P39023|RL3_HUMAN	K02925	Animals	Reptiles	Chelonoidis	cabi:116819610	813.527
+Human_swiss_sp|Q5JS37|NHLC3_HUMAN		Animals	Mammals	Pan	pps:100987598	718.768
+Human_swiss_sp|Q8IVL8|CBPO_HUMAN	K23009	Animals	Mammals	Pan	ptr:736472	753.436
+MH0043_GL0013824	K02358	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00288	306.605
+MH0055_GL0042560	K01610	Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_23550	276.174
+MH0057_GL0023760	K03979	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1683	642.884
+MH0152_GL0013968	K00208	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1986	546.969
+MH0286_GL0042158	K03695	Bacteria	Bacteroidota	Segatella	pcoi:LK433_13645	1538.47
+MH0433_GL0099873	K01885	Bacteria	Clostridia	Thermocaproicibacter	tmel:NOG13_08655	725.702
+MH0433_GL0149951	K02117	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_17720	924.08
+N087A_GL0036390	K01868	Bacteria	Clostridia	Enterocloster	cbol:CGC65_00140	68.1662
+N088A_GL0060605	K01915	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_26350	226.098
+O2.CD3-0-PT_GL0189461	K07775	Bacteria	Clostridia	Blautia	rob:CK5_23460	416.001
+O2.UC27-1_GL0008280	K01854	Bacteria	Clostridia	Agathobacter	ere:EUBREC_2761	235.728
+O2.UC58-0_GL0077866	K02904	Bacteria	Actinomycetota	Cutibacterium	pac:PPA1855	78.9517
+V1.FI37_GL0019014	K12251	Bacteria	Clostridia	(no genus)	bprs:CK3_17490	582.022
+HT14A_GL0106378	K02931	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_05500	321.627
+Human_swiss_sp|P08183|MDR1_HUMAN	K05658	Animals	Mammals	Pan	ptr:463516	2424.82
+Human_swiss_sp|P0DOX7|IGK_HUMAN		Animals	Mammals	Gorilla	ggo:101151870	357.836
+Human_swiss_sp|P61026|RAB10_HUMAN	K07903	Animals	Mammals	Bos	bta:783373	407.142
+MH0035_GL0049006	K00609	Bacteria	Clostridia	Qiania	qdo:H9Q78_03250	489.189
+MH0100_GL0114735	K01006	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01258	1521.91
+MH0143_GL0145296	K03695	Bacteria	Clostridia	Agathobacter	ere:EUBREC_2562	1503.42
+MH0222_GL0071646	K01869	Bacteria	Bacteroidota	Zunongwangia	zpr:ZPR_4437	1200.27
+MH0239_GL0054907	K02835	Bacteria	Clostridia	Blautia	rob:CK5_16820	585.104
+MH0276_GL0157470	K00133	Bacteria	Clostridia	(no genus)	esr:ES1_20680	558.91
+MH0299_GL0017634	K02406	Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_03535	504.212
+MH0388_GL0131715		Bacteria	Clostridia	Flavonifractor	fpla:A4U99_14010	218.394
+MH0458_GL0182669		Bacteria	Clostridia	Flavonifractor	fpla:A4U99_04330	192.971
+O2.UC57-2_GL0059031		Bacteria	Clostridia	Faecalibacterium	fpa:FPR_12440	576.244
+V1.CD22-0_GL0140481	K02338	Bacteria	Clostridia	Faecalibacterium	fpra:CG447_08945	646.736
+V1.CD3-0-PT_GL0058972	K02111	Bacteria	Other Bacillota	Veillonella	vpr:Vpar_1534	971.844
+158802708-stool1_revised_C968191_1_gene1204	K01006	Bacteria	Verrucomicrobiota	Ruficoccus	rufi:K0V07_07575	647.121
+158924089-stool1_revised_scaffold12016_1_gene56879	K03070	Bacteria	Bacteroidota	Bacteroides	bth:BT_4362	1981.45
+MH0069_GL0012278	K02120	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3563	341.658
+MH0135_GL0099849	K09759	Bacteria	Clostridia	Faecalibacterium	fpra:CG447_00770	818.92
+MH0169_GL0003081	K10254	Bacteria	Clostridia	Desulfitobacterium	ddh:Desde_1520	526.168
+MH0181_GL0002451	K03046	Bacteria	Bacteroidota	Hoylesella	peo:AS203_00665	2583.13
+MH0257_GL0147322		Bacteria	Bacteroidota	Segatella	shoi:KUA50_004970	570.081
+585501.HMPREF6123_1051	K01610	Bacteria	Clostridia	Enterocloster	cbol:CGC65_12100	954.896
+MH0193_GL0185667		Bacteria	Bacteroidota	Bacteroides	bth:BT_0173	656.366
+MH0308_GL0082660	K00656	Bacteria	Clostridia	(no genus)	lbx:lbkm_0192	1302.73
+O2.UC32-1_GL0136691	K02358	Bacteria	Actinomycetota	Xiamenia	ebz:J7S26_05630	768.074
+T2D-31A_GL0068466	K02355	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_11230	509.605
+V1.CD7-4_GL0090881	K01870	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_01610	1948.33
+V1.UC13-3_GL0117811	K02358	Bacteria	Actinomycetota	Gordonibacter	gpa:GPA_21460	438.343
+638754422-stool1_revised_scaffold23455_1_gene76497	K18682	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_10140	869.766
+665937.HMPREF1011_03065	K01874	Bacteria	Clostridia	Anaerostipes	bprl:CL2_18670	1163.29
+HM414CO_combine_revised_scaffold45625_1_gene96724	K01915	Bacteria	Clostridia	Dorea	dlo:K5I24_12265	1231.47
+Human_swiss_sp|P13805|TNNT1_HUMAN	K10372	Animals	Mammals	Talpa	tod:119250475	325.479
+MH0006_GL0121937	K01951	Archaea	Candidatus Thermoplasmatota	(no genus)	marc:AR505_0706	511.531
+MH0116_GL0116313		Bacteria	Clostridia	Anaerobutyricum	ehl:EHLA_1655	438.343
+MH0125_GL0083486	K00925	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0524	600.897
+MH0252_GL0125144	K01872	Bacteria	Clostridia	(no genus)	esr:ES1_20960	1105.12
+MH0287_GL0121276		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_11380	949.118
+MH0372_GL0009587	K03070	Bacteria	Clostridia	Herbinix	hsd:SD1D_2189	1086.63
+MH0377_GL0097170	K00962	Bacteria	Clostridia	Petroclostridium	petr:QKW49_24875	481.1
+MH0434_GL0054898	K01951	Bacteria	Clostridia	Ruminococcus	ral:Rumal_1611	551.206
+NLM032_GL0042211	K03043	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00283	652.514
+V1.FI36_GL0094039	K00962	Bacteria	Clostridia	Aristaeella	alac:JYE50_04565	871.307
+V1.UC50-1_GL0090363	K01874	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_07890	1001.89
+Human_swiss_sp|P35609|ACTN2_HUMAN	K21073	Animals	Mammals	Pan	ptr:469156	1769.98
+MH0193_GL0168892	K02190	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_05380	622.083
+Human_swiss_sp|Q8WWA0|ITLN1_HUMAN	K17527	Animals	Mammals	Pan	ptr:457440	655.981
+MH0028_GL0087102	K00925	Bacteria	Clostridia	(no genus)	ruk:A4V00_06255	575.474
+765701615-stool1_revised_C1367806_1_gene31727	K02992	Bacteria	Clostridia	Thermincola	tjr:TherJR_0292	217.624
+MH0381_GL0041614	K01006	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_17100	1533.08
+MH0196_GL0115268	K03695	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_14450	1229.16
+MH0292_GL0017180	K00973	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0227	584.719
+MH0318_GL0197751	K02355	Bacteria	Clostridia	Petroclostridium	petr:QKW49_16735	692.189
+V1.FI05_GL0053724	K03046	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_14010	1773.44
+428128.EUBSIR_00773	K00266	Bacteria	Clostridia	(no genus)	esr:ES1_02540	891.723
+Human_swiss_sp|P12110|CO6A2_HUMAN	K06238	Animals	Mammals	Pan	ptr:474056	1783.46
+MH0047_GL0022144	K00790	Bacteria	Bacteroidota	Segatella	pcoi:LK433_03425	711.449
+MH0200_GL0110436		Bacteria	Bacteroidota	Segatella	pcoi:LK433_13725	570.852
+MH0367_GL0050854	K21574	Bacteria	Bacteroidota	Bacteroides	bth:BT_4581	1368.21
+O2.CD1-0-PT_GL0040017	K00262	Bacteria	Clostridia	Blautia	rob:CK5_23270	870.152
+O2.UC48-1_GL0231303	K02890	Bacteria	Clostridia	Sellimonas	sint:K5I26_00325	244.973
+MH0131_GL0041219	K03076	Bacteria	Clostridia	Flavonifractor	fpla:A4U99_01905	721.85
+764588959-stool1_revised_scaffold36883_2_gene35662	K02835	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_28900	519.62
+764669880-stool1_revised_C437453_1_gene44917	K00761	Bacteria	Clostridia	Dorea	dlo:K5I24_10470	363.999
+Human_swiss_sp|P20339|RAB5A_HUMAN	K07887	Animals	Mammals	Nomascus	nle:100585666	429.869
+765701615-stool1_revised_scaffold50983_1_gene8758	K01689	Bacteria	Clostridia	Agathobacter	ere:EUBREC_2823	785.408
+MH0274_GL0054087	K00053	Bacteria	Bacteroidota	Dysgonomonas	dys:G7050_07845	617.461
+411467.BACCAP_02296	K00266	Bacteria	Clostridia	Intestinimonas	ibu:IB211_03310	707.983
+411470.RUMGNA_02682	K02906	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09890	425.246
+764669880-stool2_revised_scaffold12597_1_gene66287	K02406	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_03460	549.28
+HM407COA_combine_revised_scaffold7793_1_gene35208	K01875	Bacteria	Clostridia	(no genus)	bprs:CK3_28580	742.265
+Human_swiss_sp|A0A0B4J1X5|HV374_HUMAN		Animals	Mammals	Colobus	cang:105525107	226.483
+MH0083_GL0030394	K01875	Bacteria	Clostridia	(no genus)	esr:ES1_26560	660.603
+MH0091_GL0020742	K02112	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2993	890.952
+MH0092_GL0140375	K01915	Bacteria	Clostridia	(no genus)	esr:ES1_00870	1054.28
+MH0318_GL0043246		Bacteria	Cyanobacteriota	(no genus)	mbf:BHV42_06750	212.231
+MH0448_GL0017933	K03696	Bacteria	Verrucomicrobiota	Puniceicoccus	puo:RZN69_04015	462.225
+MH0453_GL0099867		Bacteria	Clostridia	Blautia	bwx:NQ550_18530	129.413
+O2.UC1-0_GL0025713	K02906	Bacteria	Clostridia	Agathobacter	ere:EUBREC_0418	452.595
+O2.UC27-0_GL0028867	K01875	Bacteria	Clostridia	Blautia	rob:CK5_10670	755.362
+T2D-2A_GL0042169		Bacteria	Bacteroidota	Segatella	shoi:KUA50_014085	436.032
+V1.CD7-4_GL0072878	K02876	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09700	285.419
+V1.FI14_GL0179546	K02876	Bacteria	Clostridia	Ruminococcus	ral:Rumal_0055	226.098
+V1.UC15-3_GL0110486	K01875	Bacteria	Clostridia	(no genus)	lbx:lbkm_0937	476.863
+Human_swiss_sp|P51148|RAB5C_HUMAN	K07889	Animals	Mammals	Pan	ptr:454678	418.698
+Human_swiss_sp|P05023|AT1A1_HUMAN	K01539	Animals	Mammals	Nomascus	nle:100596870	2007.26
+T2D-135A_GL0016494	K00639	Bacteria	Bacteroidota	Bacteroides	bth:BT_1371	744.191
+V1.CD1-0-PN_GL0124215	K01710	Bacteria	Clostridia	Coprococcus	cct:CC1_04010	688.723
+NOM002_GL0026844	K03628	Bacteria	Clostridia	Roseburia	rho:RHOM_09595	780.4
+MH0274_GL0140243	K00008	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09070	739.184
+457396.CSBG_03084	K01893	Bacteria	Clostridia	Sarcina	sarj:HH195_10195	814.298
+MH0092_GL0059282	K03070	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_0865	1883.23
+1045856.EcWSU1_02743	K02796	Bacteria	Enterobacteria	Enterobacter	enc:ECL_01485	562.377
+158458797-stool1_revised_scaffold32502_1_gene42159	K01915	Bacteria	Bacteroidota	Bacteroides	bth:BT_0785	664.455
+158458797-stool1_revised_scaffold34718_2_gene60563	K03296	Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_16360	1613.2
+158479027-stool1_revised_scaffold25526_1_gene64342	K01874	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_01300	825.083
+158479027-stool1_revised_scaffold8045_1_gene109422	K09014	Bacteria	Bacteroidota	Duncaniella	dun:FDZ78_04650	786.949
+158499257-stool1_revised_C1444234_1_gene215443	K00290	Bacteria	Bacteroidota	Duncaniella	dun:FDZ78_13355	529.25
+158499257-stool1_revised_C1450080_1_gene140943	K01915	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_07580	1222.99
+158499257-stool2_revised_scaffold12000_1_gene202973	K09011	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_01990	127.102
+158802708-stool1_revised_C965053_1_gene16763	K00031	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_26130	219.164
+159207311-stool1_revised_scaffold427_1_gene53827	K02067	Bacteria	Bacteroidota	Bacteroides	bth:BT_2142	543.888
+159207311-stool2_revised_scaffold1962_1_gene150337	K00239	Bacteria	Bacteroidota	Alistipes	afd:Alfi_2237	216.083
+159490532-stool1_revised_scaffold10207_1_gene75307		Bacteria	Clostridia	Agathobaculum	agat:RWV98_02520	1023.85
+159571453-stool1_revised_scaffold12406_1_gene63054		Bacteria	Bacteroidota	Bacteroides	bth:BT_4555	563.148
+159632143-stool1_revised_scaffold14390_1_gene87151	K01866	Bacteria	Bacteroidota	Pseudoprevotella	alq:C7Y71_006135	773.081
+159753524-stool1_revised_scaffold11278_2_gene41624	K02897	Bacteria	Clostridia	Dorea	dlo:K5I24_07285	261.922
+159753524-stool2_revised_C550348_1_gene19236	K01845	Bacteria	Actinomycetota	Coriobacterium	cgo:Corgl_0797	249.595
+160178356-stool1_revised_C522038_1_gene42426	K02946	Bacteria	Clostridia	(no genus)	cbaf:JS518_00900	179.874
+226186.BT_3312	K01201	Bacteria	Bacteroidota	Bacteroides	bth:BT_3312	1018.45
+226186.BT_4337	K12373	Bacteria	Bacteroidota	Bacteroides	bth:BT_4337	1719.9
+391904.BLIJ_0971	K00766	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1422	622.854
+435842.HMPREF0848_00803	K07335	Bacteria	Bacilli	Floricoccus	fpen:KIW23_05195	383.259
+483218.BACPEC_02137	K03218	Bacteria	Clostridia	(no genus)	bpen:NQ488_09925	473.011
+484018.BACPLE_02334		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_12830	1759.19
+500635.MITSMUL_03099	K21636	Bacteria	Actinomycetota	Parolsenella	pcat:Pcatena_08750	798.119
+508703490-stool1_revised_scaffold22466_1_gene94327	K01810	Bacteria	Clostridia	Ruminococcus	ral:Rumal_2138	703.745
+556261.HMPREF0240_01134		Bacteria	Clostridia	Roseburia	rho:RHOM_10175	964.14
+575611.HMPREF0649_00752	K09955	Bacteria	Bacteroidota	Prevotella	pdt:Prede_2697	1284.63
+575611.HMPREF0649_01290	K08303	Bacteria	Bacteroidota	Segatella	pcoi:LK433_02305	697.582
+638301.HMPREF0444_1482		Bacteria	Bacilli	Granulicatella	gad:K8O88_04420	641.728
+667015.Bacsa_0163	K21573	Bacteria	Bacteroidota	Bacteroides	bth:BT_3702	1625.53
+709991.Odosp_2868		Bacteria	Bacteroidota	Odoribacter	osp:Odosp_2868	811.601
+763577454-stool1_revised_C1011481_1_gene183717	K02988	Bacteria	Clostridia	Dorea	dlo:K5I24_06785	231.106
+763678604-stool1_revised_scaffold37389_1_gene184776	K21636	Bacteria	Other Bacillota	(no genus)	erb:A4V01_08500	558.14
+763678604-stool2_revised_C1156166_1_gene163714	K01886	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00503	1145.95
+763860675-stool1_revised_C1092989_1_gene136767	K00335	Bacteria	Clostridia	Ruminococcus	rum:CK1_12530	172.94
+763860675-stool1_revised_scaffold55788_1_gene56140	K03147	Bacteria	Clostridia	Dorea	dlo:K5I24_02865	652.899
+763860675-stool2_revised_C959911_1_gene107045		Bacteria	Clostridia	Blautia	blab:EYS05_14695	113.62
+764062976-stool1_revised_C1188501_1_gene73864	K01937	Bacteria	Bacteroidota	Bacteroides	bth:BT_0590	350.903
+764285508-stool1_revised_C990874_1_gene89130		Bacteria	Clostridia	Mediterraneibacter	rto:RTO_18960	1018.84
+764487809-stool2_revised_scaffold53060_2_gene28846		Bacteria	Bacteroidota	Butyricimonas	buy:D8S85_17730	2251.86
+764588959-stool1_revised_scaffold29489_1_gene125238	K09458	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_05210	763.451
+765094712-stool1_revised_scaffold5351_1_gene15351		Bacteria	Bacteroidota	Bacteroides	bfr:BF1217	390.578
+765640925-stool1_revised_scaffold31945_1_gene3427	K18331	Bacteria	Clostridia	Solibaculum	sman:C12CBH8_13130	898.271
+BGI-28A_GL0035779	K02770	Bacteria	Clostridia	Anaerostipes	bprl:CL2_30920	571.622
+DLF012_GL0042251	K01736	Bacteria	Clostridia	Acutalibacter	amur:ADH66_17295	449.514
+DLF013_GL0053478	K00385	Bacteria	Clostridia	Anaerobutyricum	ehl:EHLA_0512	590.497
+DLM013_GL0044983		Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_00072	395.586
+DLM014_GL0001609	K02190	Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_00513	563.918
+DLM014_GL0001646	K04043	Bacteria	Bacteroidota	Paramuribaculum	pii:NF347_00215	303.138
+DLM020_GL0023693		Bacteria	Bacteroidota	Bacteroides	boa:Bovatus_01595	541.962
+DOF004_GL0058872	K03737	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00741	314.309
+DOF012_GL0039582	K01689	Bacteria	Clostridia	Sarcina	sarj:HH195_02815	720.309
+DOM005_GL0036047		Bacteria	Bacteroidota	Bacteroides	bth:BT_4555	583.563
+DOM012_GL0066649	K01784	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1949	374.015
+ED12A_GL0077137	K00133	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_15650	83.1889
+ED12A_GL0087188	K01662	Bacteria	Bacteroidota	Segatella	pcoi:LK433_04455	1045.42
+HM403CO_revised_scaffold116_1_gene33180	K07775	Bacteria	Clostridia	Hungatella	hhj:NQ487_25050	393.275
+HM414CO_combine_revised_scaffold52574_1_gene54100	K02952	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09660	228.794
+HM438CO_revised_scaffold65809_1_gene154548	K01610	Bacteria	Clostridia	Qiania	qdo:H9Q78_02315	1026.16
+HM459CO_revised_scaffold59242_1_gene103539	K01798	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1765	1323.92
+HM494TI_revised_scaffold66489_1_gene64150	K02956	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2770	168.703
+HT14A_GL0085213	K02863	Bacteria	Clostridia	(no genus)	ccel:CCDG5_1489	216.468
+HT8A_GL0051954	K02030	Bacteria	Actinomycetota	Collinsella	caer:CSV91_07390	532.332
+Human_swiss_sp|A0A075B6H9|LV469_HUMAN		Animals	Mammals	Lemur	lcat:123625663	191.045
+Human_swiss_sp|A0A075B6R2|HV404_HUMAN	K06856	Animals	Mammals	Pan	ptr:104002202	226.483
+Human_swiss_sp|A0A0C4DH25|KVD20_HUMAN		Animals	Mammals	Hylobates	hmh:116464328	194.126
+Human_swiss_sp|O00160|MYO1F_HUMAN	K10356	Animals	Mammals	Pan	ptr:455675	2191
+Human_swiss_sp|O00299|CLIC1_HUMAN	K05021	Animals	Mammals	Pan	ptr:462564	487.648
+Human_swiss_sp|O14773|TPP1_HUMAN	K01279	Animals	Mammals	Pan	ptr:450999	1136.71
+Human_swiss_sp|O15162|PLS1_HUMAN		Animals	Mammals	Pan	ptr:460757	612.068
+Human_swiss_sp|O15260|SURF4_HUMAN	K20369	Animals	Mammals	Nomascus	nle:100590359	517.309
+Human_swiss_sp|O15393|TMPS2_HUMAN	K09633	Animals	Mammals	Pan	ptr:474007	1009.98
+Human_swiss_sp|O15484|CAN5_HUMAN	K08574	Animals	Mammals	Pan	ptr:451438	1337.78
+Human_swiss_sp|O15496|PA2GX_HUMAN	K01047	Animals	Mammals	Nomascus	nle:101179281	305.064
+Human_swiss_sp|O43149|ZZEF1_HUMAN		Animals	Mammals	Pan	ptr:455045	5774.9
+Human_swiss_sp|O43520|AT8B1_HUMAN	K01530	Animals	Mammals	Pan	ptr:455439	2486.83
+Human_swiss_sp|O43653|PSCA_HUMAN		Animals	Mammals	Pan	pps:100985789	185.267
+Human_swiss_sp|O43745|CHP2_HUMAN	K17611	Animals	Mammals	Nomascus	nle:100592406	388.652
+Human_swiss_sp|O43809|CPSF5_HUMAN	K14397	Animals	Mammals	Sorex	sara:101546334	473.396
+Human_swiss_sp|O75369|FLNB_HUMAN	K04437	Animals	Mammals	Pan	ptr:460476	5233.69
+Human_swiss_sp|O75874|IDHC_HUMAN	K00031	Animals	Mammals	Nomascus	nle:100591675	839.721
+Human_swiss_sp|O95471|CLD7_HUMAN	K06087	Animals	Mammals	Pan	ptr:455232	427.557
+Human_swiss_sp|P00338|LDHA_HUMAN	K00016	Animals	Mammals	Pan	ptr:451063	655.21
+Human_swiss_sp|P00390|GSHR_HUMAN	K00383	Animals	Mammals	Nomascus	nle:100584281	952.584
+Human_swiss_sp|P00738|HPT_HUMAN	K16142	Animals	Mammals	Pan	ptr:454233	661.759
+Human_swiss_sp|P01011|AACT_HUMAN	K04525	Animals	Mammals	Pan	ptr:453133	800.816
+Human_swiss_sp|P01703|LV140_HUMAN		Animals	Mammals	Pan	pps:100984259	238.81
+Human_swiss_sp|P02538|K2C6A_HUMAN	K07605	Animals	Mammals	Nomascus	nle:100593236	783.482
+Human_swiss_sp|P02585|TNNC2_HUMAN	K12042	Animals	Mammals	Pan	ptr:741787	303.908
+Human_swiss_sp|P02748|CO9_HUMAN	K04000	Animals	Mammals	Pan	ptr:100610175	1136.32
+Human_swiss_sp|P02774|VTDB_HUMAN	K12258	Animals	Mammals	Pan	ptr:461270	954.896
+Human_swiss_sp|P02795|MT2_HUMAN	K14739	Animals	Mammals	Pan	ptr:471221	101.293
+Human_swiss_sp|P04216|THY1_HUMAN	K06514	Animals	Mammals	Pan	ptr:451611	308.145
+Human_swiss_sp|P04843|RPN1_HUMAN	K12666	Animals	Mammals	Pan	ptr:460673	1151.73
+Human_swiss_sp|P05186|PPBT_HUMAN	K01077	Animals	Mammals	Pan	ptr:456600	1011.52
+Human_swiss_sp|P05787|K2C8_HUMAN	K07605	Animals	Mammals	Pan	ptr:737628	794.653
+Human_swiss_sp|P07099|HYEP_HUMAN	K01253	Animals	Mammals	Pan	ptr:457777	931.398
+Human_swiss_sp|P07384|CAN1_HUMAN	K01367	Animals	Mammals	Pan	ptr:451317	1446.41
+Human_swiss_sp|P08185|CBG_HUMAN	K04525	Animals	Mammals	Pan	ptr:453131	785.793
+Human_swiss_sp|P08246|ELNE_HUMAN	K01327	Animals	Mammals	Pan	pps:100969272	496.893
+Human_swiss_sp|P08865|RSSA_HUMAN	K02998	Animals	Mammals	Pan	ptr:747747	586.645
+Human_swiss_sp|P10253|LYAG_HUMAN	K12316	Animals	Mammals	Pan	ptr:454940	1924.44
+Human_swiss_sp|P11532|DMD_HUMAN	K10366	Animals	Mammals	Callithrix	cjc:100406331	6922.41
+Human_swiss_sp|P12544|GRAA_HUMAN	K01352	Animals	Mammals	Pan	ptr:461873	517.694
+Human_swiss_sp|P12955|PEPD_HUMAN	K14213	Animals	Mammals	Pan	ptr:455932	999.193
+Human_swiss_sp|P13688|CEAM1_HUMAN	K06499	Animals	Mammals	Pan	ptr:456078	1011.91
+Human_swiss_sp|P15311|EZRI_HUMAN	K08007	Animals	Mammals	Nomascus	nle:100581958	1117.83
+Human_swiss_sp|P15924|DESP_HUMAN	K10381	Animals	Mammals	Nomascus	nle:100588753	5326.14
+Human_swiss_sp|P15941|MUC1_HUMAN	K06568	Animals	Mammals	Callithrix	cjc:100398313	1179.47
+Human_swiss_sp|P16422|EPCAM_HUMAN	K06737	Animals	Mammals	Pan	ptr:459214	577.785
+Human_swiss_sp|P16671|CD36_HUMAN	K06259	Animals	Mammals	Pan	ptr:463949	934.48
+Human_swiss_sp|P20160|CAP7_HUMAN	K24665	Animals	Mammals	Pan	ptr:468636	467.233
+Human_swiss_sp|P20674|COX5A_HUMAN	K02264	Animals	Mammals	Pan	ptr:453750	300.056
+Human_swiss_sp|P24855|DNAS1_HUMAN	K11994	Animals	Mammals	Nomascus	nle:100596660	522.316
+Human_swiss_sp|P26006|ITA3_HUMAN	K06482	Animals	Mammals	Pan	ptr:455111	1965.27
+Human_swiss_sp|P27216|ANX13_HUMAN	K17099	Animals	Mammals	Pan	ptr:472914	602.053
+Human_swiss_sp|P27797|CALR_HUMAN	K08057	Animals	Mammals	Nomascus	nle:100601669	747.273
+Human_swiss_sp|P28070|PSB4_HUMAN	K02736	Animals	Mammals	Nomascus	nle:100594201	531.176
+Human_swiss_sp|P29992|GNA11_HUMAN	K04635	Animals	Mammals	Pan	ptr:100611153	714.531
+Human_swiss_sp|P32119|PRDX2_HUMAN	K03386	Animals	Mammals	Pan	ptr:468740	406.371
+Human_swiss_sp|P34096|RNAS4_HUMAN	K16632	Animals	Mammals	Pan	ptr:465205	297.745
+Human_swiss_sp|P35555|FBN1_HUMAN	K06825	Animals	Mammals	Pan	ptr:453411	6311.48
+Human_swiss_sp|P38405|GNAL_HUMAN	K04633	Animals	Mammals	Mus	mmu:14680	769.615
+Human_swiss_sp|P38919|IF4A3_HUMAN	K13025	Animals	Mammals	Lemur	lcat:123620501	797.734
+Human_swiss_sp|P40879|S26A3_HUMAN	K14078	Animals	Mammals	Pan	ptr:472483	1335.86
+Human_swiss_sp|P40939|ECHA_HUMAN	K07515	Animals	Mammals	Pan	ptr:459079	1463.36
+Human_swiss_sp|P45880|VDAC2_HUMAN	K15040	Animals	Mammals	Pan	ptr:738876	596.66
+Human_swiss_sp|P47985|UCRI_HUMAN	K00411	Animals	Mammals	Pan	ptr:741344	530.406
+Human_swiss_sp|P48595|SPB10_HUMAN	K13963	Animals	Mammals	Pan	ptr:107966356	776.163
+Human_swiss_sp|P50395|GDIB_HUMAN	K17255	Animals	Mammals	Nomascus	nle:100579667	876.7
+Human_swiss_sp|P53999|TCP4_HUMAN	K25815	Animals	Mammals	Cervus	ccad:122448744	238.81
+Human_swiss_sp|P54868|HMCS2_HUMAN	K01641	Animals	Mammals	Pan	ptr:457169	1020.76
+Human_swiss_sp|P62241|RS8_HUMAN	K02995	Animals	Mammals	Ailuropoda	aml:100475346	428.713
+Human_swiss_sp|P62937|PPIA_HUMAN	K03767	Animals	Mammals	Pan	ptr:463386	345.895
+Human_swiss_sp|P68363|TBA1B_HUMAN	K07374	Animals	Birds	Nothoprocta	npd:112954233	882.478
+Human_swiss_sp|P80188|NGAL_HUMAN	K21129	Animals	Mammals	Pan	ptr:464764	382.489
+Human_swiss_sp|Q00325|MPCP_HUMAN	K15102	Animals	Mammals	Pan	ptr:452152	684.871
+Human_swiss_sp|Q01469|FABP5_HUMAN	K08754	Animals	Mammals	Pan	ptr:746909	278.485
+Human_swiss_sp|Q02978|M2OM_HUMAN	K15104	Animals	Mammals	Pan	ptr:468167	622.083
+Human_swiss_sp|Q07075|AMPE_HUMAN	K11141	Animals	Mammals	Pan	ptr:461437	1932.53
+Human_swiss_sp|Q13232|NDK3_HUMAN	K00940	Animals	Mammals	Nomascus	nle:100596874	344.739
+Human_swiss_sp|Q5D862|FILA2_HUMAN	K10384	Animals	Mammals	Pan	ptr:100614947	2959.09
+Human_swiss_sp|Q6NUM9|RETST_HUMAN	K09516	Animals	Mammals	Pan	ptr:470420	1181.39
+Human_swiss_sp|Q6P1J6|PLB1_HUMAN	K14621	Animals	Mammals	Nomascus	nle:100593200	2834.67
+Human_swiss_sp|Q6UWM9|UD2A3_HUMAN	K00699	Animals	Mammals	Nomascus	nle:100596311	1061.6
+Human_swiss_sp|Q86TD4|SRCA_HUMAN		Animals	Mammals	Nomascus	nle:100599837	929.087
+Human_swiss_sp|Q92542|NICA_HUMAN	K06171	Animals	Mammals	Macaca	mcc:719696	1364.75
+Human_swiss_sp|Q92544|TM9S4_HUMAN	K17086	Animals	Mammals	Nomascus	nle:100588541	1272.69
+Human_swiss_sp|Q92820|GGH_HUMAN	K01307	Animals	Mammals	Pan	ptr:464204	629.787
+Human_swiss_sp|Q969X1|LFG3_HUMAN	K24205	Animals	Mammals	Nomascus	nle:100599966	543.888
+Human_swiss_sp|Q96DE0|NUD16_HUMAN	K16855	Animals	Mammals	Pan	ptr:107966544	331.643
+Human_swiss_sp|Q96HC4|PDLI5_HUMAN	K19867	Animals	Mammals	Nomascus	nle:100597048	1161.36
+Human_swiss_sp|Q99828|CIB1_HUMAN	K17259	Animals	Mammals	Nomascus	nle:100595510	367.081
+Human_swiss_sp|Q9BYF1|ACE2_HUMAN	K09708	Animals	Mammals	Pan	ptr:465511	1613.97
+Human_swiss_sp|Q9BYG5|PAR6B_HUMAN	K06093	Animals	Mammals	Pan	ptr:458334	709.523
+Human_swiss_sp|Q9HBB8|CDHR5_HUMAN	K16505	Animals	Mammals	Callithrix	cjc:100410617	1142.49
+Human_swiss_sp|Q9HD89|RETN_HUMAN	K13438	Animals	Mammals	Pan	ptr:742100	211.846
+Human_swiss_sp|Q9NRQ2|PLS4_HUMAN		Animals	Mammals	Pan	ptr:460755	676.781
+Human_swiss_sp|Q9NV96|CC50A_HUMAN	K26935	Animals	Mammals	Pan	ptr:462827	737.258
+Human_swiss_sp|Q9Y2Y8|PRG3_HUMAN	K25722	Animals	Mammals	Pan	ptr:466586	468.774
+Human_swiss_sp|Q9Y6X5|ENPP4_HUMAN	K18424	Animals	Mammals	Nomascus	nle:100587404	915.22
+MAX_A2I7N1	K04525	Animals	Mammals	Bos	bta:617667	753.436
+MAX_P00761	K01312	Animals	Mammals	Sus	ssc:100302368	483.026
+MAX_P04258	K19720	Animals	Mammals	Physeter	pcad:102977247	1373.22
+MAX_Q1RMN8		Animals	Mammals	Bos	bta:112441499	420.239
+MH0001_GL0001696	K00266	Bacteria	Bacteroidota	Segatella	pcoi:LK433_08505	1519.6
+MH0001_GL0006365	K21574	Bacteria	Bacteroidota	Segatella	pcoi:LK433_03565	1475.69
+MH0003_GL0010170	K01956	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3998	675.241
+MH0005_GL0017606	K21572	Bacteria	Bacteroidota	Hoylesella	peo:AS203_00525	370.933
+MH0008_GL0011436	K01299	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_29320	833.943
+MH0009_GL0066567	K01754	Bacteria	Clostridia	Coprococcus	coo:CCU_26770	729.554
+MH0011_GL0054492	K00048	Bacteria	Clostridia	Anaeromicropila	ahb:bsdtb5_04310	415.616
+MH0012_GL0008469	K01715	Bacteria	Other Bacillota	Megasphaera	med:MELS_0462	520.776
+MH0012_GL0038842	K05349	Bacteria	Clostridia	Butyrivibrio	bpb:bpr_I0184	935.636
+MH0012_GL0144040	K11176	Bacteria	Clostridia	Enterocloster	cbol:CGC65_16620	359.762
+MH0012_GL0199393	K01784	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1949	492.656
+MH0013_GL0020747	K00615	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_06190	518.464
+MH0014_GL0102820	K01892	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0351	795.423
+MH0015_GL0033518		Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_12135	537.724
+MH0016_GL0042520	K01740	Bacteria	Bacteroidota	Bacteroides	bth:BT_1923	820.076
+MH0018_GL0003216		Bacteria	Bacteroidota	Prevotella	pher:prwr041_09500	1434.85
+MH0019_GL0005571	K01808	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_14970	166.392
+MH0021_GL0021757	K00059	Bacteria	Cyanobacteriota	(no genus)	mbf:BHV42_05180	288.5
+MH0025_GL0067667	K01519	Bacteria	Clostridia	Thermocaproicibacter	tmel:NOG13_03985	228.794
+MH0028_GL0056621	K01198	Bacteria	Bacilli	Secundilactobacillus	lpd:AYR62_11615	665.611
+MH0030_GL0001621	K00773	Bacteria	Bacteroidota	Segatella	pcoi:LK433_07590	719.539
+MH0031_GL0019482	K00175	Bacteria	Bacteroidota	Segatella	pcoi:LK433_05225	507.679
+MH0035_GL0054364	K08483	Bacteria	Clostridia	Dorea	dlo:K5I24_06565	803.512
+MH0046_GL0048511	K00782	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2878	374.4
+MH0047_GL0010726	K20509	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2488	662.529
+MH0050_GL0032595	K02967	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3489	497.278
+MH0055_GL0013021	K01661	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2417	523.472
+MH0055_GL0056634	K01462	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_4061	325.479
+MH0057_GL0000596	K03046	Bacteria	Bacteroidota	Pseudoprevotella	alq:C7Y71_009455	2386.3
+MH0057_GL0024940	K00831	Bacteria	Bacteroidota	Segatella	pcoi:LK433_08855	615.15
+MH0065_GL0043313	K00975	Bacteria	Clostridia	Wujia	wcp:H9Q76_04400	641.343
+MH0067_GL0024690	K02996	Bacteria	Bacteroidota	Bacteroides	bth:BT_3876	238.81
+MH0069_GL0078305	K02878	Bacteria	Bacteroidota	Prevotella	pmz:HMPREF0659_A5322	283.493
+MH0077_GL0049008	K01869	Bacteria	Clostridia	Proteiniclasticum	proq:P6M73_05475	968.763
+MH0088_GL0081920	K03040	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_14990	609.372
+MH0088_GL0106141	K02520	Bacteria	Clostridia	(no genus)	bprm:CL3_11520	291.197
+MH0089_GL0006088	K21572	Bacteria	Bacteroidota	Fermentimonas	pbt:ING2E5B_2423	503.442
+MH0096_GL0013876	K00266	Bacteria	Clostridia	(no genus)	ruk:A4V00_06635	633.639
+MH0101_GL0034901		Bacteria	Bacteroidota	Bacteroides	bcel:BcellWH2_02038	419.853
+MH0102_GL0131793	K03704	Bacteria	Clostridia	Blautia	rob:CK5_10060	138.272
+MH0104_GL0126942	K00574	Bacteria	Clostridia	Ruminococcus	rum:CK1_23960	787.719
+MH0107_GL0053514	K04488	Bacteria	Clostridia	(no genus)	esr:ES1_02130	293.893
+MH0113_GL0085823	K02669	Bacteria	Clostridia	Ruminococcus	ral:Rumal_2390	629.787
+MH0124_GL0122318	K00928	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2021	779.245
+MH0124_GL0139213	K03977	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2434	789.645
+MH0128_GL0039655		Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_00470	658.292
+MH0130_GL0077888	K02888	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3634	199.519
+MH0131_GL0175685	K09015	Bacteria	Actinomycetota	Collinsella	caer:CSV91_03890	778.859
+MH0145_GL0030522	K00052	Bacteria	Bacteroidota	Duncaniella	dun:FDZ78_08630	637.106
+MH0147_GL0085300	K02992	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_26000	296.975
+MH0148_GL0101062	K02469	Bacteria	Clostridia	Coprococcus	coo:CCU_19530	1631.69
+MH0151_GL0025677	K01875	Bacteria	Bacteroidota	Prevotella	pmz:HMPREF0659_A6961	763.066
+MH0154_GL0079833	K02030	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_28380	532.717
+MH0163_GL0005160	K00677	Bacteria	Bacteroidota	Hoylesella	peo:AS203_05205	445.277
+MH0172_GL0094809		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_10425	575.859
+MH0181_GL0023945	K01179	Bacteria	Bacteroidota	Salegentibacter	salt:AO058_07335	798.505
+MH0181_GL0121553	K01810	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_4109	760.755
+MH0185_GL0046298		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_20640	843.958
+MH0187_GL0009989	K01790	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_0085	315.849
+MH0187_GL0088968		Bacteria	Bacteroidota	Xylanibacter	pru:PRU_1225	503.827
+MH0187_GL0109685	K01923	Bacteria	Clostridia	Oscillibacter	ova:OBV_06540	235.343
+MH0187_GL0161489	K02111	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_1192	934.865
+MH0188_GL0027885	K01193	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_08710	467.233
+MH0188_GL0154587	K01756	Bacteria	Actinomycetota	Eggerthella	ele:Elen_0256	795.038
+MH0189_GL0011618	K06001	Bacteria	Clostridia	Wansuia	whj:H9Q79_03735	825.083
+MH0189_GL0044111	K01835	Bacteria	Other Bacillota	Selenomonas	sri:SELR_25710	934.865
+MH0191_GL0170673	K02946	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_14235	200.29
+MH0192_GL0033977		Bacteria	Clostridia	Blautia	blab:EYS05_06640	343.584
+MH0193_GL0098539		Bacteria	Clostridia	Thermocaproicibacter	tmel:NOG13_05645	699.123
+MH0195_GL0000832		Bacteria	Bacteroidota	Bacteroides	bth:BT_4360	187.193
+MH0195_GL0138882	K01873	Bacteria	Bacteroidota	Barnesiella	bvs:BARVI_02880	1659.81
+MH0195_GL0157558		Bacteria	Bacteroidota	Bacteroides	bth:BT_1740	277.33
+MH0198_GL0110500	K13993	Bacteria	Clostridia	Blautia	rob:CK5_14340	298.516
+MH0200_GL0208874	K00965	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_08970	651.744
+MH0203_GL0205096	K03737	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_17250	1139.41
+MH0206_GL0198905	K00088	Bacteria	Clostridia	Eubacterium	elm:ELI_1158	842.032
+MH0206_GL0248934	K00962	Bacteria	Clostridia	Solibaculum	sman:C12CBH8_19270	537.339
+MH0211_GL0027677	K07030	Bacteria	Clostridia	Caproicibacterium	caml:H6X83_01075	679.478
+MH0212_GL0099034	K09458	Bacteria	Clostridia	Anaerostipes	bprl:CL2_05910	790.415
+MH0212_GL0158635		Bacteria	Clostridia	Blautia	bmas:LK422_11525	1642.48
+MH0220_GL0013567	K01940	Bacteria	Clostridia	Aristaeella	alac:JYE50_06770	711.835
+MH0229_GL0094553	K02946	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_02720	190.274
+MH0230_GL0123444	K03602	Bacteria	Actinomycetota	Collinsella	caer:CSV91_01390	166.392
+MH0233_GL0105808	K01624	Bacteria	Clostridia	Agathobacter	ere:EUBREC_0700	379.407
+MH0250_GL0261474	K00850	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_12705	592.423
+MH0252_GL0126444	K10254	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_04920	1128.62
+MH0257_GL0156742	K03699	Bacteria	Bacteroidota	Cyclobacterium	cmr:Cycma_4017	347.436
+MH0262_GL0028975	K03569	Bacteria	Clostridia	Pseudoclostridium	cthd:CDO33_00215	273.863
+MH0265_GL0094469	K01849	Bacteria	Other Bacillota	Veillonella	vpr:Vpar_1247	113.235
+MH0265_GL0158847	K01872	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1908	1554.65
+MH0267_GL0172663		Bacteria	Bacteroidota	Bacteroides	bth:BT_3336	504.212
+MH0268_GL0176636	K03117	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_31310	162.925
+MH0274_GL0176527	K03924	Bacteria	Bacteroidota	Bacteroides	bth:BT_0910	621.313
+MH0276_GL0031464	K01756	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_09945	870.537
+MH0277_GL0004218	K00134	Bacteria	Clostridia	Paraclostridium	pbif:KXZ80_01845	634.409
+MH0280_GL0098755	K01625	Bacteria	Other Bacillota	Megasphaera	med:MELS_0558	162.925
+MH0281_GL0089663		Bacteria	Bacteroidota	Parabacteroides	pgol:K6V26_20255	1199.5
+MH0287_GL0097163	K02990	Bacteria	Actinomycetota	Gardnerella	gvg:HMPREF0421_21159	186.808
+MH0287_GL0130575	K25026	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_31340	523.472
+MH0287_GL0131882	K02112	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_01350	868.996
+MH0288_GL0076807	K02356	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1433	375.941
+MH0289_GL0170063	K09903	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_05500	439.499
+MH0290_GL0087955		Bacteria	Bacteroidota	Bacteroides	beg:INE88_02295	1691.4
+MH0309_GL0131756	K03168	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_02190	1346.26
+MH0311_GL0045966	K01270	Bacteria	Bacteroidota	Bacteroides	bth:BT_4045	907.131
+MH0313_GL0047842	K01867	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01335	638.262
+MH0314_GL0111349	K07080	Bacteria	Spirochaetota	Sphaerochaeta	sbu:SpiBuddy_1883	305.064
+MH0314_GL0143407	K02897	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3823	321.242
+MH0318_GL0078889	K11755	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_11810	394.43
+MH0318_GL0187019	K00767	Bacteria	Clostridia	Caproicibacterium	caml:H6X83_02905	434.491
+MH0322_GL0030805	K06204	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3060	243.817
+MH0323_GL0149024	K10240	Bacteria	Clostridia	Aristaeella	alac:JYE50_11785	586.645
+MH0325_GL0126149		Bacteria	Bacteroidota	Parabacteroides	pmer:INE87_02990	150.984
+MH0329_GL0210519	K15580	Bacteria	Clostridia	Fastidiosipila	fsa:C5Q98_01500	441.039
+MH0332_GL0004248	K06975	Bacteria	Bacteroidota	Bacteroides	bth:BT_4494	152.91
+MH0333_GL0000160	K05349	Bacteria	Bacteroidota	Bacteroides	bth:BT_3314	1180.24
+MH0336_GL0141460	K02935	Bacteria	Clostridia	Kineothrix	kib:RBB56_06180	179.874
+MH0339_GL0201051	K02112	Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_00822	814.298
+MH0341_GL0041252	K27263	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09380	400.979
+MH0343_GL0074680	K02950	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_15710	89.7373
+MH0345_GL0074047	K02433	Bacteria	Clostridia	Roseburia	rho:RHOM_10065	796.964
+MH0358_GL0033673	K27266	Bacteria	Clostridia	Enterocloster	cbol:CGC65_23900	132.109
+MH0358_GL0144418	K02563	Bacteria	Clostridia	Enterocloster	cbol:CGC65_01650	667.537
+MH0360_GL0029700		Bacteria	Bacteroidota	Parabacteroides	pmer:INE87_02990	1029.24
+MH0362_GL0054677	K02358	Bacteria	Verrucomicrobiota	Puniceicoccus	puo:RZN69_19940	648.277
+MH0362_GL0176744	K03615	Bacteria	Clostridia	Oscillibacter	ova:OBV_00610	469.544
+MH0370_GL0010912	K00528	Bacteria	Clostridia	(no genus)	bprs:CK3_16330	514.612
+MH0370_GL0050634	K03648	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_00180	144.821
+MH0373_GL0050835	K01868	Bacteria	Clostridia	Ethanoligenens	eha:Ethha_0185	323.939
+MH0373_GL0069579	K01610	Bacteria	Clostridia	Qiania	qdo:H9Q78_02315	394.815
+MH0373_GL0197324	K02892	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_14730	143.665
+MH0377_GL0051513	K01867	Bacteria	Clostridia	Thermoclostridium	css:Cst_c16750	183.341
+MH0377_GL0162010	K02988	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00316	281.567
+MH0378_GL0156280	K02355	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_18780	423.705
+MH0381_GL0140513		Bacteria	Bacteroidota	Bacteroides	bcel:BcellWH2_05065	216.853
+MH0385_GL0075391	K00962	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_2633	1254.58
+MH0385_GL0116243	K01803	Bacteria	Clostridia	Roseburia	rho:RHOM_05175	481.485
+MH0385_GL0121908	K02881	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_11905	199.904
+MH0390_GL0033768		Bacteria	Clostridia	Intestinibacillus	int:RX717_01810	646.351
+MH0390_GL0070746		Bacteria	Clostridia	Proteiniborus	prom:QO263_02770	345.125
+MH0392_GL0012204		Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_15150	329.331
+MH0393_GL0083918	K00789	Bacteria	Clostridia	Dorea	dlo:K5I24_11135	532.717
+MH0402_GL0094049	K07166	Bacteria	Clostridia	Blautia	rob:CK5_24780	150.984
+MH0402_GL0168365	K01995	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_24810	539.65
+MH0406_GL0176763	K01784	Bacteria	Clostridia	Anaerocolumna	anr:Ana3638_22935	342.428
+MH0407_GL0054070		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_16540	1413.28
+MH0407_GL0162336	K21071	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1040	577.4
+MH0408_GL0013184	K02904	Bacteria	Clostridia	Dorea	dlo:K5I24_06830	126.716
+MH0409_GL0070119		Bacteria	Clostridia	Dorea	dlo:K5I24_07465	581.637
+MH0413_GL0069586	K01866	Bacteria	Clostridia	Blautia	rob:CK5_25450	326.635
+MH0413_GL0150583	K01740	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1442	797.734
+MH0414_GL0038383	K02871	Bacteria	Clostridia	Enterocloster	cbol:CGC65_25920	220.705
+MH0415_GL0024504	K01889	Bacteria	Bacteroidota	Duncaniella	dun:FDZ78_04180	598.201
+MH0417_GL0188653	K01190	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_14710	2039.62
+MH0419_GL0090717		Bacteria	Clostridia	Mediterraneibacter	rto:RTO_26800	254.988
+MH0421_GL0155800		Animals	Fishes	Megalobrama	mamb:125256407	95.1301
+MH0433_GL0227617	K02117	Bacteria	Clostridia	Emergencia	etm:CE91St48_33630	625.165
+MH0439_GL0140099	K03531	Bacteria	Cyanobacteriota	Chroococcidiopsis	cthe:Chro_2586	371.318
+MH0441_GL0018694	K03553	Bacteria	Bacteroidota	(no genus)	bacc:BRDCF_p1640	304.293
+MH0443_GL0143727	K00240	Bacteria	Bacteroidota	Alistipes	afd:Alfi_2236	450.284
+MH0447_GL0173438	K01813	Bacteria	Clostridia	(no genus)	lbx:lbkm_0163	696.427
+MH0450_GL0036358	K03106	Bacteria	Clostridia	Roseburia	rho:RHOM_09800	337.035
+MH0452_GL0154836	K01933	Bacteria	Clostridia	Lachnospira	eel:EUBELI_00549	643.269
+MH0453_GL0052894		Bacteria	Clostridia	Faecalibacterium	fpra:CG447_14050	464.922
+MH0454_GL0190916		Bacteria	Clostridia	(no genus)	esr:ES1_16310	256.144
+MH0456_GL0115094	K10240	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1074	753.821
+N038A_GL0032780		Bacteria	Actinomycetota	Bifidobacterium	blo:BL1392	94.7449
+N056A_GL0035389		Bacteria	Clostridia	Agathobaculum	agat:RWV98_02535	594.734
+N082A_GL0088031	K09458	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1050	743.806
+N085A_GL0045045	K00174	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2313	625.935
+NLF007_GL0074228	K03569	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_01440	407.912
+NLF013_GL0059590	K01586	Bacteria	Clostridia	Roseburia	rho:RHOM_05420	837.025
+NLM026_GL0105071	K02876	Bacteria	Clostridia	Acetivibrio	cth:Cthe_2922	213.772
+NLM027_GL0038172	K01733	Bacteria	Bacilli	Streptococcus	spn:SP_2066	761.14
+NLM029_GL0028358	K00764	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_01470	653.284
+NLM031_GL0097197	K01489	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_09840	270.781
+NLM032_GL0027396	K02770	Bacteria	Other Bacillota	Veillonella	vpr:Vpar_1578	1137.87
+NOM009_GL0105142		Bacteria	Clostridia	Faecalibacterium	fpra:CG447_13840	355.525
+NOM023_GL0002764		Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0762	662.144
+O2.CD1-0-PT_GL0035189	K12574	Bacteria	Clostridia	Dorea	dlo:K5I24_03640	1032.32
+O2.CD1-0-PT_GL0077912	K15986	Bacteria	Clostridia	Blautia	rob:CK5_11080	1102.81
+O2.CD2-0-PT_GL0002067	K02926	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_04730	358.221
+O2.CD2-0-PT_GL0020870	K00615	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_15240	524.628
+O2.CD3-0-PT_GL0038511	K03168	Bacteria	Clostridia	Blautia	rob:CK5_03080	974.926
+O2.CD3-0-PT_GL0073725	K03553	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_10495	581.252
+O2.CD3-0-PT_GL0096366	K00287	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_20375	214.927
+O2.CD3-0-PT_GL0171651	K02355	Bacteria	Clostridia	Blautia	rob:CK5_25310	709.909
+O2.UC1-2_GL0017058	K01848	Bacteria	Other Bacillota	Dialister	dho:Dia5BBH33_14380	118.242
+O2.UC11-1_GL0097203	K03168	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_09955	1305.04
+O2.UC11-2_GL0030688	K08659	Bacteria	Clostridia	Roseburia	rho:RHOM_12905	629.787
+O2.UC18-1_GL0114520	K03616	Bacteria	Clostridia	Blautia	rob:CK5_25720	449.129
+O2.UC19-1_GL0052297		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_23380	346.28
+O2.UC19-2_GL0006821		Bacteria	Clostridia	Subdoligranulum	svj:NQ490_12235	427.943
+O2.UC22-1_GL0112577	K12308	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1168	1092.03
+O2.UC24-2_GL0011763	K03431	Bacteria	Actinomycetota	Collinsella	caer:CSV91_09615	234.958
+O2.UC27-0_GL0000023	K20345	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_10200	344.354
+O2.UC28-0_GL0177312	K01625	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3056	424.091
+O2.UC28-2_GL0078539	K00939	Bacteria	Clostridia	Dorea	dlo:K5I24_06765	352.058
+O2.UC30-1_GL0110213	K22339	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_19380	189.889
+O2.UC30-1_GL0151797	K01621	Bacteria	Clostridia	Coprococcus	ccom:I6K69_03095	1652.88
+O2.UC31-1_GL0168987	K07263	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3629	1263.44
+O2.UC31-2_GL0055008	K00705	Bacteria	Actinomycetota	Collinsella	caer:CSV91_06790	590.882
+O2.UC36-0_GL0035328	K02967	Bacteria	Clostridia	(no genus)	bprs:CK3_23580	452.981
+O2.UC36-0_GL0130824		Bacteria	Other Bacillota	Allobaculum	amuo:KWG62_11755	1879.76
+O2.UC36-2_GL0005928	K03111	Bacteria	Clostridia	Blautia	rob:CK5_06080	199.134
+O2.UC4-2_GL0090005	K16212	Bacteria	Clostridia	Faecalibacterium	fpa:FPR_17220	229.565
+O2.UC40-1_GL0085028		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_20930	67.3958
+O2.UC44-2_GL0124520	K00940	Bacteria	Betaproteobacteria	Sutterella	sutt:SUTMEG_19590	265.774
+O2.UC48-0_GL0307427	K03553	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_09875	621.313
+O2.UC48-1_GL0006621		Bacteria	Clostridia	Simiaoa	ssun:H9Q77_09275	1027.31
+O2.UC48-1_GL0066693	K00266	Bacteria	Clostridia	Paludihabitans	palm:RBG61_06335	736.102
+O2.UC54-0_GL0073016		Bacteria	Clostridia	Coprococcus	ccom:I6K69_13090	764.607
+O2.UC58-2_GL0132289		Bacteria	Other Bacillota	Catenibacterium	cmit:NQ499_11900	510.375
+O2.UC6-1_GL0158164	K14534	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_12830	912.909
+SZEY-38A_GL0029966	K01887	Bacteria	Actinomycetota	Gardnerella	gvg:HMPREF0421_21318	532.717
+SZEY-60A_GL0070586		Bacteria	Bacteroidota	Prevotella	pje:CRM71_12755	333.183
+T2D-107A_GL0109570	K03797	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2624	865.144
+T2D-108A_GL0033294	K06023	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_07550	538.11
+T2D-122A_GL0026640	K03686	Bacteria	Clostridia	(no genus)	lbx:lbkm_1967	435.261
+T2D-135A_GL0008433	K00604	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0054	630.172
+T2D-140A_GL0041176	K01586	Bacteria	Actinomycetota	Collinsella	caer:CSV91_01285	635.565
+T2D-140A_GL0094866	K01537	Bacteria	Actinomycetota	Collinsella	caer:CSV91_09030	484.952
+T2D-15A_GL0140265	K01190	Bacteria	Clostridia	Blautia	rob:CK5_36690	875.159
+T2D-163A_GL0074891	K00656	Bacteria	Bacteroidota	Segatella	pcoi:LK433_11485	522.702
+T2D-19A_GL0112307	K02967	Bacteria	Clostridia	Enterocloster	cbol:CGC65_16555	476.478
+T2D-22A_GL0004582	K00849	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_1666	297.36
+T2D-22A_GL0092696	K12573	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3344	1128.24
+T2D-31A_GL0043705	K25034	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2055	517.694
+T2D-59A_GL0183419	K03496	Bacteria	Actinomycetota	Collinsella	caer:CSV91_07585	511.146
+T2D-62A_GL0036996	K03086	Bacteria	Clostridia	Lachnoclostridium	cpy:Cphy_3521	668.692
+T2D-62A_GL0063917	K18682	Bacteria	Clostridia	Mediterraneibacter	rgn:RGna_04775	889.026
+T2D-6A_GL0149994	K01258	Bacteria	Clostridia	Dorea	dlo:K5I24_13865	540.421
+T2D-76A_GL0031068		Bacteria	Clostridia	Wujia	wcp:H9Q76_07790	345.51
+T2D-8A_GL0019548	K01893	Bacteria	Other Gammaproteobacteria	Tolumonas	tau:Tola_1092	722.62
+V1.CD14-0_GL0001828	K09955	Bacteria	Clostridia	Roseburia	rho:RHOM_03205	332.028
+V1.CD16-0_GL0066099	K06023	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_25370	95.9005
+V1.CD19-0_GL0184721	K01653	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_25740	304.293
+V1.CD21-0_GL0032301	K03310	Bacteria	Clostridia	Blautia	rob:CK5_09570	803.512
+V1.CD22-0_GL0059569	K21636	Bacteria	Clostridia	Butyrivibrio	bpb:bpr_I2918	931.784
+V1.CD25-0_GL0057205	K01996	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1718	449.129
+V1.CD25-0_GL0078316	K02338	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0638	677.167
+V1.CD3-0-PN_GL0134226	K00169	Bacteria	Clostridia	Dorea	dfm:NQ560_04065	694.501
+V1.CD34-0_GL0137502		Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1841	1393.25
+V1.CD40-0_GL0021043		Bacteria	Clostridia	Faecalibacterium	fpa:FPR_20930	498.434
+V1.CD44-4_GL0094157		Bacteria	Bacteroidota	Segatella	pcoi:LK433_06645	931.398
+V1.CD45-0_GL0002062	K01938	Bacteria	Clostridia	Dorea	dlo:K5I24_11940	989.178
+V1.CD46-0_GL0033514	K10672	Bacteria	Clostridia	Coprococcus	ccom:I6K69_02940	588.571
+V1.CD51-0_GL0209482		Bacteria	Clostridia	Ruminococcus	rum:CK1_20850	934.865
+V1.CD52-0_GL0142355	K02881	Bacteria	Clostridia	Dorea	dlo:K5I24_06790	222.631
+V1.CD54-0_GL0104492	K01955	Bacteria	Clostridia	Blautia	rob:CK5_34100	1864.74
+V1.FI05_GL0020827	K06969	Bacteria	Clostridia	Roseburia	rho:RHOM_14645	493.426
+V1.FI05_GL0038060	K00790	Bacteria	Clostridia	Sellimonas	sint:K5I26_01980	806.979
+V1.FI07_GL0109931	K00048	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1091	362.459
+V1.FI12_GL0064440	K05822	Bacteria	Actinomycetota	Collinsella	caer:CSV91_01275	426.787
+V1.FI13_GL0117146	K00948	Bacteria	Clostridia	Anaerostipes	bprl:CL2_18930	776.933
+V1.FI28_GL0055112	K00789	Bacteria	Clostridia	Dorea	dlo:K5I24_11135	667.151
+V1.FI28_GL0220650	K00067	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_26560	627.476
+V1.UC11-0_GL0030916		Bacteria	Other Bacillota	(no genus)	erb:A4V01_14695	456.062
+V1.UC11-5_GL0006483	K03544	Bacteria	Clostridia	(no genus)	lbx:lbkm_3029	414.461
+V1.UC13-0_GL0051893	K01835	Bacteria	Actinomycetota	Gardnerella	gvg:HMPREF0421_20388	304.679
+V1.UC16-0_GL0009562		Bacteria	Clostridia	Eubacterium	evn:NQ558_05620	492.271
+V1.UC21-4_GL0038817		Bacteria	Clostridia	Ruminococcus	ruj:E5Z56_11245	185.652
+V1.UC22-1_GL0089182	K04072	Bacteria	Clostridia	Oscillibacter	ova:OBV_16540	237.654
+V1.UC34-0_GL0057212	K00975	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_25000	495.352
+V1.UC35-4_GL0104651	K02933	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_08720	352.443
+V1.UC4-0_GL0082018		Bacteria	Clostridia	Faecalibacterium	fpa:FPR_20930	339.732
+V1.UC4-5_GL0090328	K02601	Bacteria	Clostridia	Subdoligranulum	svj:NQ490_13270	298.516
+V1.UC45-0_GL0083346	K01220	Bacteria	Actinomycetota	Collinsella	caer:CSV91_06215	295.049
+V1.UC47-4_GL0187740	K25674	Bacteria	Clostridia	(no genus)	bpen:NQ488_11825	650.973
+V1.UC52-0_GL0125727		Bacteria	Bacteroidota	Bacteroides	bfe:K6V30_00505	540.421
+V1.UC53-4_GL0068965	K02871	Bacteria	Bacteroidota	Segatella	pcoi:LK433_03250	278.1
+V1.UC37-0_GL0028267	K02867	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_01740	269.626
+1045856.EcWSU1_04090	K03500	Bacteria	Enterobacteria	Enterobacter	enc:ECL_04665	819.69
+160400887-stool1_revised_scaffold28677_2_gene32473		Bacteria	Bacteroidota	Alistipes	afd:Alfi_0438	723.391
+457421.CBFG_02424	K01733	Bacteria	Clostridia	Enterocloster	cbol:CGC65_27155	808.905
+763860675-stool1_revised_scaffold26472_1_gene84805	K01890	Bacteria	Clostridia	Blautia	rob:CK5_28900	394.045
+764224817-stool1_revised_scaffold16937_1_gene50029		Bacteria	Bacteroidota	Segatella	pcoi:LK433_13210	882.863
+Human_swiss_sp|P0DTE1|HV383_HUMAN	K06856	Animals	Mammals	Pan	ptr:100608894	191.815
+Human_swiss_sp|Q16881|TRXR1_HUMAN	K22182	Animals	Mammals	Nomascus	nle:100600391	1236.09
+MH0003_GL0044368	K01703	Bacteria	Bacteroidota	Bacteroides	bth:BT_1860	895.96
+MH0020_GL0052377	K03106	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_0218	838.565
+MH0088_GL0029926	K01867	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_09480	666.381
+MH0140_GL0038860	K12132	Bacteria	Clostridia	Caproicibacter	cfem:HCR03_03375	612.838
+MH0143_GL0088091		Bacteria	Clostridia	Blautia	rob:CK5_28730	108.227
+MH0189_GL0031720	K00174	Bacteria	Clostridia	Flavonifractor	fpla:A4U99_05890	526.939
+MH0195_GL0143964	K02892	Bacteria	Other Bacillota	Phascolarctobacterium	pfac:PFJ30894_01082	172.555
+MH0230_GL0059391	K00878	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0115	369.777
+MH0239_GL0033917		Bacteria	Clostridia	Blautia	rob:CK5_34630	496.508
+MH0239_GL0037300	K03530	Bacteria	Clostridia	Blautia	rob:CK5_21200	163.696
+MH0243_GL0005283	K18682	Bacteria	Bacteroidota	Alistipes	afd:Alfi_2006	839.721
+MH0384_GL0115412	K02874	Bacteria	Clostridia	Wansuia	whj:H9Q79_09035	203.371
+NOF013_GL0069648	K01338	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3163	1521.14
+O2.UC1-2_GL0162923	K00615	Bacteria	Clostridia	Agathobacter	ere:EUBREC_0331	469.159
+O2.UC2-0_GL0011273	K07166	Bacteria	Clostridia	Agathobaculum	agat:RWV98_08995	117.087
+O2.UC30-0_GL0018369	K00616	Bacteria	Clostridia	Intestinibacter	ibr:NQ514_07175	404.445
+O2.UC50-2_GL0212401		Bacteria	Other Bacillota	Gottschalkia	cad:Curi_c26790	235.343
+T2D-76A_GL0007804	K00615	Bacteria	Clostridia	Roseburia	rho:RHOM_14315	555.058
+508703490-stool1_revised_C571944_1_gene53110	K03043	Bacteria	Clostridia	Ruminococcus	ral:Rumal_2919	767.303
+Human_swiss_sp|P04083|ANXA1_HUMAN	K17091	Animals	Mammals	Pan	ptr:472953	677.167
+Human_swiss_sp|P09228|CYTT_HUMAN	K13898	Animals	Mammals	Pan	ptr:458144	244.973
+Human_swiss_sp|P19237|TNNI1_HUMAN	K10371	Animals	Mammals	Macaca	mcc:707860	364.77
+Human_swiss_sp|P29972|AQP1_HUMAN	K09864	Animals	Mammals	Macaca	mcc:106997467	520.776
+Human_swiss_sp|Q96IU4|ABHEB_HUMAN	K13706	Animals	Mammals	Pan	ptr:460411	417.542
+MH0003_GL0006443	K00215	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_07850	233.802
+MH0065_GL0033031	K04079	Bacteria	Clostridia	Anaeromicropila	ahb:bsdtb5_15580	950.658
+MH0070_GL0000448	K00645	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3989	550.436
+MH0157_GL0038338		Bacteria	Bacteroidota	Segatella	pcoi:LK433_13640	323.168
+MH0407_GL0151457		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_01540	351.288
+NOF013_GL0079114	K03307	Bacteria	Bacteroidota	Bacteroides	bth:BT_0355	1006.13
+T2D-112A_GL0028383		Bacteria	Clostridia	Lacrimispora	lxa:OW255_01250	333.954
+V1.CD3-0-PT_GL0084305	K10914	Bacteria	Enterobacteria	Siccibacter	scol:KFZ77_01545	203.371
+V1.CD46-0_GL0114986	K02926	Bacteria	Clostridia	Sellimonas	sint:K5I26_00345	365.155
+Human_swiss_sp|P01859|IGHG2_HUMAN	K06856	Animals	Mammals	Sus	ssc:396781	478.018
+MH0409_GL0082970	K01952	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_23460	432.18
+MH0006_GL0216336	K00262	Bacteria	Bacteroidota	Segatella	pcoi:LK433_07570	816.224
+Human_swiss_sp|P09110|THIK_HUMAN	K07513	Animals	Mammals	Pan	ptr:460268	827.78
+MH0012_GL0231204		Bacteria	Bacteroidota	Bacteroides	bth:BT_1628	979.548
+MH0260_GL0160228	K01647	Bacteria	Clostridia	Thermocaproicibacter	tmel:NOG13_06960	160.229
+MH0434_GL0080937	K02895	Bacteria	Clostridia	Paludihabitans	palm:RBG61_05775	156.762
+O2.UC23-2_GL0016230	K17318	Bacteria	Clostridia	Fastidiosipila	fsa:C5Q98_00235	172.94
+O2.UC47-1_GL0140014	K01869	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_00375	403.29
+SZEY-78A_GL0051543	K03816	Bacteria	Clostridia	Dorea	dlo:K5I24_02815	332.028
+763901136-stool1_revised_scaffold7024_1_gene95821		Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_16100	408.297
+Human_swiss_sp|P01700|LV147_HUMAN		Animals	Mammals	Rhinopithecus	rro:104674970	214.927
+MH0191_GL0172336	K03150	Bacteria	Clostridia	Dorea	dlo:K5I24_05445	739.184
+MH0233_GL0003750		Bacteria	Clostridia	(no genus)	bprs:CK3_30740	754.977
+MH0274_GL0166833		Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_12355	463.381
+T2D-63A_GL0065674	K00128	Bacteria	Other Bacillota	Acidaminococcus	ain:Acin_0724	852.818
+V1.CD12-3_GL0027030	K01491	Bacteria	Clostridia	Blautia	rob:CK5_28600	461.84
+V1.CD32-4_GL0115466	K01006	Bacteria	Clostridia	(no genus)	ruk:A4V00_07525	1429.85
+MH0229_GL0033108	K01588	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3172	308.531
+MH0437_GL0163589	K25950	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_22290	405.601
+V1.CD19-0_GL0194147	K21573	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1380	1388.24
+V1.CD51-0_GL0067248	K02564	Bacteria	Clostridia	Dorea	dlo:K5I24_14915	353.214
+V1.UC50-1_GL0067399	K01621	Bacteria	Bacilli	Lactococcus	lla:L138230	1694.09
+158944319-stool1_revised_C1050747_1_gene52747	K01933	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_10655	551.206
+MH0055_GL0059787	K02078	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_05200	130.954
+MH0197_GL0112220	K02948	Bacteria	Clostridia	Agathobaculum	agat:RWV98_03385	224.172
+MH0431_GL0151069	K18119	Bacteria	Bacteroidota	Butyricimonas	buy:D8S85_11140	709.909
+T2D-61A_GL0005208		Bacteria	Bacteroidota	Bacteroides	bfs:BF9343_p20	239.965
+MH0321_GL0083171	K00677	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0099	444.506
+NOM022_GL0030245		Bacteria	Clostridia	Caproicibacter	cfem:HCR03_00480	155.992
+MH0361_GL0045501	K01610	Bacteria	Bacteroidota	Butyricimonas	buy:D8S85_17190	1073.92
+871237.SIN_1256	K02519	Bacteria	Bacilli	Streptococcus	spy:SPy_1721	981.089
+888833.HMPREF9961_1681	K01274	Bacteria	Bacilli	Streptococcus	spy:SPy_1070	676.396
+MH0115_GL0083778	K03585	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1864	563.148
+MH0373_GL0050012	K02357	Bacteria	Clostridia	Paludihabitans	palm:RBG61_01340	354.369
+T2D-68A_GL0060685	K02519	Bacteria	Clostridia	(no genus)	euu:ADJ67_05715	951.814
+V1.CD12-3_GL0064917	K01223	Bacteria	Actinomycetota	Collinsella	caer:CSV91_08230	427.943
+158337416-stool2_revised_C999344_1_gene73308	K21573	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_00570	682.174
+Human_swiss_sp|O14493|CLD4_HUMAN	K06087	Animals	Mammals	Pan	ptr:463464	366.696
+Human_swiss_sp|P07451|CAH3_HUMAN	K01672	Animals	Mammals	Pan	ptr:748909	556.599
+Human_swiss_sp|Q9Y639|NPTN_HUMAN	K22653	Animals	Mammals	Macaca	mcc:699627	762.681
+MH0118_GL0037651	K00762	Bacteria	Bacteroidota	Segatella	pcoi:LK433_03005	355.14
+T2D-140A_GL0042284	K01783	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_12530	287.73
+V1.CD38-0_GL0019185	K03442	Bacteria	Bacteroidota	Bacteroides	bth:BT_2389	526.168
+V1.FI36_GL0021486	K03780	Bacteria	Clostridia	Ruminococcus	rum:CK1_26540	427.172
+T2D-31A_GL0113409	K04072	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_08560	486.493
+Human_swiss_sp|P15531|NDKA_HUMAN	K00940	Animals	Mammals	Nomascus	nle:105737507	315.849
+Human_swiss_sp|P62826|RAN_HUMAN	K07936	Animals	Mammals	Callithrix	cjc:100400787	446.432
+MH0116_GL0133348		Bacteria	Clostridia	(no genus)	bprs:CK3_14970	276.174
+O2.UC50-0_GL0194431		Bacteria	Clostridia	Dorea	dlo:K5I24_02605	400.593
+V1.FI24_GL0033041	K02994	Bacteria	Bacilli	Periweissella	wei:EQG49_05845	252.292
+V1.UC26-4_GL0155660	K01867	Bacteria	Bacteroidota	Bacteroides	bth:BT_3864	653.669
+MH0433_GL0213379	K04077	Bacteria	Clostridia	Flavonifractor	fpla:A4U99_16380	775.393
+158256496-stool1_revised_C977140_1_gene2284	K03077	Bacteria	Bacteroidota	Prevotella	pdt:Prede_1734	375.941
+Human_swiss_sp|Q99805|TM9S2_HUMAN	K17086	Animals	Mammals	Pan	ptr:452638	1324.3
+MH0006_GL0128463		Bacteria	Clostridia	Butyrivibrio	bpb:bpr_I1179	424.861
+MH0325_GL0024659	K00240	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3208	486.878
+MH0356_GL0093817		Bacteria	Actinomycetota	Bifidobacterium	bang:BBAG_1004	1314.29
+T2D-106A_GL0068179	K17318	Bacteria	Clostridia	Agathobacter	ere:EUBREC_1047	376.711
+V1.UC11-5_GL0187668	K02112	Bacteria	Clostridia	Flavonifractor	fpla:A4U99_13450	726.472
+HM459CO_revised_scaffold48513_2_gene137244	K19997	Bacteria	Bacteroidota	Prevotella	pher:prwr041_16330	595.504
+Human_swiss_sp|Q96BQ1|FAM3D_HUMAN		Animals	Mammals	Pan	ptr:460481	460.299
+MH0336_GL0015910	K07444	Bacteria	Clostridia	(no genus)	lbx:lbkm_3048	603.208
+O2.UC1-1_GL0084303	K05366	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3336	1321.99
+T2D-61A_GL0010889	K00639	Bacteria	Clostridia	Hungatella	hhj:NQ487_14270	758.444
+V1.FI18_GL0001197		Bacteria	Bacteroidota	Bacteroides	bhum:JXR92_016795	568.155
+V1.UC35-4_GL0016721	K03545	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_22280	673.7
+MH0091_GL0025092		Bacteria	Clostridia	Butyrivibrio	bpb:bpr_I1767	815.068
+MH0302_GL0091840		Bacteria	Bacteroidota	Bacteroides	bhum:JXR92_008965	1554.65
+Human_swiss_sp|Q9H444|CHM4B_HUMAN	K12194	Animals	Mammals	Oryctolagus	ocu:100347889	361.688
+MH0012_GL0037285		Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3677	320.857
+MH0189_GL0170271	K11072	Bacteria	Bacteroidota	Bacteroides	bth:BT_1291	623.624
+MH0360_GL0045117	K01960	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2683	1132.47
+O2.UC53-0_GL0202630	K01644	Bacteria	Clostridia	Lachnoclostridium	lacy:A4V08_16180	538.11
+764669880-stool1_revised_scaffold9976_1_gene9843	K10542	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_14180	770.385
+Human_swiss_sp|A0A0C4DH32|HV320_HUMAN	K06856	Animals	Mammals	Microcebus	mmur:105883149	215.312
+Human_swiss_sp|P62263|RS14_HUMAN	K02955	Animals	Mammals	Phocoena	psiu:116750588	280.026
+MH0006_GL0072988	K05349	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_16180	1682.15
+BGI-33A_GL0014586	K12516	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_04840	404.06
+HM466CO_revised_scaffold77240_1_gene143181	K03737	Bacteria	Clostridia	Caproiciproducens	capr:EQM14_09370	394.815
+Human_swiss_sp|P13639|EF2_HUMAN	K03234	Animals	Mammals	Nomascus	nle:100590476	1714.89
+MH0308_GL0182276		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_05195	254.988
+Human_swiss_sp|P0DP23|CALM1_HUMAN	K02183	Animals	Mammals	Callithrix	cjc:100390180	296.975
+MH0006_GL0216882	K01662	Bacteria	Clostridia	Kineothrix	kib:RBB56_01195	967.992
+MH0370_GL0134003		Bacteria	Clostridia	Blautia	rob:CK5_15620	246.899
+MH0415_GL0024966	K11754	Bacteria	Bacteroidota	Muribaculum	pary:A4V02_00790	499.975
+Human_swiss_sp|Q9Y623|MYH4_HUMAN	K24220	Animals	Mammals	Pan	ptr:468396	3523.41
+Human_swiss_sp|P31415|CASQ1_HUMAN	K23468	Animals	Mammals	Nomascus	nle:100595793	745.732
+MH0400_GL0095582		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_32370	559.681
+158499257-stool2_revised_scaffold71908_2_gene145395		Bacteria	Bacteroidota	Muribaculum	pary:A4V02_12565	661.759
+MH0012_GL0135518	K02909	Bacteria	Clostridia	Acutalibacter	amur:ADH66_01715	130.568
+MH0247_GL0052339	K01740	Bacteria	Clostridia	Dorea	dlo:K5I24_11820	821.231
+Human_swiss_sp|P07998|RNAS1_HUMAN	K01168	Animals	Mammals	Pan	ptr:465207	293.123
+763496533-stool1_revised_scaffold46255_1_gene47264	K00528	Bacteria	Clostridia	Thermoclostridium	css:Cst_c05260	272.707
+Human_swiss_sp|O75830|SPI2_HUMAN	K23430	Animals	Mammals	Pan	ptr:460831	780.015
+MH0402_GL0030894	K03086	Bacteria	Clostridia	Enterocloster	cbol:CGC65_18070	548.51
+V1.CD22-0_GL0201719	K01681	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01974	271.552
+DOM003_GL0038996	K00147	Bacteria	Clostridia	Roseburia	rho:RHOM_08310	655.981
+MH0006_GL0181988	K03654	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_00820	1425.61
+MH0046_GL0049345		Bacteria	Bacteroidota	Bacteroides	bth:BT_2263	441.81
+O2.UC41-1_GL0062781		Bacteria	Clostridia	Ruminococcus	rum:CK1_24960	769.615
+MH0088_GL0094142		Bacteria	Clostridia	Mediterraneibacter	rto:RTO_05650	440.654
+T2D-62A_GL0010402	K20038	Bacteria	Other Bacillota	Acidaminococcus	ain:Acin_2025	1349.73
+V1.FI31_GL0008447	K06217	Bacteria	Betaproteobacteria	(no genus)	bbag:E1O_04440	301.982
+Human_swiss_sp|Q96KP4|CNDP2_HUMAN	K08660	Animals	Mammals	Pan	ptr:455473	940.643
+MH0392_GL0111531	K01621	Bacteria	Clostridia	Vescimonas	vcop:MM50RIKEN_01380	504.597
+763820215-stool2_revised_C315437_1_gene13656		Bacteria	Bacteroidota	Parabacteroides	pgol:K6V26_05825	1688.32
+MH0397_GL0182232	K00789	Bacteria	Bacilli	Hydrogenibacillus	hyi:K2M58_11520	381.719
+SZEY-39A_GL0071586	K03100	Bacteria	Bacteroidota	Hoylesella	peo:AS203_00080	753.051
+O2.UC19-1_GL0020611	K02804	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_11090	806.979
+O2.UC55-0_GL0072375	K02879	Bacteria	Actinomycetota	Gordonibacter	gpa:GPA_16140	218.779
+MH0086_GL0112737	K03695	Bacteria	Clostridia	Coprococcus	coo:CCU_12880	1425.61
+MH0096_GL0064339	K04043	Bacteria	Clostridia	(no genus)	ruk:A4V00_00235	964.911
+MH0195_GL0110373	K00812	Bacteria	Bacteroidota	Paraprevotella	pclr:PC1C4_09680	644.039
+MAX_Q3MHH8	K01176	Animals	Mammals	Bos	bta:505049	1085.86
+MH0153_GL0057245	K00058	Bacteria	Clostridia	(no genus)	esr:ES1_02450	445.662
+763982056-stool2_revised_C356624_1_gene39369	K15633	Bacteria	Cyanobacteriota	(no genus)	mbf:BHV42_00785	416.387
+Human_swiss_sp|P01763|HV348_HUMAN		Animals	Mammals	Colobus	cang:105525107	205.297
+MH0199_GL0108528	K01698	Bacteria	Betaproteobacteria	Sutterella	sutt:SUTMEG_03170	534.258
+MH0283_GL0060642	K02886	Bacteria	Bacteroidota	Segatella	pcoi:LK433_00490	537.724
+Human_swiss_sp|Q9UQQ1|NALDL_HUMAN	K01301	Animals	Mammals	Nomascus	nle:100579763	1420.99
+MH0143_GL0009130	K00027	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_04040	641.343
+MH0189_GL0174208	K12257	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3608	1598.18
+MH0221_GL0060576	K02355	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_12105	1200.27
+158499257-stool2_revised_scaffold9750_2_gene92208	K19339	Bacteria	Bacteroidota	Prevotella	pmz:HMPREF0659_A6713	301.597
+MH0006_GL0032494	K00024	Bacteria	Bacteroidota	Barnesiella	bvs:BARVI_09515	548.895
+MH0336_GL0095773	K01571	Bacteria	Clostridia	Solibaculum	sman:C12CBH8_07210	694.115
+MH0445_GL0135097	K02357	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_03260	406.757
+V1.CD4-0-PN_GL0057804	K00963	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_05100	440.269
+Human_swiss_sp|P35900|K1C20_HUMAN	K07604	Animals	Mammals	Pan	ptr:744139	752.281
+NLF005_GL0042379	K02112	Bacteria	Clostridia	Roseburia	rho:RHOM_14660	868.611
+MH0131_GL0045134		Bacteria	Actinomycetota	Bifidobacterium	bang:BBAG_1541	937.562
+765094712-stool1_revised_scaffold5746_1_gene50339	K01704	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_2062	359.762
+MH0318_GL0044972	K12373	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_4138	659.448
+MH0267_GL0184495	K07576	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_15665	394.815
+MH0011_GL0041428	K01673	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_0341	300.827
+MH0250_GL0135963	K02994	Bacteria	Clostridia	(no genus)	ccel:CCDG5_0195	214.927
+MH0262_GL0026560	K19689	Bacteria	Clostridia	(no genus)	cbaf:JS518_03195	601.668
+MH0309_GL0139724	K03070	Bacteria	Clostridia	Ruminococcus	ral:Rumal_0017	848.195
+MH0323_GL0054341		Bacteria	Bacteroidota	Paramuribaculum	pii:NF347_10160	752.666
+V1.CD4-0_GL0009368	K01728	Bacteria	Clostridia	Lachnospira	eel:EUBELI_01250	2293.85
+159814214-stool1_revised_C570103_1_gene1164	K00243	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_14750	335.109
+Human_swiss_sp|P13647|K2C5_HUMAN	K07605	Animals	Mammals	Nomascus	nle:100592563	806.979
+V1.CD3-0-PT_GL0063334	K00024	Bacteria	Enterobacteria	Proteus	pmr:PMI3400	586.645
+V1.CD7-0-PN_GL0043943	K01462	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1502	283.878
+Human_swiss_sp|P18283|GPX2_HUMAN	K00432	Animals	Mammals	Nomascus	nle:100603889	393.275
+Human_swiss_sp|P35573|GDE_HUMAN	K01196	Animals	Mammals	Pan	ptr:469392	3161.32
+MH0369_GL0031859		Bacteria	Clostridia	Anaerocolumna	anr:Ana3638_12870	296.204
+O2.UC46-1_GL0055169	K00625	Bacteria	Clostridia	Anaerotignum	cpro:CPRO_23750	468.003
+Human_swiss_sp|Q5T2W1|NHRF3_HUMAN	K24057	Animals	Mammals	Pan	ptr:100611671	1003.82
+MH0359_GL0120883	K02051	Bacteria	Other Bacillota	Megamonas	mhg:MHY_12940	517.694
+MH0412_GL0094349	K15633	Bacteria	Clostridia	Intestinimonas	ibu:IB211_02696c	624.394
+V1.UC17-2_GL0038422	K02118	Bacteria	Other Bacillota	Parvimonas	pmic:NW74_06630	885.945
+V1.FI33_GL0083842	K00763	Bacteria	Actinomycetota	Collinsella	caer:CSV91_03995	991.875
+518635.BIFANG_02686	K06168	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1408	802.742
+MH0037_GL0054773	K02931	Bacteria	Bacteroidota	Barnesiella	bvs:BARVI_08330	358.992
+Human_swiss_sp|A6NHR9|SMHD1_HUMAN	K23113	Animals	Mammals	Pan	ptr:455319	3982.18
+MH0104_GL0015180	K02357	Bacteria	Clostridia	Caproiciproducens	capr:EQM14_05850	290.426
+V1.UC26-0_GL0132982	K01182	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_00300	761.911
+O2.UC7-1_GL0032402	K00831	Bacteria	Clostridia	Marvinbryantia	mfor:NQ534_20195	704.516
+MH0012_GL0014749	K07277	Bacteria	Bacteroidota	Bacteroides	bth:BT_3725	1496.1
+MH0026_GL0057988	K01785	Bacteria	Bacteroidota	Segatella	pcoi:LK433_10495	707.212
+MH0358_GL0026334	K01681	Bacteria	Clostridia	Enterocloster	cbol:CGC65_17445	1505.35
+Human_swiss_sp|P55209|NP1L1_HUMAN	K11279	Animals	Mammals	Pan	ptr:452083	590.882
+V1.FI26_GL0263102	K01870	Bacteria	Actinomycetota	Collinsella	caer:CSV91_02425	211.846
+Human_swiss_sp|P31930|QCR1_HUMAN	K00414	Animals	Mammals	Pan	ptr:460348	952.97
+Human_swiss_sp|Q06830|PRDX1_HUMAN	K13279	Animals	Mammals	Ailuropoda	aml:117799874	412.535
+DOM001_GL0092950	K00012	Bacteria	Clostridia	Kineothrix	kib:RBB56_15550	787.334
+MH0450_GL0093506	K00965	Bacteria	Clostridia	Agathobaculum	agat:RWV98_17065	310.457
+MH0276_GL0040077		Bacteria	Clostridia	(no genus)	bprs:CK3_14450	319.316
+T2D-123A_GL0023222	K01465	Bacteria	Actinomycetota	Collinsella	caer:CSV91_03375	720.694
+V1.CD51-0_GL0005185	K01687	Bacteria	Other Bacillota	Faecalitalea	euc:EC1_15100	897.116
+Human_swiss_sp|P02671|FIBA_HUMAN	K03903	Animals	Mammals	Pan	ptr:461559	1613.59
+159268001-stool2_revised_scaffold34968_1_gene82974		Bacteria	Bacteroidota	Bacteroides	beg:INE88_00687	2334.3
+SZEY-10A_GL0053902	K02477	Bacteria	Clostridia	Cellulosilyticum	cle:Clole_0495	355.525
+T2D-91A_GL0081555	K00764	Bacteria	Clostridia	(no genus)	bpen:NQ488_11150	278.485
+871237.SIN_0727	K02357	Bacteria	Bacilli	Streptococcus	spy:SPy_2093	561.607
+MH0318_GL0194030	K00528	Bacteria	Clostridia	Dysosmobacter	obj:EIO64_17300	533.102
+O2.UC24-1_GL0096727	K01681	Bacteria	Other Bacillota	Faecalitalea	euc:EC1_10620	203.371
+V1.UC49-0_GL0100097	K00854	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_07520	798.505
+T2D-31A_GL0017629	K02338	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_02460	631.713
+Human_swiss_sp|O75746|CMC1_HUMAN	K15105	Animals	Mammals	Pan	ptr:459736	1293.1
+MH0251_GL0175798		Bacteria	Clostridia	Enterocloster	casp:NQ535_28085	439.884
+MH0229_GL0141688	K02005	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3573	568.54
+MH0176_GL0040321	K11527	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_15700	1817.36
+MH0414_GL0089778	K05349	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_13750	984.556
+MH0233_GL0103635	K02469	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_06940	1115.14
+MH0250_GL0185216	K15633	Bacteria	Clostridia	(no genus)	esr:ES1_08430	738.028
+T2D-31A_GL0014853		Bacteria	Clostridia	Eubacterium	elm:ELI_0544	175.252
+Human_swiss_sp|P13798|ACPH_HUMAN	K01303	Animals	Mammals	Pan	ptr:460376	1485.7
+T2D-68A_GL0004580		Bacteria	Clostridia	Blautia	blab:EYS05_07525	624.394
+MH0448_GL0019053	K01223	Bacteria	Other Bacillota	Selenomonas	sri:SELR_22560	595.504
+MH0328_GL0030375		Bacteria	Other Gammaproteobacteria	Alloalcanivorax	adi:B5T_03187	63.5438
+MH0012_GL0101972	K01880	Bacteria	Clostridia	Eubacterium	elm:ELI_3475	647.506
+MH0098_GL0082753	K03702	Bacteria	Clostridia	(no genus)	ruk:A4V00_08605	1019.99
+160704339-stool1_revised_C1363641_1_gene142089	K01887	Bacteria	Clostridia	Anaerotruncus	acol:K5I23_09050	708.753
+MH0101_GL0010334	K08301	Bacteria	Bacteroidota	Bacteroides	bth:BT_1500	963.37
+Human_swiss_sp|P54315|LIPR1_HUMAN	K14074	Animals	Mammals	Nomascus	nle:100582085	941.414
+N087A_GL0050492		Bacteria	Bacteroidota	Bacteroides	bun:Bun01g_13220	1193.72
+MH0040_GL0000533	K02888	Bacteria	Clostridia	Ruminococcus	ral:Rumal_2332	162.54
+763678604-stool1_revised_scaffold43201_1_gene75787	K00600	Bacteria	Bacteroidota	Alistipes	afd:Alfi_3069	852.818
+MH0113_GL0014716	K08483	Bacteria	Clostridia	Coprococcus	cct:CC1_13380	819.69
+MH0358_GL0134677	K03702	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_18740	1191.79
+MH0102_GL0062733	K00656	Bacteria	Clostridia	Acetivibrio	cth:Cthe_0505	1083.17
+O2.UC1-1_GL0131701		Bacteria	Bacteroidota	Bacteroides	bfc:BacF7301_10260	885.945
+MH0124_GL0087622	K01804	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_03335	931.784
+MH0389_GL0142223		Bacteria	Bacteroidota	Segatella	pcoi:LK433_11840	1161.75
+MH0424_GL0104348	K02406	Bacteria	Clostridia	Pseudoclostridium	cthd:CDO33_00660	280.796
+Human_swiss_sp|P16152|CBR1_HUMAN	K00079	Animals	Mammals	Nomascus	nle:100595150	540.036
+MH0309_GL0174644		Bacteria	Clostridia	Coprococcus	cct:CC1_18240	173.711
+MH0454_GL0030816	K03798	Bacteria	Clostridia	Ruminococcus	ral:Rumal_1648	1016.53
+V1.FI05_GL0056978	K01883	Bacteria	Actinomycetota	Bifidobacterium	blo:BL0301	902.894
+Human_swiss_sp|O15455|TLR3_HUMAN	K05401	Animals	Mammals	Pan	ptr:471374	1774.21
+T2D-11A_GL0156644		Bacteria	Clostridia	Ruminococcus	rus:RBI_I01574	222.246
+Human_swiss_sp|O75131|CPNE3_HUMAN	K24524	Animals	Mammals	Pan	ptr:464271	1073.92
+Human_swiss_sp|Q3ZCM7|TBB8_HUMAN	K07375	Animals	Mammals	Pan	ptr:739035	848.58
+MH0131_GL0135871		Bacteria	Clostridia	Flavonifractor	fpla:A4U99_18490	1210.67
+O2.UC46-0_GL0086379		Bacteria	Bacteroidota	Bacteroides	bste:K6V31_15980	512.301
+Fungisp.A7A0V3.RSSA2_YEAS7	K02998	Fungi	Ascomycetes	Saccharomyces	sce:YLR048W	462.996
+SZEY-10A_GL0033673	K01834	Bacteria	Other Bacillota	Turicibacter	tsg:HLK68_04855	363.614
+MH0143_GL0044795	K01937	Bacteria	Mycoplasmatota	(no genus)	mbj:KQ51_00345	702.975
+DLM028_GL0028479	K07390	Bacteria	Enterobacteria	(no genus)	ebu:CUC76_01145	237.654
+DOM005_GL0025443	K00262	Bacteria	Bacteroidota	Bacteroides	bth:BT_1970	852.047
+MH0006_GL0198008	K00956	Bacteria	Bacteroidota	Bacteroides	bth:BT_0415	797.349
+MH0253_GL0213763	K03110	Bacteria	Clostridia	(no genus)	bpen:NQ488_07445	580.867
+MH0047_GL0028507	K00177	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_2310	313.538
+MH0377_GL0222732	K03077	Bacteria	Clostridia	Roseburia	rho:RHOM_06050	471.855
+MH0147_GL0020541	K02884	Bacteria	Clostridia	Mediterraneibacter	rto:RTO_24630	206.068
+V1.CD3-0-PT_GL0025317	K01761	Bacteria	Enterobacteria	Proteus	pmr:PMI1248	838.18
+MH0113_GL0037816		Bacteria	Bacteroidota	Parabacteroides	pjo:LK449_00260	1537.7
+V1.CD7-0-PN_GL0003453	K01951	Bacteria	Bacilli	Limosilactobacillus	lre:Lreu_1617	560.451
+Human_swiss_sp|Q8WWH5|TRUB1_HUMAN	K03177	Animals	Mammals	Pan	ptr:466209	622.468
+O2.CD2-0-PT_GL0042975	K03553	Bacteria	Other Bacillota	Faecalibacillus	fit:Fi14EGH31_05960	551.206
+Human_swiss_sp|O95905|ECD_HUMAN		Animals	Mammals	Pan	ptr:450892	1227.23
+MH0196_GL0099776		Bacteria	Bacteroidota	Bacteroides	bun:Bun01g_05250	1980.68
+MH0140_GL0086517	K11065	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3944	260.766
+MH0161_GL0035380		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_06980	1533.85
+Fungitr.A0A0H5C9W2.A0A0H5C9W2_CYBJA	K02132	Fungi	Ascomycetes	Saccharomycodes	slud:SCDLUD_000133	918.687
+V1.CD24-0_GL0075723		Protists	Metamonada	Trichomonas	tva:TVAG_2v0609930	96.6709
+MH0061_GL0042306	K00031	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_1960	657.907
+MH0199_GL0151175	K01421	Bacteria	Other Bacillota	Faecalitalea	euc:EC1_18840	603.208
+Human_swiss_sp|O75340|PDCD6_HUMAN	K23902	Animals	Mammals	Macaca	mcc:723043	376.326
+MH0244_GL0086909		Bacteria	Clostridia	Faecalibacterium	fpr:FP2_26280	793.112
+MH0031_GL0007986	K02355	Bacteria	Bacilli	Caldibacillus	bthv:CQJ30_00685	600.512
+MH0131_GL0089619	K02111	Bacteria	Clostridia	Blautia	rob:CK5_16480	306.219
+V1.FI05_GL0151668	K00336	Bacteria	Clostridia	Blautia	rob:CK5_28520	983.015
+159571453-stool1_revised_C639991_1_gene4657	K03150	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3546	363.614
+MH0012_GL0014384	K01679	Bacteria	Clostridia	Ruminococcus	rch:RUM_10950	852.047
+765620695-stool1_revised_scaffold35101_1_gene124921	K01893	Bacteria	Bacteroidota	Parabacteroides	pdi:BDI_3727	556.599
+DOF010_GL0010114		Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_05615	654.055
+O2.UC8-0_GL0128491	K01714	Bacteria	Bacteroidota	Phocaeicola	bvu:BVU_3305	504.982
+MH0357_GL0054509	K03702	Bacteria	Clostridia	Thermocaproicibacter	tmel:NOG13_03830	561.992
+Human_swiss_sp|Q14624|ITIH4_HUMAN	K24514	Animals	Mammals	Pan	ptr:460437	1788.47
+MH0432_GL0083007		Bacteria	Clostridia	Mediterraneibacter	rto:RTO_14320	346.28
+DLM022_GL0071792	K01652	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_09315	889.026
+MH0002_GL0005770		Bacteria	Clostridia	Wujia	wcp:H9Q76_08615	1117.45
+MH0412_GL0096195	K02994	Bacteria	Clostridia	Intestinimonas	ibu:IB211_03031c	226.868
+T2D-14A_GL0076289	K01810	Bacteria	Other Gammaproteobacteria	Rodentibacter	rpne:NCTC8284_01727	1004.2
+MH0393_GL0113959	K02356	Bacteria	Clostridia	Lawsonibacter	lasa:L9O85_03340	328.561
+Human_swiss_sp|P59665|DEF1_HUMAN	K05230	Animals	Mammals	Pan	ptr:107973208	177.178
+O2.UC44-1_GL0118544	K00927	Bacteria	Other Bacillota	Megasphaera	med:MELS_0871	751.51
+MH0433_GL0061981	K18888	Bacteria	Clostridia	Flavonifractor	fpla:A4U99_07230	1010.75
+MH0087_GL0010158	K15894	Bacteria	Bacteroidota	Bacteroides	bth:BT_0381	631.328
+MH0370_GL0007532	K00927	Bacteria	Clostridia	Thermocaproicibacter	tmel:NOG13_08250	649.432
+MH0131_GL0040112	K06969	Bacteria	Clostridia	Faecalibacterium	fpr:FP2_01740	332.798
+Human_swiss_sp|P49748|ACADV_HUMAN	K09479	Animals	Mammals	Nomascus	nle:100585921	1204.5
+Human_swiss_sp|P60953|CDC42_HUMAN	K04393	Animals	Reptiles	Anolis	acs:103282300	390.193
+MH0189_GL0016411	K03106	Bacteria	Bacteroidota	Butyricimonas	buy:D8S85_08575	218.779
+MH0143_GL0076916	K02950	Bacteria	Bacilli	Polycladomyces	pabs:JIR001_01690	216.083
+MH0270_GL0071645	K02470	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_00025	1365.13
+DOM018_GL0012807		Bacteria	Actinomycetota	Bifidobacterium	bad:BAD_1486	362.844
+MH0257_GL0093519	K01478	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_15160	660.988
+MH0448_GL0015869	K01428	Bacteria	Clostridia	Blautia	bpro:PMF13cell1_01087	620.542
+Human_swiss_sp|Q6UWP2|DHR11_HUMAN	K22970	Animals	Mammals	Nomascus	nle:100580130	517.694
+MH0102_GL0050400	K00656	Bacteria	Clostridia	Thermoanaerobacterium	tto:Thethe_00063	1082.78
+MH0178_GL0043032		Bacteria	Bacteroidota	Bacteroides	bth:BT_0670	1900.56
+MH0238_GL0067109	K01711	Bacteria	Bacteroidota	Coprobacter	copr:Cop2CBH44_29380	655.981
+Human_swiss_sp|P35579|MYH9_HUMAN	K10352	Animals	Mammals	Pan	ptr:470200	3491.82
+V1.CD17-4_GL0156441		Bacteria	Clostridia	Pseudobutyrivibrio	pxv:FXF36_06025	1475.69
+MH0001_GL0003731	K08483	Bacteria	Clostridia	Simiaoa	ssun:H9Q77_06725	1048.88
+MH0370_GL0093077	K03076	Bacteria	Clostridia	Hungatella	hhj:NQ487_26830	601.282
+V1.UC26-0_GL0026956	K01887	Bacteria	Clostridia	Claveliimonas	cbil:EUBC25_23560	927.932
+Human_swiss_sp|P20340|RAB6A_HUMAN	K07893	Animals	Mammals	Pan	ptr:451413	412.535
+MH0117_GL0057960		Bacteria	Mycoplasmatota	Acholeplasma	ahk:NCTC10172_00750	557.37
+Human_swiss_sp|O00425|IF2B3_HUMAN	K13197	Animals	Mammals	Pan	ptr:744246	1066.99
+MH0193_GL0170762	K00040	Bacteria	Clostridia	Blautia	byl:A4V09_16445	751.895
+809635352-stool1_revised_scaffold21533_1_gene80032	K04759	Bacteria	Clostridia	Qiania	qdo:H9Q78_13095	302.753
+Human_swiss_sp|P11021|BIP_HUMAN	K09490	Animals	Mammals	Macaca	mcc:703193	1254.2
+MH0406_GL0147645	K00979	Bacteria	Bacteroidota	Bacteroides	bth:BT_0745	474.167
+MH0321_GL0137279	K01358	Bacteria	Clostridia	Vescimonas	vfa:MM35RIKEN_05720	371.703
+MH0187_GL0030127		Bacteria	Bacteroidota	Phocaeicola	pcop:I6J50_17135	1442.17
+V1.UC38-0_GL0104751	K03070	Bacteria	Clostridia	Pusillibacter	pfaa:MM59RIKEN_09280	531.561
+MH0350_GL0161775	K13051	Bacteria	Actinomycetota	Bifidobacterium	blo:BL1142	416.772
+Human_swiss_sp|P29622|KAIN_HUMAN	K04525	Animals	Mammals	Pan	ptr:467544	825.854
+MH0011_GL0004695	K00925	Bacteria	Bacteroidota	Xylanibacter	pru:PRU_2259	668.307

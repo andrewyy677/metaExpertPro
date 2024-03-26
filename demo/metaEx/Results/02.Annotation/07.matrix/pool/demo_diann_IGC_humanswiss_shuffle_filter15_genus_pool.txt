@@ -1,0 +1,2 @@
+Taxon	b14_27
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium	1004406.42

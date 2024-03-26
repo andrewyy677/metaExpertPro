@@ -1,0 +1,7 @@
+Taxon_name	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Actinomycetota|c__Actinomycetes	107626.6	28864.02	598213.32	242052.17	253314.79	240340.98	411846.37
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia	226865.46	802864.3	938697.29	191603.54	1532381.86	NA	660850.27
+k__Bacteria|p__Bacillota|c__Bacilli	NA	NA	NA	NA	104022.3	NA	NA
+k__Bacteria|p__Bacillota|c__Clostridia	6819312.6	11904203.53	7472789.16	18635888.479	12177924.81	4240816.95	8295618.53
+k__Bacteria|p__Bacillota|c__Negativicutes	86520.96	548447.11	309530.41	35797.39	40262.7	11303.62	129157.41
+k__Bacteria|p__Bacteroidota|c__Bacteroidia	2604453.43	9051004.5	7805056.66	3208672.11	5839845.635	1563249.6	3110605.29

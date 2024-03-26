@@ -1,8 +1,9 @@
 use strict;
-my ($total_dir, $db_split, $dda_peplen_min, $dda_peplen_max, $dda_miss_cleav, $dda_precur_tole, $dda_frag_unit, $dda_frag_tole, $help);
+my ($total_dir, $dda_threads, $db_split, $dda_peplen_min, $dda_peplen_max, $dda_miss_cleav, $dda_precur_tole, $dda_frag_unit, $dda_frag_tole, $help);
 
 use Getopt::Long;
 GetOptions(	'total_dir|td=s'	=>	\$total_dir,
+			'dda_threads|thr=s'	=>	\$dda_threads,
 			'db_split|dbs=s'	=>	\$db_split,
 			'dda_peplen_min|dpeplmin=s'		=>	\$dda_peplen_min,
 			'dda_peplen_max|dpeplmax=s'		=>	\$dda_peplen_max,
@@ -58,6 +59,9 @@ while (<IN>) {
 		$new = $_;
 	}elsif (/^msfragger.fragment_mass_units=(\d+)/) {
 		s/$1/$dda_frag_unit/;
+		$new = $_;
+	}elsif (/^workflow.threads=(\d+)/) {
+		s/$1/$dda_threads/;
 		$new = $_;
 	}else{
 		$new = $_;

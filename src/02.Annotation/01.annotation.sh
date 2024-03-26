@@ -289,9 +289,9 @@ cp $total_dir/software/eggnog-mapper/output/*.annotations $Anno_work_dir/05.eggn
 echo "[`date`]: workdir: 05.eggnog.run/00.lib; 05.eggnog-mapper run DONE" >> $Anno_work_dir/02.Annotation.log.txt
 
 # step 5.2 metagroup progroup COG annotation
-#echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation..." >> $Anno_work_dir/02.Annotation.log.txt
-#perl $Anno_src_dir/05.eggnog.run/00.lib/01.eggnog_metagroup_progroup.pl -db $database -wd $Anno_work_dir >> $Anno_work_dir/02.Annotation.log.txt 2>&1 && \
-#echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation DONE" >> $Anno_work_dir/02.Annotation.log.txt
+echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation..." >> $Anno_work_dir/02.Annotation.log.txt
+perl $Anno_src_dir/05.eggnog.run/00.lib/01.eggnog_metagroup_progroup.pl -db $database -wd $Anno_work_dir >> $Anno_work_dir/02.Annotation.log.txt 2>&1 && \
+echo "[`date`]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation DONE" >> $Anno_work_dir/02.Annotation.log.txt
 
 else
     echo "Skip eggnog-mapper-based eggnog annotation!"

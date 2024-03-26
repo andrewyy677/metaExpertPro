@@ -81,20 +81,20 @@ while (<UNI>) {
 	$line ++;
 	if ($line == 1) {
 		@pept2lcahead = split /\,/;
-		for my $i (0..$#pep2lcahead) {
-			if ($pep2lcahead[$i] eq "peptide") {
+		for my $i (0..$#pept2lcahead) {
+			if ($pept2lcahead[$i] eq "peptide") {
 				$pepi = $i;
 			}
-			if ($pep2lcahead[$i] eq "taxon_id") {
+			if ($pept2lcahead[$i] eq "taxon_id") {
 				$taxidi = $i;
 			}
-			if ($pep2lcahead[$i] eq "taxon_name") {
+			if ($pept2lcahead[$i] eq "taxon_name") {
 				$taxnamei = $i;
 			}
-			if ($pep2lcahead[$i] eq "taxon_rank") {
+			if ($pept2lcahead[$i] eq "taxon_rank") {
 				$taxranki = $i;
 			}
-			if ($pep2lcahead[$i] eq "superkingdom_name") {
+			if ($pept2lcahead[$i] eq "superkingdom_name") {
 				$knamei = $i;
 			}
 		}

@@ -1,0 +1,2 @@
+Taxon	b14_24
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella|s__Segatella_copri	198699.29

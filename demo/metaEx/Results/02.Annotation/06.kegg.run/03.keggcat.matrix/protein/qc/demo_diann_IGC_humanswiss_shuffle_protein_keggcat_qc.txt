@@ -1,0 +1,53 @@
+KEGGcat	b14_24
+09101 Carbohydrate metabolism	16254858.28
+09102 Energy metabolism	12073106.05
+09103 Lipid metabolism	1840083.69
+09104 Nucleotide metabolism	1839190.65
+09105 Amino acid metabolism	4525698.82
+09106 Metabolism of other amino acids	1174698.05
+09107 Glycan biosynthesis and metabolism	482908
+09108 Metabolism of cofactors and vitamins	2433328.59
+09109 Metabolism of terpenoids and polyketides	293975.85
+09110 Biosynthesis of other secondary metabolites	605079.94
+09111 Xenobiotics biodegradation and metabolism	1618522.07
+09121 Transcription	810534.08
+09122 Translation	5518703.54
+09123 Folding, sorting and degradation	1958528.52
+09124 Replication and repair	27151.28
+09131 Membrane transport	1128161.26
+09132 Signal transduction	14862734.47
+09133 Signaling molecules and interaction	1916825.99
+09141 Transport and catabolism	9696982.85
+09142 Cell motility	1510979.19
+09143 Cell growth and death	1024213.79
+09144 Cellular community - eukaryotes	187029.19
+09145 Cellular community - prokaryotes	330549.36
+09149 Aging	1376061.75
+09151 Immune system	14427916.46
+09152 Endocrine system	3117811.76
+09153 Circulatory system	925598.44
+09154 Digestive system	38997240.7
+09155 Excretory system	84340.6
+09156 Nervous system	571862.26
+09157 Sensory system	22784.08
+09158 Development and regeneration	5710.88
+09159 Environmental adaptation	5045919.34
+09161 Cancer: overview	10155606.32
+09162 Cancer: specific types	991217.75
+09163 Immune disease	9415829.93
+09164 Neurodegenerative disease	1189733.23
+09165 Substance dependence	26720.47
+09166 Cardiovascular disease	11122977.49
+09167 Endocrine and metabolic disease	10000245.58
+09171 Infectious disease: bacterial	13364889.72
+09172 Infectious disease: viral	11447426.63
+09174 Infectious disease: parasitic	11125627.87
+09175 Drug resistance: antimicrobial	52241.53
+09176 Drug resistance: antineoplastic	41581.96
+09181 Protein families: metabolism	39232489.52
+09182 Protein families: genetic information processing	29047048.76
+09183 Protein families: signaling and cellular processes	28475503.01
+09191 Unclassified: metabolism	931566.13
+09192 Unclassified: genetic information processing	179933.7
+09193 Unclassified: signaling and cellular processes	2051205.77
+09194 Poorly characterized	18578.16

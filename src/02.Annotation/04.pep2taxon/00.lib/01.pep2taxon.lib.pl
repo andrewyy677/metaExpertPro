@@ -37,7 +37,7 @@ my $line = 0; my $pepi; my $taxidi; my $taxnamei; my $taxranki; my $knamei;
 while (<UNI>) {
 	chomp; s/\r//g;
 	$line ++;
-	if ($line == 0) {
+	if ($line == 1) {
 		@uhead = split /\t/;
 		for my $i (0..$#uhead) {
 			if ($uhead[$i] eq "peptide") {

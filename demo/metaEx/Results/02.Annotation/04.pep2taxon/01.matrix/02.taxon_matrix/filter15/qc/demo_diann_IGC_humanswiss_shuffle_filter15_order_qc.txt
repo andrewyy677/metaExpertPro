@@ -1,0 +1,4 @@
+Taxon	b14_24
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales	646129.77
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales	7908363.77
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales	2917567.32

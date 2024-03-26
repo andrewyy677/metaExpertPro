@@ -1,0 +1,5 @@
+Taxon	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae	1323293.84	2844699.7	1512291.14	5663753.839	2629376.42	821436.92	1475173.07
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae	1092523.86	1225874.92	1173591.38	2074843.17	1908083.92	NA	1203668.98
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	571873.99	646009.7	NA	551029.09	NA	684147.24	1006468.01
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae	728509.96	2472550.29	4305866.07	1115168.03	3031261.62	NA	429361.03

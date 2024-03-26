@@ -32,10 +32,10 @@ while (<PEP2PRO>) {
 	my $microf = 0;
 	my $contamf = 0;
 	for my $prosp (@prosp) {
-		if ($prosp =~ /Human/i) {
-			$humanf ++;
-		}elsif ($prosp =~ /^MAX/) {
+		if ($prosp =~ /^MAX/) {
 			$contamf ++;
+		}elsif ($prosp =~ /Human/i) {
+			$humanf ++;
 		}else{
 			$microf ++;
 		}

@@ -1,0 +1,168 @@
+: Start Annotation\n
+[Sat Mar 23 11:50:19 UTC 2024]: workdir: 00.rawdata; step1 1.0 classify the metagroup ...
+00.rawdata step2.0 
+parameters: /metaEx/Results/02.Annotation
+demo
+IGC_humanswiss_shuffle
+/metaEx/Results/01.DIAquant/demo_DIAquant.pg_matrix.tsv
+[Sat Mar 23 11:50:19 UTC 2024]: step 1.0 done
+[Sat Mar 23 11:50:19 UTC 2024]: workdir: 00.rawdata; 2.0 peptide classify ...
+00.rawdata step3.0 
+parameters: /metaEx/Results/02.Annotation
+demo
+IGC_humanswiss_shuffle
+/metaEx/Results/01.DIAquant/demo_DIAquant.pr_matrix.tsv
+[Sat Mar 23 11:50:19 UTC 2024]: step 2.0 done
+[Sat Mar 23 11:50:19 UTC 2024]: workdir: 04.pep2taxon; 4.0 lib peptide classify ...
+[Sat Mar 23 11:50:19 UTC 2024]: workdir: 04.pep2taxon; 4.0 lib peptide classify DONE
+[Sat Mar 23 11:50:19 UTC 2024]: workdir: 04.pep2taxon/00.lib/03.microbiome.unique; 4.0.1 run unipept using microbiome unique peptides ...
+[Sat Mar 23 11:50:27 UTC 2024]: workdir: 04.pep2taxon/00.lib/03.microbiome.unique; 4.0.1 run unipept using microbiome unique peptides DONE
+[Sat Mar 23 11:50:27 UTC 2024]: workdir: 04.pep2taxon/00.lib/03.microbiome.unique; 4.0.2 filter peptides and generate new pept2lca.tsv file ...
+[Sat Mar 23 11:50:27 UTC 2024]: workdir: 04.pep2taxon/00.lib/03.microbiome.unique; 4.0.2 filter peptides and generate new pept2lca.tsv file DONE
+[Sat Mar 23 11:50:27 UTC 2024]: workdir: 04.pep2taxon/00.lib; 4.0.3 generate peptide2taxon csv file ...
+[Sat Mar 23 11:50:27 UTC 2024]: workdir: 04.pep2taxon/00.lib; 4.0.3 generate peptide2taxon csv file DONE
+[Sat Mar 23 11:50:27 UTC 2024]: workdir: 04.pep2taxon/00.lib; 4.0.3 generate taxonname pepcount file ...
+[Sat Mar 23 11:50:28 UTC 2024]: workdir: 04.pep2taxon/00.lib; 4.0.3 generate taxonname pepcount file DONE
+[Sat Mar 23 11:50:28 UTC 2024]: workdir: 05.eggnog.run/00.lib; 5.1 eggnog-mapper run...
+[Sat Mar 23 12:31:58 UTC 2024]: workdir: 05.eggnog.run/00.lib; 05.eggnog-mapper run DONE
+[Sat Mar 23 12:31:58 UTC 2024]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation...
+-
+A
+B
+BD
+C
+CE
+CH
+CQ
+D
+DG
+DN
+DZ
+E
+EF
+EG
+EH
+EK
+EM
+EO
+ET
+EU
+F
+FG
+G
+GK
+GM
+H
+HI
+HP
+I
+IJM
+IQ
+J
+K
+KLT
+KT
+L
+M
+MP
+MU
+N
+NPU
+NT
+NU
+O
+OP
+OT
+OU
+P
+Q
+S
+T
+TU
+TV
+TZ
+U
+V
+VW
+W
+Z
+cog	cog_sp	cog_cat	cog_cat_sp	go	kegg
+758	773	60	24	7609	913
+[Sat Mar 23 12:31:58 UTC 2024]: workdir: 05.eggnog.run/00.lib; 5.2 metagroup progroup COG annotation DONE
+[Sat Mar 23 12:31:58 UTC 2024]: workdir: 06.kegg.run/00.lib; 6.2 metagroup progroup KEGG annotation...
+[Sat Mar 23 12:31:59 UTC 2024]: workdir: 06.kegg.run/00.lib; 6.2 metagroup progroup KEGG annotation DONE
+[Sat Mar 23 12:31:59 UTC 2024]: workdir: 00.rawdata; step 2.1 generate protein matrix ...
+00.rawdata step2.1 
+parameters: /metaEx/Results/02.Annotation
+demo
+IGC_humanswiss_shuffle
+/metaEx/Results/01.DIAquant/demo_DIAquant.pg_matrix.tsv
+/metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+[Sat Mar 23 12:31:59 UTC 2024]: step 2.1 done
+[Sat Mar 23 12:31:59 UTC 2024]: workdir: 00.rawdata; 3.1 generate peptide matrix & generate peptide seq for unipept ...
+00.rawdata step 3.1 
+parameters: /metaEx/Results/02.Annotation
+demo
+IGC_humanswiss_shuffle
+/metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+/metaEx/Results/01.DIAquant/demo_DIAquant.pr_matrix.tsv
+[Sat Mar 23 12:31:59 UTC 2024]: step 3.1 done
+[Sat Mar 23 12:31:59 UTC 2024]: workdir: 04.pep2taxon 4.3 generate taxon quantification matrix from peptide matrix ...
+04.pep2taxon step4.3 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+/metaEx/Results/02.Annotation/04.pep2taxon/00.lib/IGC_humanswiss_shuffle_lib_micro_peptide2taxon.csv
+[Sat Mar 23 12:31:59 UTC 2024]: step 4.3 done
+[Sat Mar 23 12:31:59 UTC 2024]: workdir: 04.pep2taxon 4.4 sep all taxon matrix into all sample techrep biorep qc pool taxon matrix ...
+04.pep2taxon step4.4 
+parameters: /metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+[Sat Mar 23 12:32:00 UTC 2024]: step 4.4 done
+[Sat Mar 23 12:32:00 UTC 2024]: workdir: 05.eggnog.run 5.3 COG matrix generation ...
+05.eggnog.run step5.3 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+05.eggnog.run step5.3.2 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+/metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+[Sat Mar 23 12:32:01 UTC 2024]: step 5.3 done
+[Sat Mar 23 12:32:01 UTC 2024]: workdir: 05.eggnog.run COGcat matrix generation ...
+05.eggnog.run step5.6 
+parameters: demo
+/metaEx/src/02.Annotation
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+05.eggnog.run step5.6.2 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+/metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+[Sat Mar 23 12:32:01 UTC 2024]: step 5.6 done ...
+06.kegg.run step6.4 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+06.kegg.run step6.4.2 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+/metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+[Sat Mar 23 12:32:01 UTC 2024]: step 6.4 done ...
+[Sat Mar 23 12:32:01 UTC 2024]: workdir: 06.kegg.run 6.6 KEGGcat matrix generation ...
+06.kegg.run step6.6 
+parameters: demo
+/metaEx/src/02.Annotation
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+06.kegg.run step6.6 
+parameters: demo
+/metaEx/Results/02.Annotation
+IGC_humanswiss_shuffle
+/metaEx/sampleLabel/demo_samples_file_sampleID_batchID.csv
+[Sat Mar 23 12:32:02 UTC 2024]: workdir: step 6.6 done ...

@@ -1,0 +1,9 @@
+Taxon	b14_02	b14_21
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Bifidobacteriales|f__Bifidobacteriaceae	555110.12	229355.29
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae	146993.56	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Clostridiaceae	NA	95948.77
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae	1512291.14	821436.92
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae	1173591.38	NA
+k__Bacteria|p__Bacillota|c__Negativicutes|o__Veillonellales|f__Veillonellaceae	300727.2	NA
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae	89771.34	684147.24
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae	4305866.07	4519.75

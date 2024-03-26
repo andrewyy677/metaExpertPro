@@ -1,0 +1,6 @@
+Taxon	b14_10	b14_20
+k__Bacteria|p__Actinomycetota	433655.71	1837909.62
+k__Bacteria|p__Bacillota	21208517.649	14147815.182
+k__Bacteria|p__Bacteroidota	3289277.35	6101529.675
+k__Bacteria|p__Thermodesulfobacteriota	47073.3	36086.5
+k__Eukaryota|p__Streptophyta	109676	621533

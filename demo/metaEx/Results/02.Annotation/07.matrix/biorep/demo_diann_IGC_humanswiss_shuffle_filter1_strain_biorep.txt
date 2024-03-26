@@ -1,0 +1,3 @@
+Taxon	b14_02	b14_21
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_callidus|t__Ruminococcus_callidus_ATCC_27760	7470.31	NA
+k__Bacteria|p__Thermodesulfobacteriota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila|s__Bilophila_wadsworthia|t__Bilophila_wadsworthia_3_1_6	11521.34	NA

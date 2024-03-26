@@ -47,6 +47,7 @@ while (<SAM>) {
 	}else{
 		my @data = split /\,/;
 		my $filename = $data[$filenamei];
+		#print STDERR "$filename\n";
 		$filetype = (split /\./, $filename)[-1];
 		$batchID{$filename} = $data[$batchidi];
 		$sampleID{$filename} = $data[$samidi];
@@ -54,7 +55,7 @@ while (<SAM>) {
 		$sam_lab{$filename} = $data[$samlabi];
 	}
 }
-
+#print STDERR "filetype\t$filetype\n";
 open (CLA, "<$workdir/00.rawdata/$project\_diann_$database\_peptide_classify.txt") or die $!;
 my $cline = 0;
 my %peptype;
@@ -116,6 +117,7 @@ while (<MAT>) {
 				last;
 			}
 		}
+		#print STDERR "$pri\t$sampstai\n";
 		for my $i ($sampstai..$#head) {
 			if ($head[$i] =~ /\//) {
 				$head[$i] = (split /\//, $head[$i])[-1];
@@ -194,6 +196,7 @@ while (<MAT>) {
 		}
 	}
 }
+
 for my $pepseq (sort keys %peptideq) {
 	my @dataall; my @datasample; my @databiorep; my @datatechrep; my @datapool; my @dataqc;
 	for my $i ($sampstai..$#head) {
@@ -246,6 +249,7 @@ for my $pepseq (sort keys %peptideq) {
 	if ($all_notNA != 0) {
 		my $dataallj = join "\t", @dataall;
 		print ALL "$pepseq\t$dataallj\n";
+		#print STDERR "$pepseq\t$peptype{$pepseq}\n";
 		if ($peptype{$pepseq} eq "Human_unique") {
 			print ALL1 "$pepseq\t$dataallj\n";
 		}

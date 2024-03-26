@@ -1,0 +1,44 @@
+KEGGcat	b14_27
+09101 Carbohydrate metabolism	1209231.6
+09102 Energy metabolism	553345.86
+09103 Lipid metabolism	753591.54
+09104 Nucleotide metabolism	74144.23
+09105 Amino acid metabolism	21476.84
+09106 Metabolism of other amino acids	171709
+09108 Metabolism of cofactors and vitamins	631673.17
+09109 Metabolism of terpenoids and polyketides	6117.64
+09111 Xenobiotics biodegradation and metabolism	322966.24
+09121 Transcription	10624.6
+09122 Translation	61328.8
+09123 Folding, sorting and degradation	10624.6
+09132 Signal transduction	7772942.3
+09133 Signaling molecules and interaction	1471114.06
+09141 Transport and catabolism	6476290.72
+09142 Cell motility	131458.2
+09143 Cell growth and death	206685.5
+09144 Cellular community - eukaryotes	251489.67
+09145 Cellular community - prokaryotes	61535.1
+09149 Aging	10624.6
+09151 Immune system	10813986.12
+09152 Endocrine system	1710604.39
+09153 Circulatory system	597444
+09154 Digestive system	16642384.5
+09155 Excretory system	72595.4
+09156 Nervous system	65448.6
+09157 Sensory system	40633.2
+09159 Environmental adaptation	162541.2
+09161 Cancer: overview	6762883.26
+09162 Cancer: specific types	757007
+09163 Immune disease	6221573.76
+09164 Neurodegenerative disease	609693.07
+09165 Substance dependence	29688.5
+09166 Cardiovascular disease	6735845.2
+09167 Endocrine and metabolic disease	6285872.54
+09171 Infectious disease: bacterial	7195102.17
+09172 Infectious disease: viral	7742499.7
+09174 Infectious disease: parasitic	6983743.26
+09181 Protein families: metabolism	18157776.86
+09182 Protein families: genetic information processing	8912247.48
+09183 Protein families: signaling and cellular processes	14741657.87
+09191 Unclassified: metabolism	36847.7
+09193 Unclassified: signaling and cellular processes	1055468.4

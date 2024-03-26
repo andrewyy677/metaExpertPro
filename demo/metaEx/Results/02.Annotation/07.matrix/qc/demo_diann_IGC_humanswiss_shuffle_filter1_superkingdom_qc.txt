@@ -1,0 +1,3 @@
+Taxon	b14_24
+k__Bacteria	32562559.147
+k__Eukaryota	182527

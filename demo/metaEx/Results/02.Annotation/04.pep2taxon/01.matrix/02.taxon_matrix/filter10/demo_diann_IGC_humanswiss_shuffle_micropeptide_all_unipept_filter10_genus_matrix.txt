@@ -1,0 +1,6 @@
+Taxon_name	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Actinomycetota|c__Coriobacteriia|o__Coriobacteriales|f__Coriobacteriaceae|g__Collinsella	NA	212252.77	NA	NA	553338.83	NA	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Lachnospiraceae|g__Blautia	NA	NA	NA	NA	NA	317193.45	NA
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Faecalibacterium	1004406.42	976139.89	1046351.31	1597612.28	1734624.86	NA	1007856.39
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Bacteroides	NA	NA	NA	NA	NA	93750.22	185943.07
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Prevotellaceae|g__Segatella	349748.17	NA	NA	NA	1270506.34	NA	212008.09

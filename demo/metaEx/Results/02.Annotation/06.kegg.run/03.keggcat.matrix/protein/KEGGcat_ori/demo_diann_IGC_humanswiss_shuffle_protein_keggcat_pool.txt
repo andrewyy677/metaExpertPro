@@ -1,0 +1,51 @@
+KEGGcat	b14_27
+09101 Carbohydrate metabolism	12000369.05
+09102 Energy metabolism	12149450.32
+09103 Lipid metabolism	1150596.96
+09104 Nucleotide metabolism	1486166.7
+09105 Amino acid metabolism	4735110.19
+09106 Metabolism of other amino acids	690476.56
+09107 Glycan biosynthesis and metabolism	302292.08
+09108 Metabolism of cofactors and vitamins	1501886.43
+09109 Metabolism of terpenoids and polyketides	204054.55
+09110 Biosynthesis of other secondary metabolites	638831.96
+09111 Xenobiotics biodegradation and metabolism	1278737.66
+09121 Transcription	952666.64
+09122 Translation	5886206.71
+09123 Folding, sorting and degradation	2595356.38
+09124 Replication and repair	32990.43
+09131 Membrane transport	802866.7
+09132 Signal transduction	10829245.41
+09133 Signaling molecules and interaction	1471114.06
+09141 Transport and catabolism	6546240.47
+09142 Cell motility	1840780.8
+09143 Cell growth and death	1107742.15
+09144 Cellular community - eukaryotes	251489.67
+09145 Cellular community - prokaryotes	308095.56
+09149 Aging	1805723.05
+09151 Immune system	12090776.51
+09152 Endocrine system	2146788.94
+09153 Circulatory system	597444
+09154 Digestive system	16651952.26
+09155 Excretory system	90944.9
+09156 Nervous system	728880.4
+09157 Sensory system	40633.2
+09159 Environmental adaptation	5413084.79
+09161 Cancer: overview	7136094.3
+09162 Cancer: specific types	762303.99
+09163 Immune disease	6221573.76
+09164 Neurodegenerative disease	1184235.28
+09165 Substance dependence	29688.5
+09166 Cardiovascular disease	8251942.45
+09167 Endocrine and metabolic disease	7282303.91
+09171 Infectious disease: bacterial	11283415.64
+09172 Infectious disease: viral	7742499.7
+09174 Infectious disease: parasitic	7152504.26
+09176 Drug resistance: antineoplastic	40826.9
+09181 Protein families: metabolism	20759666.64
+09182 Protein families: genetic information processing	23652521.98
+09183 Protein families: signaling and cellular processes	25722651.69
+09191 Unclassified: metabolism	763864.57
+09192 Unclassified: genetic information processing	117660.63
+09193 Unclassified: signaling and cellular processes	1221633.6
+09194 Poorly characterized	8555.35

@@ -1,0 +1,4 @@
+Taxon	b14_27	b14_01	b14_02	b14_10	b14_20	b14_21	b14_24
+k__Bacteria|p__Bacillota|c__Clostridia|o__Eubacteriales|f__Oscillospiraceae|g__Ruminococcus|s__Ruminococcus_callidus|t__Ruminococcus_callidus_ATCC_27760	NA	11967.5	7470.31	NA	NA	NA	12978.8
+k__Bacteria|p__Bacteroidota|c__Bacteroidia|o__Bacteroidales|f__Bacteroidaceae|g__Phocaeicola|s__Phocaeicola_massiliensis|t__Phocaeicola_massiliensis_B84634_=_Timone_84634_=_DSM_17679_=_JCM_13223	NA	12436.8	NA	NA	NA	NA	4410.27
+k__Bacteria|p__Thermodesulfobacteriota|c__Desulfovibrionia|o__Desulfovibrionales|f__Desulfovibrionaceae|g__Bilophila|s__Bilophila_wadsworthia|t__Bilophila_wadsworthia_3_1_6	NA	44198.2	11521.34	47073.3	36086.5	NA	27591.47

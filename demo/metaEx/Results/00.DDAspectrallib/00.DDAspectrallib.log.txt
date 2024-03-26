@@ -1,0 +1,4567 @@
+parameters: /metaEx	DDA	d
+fragpipe workflow: total_dir	/metaEx
+db_split	20
+dda_peplen_min	7
+dda_peplen_max	50
+dda_miss_cleav	2
+dda_precur_tole	20
+dda_frag_unit(0 for Da, 1 for ppm)	1
+dda_frag_tole	20
+2024-03-23 03:55:41,436 WARN  - There is a newer version of IonQuant available [1.10.12].
+2024-03-23 03:55:41,447 WARN  - There is a newer version of MSFragger available [4.0].
+2024-03-23 03:55:42,083 WARN  - Philosopher update available.
+2024-03-23 03:55:43,350 WARN  - The output directory is not empty. Some files might be overwritten in: /metaEx/Results/00.DDAspectrallib
+2024-03-23 03:55:43,547 ERROR - Error saving workflows between sessions.
+[SEVERE] Could not dispatch event: class com.dmtavt.fragpipe.messages.MessageSaveCache to subscribing class class com.dmtavt.fragpipe.Fragpipe
+java.lang.IllegalStateException: java.nio.file.FileSystemException: /metaEx/Results/00.DDAspectrallib/FragPipe/fragpipe/workflows/TMT10-ubiquitination-K_tmt_plus_ubiq.workflow: Operation not permitted
+	at com.dmtavt.fragpipe.Fragpipe.saveCache(Fragpipe.java:314)
+	at com.dmtavt.fragpipe.Fragpipe.on(Fragpipe.java:731)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.greenrobot.eventbus.EventBus.invokeSubscriber(EventBus.java:517)
+	at org.greenrobot.eventbus.EventBus.invokeSubscriber(EventBus.java:511)
+	at org.greenrobot.eventbus.AsyncPoster.run(AsyncPoster.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.file.FileSystemException: /metaEx/Results/00.DDAspectrallib/FragPipe/fragpipe/workflows/TMT10-ubiquitination-K_tmt_plus_ubiq.workflow: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:288)
+	at java.base/sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:603)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:258)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1312)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:699)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:630)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:531)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:502)
+	at com.dmtavt.fragpipe.Fragpipe.saveCache(Fragpipe.java:311)
+	... 11 more
+2024-03-23 03:55:43,840 ERROR - Error delivering events through the bus
+java.lang.IllegalStateException: java.nio.file.FileSystemException: /metaEx/Results/00.DDAspectrallib/FragPipe/fragpipe/workflows/TMT10-ubiquitination-K_tmt_plus_ubiq.workflow: Operation not permitted
+	at com.dmtavt.fragpipe.Fragpipe.saveCache(Fragpipe.java:314)
+	at com.dmtavt.fragpipe.Fragpipe.on(Fragpipe.java:731)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.greenrobot.eventbus.EventBus.invokeSubscriber(EventBus.java:517)
+	at org.greenrobot.eventbus.EventBus.invokeSubscriber(EventBus.java:511)
+	at org.greenrobot.eventbus.AsyncPoster.run(AsyncPoster.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.file.FileSystemException: /metaEx/Results/00.DDAspectrallib/FragPipe/fragpipe/workflows/TMT10-ubiquitination-K_tmt_plus_ubiq.workflow: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:288)
+	at java.base/sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:603)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:258)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1312)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:699)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:630)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:531)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:502)
+	at com.dmtavt.fragpipe.Fragpipe.saveCache(Fragpipe.java:311)
+	... 11 common frames omitted
+2024-03-23 03:55:43,853 ERROR - java.lang.IllegalStateException: java.nio.file.FileSystemException: /metaEx/Results/00.DDAspectrallib/FragPipe/fragpipe/workflows/TMT10-ubiquitination-K_tmt_plus_ubiq.workflow: Operation not permitted
+	at com.dmtavt.fragpipe.Fragpipe.saveCache(Fragpipe.java:314)
+	at com.dmtavt.fragpipe.Fragpipe.on(Fragpipe.java:731)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.greenrobot.eventbus.EventBus.invokeSubscriber(EventBus.java:517)
+	at org.greenrobot.eventbus.EventBus.invokeSubscriber(EventBus.java:511)
+	at org.greenrobot.eventbus.AsyncPoster.run(AsyncPoster.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.nio.file.FileSystemException: /metaEx/Results/00.DDAspectrallib/FragPipe/fragpipe/workflows/TMT10-ubiquitination-K_tmt_plus_ubiq.workflow: Operation not permitted
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:100)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixCopyFile.copyFile(UnixCopyFile.java:288)
+	at java.base/sun.nio.fs.UnixCopyFile.copy(UnixCopyFile.java:603)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.copy(UnixFileSystemProvider.java:258)
+	at java.base/java.nio.file.Files.copy(Files.java:1295)
+	at org.apache.commons.io.FileUtils.copyFile(FileUtils.java:850)
+	at org.apache.commons.io.FileUtils.doCopyDirectory(FileUtils.java:1312)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:699)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:630)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:531)
+	at org.apache.commons.io.FileUtils.copyDirectory(FileUtils.java:502)
+	at com.dmtavt.fragpipe.Fragpipe.saveCache(Fragpipe.java:311)
+	... 11 more
+
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+.NET Core Info: N/A
+
+
+Version info:
+FragPipe version 20.0
+MSFragger version 3.8
+IonQuant version 1.9.8/IonQuant-1.9.8
+Philosopher version 5.0.0
+
+
+LCMS files:
+  Experiment/Group: 
+  - /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d	DDA
+
+
+14 commands to execute:
+CheckCentroid
+java -Xmx673G -cp /metaEx/software/fragpipe20.0/lib/fragpipe-20.0.jar:/metaEx/software/fragpipe20.0/tools/batmass-io-1.28.12.jar com.dmtavt.fragpipe.util.CheckCentroid /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d 39
+WorkspaceCleanInit [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --clean --nocheck
+WorkspaceCleanInit [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --init --nocheck --temp /metaEx/Results/00.DDAspectrallib/tmp/3e467044-7cd5-4c96-b681-8515ab37f602
+MSFragger [Work dir: /metaEx/Results/00.DDAspectrallib]
+/opt/conda/bin/python /metaEx/software/fragpipe20.0/tools/msfragger_pep_split.py 20 "java -jar -Dfile.encoding=UTF-8 -Xmx673G" /metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar /metaEx/Results/00.DDAspectrallib/fragger.params /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d
+PeptideProphet: Workspace init [Work dir: /metaEx/Results/00.DDAspectrallib/fragpipe-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML-temp]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --init --nocheck --temp /metaEx/Results/00.DDAspectrallib/tmp/8f262724-498b-4858-b4eb-207263afe011
+PeptideProphet [Work dir: /metaEx/Results/00.DDAspectrallib/fragpipe-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML-temp]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher peptideprophet --decoyprobs --ppm --accmass --nonparam --expectscore --decoy rev_ --database /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas ../N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML
+PeptideProphet: Delete temp
+java -cp /metaEx/software/fragpipe20.0/lib/fragpipe-20.0.jar com.github.chhh.utils.FileDelete /metaEx/Results/00.DDAspectrallib/fragpipe-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML-temp
+Rewrite pepxml [Work dir: /metaEx/Results/00.DDAspectrallib]
+java -cp /metaEx/software/fragpipe20.0/lib/* com.dmtavt.fragpipe.util.RewritePepxml /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537_uncalibrated.mzML
+ProteinProphet [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher proteinprophet --maxppmdiff 2000000 --minprob 0.5 --output combined /metaEx/Results/00.DDAspectrallib/filelist_proteinprophet.txt
+PhilosopherDbAnnotate [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher database --annotate /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas --prefix rev_
+PhilosopherFilter [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher filter --picked --prot 0.01 --tag rev_ --pepxml /metaEx/Results/00.DDAspectrallib --protxml /metaEx/Results/00.DDAspectrallib/combined.prot.xml --razor
+PhilosopherReport [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher report
+SpecLibGen [Work dir: /metaEx/Results/00.DDAspectrallib]
+/opt/conda/bin/python -u /metaEx/software/fragpipe20.0/tools/speclib/gen_con_spec_lib.py /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas /metaEx/Results/00.DDAspectrallib unused /metaEx/Results/00.DDAspectrallib True unused use_easypqp ciRT:noIM 39 "--max_delta_unimod 0.02 --max_delta_ppm 15.0 --fragment_types [\'b\',\'y\',] " "--rt_lowess_fraction 0.0" delete_intermediate_files /metaEx/Results/00.DDAspectrallib/filelist_speclibgen.txt
+WorkspaceClean [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --clean --nocheck
+~~~~~~~~~~~~~~~~~~~~~~
+
+Execution order:
+
+    Cmd: [START], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [CheckCentroid], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [WorkspaceCleanInit], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [MSFragger], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [PeptideProphet], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [ProteinProphet], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [PhilosopherDbAnnotate], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [PhilosopherFilter], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [PhilosopherReport], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [SpecLibGen], Work dir: [/metaEx/Results/00.DDAspectrallib]
+    Cmd: [WorkspaceClean], Work dir: [/metaEx/Results/00.DDAspectrallib]
+
+~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~Sample of /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas~~~~~~~
+>1000570.HMPREF9966_0036 [Complete]:-  codon-table.11
+>DOF010_GL0006641  [gene]  locus=scaffold1035_31:343:852:- [Complete] codon-table.11
+>Human_swiss_sp|P61019|RAB2A_HUMAN Ras-related protein Rab-2A OS=Homo sapiens OX=9606 GN=RAB2A PE=1 SV=1
+>Human_swiss_sp|Q9P1V8|SAM15_HUMAN Sterile alpha motif domain-containing protein 15 OS=Homo sapiens OX=9606 GN=SAMD15 PE=2 SV=1
+>MH0122_GL0070265  [gene]  locus=scaffold15133_3:2:205:- [Lack 3'-end] codon-table.11
+>MH0247_GL0030576  [gene]  locus=scaffold54769_3:765:914:+ [Complete] codon-table.11
+>MH0372_GL0021480  [gene]  locus=scaffold81561_2:3447:5546:- [Complete] codon-table.11
+>N037A_GL0105762  [gene]  locus=scaffold4176_2:2:1441:+ [Lack both ends] codon-table.11
+>O2.UC8-2_GL0160980  [gene]  locus=scaffold29638_3:2:199:- [Lack 3'-end] codon-table.11
+>V1.FI06_GL0067466  [gene]  locus=scaffold41650_1:2824:3780:- [Complete] codon-table.11
+>Virus_gi.998745918.ref.YP_009229918.1. hypothetical protein [Blackberry Virus F]
+>rev_DOF010_GL0005654  [gene]  locus=scaffold7850_4:446:1012:- [Complete] codon-table.11
+>rev_Human_swiss_sp|P61011|SRP54_HUMAN Signal recognition particle 54 kDa protein OS=Homo sapiens OX=9606 GN=SRP54 PE=1 SV=1
+>rev_Human_swiss_sp|Q9P1U0|RPA12_HUMAN DNA-directed RNA polymerase I subunit RPA12 OS=Homo sapiens OX=9606 GN=POLR1H PE=1 SV=1
+>rev_MH0122_GL0069165  [gene]  locus=scaffold27860_2:1:393:+ [Lack 5'-end] codon-table.11
+>rev_MH0247_GL0027989  [gene]  locus=scaffold66361_1:2:1072:- [Lack both ends] codon-table.11
+>rev_MH0372_GL0020415  [gene]  locus=scaffold20854_3:127:345:- [Complete] codon-table.11
+>rev_N037A_GL0101810  [gene]  locus=scaffold54261_1:1:762:+ [Lack 5'-end] codon-table.11
+>rev_O2.UC8-2_GL0152607  [gene]  locus=scaffold48327_4:25:375:- [Complete] codon-table.11
+>rev_V1.FI06_GL0062640  [gene]  locus=scaffold92555_2:37540:39915:+ [Complete] codon-table.11
+>rev_Virus_gi.998246241.ref.YP_009229863.1. protein UL91 [Myotis gammaherpesvirus 8]
+~~~~~~~~~~~~~~~~~~~~~~
+
+~~~~~~~~~ fragpipe.config ~~~~~~~~~
+# FragPipe v20.0ui state cache
+
+
+# Please edit the following path to point to the correct location.
+# In Windows, please replace single '\' with '\\'
+database.db-path=/metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+
+crystalc.run-crystalc=false
+database.decoy-tag=rev_
+diann.fragpipe.cmd-opts=
+diann.heavy=
+diann.library=
+diann.light=
+diann.medium=
+diann.q-value=0.01
+diann.quantification-strategy=3
+diann.run-dia-nn=false
+diann.run-dia-plex=false
+diann.run-specific-protein-q-value=false
+diann.unrelated-runs=false
+diann.use-predicted-spectra=true
+diaumpire.AdjustFragIntensity=true
+diaumpire.BoostComplementaryIon=false
+diaumpire.CorrThreshold=0
+diaumpire.DeltaApex=0.2
+diaumpire.ExportPrecursorPeak=false
+diaumpire.Q1=true
+diaumpire.Q2=true
+diaumpire.Q3=true
+diaumpire.RFmax=500
+diaumpire.RPmax=25
+diaumpire.RTOverlap=0.3
+diaumpire.SE.EstimateBG=false
+diaumpire.SE.IsoPattern=0.3
+diaumpire.SE.MS1PPM=10
+diaumpire.SE.MS2PPM=20
+diaumpire.SE.MS2SN=1.1
+diaumpire.SE.MassDefectFilter=true
+diaumpire.SE.MassDefectOffset=0.1
+diaumpire.SE.NoMissedScan=1
+diaumpire.SE.SN=1.1
+diaumpire.run-diaumpire=false
+fragpipe-config.bin-ionquant=/metaEx/software/fragpipe20.0/software/IonQuant-1.9.8/IonQuant-1.9.8.jar
+fragpipe-config.bin-msfragger=/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar
+fragpipe-config.bin-philosopher=/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher
+fragpipe-config.bin-python=/opt/conda/bin/python
+freequant.mz-tol=10
+freequant.rt-tol=0.4
+freequant.run-freequant=false
+ionquant.excludemods=
+ionquant.heavy=
+ionquant.imtol=0.05
+ionquant.ionfdr=0.01
+ionquant.light=
+ionquant.locprob=0.75
+ionquant.maxlfq=1
+ionquant.mbr=0
+ionquant.mbrimtol=0.05
+ionquant.mbrmincorr=0
+ionquant.mbrrttol=1
+ionquant.mbrtoprun=10
+ionquant.medium=
+ionquant.minfreq=0
+ionquant.minions=1
+ionquant.minisotopes=1
+ionquant.minscans=3
+ionquant.mztol=10
+ionquant.normalization=1
+ionquant.peptidefdr=1
+ionquant.proteinfdr=1
+ionquant.requantify=1
+ionquant.rttol=0.4
+ionquant.run-ionquant=true
+ionquant.tp=0
+ionquant.uniqueness=0
+ionquant.use-labeling=false
+ionquant.use-lfq=true
+ionquant.writeindex=0
+msbooster.predict-rt=true
+msbooster.predict-spectra=true
+msbooster.run-msbooster=false
+msbooster.use-correlated-features=false
+msfragger.Y_type_masses=
+msfragger.activation_types=all
+msfragger.add_topN_complementary=0
+msfragger.allowed_missed_cleavage_1=1
+msfragger.allowed_missed_cleavage_2=2
+msfragger.calibrate_mass=0
+msfragger.check_spectral_files=true
+msfragger.clip_nTerm_M=true
+msfragger.deisotope=1
+msfragger.delta_mass_exclude_ranges=(-1.5,3.5)
+msfragger.deneutralloss=1
+msfragger.diagnostic_fragments=
+msfragger.diagnostic_intensity_filter=0
+msfragger.digest_max_length=50
+msfragger.digest_min_length=7
+msfragger.fragment_ion_series=b,y
+msfragger.fragment_mass_tolerance=20
+msfragger.fragment_mass_units=1
+msfragger.group_variable=0
+msfragger.intensity_transform=0
+msfragger.ion_series_definitions=
+msfragger.isotope_error=0/1/2
+msfragger.labile_search_mode=off
+msfragger.localize_delta_mass=false
+msfragger.mass_diff_to_variable_mod=0
+msfragger.mass_offsets=0
+msfragger.max_fragment_charge=2
+msfragger.max_variable_mods_combinations=5000
+msfragger.max_variable_mods_per_peptide=3
+msfragger.min_fragments_modelling=2
+msfragger.min_matched_fragments=5
+msfragger.min_sequence_matches=2
+msfragger.minimum_peaks=15
+msfragger.minimum_ratio=0.00
+msfragger.misc.fragger.clear-mz-hi=0
+msfragger.misc.fragger.clear-mz-lo=0
+msfragger.misc.fragger.digest-mass-hi=5000
+msfragger.misc.fragger.digest-mass-lo=500
+msfragger.misc.fragger.enzyme-dropdown-1=trypsin
+msfragger.misc.fragger.enzyme-dropdown-2=null
+msfragger.misc.fragger.precursor-charge-hi=4
+msfragger.misc.fragger.precursor-charge-lo=1
+msfragger.misc.fragger.remove-precursor-range-hi=1.5
+msfragger.misc.fragger.remove-precursor-range-lo=-1.5
+msfragger.misc.slice-db=20
+msfragger.num_enzyme_termini=2
+msfragger.output_format=pepXML_pin
+msfragger.output_max_expect=50
+msfragger.output_report_topN=1
+msfragger.output_report_topN_dia1=5
+msfragger.output_report_topN_dia2=3
+msfragger.override_charge=false
+msfragger.precursor_mass_lower=-20
+msfragger.precursor_mass_mode=selected
+msfragger.precursor_mass_units=1
+msfragger.precursor_mass_upper=20
+msfragger.precursor_true_tolerance=20
+msfragger.precursor_true_units=1
+msfragger.remainder_fragment_masses=
+msfragger.remove_precursor_peak=1
+msfragger.report_alternative_proteins=true
+msfragger.require_precursor=true
+msfragger.restrict_deltamass_to=all
+msfragger.reuse_dia_fragment_peaks=false
+msfragger.run-msfragger=true
+msfragger.search_enzyme_cut_1=KR
+msfragger.search_enzyme_cut_2=
+msfragger.search_enzyme_name_1=trypsin
+msfragger.search_enzyme_name_2=null
+msfragger.search_enzyme_nocut_1=P
+msfragger.search_enzyme_nocut_2=
+msfragger.search_enzyme_sense_1=C
+msfragger.search_enzyme_sense_2=C
+msfragger.table.fix-mods=0.0,C-Term Peptide,true,-1; 0.0,N-Term Peptide,true,-1; 0.0,C-Term Protein,true,-1; 0.0,N-Term Protein,true,-1; 0.0,G (glycine),true,-1; 0.0,A (alanine),true,-1; 0.0,S (serine),true,-1; 0.0,P (proline),true,-1; 0.0,V (valine),true,-1; 0.0,T (threonine),true,-1; 57.02146,C (cysteine),true,-1; 0.0,L (leucine),true,-1; 0.0,I (isoleucine),true,-1; 0.0,N (asparagine),true,-1; 0.0,D (aspartic acid),true,-1; 0.0,Q (glutamine),true,-1; 0.0,K (lysine),true,-1; 0.0,E (glutamic acid),true,-1; 0.0,M (methionine),true,-1; 0.0,H (histidine),true,-1; 0.0,F (phenylalanine),true,-1; 0.0,R (arginine),true,-1; 0.0,Y (tyrosine),true,-1; 0.0,W (tryptophan),true,-1; 0.0,B ,true,-1; 0.0,J,true,-1; 0.0,O,true,-1; 0.0,U,true,-1; 0.0,X,true,-1; 0.0,Z,true,-1
+msfragger.table.var-mods=15.9949,M,true,3; 42.0106,[^,true,1; 79.96633,STY,false,3; -17.0265,nQnC,false,1; -18.0106,nE,false,1; 0.0,site_06,false,1; 0.0,site_07,false,1; 0.0,site_08,false,1; 0.0,site_09,false,1; 0.0,site_10,false,1; 0.0,site_11,false,1; 0.0,site_12,false,1; 0.0,site_13,false,1; 0.0,site_14,false,1; 0.0,site_15,false,1; 0.0,site_16,false,1
+msfragger.track_zero_topN=0
+msfragger.use_all_mods_in_first_search=false
+msfragger.use_topN_peaks=300
+msfragger.write_calibrated_mgf=false
+msfragger.write_calibrated_mzml=false
+msfragger.write_uncalibrated_mgf=false
+msfragger.zero_bin_accept_expect=0
+msfragger.zero_bin_mult_expect=1
+opair.activation1=HCD
+opair.activation2=ETD
+opair.filterOxonium=true
+opair.glyco_db=
+opair.max_glycans=4
+opair.max_isotope_error=2
+opair.min_isotope_error=0
+opair.ms1_tol=20
+opair.ms2_tol=20
+opair.oxonium_filtering_file=
+opair.oxonium_minimum_intensity=0.05
+opair.reverse_scan_order=false
+opair.run-opair=false
+opair.single_scan_type=false
+peptide-prophet.cmd-opts=--decoyprobs --ppm --accmass --nonparam --expectscore
+peptide-prophet.combine-pepxml=false
+peptide-prophet.run-peptide-prophet=true
+percolator.cmd-opts=--only-psms --no-terminate --post-processing-tdc
+percolator.keep-tsv-files=false
+percolator.min-prob=0.7
+percolator.run-percolator=false
+phi-report.dont-use-prot-proph-file=false
+phi-report.filter=--picked --prot 0.01
+phi-report.pep-level-summary=false
+phi-report.philosoher-msstats=false
+phi-report.print-decoys=false
+phi-report.prot-level-summary=true
+phi-report.remove-contaminants=false
+phi-report.run-report=true
+protein-prophet.cmd-opts=--maxppmdiff 2000000 --minprob 0.5
+protein-prophet.run-protein-prophet=true
+ptmprophet.cmdline=
+ptmprophet.run-ptmprophet=false
+ptmshepherd.adv_params=false
+ptmshepherd.annotation-common=false
+ptmshepherd.annotation-custom=false
+ptmshepherd.annotation-glyco=false
+ptmshepherd.annotation-unimod=true
+ptmshepherd.annotation_file=
+ptmshepherd.annotation_tol=0.01
+ptmshepherd.cap_y_ions=
+ptmshepherd.decoy_type=1
+ptmshepherd.diag_ions=
+ptmshepherd.diagextract_mode=false
+ptmshepherd.diagmine_diagMinFoldChange=3.0
+ptmshepherd.diagmine_diagMinSpecDiff=25
+ptmshepherd.diagmine_fragMinFoldChange=3.0
+ptmshepherd.diagmine_fragMinPropensity=12.5
+ptmshepherd.diagmine_fragMinSpecDiff=25
+ptmshepherd.diagmine_minIons=25
+ptmshepherd.diagmine_minIonsPerSpec=2
+ptmshepherd.diagmine_minPeps=25
+ptmshepherd.diagmine_mode=false
+ptmshepherd.diagmine_pepMinFoldChange=3.0
+ptmshepherd.diagmine_pepMinSpecDiff=25
+ptmshepherd.glyco_adducts=
+ptmshepherd.glyco_fdr=1.00
+ptmshepherd.glyco_isotope_max=3
+ptmshepherd.glyco_isotope_min=-1
+ptmshepherd.glyco_mode=false
+ptmshepherd.glyco_ppm_tol=50
+ptmshepherd.glycodatabase=
+ptmshepherd.histo_smoothbins=2
+ptmshepherd.iontype_a=false
+ptmshepherd.iontype_b=true
+ptmshepherd.iontype_c=true
+ptmshepherd.iontype_x=false
+ptmshepherd.iontype_y=true
+ptmshepherd.iontype_z=true
+ptmshepherd.localization_allowed_res=
+ptmshepherd.localization_background=4
+ptmshepherd.max_adducts=0
+ptmshepherd.n_glyco=true
+ptmshepherd.normalization-psms=true
+ptmshepherd.normalization-scans=false
+ptmshepherd.output_extended=false
+ptmshepherd.peakpicking_mass_units=0
+ptmshepherd.peakpicking_minPsm=10
+ptmshepherd.peakpicking_promRatio=0.3
+ptmshepherd.peakpicking_width=0.002
+ptmshepherd.precursor_mass_units=0
+ptmshepherd.precursor_tol=0.01
+ptmshepherd.print_decoys=false
+ptmshepherd.prob_dhexOx=2,0.5,0.1
+ptmshepherd.prob_dhexY=2,0.5
+ptmshepherd.prob_neuacOx=2,0.05,0.2
+ptmshepherd.prob_neugcOx=2,0.05,0.2
+ptmshepherd.prob_phosphoOx=2,0.05,0.2
+ptmshepherd.prob_regY=5,0.5
+ptmshepherd.prob_sulfoOx=2,0.05,0.2
+ptmshepherd.remainder_masses=
+ptmshepherd.remove_glycan_delta_mass=true
+ptmshepherd.run-shepherd=false
+ptmshepherd.spectra_maxfragcharge=2
+ptmshepherd.spectra_ppmtol=20
+ptmshepherd.varmod_masses=
+quantitation.run-label-free-quant=false
+run-psm-validation=true
+run-validation-tab=true
+saintexpress.fragpipe.cmd-opts=
+saintexpress.max-replicates=10
+saintexpress.run-saint-express=false
+saintexpress.virtual-controls=100
+speclibgen.easypqp.extras.max_delta_ppm=15
+speclibgen.easypqp.extras.max_delta_unimod=0.02
+speclibgen.easypqp.extras.rt_lowess_fraction=0
+speclibgen.easypqp.fragment.a=false
+speclibgen.easypqp.fragment.b=true
+speclibgen.easypqp.fragment.c=false
+speclibgen.easypqp.fragment.x=false
+speclibgen.easypqp.fragment.y=true
+speclibgen.easypqp.fragment.z=false
+speclibgen.easypqp.im-cal=Automatic selection of a run as reference IM
+speclibgen.easypqp.neutral_loss=false
+speclibgen.easypqp.rt-cal=ciRT
+speclibgen.easypqp.select-file.text=
+speclibgen.easypqp.select-im-file.text=
+speclibgen.keep-intermediate-files=false
+speclibgen.run-speclibgen=true
+tab-run.delete_calibrated_mzml=false
+tab-run.delete_temp_files=false
+tab-run.sub_mzml_prob_threshold=0.5
+tab-run.write_sub_mzml=false
+tmtintegrator.add_Ref=-1
+tmtintegrator.aggregation_method=0
+tmtintegrator.allow_overlabel=true
+tmtintegrator.allow_unlabeled=true
+tmtintegrator.best_psm=true
+tmtintegrator.channel_num=TMT-6
+tmtintegrator.dont-run-fq-lq=false
+tmtintegrator.glyco_qval=-1
+tmtintegrator.groupby=0
+tmtintegrator.log2transformed=true
+tmtintegrator.max_pep_prob_thres=0
+tmtintegrator.min_ntt=0
+tmtintegrator.min_pep_prob=0.9
+tmtintegrator.min_percent=0.05
+tmtintegrator.min_purity=0.5
+tmtintegrator.min_site_prob=-1
+tmtintegrator.mod_tag=none
+tmtintegrator.ms1_int=true
+tmtintegrator.outlier_removal=true
+tmtintegrator.print_RefInt=false
+tmtintegrator.prot_exclude=none
+tmtintegrator.prot_norm=0
+tmtintegrator.psm_norm=false
+tmtintegrator.quant_level=2
+tmtintegrator.ref_tag=Bridge
+tmtintegrator.run-tmtintegrator=false
+tmtintegrator.tolerance=20
+tmtintegrator.top3_pep=true
+tmtintegrator.unique_gene=0
+tmtintegrator.unique_pep=false
+tmtintegrator.use_glycan_composition=false
+workdir=/metaEx/Results/00.DDAspectrallib
+workflow.input.data-type.im-ms=false
+workflow.input.data-type.regular-ms=true
+workflow.ram=0
+workflow.threads=39
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+CheckCentroid
+java -Xmx673G -cp /metaEx/software/fragpipe20.0/lib/fragpipe-20.0.jar:/metaEx/software/fragpipe20.0/tools/batmass-io-1.28.12.jar com.dmtavt.fragpipe.util.CheckCentroid /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d 39
+Done in 0.0 s.
+Process 'CheckCentroid' finished, exit code: 0
+WorkspaceCleanInit [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --clean --nocheck
+time="03:56:02" level=info msg="Executing Workspace  v5.0.0"
+time="03:56:02" level=info msg="Removing workspace"
+time="03:56:02" level=warning msg="Cannot read file. open .meta/meta.bin: no such file or directory"
+time="03:56:02" level=info msg=Done
+Process 'WorkspaceCleanInit' finished, exit code: 0
+WorkspaceCleanInit [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --init --nocheck --temp /metaEx/Results/00.DDAspectrallib/tmp/3e467044-7cd5-4c96-b681-8515ab37f602
+time="03:56:02" level=info msg="Executing Workspace  v5.0.0"
+time="03:56:02" level=info msg="Creating workspace"
+time="03:56:02" level=info msg=Done
+Process 'WorkspaceCleanInit' finished, exit code: 0
+MSFragger [Work dir: /metaEx/Results/00.DDAspectrallib]
+/opt/conda/bin/python /metaEx/software/fragpipe20.0/tools/msfragger_pep_split.py 20 "java -jar -Dfile.encoding=UTF-8 -Xmx673G" /metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar /metaEx/Results/00.DDAspectrallib/fragger.params /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d
+STARTED: DB split 1 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '0']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 33425
+	of length 8: 30828
+	of length 9: 27691
+	of length 10: 26156
+	of length 11: 24518
+	of length 12: 22497
+	of length 13: 20359
+	of length 14: 19001
+	of length 15: 17559
+	of length 16: 16358
+	of length 17: 15056
+	of length 18: 13908
+	of length 19: 12805
+	of length 20: 11943
+	of length 21: 10858
+	of length 22: 10173
+	of length 23: 9420
+	of length 24: 8601
+	of length 25: 8024
+	of length 26: 7370
+	of length 27: 6856
+	of length 28: 6236
+	of length 29: 5668
+	of length 30: 5249
+	of length 31: 4835
+	of length 32: 4375
+	of length 33: 3919
+	of length 34: 3613
+	of length 35: 3328
+	of length 36: 2987
+	of length 37: 2717
+	of length 38: 2447
+	of length 39: 2288
+	of length 40: 2054
+	of length 41: 1958
+	of length 42: 1711
+	of length 43: 1570
+	of length 44: 1237
+	of length 45: 900
+	of length 46: 593
+	of length 47: 369
+	of length 48: 195
+	of length 49: 104
+	of length 50: 55
+In total 411814 peptides.
+Generated 682882 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25190550 fragments to be searched in 1 slices (0.38 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.40 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d 	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 1%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 2%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 3%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 4%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 5%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 6%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 7%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 8%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 9%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 10%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 11%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 12%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 13%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 14%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 15%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 16%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 17%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 18%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 19%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 20%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 21%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 22%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 23%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 24%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 25%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 26%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 27%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 28%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 29%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 30%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 31%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 32%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 33%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 34%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 35%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 36%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 37%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 38%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 39%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 40%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 41%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 42%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 43%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 44%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 45%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 46%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 47%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 48%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 49%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 50%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 51%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 52%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 53%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 54%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 55%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 56%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 57%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 58%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 59%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 60%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 61%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 62%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 63%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 64%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 65%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 66%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 67%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 68%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 69%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 70%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 71%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 72%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 73%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 74%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 75%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 76%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 77%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 78%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 79%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 80%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 81%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 82%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 83%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 84%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 85%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 86%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 87%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 88%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 89%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 90%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 91%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 92%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 93%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 94%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 95%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 96%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 97%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 98%	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d loading 99%2006.9 s | deisotoping 6.7 s
+		[progress: 199561/199561 (100%) - 29270 spectra/s] 6.8s | remapping alternative proteins and postprocessing 23.2 s
+***************************MAIN SEARCH DONE IN 34.273 MIN***************************
+
+*******************************TOTAL TIME 34.387 MIN********************************
+DONE: DB split 1 of 20
+STARTED: DB split 2 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '1']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 48117
+	of length 8: 44639
+	of length 9: 41851
+	of length 10: 38334
+	of length 11: 36093
+	of length 12: 33382
+	of length 13: 31057
+	of length 14: 28160
+	of length 15: 26264
+	of length 16: 24281
+	of length 17: 22068
+	of length 18: 20621
+	of length 19: 19145
+	of length 20: 17746
+	of length 21: 16352
+	of length 22: 15203
+	of length 23: 14073
+	of length 24: 13249
+	of length 25: 12182
+	of length 26: 11126
+	of length 27: 10604
+	of length 28: 9782
+	of length 29: 8828
+	of length 30: 8582
+	of length 31: 7714
+	of length 32: 7047
+	of length 33: 6571
+	of length 34: 5941
+	of length 35: 5542
+	of length 36: 5224
+	of length 37: 4677
+	of length 38: 4300
+	of length 39: 3832
+	of length 40: 3653
+	of length 41: 3425
+	of length 42: 3081
+	of length 43: 2731
+	of length 44: 2145
+	of length 45: 1667
+	of length 46: 1099
+	of length 47: 725
+	of length 48: 395
+	of length 49: 205
+	of length 50: 124
+In total 621837 peptides.
+Generated 983593 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+36868788 fragments to be searched in 1 slices (0.55 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.32 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 538.3 s | deisotoping 6.4 s
+		[progress: 128560/199561 (64%) - 12627 spectra/s]		[progress: 199561/199561 (100%) - 16353 spectra/s] 12.2s | remapping alternative proteins and postprocessing 17.4 s
+***************************MAIN SEARCH DONE IN 9.834 MIN***************************
+
+*******************************TOTAL TIME 10.076 MIN********************************
+DONE: DB split 2 of 20
+STARTED: DB split 3 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '2']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 69634
+	of length 8: 63938
+	of length 9: 60523
+	of length 10: 56045
+	of length 11: 51266
+	of length 12: 46949
+	of length 13: 44696
+	of length 14: 39707
+	of length 15: 37637
+	of length 16: 34034
+	of length 17: 31215
+	of length 18: 29451
+	of length 19: 26930
+	of length 20: 24725
+	of length 21: 23040
+	of length 22: 21092
+	of length 23: 19847
+	of length 24: 18412
+	of length 25: 17113
+	of length 26: 15755
+	of length 27: 14870
+	of length 28: 13970
+	of length 29: 12791
+	of length 30: 11746
+	of length 31: 10807
+	of length 32: 10287
+	of length 33: 9400
+	of length 34: 8638
+	of length 35: 7829
+	of length 36: 7439
+	of length 37: 6646
+	of length 38: 6176
+	of length 39: 5563
+	of length 40: 5264
+	of length 41: 4970
+	of length 42: 4470
+	of length 43: 3873
+	of length 44: 3177
+	of length 45: 2452
+	of length 46: 1643
+	of length 47: 1056
+	of length 48: 677
+	of length 49: 371
+	of length 50: 223
+In total 886347 peptides.
+Generated 1348463 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+49949406 fragments to be searched in 1 slices (0.74 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.64 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 103.6 s | deisotoping 6.6 s
+		[progress: 188542/199561 (94%) - 18686 spectra/s]		[progress: 199561/199561 (100%) - 18626 spectra/s] 10.7s | remapping alternative proteins and postprocessing 15.5 s
+***************************MAIN SEARCH DONE IN 2.495 MIN***************************
+
+*******************************TOTAL TIME 2.570 MIN********************************
+DONE: DB split 3 of 20
+STARTED: DB split 4 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '3']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 45066
+	of length 8: 41905
+	of length 9: 38415
+	of length 10: 35401
+	of length 11: 33074
+	of length 12: 30283
+	of length 13: 27615
+	of length 14: 25538
+	of length 15: 23924
+	of length 16: 22090
+	of length 17: 20358
+	of length 18: 18582
+	of length 19: 17264
+	of length 20: 15955
+	of length 21: 14775
+	of length 22: 13701
+	of length 23: 12636
+	of length 24: 11552
+	of length 25: 10539
+	of length 26: 9749
+	of length 27: 9109
+	of length 28: 8497
+	of length 29: 7484
+	of length 30: 6885
+	of length 31: 6193
+	of length 32: 5635
+	of length 33: 5164
+	of length 34: 4912
+	of length 35: 4425
+	of length 36: 4023
+	of length 37: 3643
+	of length 38: 3332
+	of length 39: 3045
+	of length 40: 2759
+	of length 41: 2581
+	of length 42: 2265
+	of length 43: 1956
+	of length 44: 1565
+	of length 45: 1163
+	of length 46: 763
+	of length 47: 515
+	of length 48: 260
+	of length 49: 168
+	of length 50: 68
+In total 554832 peptides.
+Generated 897344 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+32771502 fragments to be searched in 1 slices (0.49 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.28 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 141.1 s | deisotoping 5.9 s
+		[progress: 199561/199561 (100%) - 22799 spectra/s] 8.8s | remapping alternative proteins and postprocessing 17.0 s
+***************************MAIN SEARCH DONE IN 3.073 MIN***************************
+
+*******************************TOTAL TIME 3.215 MIN********************************
+DONE: DB split 4 of 20
+STARTED: DB split 5 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '4']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 35970
+	of length 8: 32752
+	of length 9: 29506
+	of length 10: 27754
+	of length 11: 25714
+	of length 12: 23607
+	of length 13: 21698
+	of length 14: 20362
+	of length 15: 18598
+	of length 16: 17165
+	of length 17: 15817
+	of length 18: 14627
+	of length 19: 13251
+	of length 20: 12701
+	of length 21: 11922
+	of length 22: 10897
+	of length 23: 9879
+	of length 24: 9308
+	of length 25: 8332
+	of length 26: 7762
+	of length 27: 7113
+	of length 28: 6396
+	of length 29: 6049
+	of length 30: 5622
+	of length 31: 5093
+	of length 32: 4501
+	of length 33: 4004
+	of length 34: 3694
+	of length 35: 3450
+	of length 36: 3103
+	of length 37: 2849
+	of length 38: 2576
+	of length 39: 2442
+	of length 40: 2151
+	of length 41: 1990
+	of length 42: 1815
+	of length 43: 1562
+	of length 44: 1253
+	of length 45: 972
+	of length 46: 582
+	of length 47: 355
+	of length 48: 206
+	of length 49: 106
+	of length 50: 51
+In total 435557 peptides.
+Generated 728820 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+26894888 fragments to be searched in 1 slices (0.40 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.36 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 133.6 s | deisotoping 7.3 s
+		[progress: 199561/199561 (100%) - 24806 spectra/s] 8.0s | remapping alternative proteins and postprocessing 12.2 s
+***************************MAIN SEARCH DONE IN 2.891 MIN***************************
+
+*******************************TOTAL TIME 3.024 MIN********************************
+DONE: DB split 5 of 20
+STARTED: DB split 6 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '5']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34109
+	of length 8: 31397
+	of length 9: 28150
+	of length 10: 26297
+	of length 11: 24926
+	of length 12: 22615
+	of length 13: 20704
+	of length 14: 19614
+	of length 15: 17837
+	of length 16: 16733
+	of length 17: 15170
+	of length 18: 14083
+	of length 19: 13155
+	of length 20: 12228
+	of length 21: 11304
+	of length 22: 10470
+	of length 23: 9474
+	of length 24: 8851
+	of length 25: 8126
+	of length 26: 7508
+	of length 27: 6775
+	of length 28: 6264
+	of length 29: 5715
+	of length 30: 5215
+	of length 31: 4837
+	of length 32: 4390
+	of length 33: 4001
+	of length 34: 3694
+	of length 35: 3328
+	of length 36: 3115
+	of length 37: 2785
+	of length 38: 2566
+	of length 39: 2399
+	of length 40: 2073
+	of length 41: 1993
+	of length 42: 1768
+	of length 43: 1527
+	of length 44: 1328
+	of length 45: 906
+	of length 46: 647
+	of length 47: 396
+	of length 48: 214
+	of length 49: 114
+	of length 50: 58
+In total 418859 peptides.
+Generated 700440 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25956424 fragments to be searched in 1 slices (0.39 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.24 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 130.5 s | deisotoping 7.1 s
+		[progress: 199561/199561 (100%) - 23023 spectra/s] 8.7s | remapping alternative proteins and postprocessing 14.3 s
+***************************MAIN SEARCH DONE IN 2.885 MIN***************************
+
+*******************************TOTAL TIME 3.055 MIN********************************
+DONE: DB split 6 of 20
+STARTED: DB split 7 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '6']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 33907
+	of length 8: 31477
+	of length 9: 28259
+	of length 10: 26122
+	of length 11: 24541
+	of length 12: 22773
+	of length 13: 20656
+	of length 14: 19249
+	of length 15: 17918
+	of length 16: 16216
+	of length 17: 15132
+	of length 18: 13850
+	of length 19: 12948
+	of length 20: 12117
+	of length 21: 11135
+	of length 22: 10350
+	of length 23: 9482
+	of length 24: 8730
+	of length 25: 7855
+	of length 26: 7401
+	of length 27: 6791
+	of length 28: 6258
+	of length 29: 5595
+	of length 30: 5137
+	of length 31: 4855
+	of length 32: 4406
+	of length 33: 3900
+	of length 34: 3663
+	of length 35: 3303
+	of length 36: 3035
+	of length 37: 2735
+	of length 38: 2500
+	of length 39: 2321
+	of length 40: 2073
+	of length 41: 1888
+	of length 42: 1702
+	of length 43: 1459
+	of length 44: 1182
+	of length 45: 917
+	of length 46: 605
+	of length 47: 384
+	of length 48: 225
+	of length 49: 100
+	of length 50: 53
+In total 415205 peptides.
+Generated 693820 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25601196 fragments to be searched in 1 slices (0.38 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.33 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 127.5 s | deisotoping 6.4 s
+		[progress: 199561/199561 (100%) - 19898 spectra/s] 10.0s | remapping alternative proteins and postprocessing 14.3 s
+***************************MAIN SEARCH DONE IN 2.822 MIN***************************
+
+*******************************TOTAL TIME 2.966 MIN********************************
+DONE: DB split 7 of 20
+STARTED: DB split 8 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '7']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34026
+	of length 8: 31518
+	of length 9: 28219
+	of length 10: 26205
+	of length 11: 24514
+	of length 12: 22428
+	of length 13: 20590
+	of length 14: 19451
+	of length 15: 17749
+	of length 16: 16414
+	of length 17: 15020
+	of length 18: 13746
+	of length 19: 12733
+	of length 20: 12035
+	of length 21: 10979
+	of length 22: 10309
+	of length 23: 9281
+	of length 24: 8473
+	of length 25: 7800
+	of length 26: 7309
+	of length 27: 6661
+	of length 28: 6071
+	of length 29: 5649
+	of length 30: 5086
+	of length 31: 4712
+	of length 32: 4327
+	of length 33: 3836
+	of length 34: 3503
+	of length 35: 3151
+	of length 36: 2879
+	of length 37: 2570
+	of length 38: 2339
+	of length 39: 2149
+	of length 40: 2018
+	of length 41: 1873
+	of length 42: 1754
+	of length 43: 1402
+	of length 44: 1137
+	of length 45: 823
+	of length 46: 547
+	of length 47: 367
+	of length 48: 195
+	of length 49: 110
+	of length 50: 38
+In total 411996 peptides.
+Generated 687577 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25280306 fragments to be searched in 1 slices (0.38 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.25 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 127.7 s | deisotoping 6.5 s
+		[progress: 71028/199561 (36%) - 7090 spectra/s]		[progress: 199561/199561 (100%) - 14601 spectra/s] 13.7s | remapping alternative proteins and postprocessing 12.2 s
+***************************MAIN SEARCH DONE IN 2.869 MIN***************************
+
+*******************************TOTAL TIME 2.984 MIN********************************
+DONE: DB split 8 of 20
+STARTED: DB split 9 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '8']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34437
+	of length 8: 31615
+	of length 9: 28496
+	of length 10: 26127
+	of length 11: 24494
+	of length 12: 22597
+	of length 13: 20803
+	of length 14: 19409
+	of length 15: 17973
+	of length 16: 16505
+	of length 17: 15412
+	of length 18: 14382
+	of length 19: 13043
+	of length 20: 12327
+	of length 21: 11040
+	of length 22: 10257
+	of length 23: 9627
+	of length 24: 8693
+	of length 25: 8151
+	of length 26: 7593
+	of length 27: 6961
+	of length 28: 6353
+	of length 29: 5853
+	of length 30: 5293
+	of length 31: 4937
+	of length 32: 4455
+	of length 33: 4071
+	of length 34: 3646
+	of length 35: 3409
+	of length 36: 3021
+	of length 37: 2815
+	of length 38: 2549
+	of length 39: 2343
+	of length 40: 2080
+	of length 41: 1997
+	of length 42: 1875
+	of length 43: 1579
+	of length 44: 1335
+	of length 45: 947
+	of length 46: 634
+	of length 47: 430
+	of length 48: 241
+	of length 49: 125
+	of length 50: 55
+In total 419985 peptides.
+Generated 705686 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+26279580 fragments to be searched in 1 slices (0.39 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.26 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 117.3 s | deisotoping 7.0 s
+		[progress: 192607/199561 (97%) - 19098 spectra/s]		[progress: 199561/199561 (100%) - 19029 spectra/s] 10.5s | remapping alternative proteins and postprocessing 15.0 s
+***************************MAIN SEARCH DONE IN 2.683 MIN***************************
+
+*******************************TOTAL TIME 2.717 MIN********************************
+DONE: DB split 9 of 20
+STARTED: DB split 10 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '9']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 32975
+	of length 8: 29575
+	of length 9: 27027
+	of length 10: 25195
+	of length 11: 23322
+	of length 12: 21563
+	of length 13: 19686
+	of length 14: 18257
+	of length 15: 16840
+	of length 16: 15708
+	of length 17: 14512
+	of length 18: 13294
+	of length 19: 12479
+	of length 20: 11423
+	of length 21: 10519
+	of length 22: 9801
+	of length 23: 8974
+	of length 24: 8184
+	of length 25: 7742
+	of length 26: 7201
+	of length 27: 6452
+	of length 28: 6010
+	of length 29: 5504
+	of length 30: 5008
+	of length 31: 4601
+	of length 32: 4162
+	of length 33: 3657
+	of length 34: 3500
+	of length 35: 3286
+	of length 36: 2893
+	of length 37: 2704
+	of length 38: 2520
+	of length 39: 2237
+	of length 40: 2098
+	of length 41: 1880
+	of length 42: 1720
+	of length 43: 1434
+	of length 44: 1234
+	of length 45: 909
+	of length 46: 635
+	of length 47: 407
+	of length 48: 241
+	of length 49: 132
+	of length 50: 61
+In total 397562 peptides.
+Generated 671624 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+24943832 fragments to be searched in 1 slices (0.37 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.21 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 108.6 s | deisotoping 6.3 s
+		[progress: 179413/199561 (90%) - 17833 spectra/s]		[progress: 199561/199561 (100%) - 18035 spectra/s] 11.1s | remapping alternative proteins and postprocessing 12.2 s
+***************************MAIN SEARCH DONE IN 2.477 MIN***************************
+
+*******************************TOTAL TIME 2.565 MIN********************************
+DONE: DB split 10 of 20
+STARTED: DB split 11 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '10']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 33783
+	of length 8: 31054
+	of length 9: 27956
+	of length 10: 26409
+	of length 11: 24681
+	of length 12: 22654
+	of length 13: 20615
+	of length 14: 19185
+	of length 15: 17642
+	of length 16: 16577
+	of length 17: 15151
+	of length 18: 14098
+	of length 19: 12912
+	of length 20: 11991
+	of length 21: 10943
+	of length 22: 10256
+	of length 23: 9452
+	of length 24: 8645
+	of length 25: 7955
+	of length 26: 7369
+	of length 27: 6873
+	of length 28: 6205
+	of length 29: 5660
+	of length 30: 5270
+	of length 31: 4848
+	of length 32: 4380
+	of length 33: 3946
+	of length 34: 3574
+	of length 35: 3336
+	of length 36: 2950
+	of length 37: 2700
+	of length 38: 2477
+	of length 39: 2299
+	of length 40: 2030
+	of length 41: 1978
+	of length 42: 1683
+	of length 43: 1581
+	of length 44: 1248
+	of length 45: 890
+	of length 46: 580
+	of length 47: 376
+	of length 48: 196
+	of length 49: 96
+	of length 50: 49
+In total 414553 peptides.
+Generated 689609 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25384134 fragments to be searched in 1 slices (0.38 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.25 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 106.7 s | deisotoping 7.0 s
+		[progress: 199551/199561 (100%) - 19805 spectra/s]		[progress: 199561/199561 (100%) - 19607 spectra/s] 10.2s | remapping alternative proteins and postprocessing 10.9 s
+***************************MAIN SEARCH DONE IN 2.453 MIN***************************
+
+*******************************TOTAL TIME 2.596 MIN********************************
+DONE: DB split 11 of 20
+STARTED: DB split 12 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '11']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 48318
+	of length 8: 44913
+	of length 9: 42714
+	of length 10: 38647
+	of length 11: 36140
+	of length 12: 33614
+	of length 13: 31424
+	of length 14: 28598
+	of length 15: 26294
+	of length 16: 24320
+	of length 17: 22096
+	of length 18: 20219
+	of length 19: 19436
+	of length 20: 17750
+	of length 21: 16444
+	of length 22: 15127
+	of length 23: 13980
+	of length 24: 13122
+	of length 25: 12131
+	of length 26: 11099
+	of length 27: 10468
+	of length 28: 9582
+	of length 29: 8758
+	of length 30: 8420
+	of length 31: 7593
+	of length 32: 7144
+	of length 33: 6477
+	of length 34: 5876
+	of length 35: 5513
+	of length 36: 5271
+	of length 37: 4593
+	of length 38: 4310
+	of length 39: 3865
+	of length 40: 3611
+	of length 41: 3309
+	of length 42: 3076
+	of length 43: 2612
+	of length 44: 2034
+	of length 45: 1656
+	of length 46: 1107
+	of length 47: 723
+	of length 48: 395
+	of length 49: 199
+	of length 50: 133
+In total 623111 peptides.
+Generated 986004 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+36631504 fragments to be searched in 1 slices (0.55 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.83 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 95.5 s | deisotoping 6.5 s
+		[progress: 199561/199561 (100%) - 22275 spectra/s] 9.0s | remapping alternative proteins and postprocessing 13.1 s
+***************************MAIN SEARCH DONE IN 2.293 MIN***************************
+
+*******************************TOTAL TIME 2.329 MIN********************************
+DONE: DB split 12 of 20
+STARTED: DB split 13 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '12']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 69728
+	of length 8: 64239
+	of length 9: 62136
+	of length 10: 56205
+	of length 11: 51274
+	of length 12: 47255
+	of length 13: 45169
+	of length 14: 40417
+	of length 15: 37157
+	of length 16: 33905
+	of length 17: 31162
+	of length 18: 28838
+	of length 19: 27278
+	of length 20: 24375
+	of length 21: 23137
+	of length 22: 21108
+	of length 23: 19449
+	of length 24: 17929
+	of length 25: 16919
+	of length 26: 15612
+	of length 27: 14661
+	of length 28: 13512
+	of length 29: 12680
+	of length 30: 11576
+	of length 31: 10845
+	of length 32: 10216
+	of length 33: 9467
+	of length 34: 8632
+	of length 35: 7799
+	of length 36: 7418
+	of length 37: 6570
+	of length 38: 6244
+	of length 39: 5587
+	of length 40: 5193
+	of length 41: 4920
+	of length 42: 4256
+	of length 43: 3859
+	of length 44: 3101
+	of length 45: 2437
+	of length 46: 1620
+	of length 47: 1090
+	of length 48: 656
+	of length 49: 336
+	of length 50: 233
+In total 886200 peptides.
+Generated 1348319 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+49628658 fragments to be searched in 1 slices (0.74 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.66 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 94.0 s | deisotoping 6.6 s
+		[progress: 140250/199561 (70%) - 13922 spectra/s]		[progress: 199561/199561 (100%) - 16654 spectra/s] 12.0s | remapping alternative proteins and postprocessing 16.3 s
+***************************MAIN SEARCH DONE IN 2.364 MIN***************************
+
+*******************************TOTAL TIME 2.401 MIN********************************
+DONE: DB split 13 of 20
+STARTED: DB split 14 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '13']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 45095
+	of length 8: 41947
+	of length 9: 38831
+	of length 10: 35562
+	of length 11: 33337
+	of length 12: 30719
+	of length 13: 27856
+	of length 14: 25907
+	of length 15: 23864
+	of length 16: 22237
+	of length 17: 20429
+	of length 18: 18751
+	of length 19: 17448
+	of length 20: 16177
+	of length 21: 14893
+	of length 22: 13646
+	of length 23: 12519
+	of length 24: 11539
+	of length 25: 10676
+	of length 26: 9706
+	of length 27: 9040
+	of length 28: 8356
+	of length 29: 7447
+	of length 30: 6909
+	of length 31: 6189
+	of length 32: 5699
+	of length 33: 5115
+	of length 34: 4904
+	of length 35: 4439
+	of length 36: 4005
+	of length 37: 3646
+	of length 38: 3261
+	of length 39: 3012
+	of length 40: 2740
+	of length 41: 2573
+	of length 42: 2284
+	of length 43: 1929
+	of length 44: 1535
+	of length 45: 1180
+	of length 46: 707
+	of length 47: 493
+	of length 48: 242
+	of length 49: 167
+	of length 50: 76
+In total 557087 peptides.
+Generated 904382 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+32917178 fragments to be searched in 1 slices (0.49 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.46 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 98.8 s | deisotoping 6.1 s
+		[progress: 199561/199561 (100%) - 22357 spectra/s] 8.9s | remapping alternative proteins and postprocessing 12.7 s
+***************************MAIN SEARCH DONE IN 2.329 MIN***************************
+
+*******************************TOTAL TIME 2.362 MIN********************************
+DONE: DB split 14 of 20
+STARTED: DB split 15 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '14']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 36097
+	of length 8: 33061
+	of length 9: 29805
+	of length 10: 28054
+	of length 11: 25909
+	of length 12: 23926
+	of length 13: 21974
+	of length 14: 20399
+	of length 15: 18650
+	of length 16: 17303
+	of length 17: 16069
+	of length 18: 14719
+	of length 19: 13274
+	of length 20: 12818
+	of length 21: 11947
+	of length 22: 10995
+	of length 23: 9894
+	of length 24: 9317
+	of length 25: 8464
+	of length 26: 7732
+	of length 27: 7087
+	of length 28: 6472
+	of length 29: 6091
+	of length 30: 5561
+	of length 31: 5070
+	of length 32: 4560
+	of length 33: 4015
+	of length 34: 3702
+	of length 35: 3512
+	of length 36: 3142
+	of length 37: 2855
+	of length 38: 2533
+	of length 39: 2449
+	of length 40: 2145
+	of length 41: 1975
+	of length 42: 1817
+	of length 43: 1556
+	of length 44: 1247
+	of length 45: 915
+	of length 46: 583
+	of length 47: 360
+	of length 48: 185
+	of length 49: 108
+	of length 50: 48
+In total 438395 peptides.
+Generated 738832 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+27265528 fragments to be searched in 1 slices (0.41 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.15 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 95.9 s | deisotoping 7.2 s
+		[progress: 199561/199561 (100%) - 23004 spectra/s] 8.7s | remapping alternative proteins and postprocessing 11.4 s
+***************************MAIN SEARCH DONE IN 2.237 MIN***************************
+
+*******************************TOTAL TIME 2.272 MIN********************************
+DONE: DB split 15 of 20
+STARTED: DB split 16 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '15']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34274
+	of length 8: 31614
+	of length 9: 28356
+	of length 10: 26616
+	of length 11: 25225
+	of length 12: 22868
+	of length 13: 21068
+	of length 14: 19663
+	of length 15: 17993
+	of length 16: 16802
+	of length 17: 15265
+	of length 18: 14197
+	of length 19: 13165
+	of length 20: 12331
+	of length 21: 11351
+	of length 22: 10499
+	of length 23: 9553
+	of length 24: 8929
+	of length 25: 8120
+	of length 26: 7566
+	of length 27: 6799
+	of length 28: 6228
+	of length 29: 5699
+	of length 30: 5280
+	of length 31: 4856
+	of length 32: 4374
+	of length 33: 4057
+	of length 34: 3694
+	of length 35: 3276
+	of length 36: 3135
+	of length 37: 2796
+	of length 38: 2566
+	of length 39: 2413
+	of length 40: 2106
+	of length 41: 1968
+	of length 42: 1728
+	of length 43: 1512
+	of length 44: 1271
+	of length 45: 907
+	of length 46: 655
+	of length 47: 367
+	of length 48: 212
+	of length 49: 108
+	of length 50: 65
+In total 421527 peptides.
+Generated 708339 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+26253312 fragments to be searched in 1 slices (0.39 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.36 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 95.8 s | deisotoping 6.8 s
+		[progress: 135394/199561 (68%) - 13515 spectra/s]		[progress: 199561/199561 (100%) - 16737 spectra/s] 11.9s | remapping alternative proteins and postprocessing 12.8 s
+***************************MAIN SEARCH DONE IN 2.320 MIN***************************
+
+*******************************TOTAL TIME 2.352 MIN********************************
+DONE: DB split 16 of 20
+STARTED: DB split 17 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '16']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34036
+	of length 8: 31665
+	of length 9: 28335
+	of length 10: 26332
+	of length 11: 24858
+	of length 12: 22938
+	of length 13: 20785
+	of length 14: 19366
+	of length 15: 18107
+	of length 16: 16399
+	of length 17: 15229
+	of length 18: 13996
+	of length 19: 13126
+	of length 20: 12200
+	of length 21: 11188
+	of length 22: 10327
+	of length 23: 9515
+	of length 24: 8722
+	of length 25: 7888
+	of length 26: 7422
+	of length 27: 6815
+	of length 28: 6234
+	of length 29: 5631
+	of length 30: 5118
+	of length 31: 4880
+	of length 32: 4379
+	of length 33: 3939
+	of length 34: 3645
+	of length 35: 3342
+	of length 36: 3055
+	of length 37: 2743
+	of length 38: 2436
+	of length 39: 2290
+	of length 40: 2029
+	of length 41: 1907
+	of length 42: 1720
+	of length 43: 1467
+	of length 44: 1179
+	of length 45: 889
+	of length 46: 607
+	of length 47: 364
+	of length 48: 229
+	of length 49: 118
+	of length 50: 51
+In total 417501 peptides.
+Generated 701952 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25931066 fragments to be searched in 1 slices (0.39 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.20 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 93.3 s | deisotoping 6.1 s
+		[progress: 63551/199561 (32%) - 6323 spectra/s]		[progress: 199561/199561 (100%) - 14039 spectra/s] 14.2s | remapping alternative proteins and postprocessing 11.3 s
+***************************MAIN SEARCH DONE IN 2.260 MIN***************************
+
+*******************************TOTAL TIME 2.300 MIN********************************
+DONE: DB split 17 of 20
+STARTED: DB split 18 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '17']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34326
+	of length 8: 31632
+	of length 9: 28373
+	of length 10: 26400
+	of length 11: 24836
+	of length 12: 22588
+	of length 13: 21006
+	of length 14: 19590
+	of length 15: 17919
+	of length 16: 16510
+	of length 17: 15123
+	of length 18: 13825
+	of length 19: 12826
+	of length 20: 12088
+	of length 21: 11020
+	of length 22: 10353
+	of length 23: 9415
+	of length 24: 8448
+	of length 25: 7837
+	of length 26: 7278
+	of length 27: 6666
+	of length 28: 6093
+	of length 29: 5531
+	of length 30: 5114
+	of length 31: 4693
+	of length 32: 4306
+	of length 33: 3871
+	of length 34: 3452
+	of length 35: 3167
+	of length 36: 2923
+	of length 37: 2601
+	of length 38: 2377
+	of length 39: 2117
+	of length 40: 2060
+	of length 41: 1887
+	of length 42: 1696
+	of length 43: 1458
+	of length 44: 1172
+	of length 45: 819
+	of length 46: 551
+	of length 47: 347
+	of length 48: 176
+	of length 49: 95
+	of length 50: 41
+In total 414606 peptides.
+Generated 696473 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25612872 fragments to be searched in 1 slices (0.38 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.10 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 95.7 s | deisotoping 6.2 s
+		[progress: 48213/199561 (24%) - 4797 spectra/s]		[progress: 199561/199561 (100%) - 12170 spectra/s] 16.4s | remapping alternative proteins and postprocessing 11.0 s
+***************************MAIN SEARCH DONE IN 2.333 MIN***************************
+
+*******************************TOTAL TIME 2.369 MIN********************************
+DONE: DB split 18 of 20
+STARTED: DB split 19 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '18']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 34673
+	of length 8: 31975
+	of length 9: 28761
+	of length 10: 26435
+	of length 11: 24538
+	of length 12: 22875
+	of length 13: 21108
+	of length 14: 19614
+	of length 15: 18086
+	of length 16: 16652
+	of length 17: 15475
+	of length 18: 14449
+	of length 19: 13086
+	of length 20: 12402
+	of length 21: 11028
+	of length 22: 10353
+	of length 23: 9678
+	of length 24: 8757
+	of length 25: 8161
+	of length 26: 7572
+	of length 27: 7038
+	of length 28: 6361
+	of length 29: 5888
+	of length 30: 5315
+	of length 31: 4938
+	of length 32: 4460
+	of length 33: 4085
+	of length 34: 3652
+	of length 35: 3427
+	of length 36: 3051
+	of length 37: 2829
+	of length 38: 2562
+	of length 39: 2378
+	of length 40: 2135
+	of length 41: 2016
+	of length 42: 1820
+	of length 43: 1542
+	of length 44: 1289
+	of length 45: 930
+	of length 46: 659
+	of length 47: 426
+	of length 48: 214
+	of length 49: 130
+	of length 50: 60
+In total 422883 peptides.
+Generated 715401 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+26637896 fragments to be searched in 1 slices (0.40 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.21 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 98.0 s | deisotoping 7.5 s
+		[progress: 119443/199561 (60%) - 11904 spectra/s]		[progress: 199561/199561 (100%) - 16030 spectra/s] 12.5s | remapping alternative proteins and postprocessing 12.2 s
+***************************MAIN SEARCH DONE IN 2.354 MIN***************************
+
+*******************************TOTAL TIME 2.387 MIN********************************
+DONE: DB split 19 of 20
+STARTED: DB split 20 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), 'fragger.params', PosixPath('/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d'), '--partial', '19']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+JVM started with 673 GB memory
+Checking database...
+Checking spectral files...
+/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d: Scans = 43888
+There is a mzBIN file from /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d converted with timsdata-2-21-0-4. Will use this mzBIN file.
+
+************************************MAIN SEARCH************************************
+Checking database...
+Parameters:
+num_threads = 39
+database_name = 2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+decoy_prefix = rev_
+precursor_mass_lower = -20.0
+precursor_mass_upper = 20.0
+precursor_mass_units = 1
+data_type = 0
+precursor_true_tolerance = 20.0
+precursor_true_units = 1
+fragment_mass_tolerance = 20.0
+fragment_mass_units = 1
+calibrate_mass = 0
+use_all_mods_in_first_search = 0
+write_calibrated_mzml = 0
+write_uncalibrated_mgf = 0
+write_mzbin_all = 0
+isotope_error = 0/1/2
+mass_offsets = 0.0
+labile_search_mode = OFF
+restrict_deltamass_to = all
+precursor_mass_mode = SELECTED
+localize_delta_mass = 0
+delta_mass_exclude_ranges = (-1.5,3.5)
+fragment_ion_series = b,y
+ion_series_definitions = 
+search_enzyme_name = trypsin
+search_enzyme_sense_1 = C
+search_enzyme_cut_1 = KR
+search_enzyme_nocut_1 = P
+allowed_missed_cleavage_1 = 1
+num_enzyme_termini = 2
+clip_nTerm_M = 1
+allow_multiple_variable_mods_on_residue = 0
+max_variable_mods_per_peptide = 3
+max_variable_mods_combinations = 5000
+output_format = pepxml_pin
+output_report_topN = 1
+output_max_expect = 50.0
+report_alternative_proteins = 1
+override_charge = 0
+precursor_charge_low = 1
+precursor_charge_high = 4
+digest_min_length = 7
+digest_max_length = 50
+digest_mass_range_low = 500.0
+digest_mass_range_high = 5000.0
+max_fragment_charge = 1
+deisotope = 1
+deneutralloss = 1
+track_zero_topN = 0
+zero_bin_accept_expect = 0.0
+zero_bin_mult_expect = 1.0
+add_topN_complementary = 0
+minimum_peaks = 15
+use_topN_peaks = 300
+minIonsScoring = 2
+min_matched_fragments = 5
+minimum_ratio = 0.0
+intensity_transform = 0
+activation_types = all
+group_variable = 0
+require_precursor = 1
+reuse_dia_fragment_peaks = 0
+remove_precursor_peak = 1
+remove_precursor_range = -1.500000,1.500000
+clear_mz_range_low = 0.0
+clear_mz_range_high = 0.0
+excluded_scan_list_file = 
+mass_diff_to_variable_mod = 0
+min_sequence_matches = 2
+check_spectral_files = 1
+variable_mod_01 = 15.9949 M 3
+variable_mod_02 = 42.0106 [^ 1
+add_A_alanine = 0.0
+add_B_user_amino_acid = 0.0
+add_C_cysteine = 57.02146
+add_Cterm_peptide = 0.0
+add_Cterm_protein = 0.0
+add_D_aspartic_acid = 0.0
+add_E_glutamic_acid = 0.0
+add_F_phenylalanine = 0.0
+add_G_glycine = 0.0
+add_H_histidine = 0.0
+add_I_isoleucine = 0.0
+add_J_user_amino_acid = 0.0
+add_K_lysine = 0.0
+add_L_leucine = 0.0
+add_M_methionine = 0.0
+add_N_asparagine = 0.0
+add_Nterm_peptide = 0.0
+add_Nterm_protein = 0.0
+add_O_user_amino_acid = 0.0  # O = pyrrolysine (237.14773 Da)
+add_P_proline = 0.0
+add_Q_glutamine = 0.0
+add_R_arginine = 0.0
+add_S_serine = 0.0
+add_T_threonine = 0.0
+add_U_user_amino_acid = 0.0  # U = selenocysteine (150.95363 Da)
+add_V_valine = 0.0
+add_W_tryptophan = 0.0
+add_X_user_amino_acid = 0.0
+add_Y_tyrosine = 0.0
+add_Z_user_amino_acid = 0.0
+Number of unique peptides
+	of length 7: 33016
+	of length 8: 29753
+	of length 9: 27161
+	of length 10: 25470
+	of length 11: 23659
+	of length 12: 21791
+	of length 13: 19911
+	of length 14: 18475
+	of length 15: 17035
+	of length 16: 15646
+	of length 17: 14594
+	of length 18: 13407
+	of length 19: 12432
+	of length 20: 11403
+	of length 21: 10668
+	of length 22: 9896
+	of length 23: 8994
+	of length 24: 8235
+	of length 25: 7803
+	of length 26: 7219
+	of length 27: 6490
+	of length 28: 6060
+	of length 29: 5419
+	of length 30: 5124
+	of length 31: 4595
+	of length 32: 4200
+	of length 33: 3691
+	of length 34: 3523
+	of length 35: 3200
+	of length 36: 2904
+	of length 37: 2663
+	of length 38: 2511
+	of length 39: 2241
+	of length 40: 2034
+	of length 41: 1856
+	of length 42: 1712
+	of length 43: 1452
+	of length 44: 1259
+	of length 45: 884
+	of length 46: 645
+	of length 47: 390
+	of length 48: 250
+	of length 49: 146
+	of length 50: 70
+In total 399887 peptides.
+Generated 676325 modified peptides.
+Number of peptides with more than 5000 modification patterns: 0
+Selected fragment index width 0.10 Da.
+25067930 fragments to be searched in 1 slices (0.37 GB total)
+Operating on slice 1 of 1: 
+	Fragment index slice generated in 1.24 s
+	001. N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.mzBIN 94.7 s | deisotoping 6.0 s
+		[progress: 199561/199561 (100%) - 21576 spectra/s] 9.3s | remapping alternative proteins and postprocessing 12.2 s
+***************************MAIN SEARCH DONE IN 2.224 MIN***************************
+
+*******************************TOTAL TIME 2.259 MIN********************************
+DONE: DB split 20 of 20
+['java', '-jar', '-Dfile.encoding=UTF-8', '-Xmx673G', PosixPath('/metaEx/software/fragpipe20.0/software/MSFragger-3.8/MSFragger-3.8.jar'), '--generate_expect_functions', 'N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537_scores_histogram.tsv']
+MSFragger version MSFragger-3.8
+Batmass-IO version 1.28.12
+timsdata library version timsdata-2-21-0-4
+(c) University of Michigan
+RawFileReader reading tool. Copyright (c) 2016 by Thermo Fisher Scientific, Inc. All rights reserved.
+timdTOF .d reading tool. Copyright (c) 2022 by Bruker Daltonics GmbH & Co. KG. All rights reserved.
+System OS: Linux, Architecture: amd64
+Java Info: 11.0.20, Java HotSpot(TM) 64-Bit Server VM, Oracle Corporation
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 0
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 16384
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 32768
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 49152
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 65536
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 81920
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 98304
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 114688
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 131072
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 147456
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 163840
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 180224
+Writing: N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537	spectrum: 196608
+Process 'MSFragger' finished, exit code: 0
+PeptideProphet: Workspace init [Work dir: /metaEx/Results/00.DDAspectrallib/fragpipe-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML-temp]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --init --nocheck --temp /metaEx/Results/00.DDAspectrallib/tmp/8f262724-498b-4858-b4eb-207263afe011
+time="05:33:14" level=info msg="Executing Workspace  v5.0.0"
+time="05:33:14" level=info msg="Creating workspace"
+time="05:33:15" level=info msg=Done
+Process 'PeptideProphet: Workspace init' finished, exit code: 0
+PeptideProphet [Work dir: /metaEx/Results/00.DDAspectrallib/fragpipe-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML-temp]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher peptideprophet --decoyprobs --ppm --accmass --nonparam --expectscore --decoy rev_ --database /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas ../N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML
+Please wait. PeptideProphet is running. It can take a long time.
+time="05:33:15" level=info msg="Executing PeptideProphet  v5.0.0"
+Unknown file type. No file loaded./metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d
+Unknown file type. No file loaded./metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.d
+ file 1: /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML
+ processed altogether 163949 results
+INFO: Results written to file: /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml
+
+  - /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml
+  - Building Commentz-Walter keyword tree...
+  - Searching the tree...
+  - Linking duplicate entries...
+  - Printing results...
+
+using Accurate Mass Bins
+using PPM mass difference
+Using Decoy Label "rev_".
+Decoy Probabilities will be reported.
+Using non-parametric distributions
+ (X! Tandem) (using Tandem's expectation score for modeling)
+adding ACCMASS mixture distribution
+using search_offsets in ACCMASS mixture distr: 0.0
+init with X! Tandem trypsin 
+ PeptideProphet  (TPP v5.2.1-dev Flammagenitus, Build 201906251008-exported (Linux-x86_64)) AKeller@ISB
+ read in 803 1+, 117887 2+, 40269 3+, 4739 4+, 251 5+, 0 6+, and 0 7+ spectra.
+Found 74655 Decoys, and 89294 Non-Decoys
+MS Instrument info: Manufacturer: UNKNOWN, Model: UNKNOWN, Ionization: UNKNOWN, Analyzer: UNKNOWN, Detector: UNKNOWN
+
+INFO: Processing standard MixtureModel ... 
+Initialising statistical models ...
+Iterations: .........10.........20......
+WARNING: Mixture model quality test failed for charge (6+).
+WARNING: Mixture model quality test failed for charge (7+).
+model complete after 27 iterations
+time="05:37:56" level=info msg=Done
+Process 'PeptideProphet' finished, exit code: 0
+PeptideProphet: Delete temp
+java -cp /metaEx/software/fragpipe20.0/lib/fragpipe-20.0.jar com.github.chhh.utils.FileDelete /metaEx/Results/00.DDAspectrallib/fragpipe-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pepXML-temp
+Process 'PeptideProphet: Delete temp' finished, exit code: 0
+Rewrite pepxml [Work dir: /metaEx/Results/00.DDAspectrallib]
+java -cp /metaEx/software/fragpipe20.0/lib/* com.dmtavt.fragpipe.util.RewritePepxml /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537_uncalibrated.mzML
+Fixing pepxml: /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml
+Writing output to: /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml4907390719613785181.temp-rewrite
+Deleting file: /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml
+Moving rewritten file to original location: [/metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml4907390719613785181.temp-rewrite] -> [/metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml]
+Process 'Rewrite pepxml' finished, exit code: 0
+ProteinProphet [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher proteinprophet --maxppmdiff 2000000 --minprob 0.5 --output combined /metaEx/Results/00.DDAspectrallib/filelist_proteinprophet.txt
+time="05:37:58" level=info msg="Executing ProteinProphet  v5.0.0"
+ProteinProphet (C++) by Insilicos LLC and LabKey Software, after the original Perl by A. Keller (TPP v6.0.0-rc15 Noctilucent, Build 202105021430-exported (Linux-x86_64))
+ (no FPKM) (no groups) (using degen pep info)
+Reading in /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml...
+...read in 28 1+, 7643 2+, 3239 3+, 413 4+, 34 5+, 0 6+, 0 7+ spectra with min prob 0.5
+
+Initializing 5184 peptide weights: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Calculating protein lengths and molecular weights from database /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........1000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........2000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........3000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........4000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........5000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........6000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........7000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........8000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........9000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........10000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........11000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........12000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........13000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........14000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........15000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........16000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........17000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........18000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........19000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........20000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........21000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........22000
+..WARNING: Found the following zero-mass residues in protein entry Human_swiss_sp|P18283|GPX2_HUMAN : U
+MAFIAKSFYDLSAISLDGEKVDFNTFRGRAVLIENVASLUGTTTRDFTQLNELQCRFPRRLVVLGFPCNQFGHQENCQNEEILNSLKYVRPGGGYQPTFTLVQKCEVNGQNEHPVFAYLKDKLPYPYDDPFSLMTDPKLIIWSPVRRSDVAWNFEKFLIGPEGEPFRRYSRTFPTINIEPDIKRLLKVAI
+.......:.........:.........:.........:.........:.........:.........:.........:.........:.........23000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........24000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........25000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........26000
+.........:...WARNING: Found the following zero-mass residues in protein entry Human_swiss_sp|Q16881|TRXR1_HUMAN : U
+MGCAEGKAVAAAAPTELQTKGKNGDGRRRSAKDHHPGKTLPENPAGFTSTATADSRALLQAYIDGHSVVIFSRSTCTRCTEVKKLFKSLCVPYFVLELDQTEDGRALEGTLSELAAETDLPVVFVKQRKIGGHGPTLKAYQEGRLQKLLKMNGPEDLPKSYDYDLIIIGGGSGGLAAAKEAAQYGKKVMVLDFVTPTPLGTRWGLGGTCVNVGCIPKKLMHQAALLGQALQDSRNYGWKVEETVKHDWDRMIEAVQNHIGSLNWGYRVALREKKVVYENAYGQFIGPHRIKATNNKGKEKIYSAERFLIATGERPRYLGIPGDKEYCISSDDLFSLPYCPGKTLVVGASYVALECAGFLAGIGLDVTVMVRSILLRGFDQDMANKIGEHMEEHGIKFIRQFVPIKVEQIEAGTPGRLRVVAQSTNSEEIIEGEYNTVMLAIGRDACTRKIGLETVGVKINEKTGKIPVTDEEQTNVPYIYAIGDILEDKVELTPVAIQAGRLLAQRLYAGSTVKCDYENVPTTVFTPLEYGACGLSEEKAVEKFGEENIEVYHSYFWPLEWTIPSRDNNKCYAKIICNTKDNERVVGFHVLGPNAGEVTQGFAAALKCGLTKKQLDSTIGIHPVCAEVFTTLSVTKRSGASILQAGCUG
+......:.........:.........:.........:.........:.........:.........:.........:.........27000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........28000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........29000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........30000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........31000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........32000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........33000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........34000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........35000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........36000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........37000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........38000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........39000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........40000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........41000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........42000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........43000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........44000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........45000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........46000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........47000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........48000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........49000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........50000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........51000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........52000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........53000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........54000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........55000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........56000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........57000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........58000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........59000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........60000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........61000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........62000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........63000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........64000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........65000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........66000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........67000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........68000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........69000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........70000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........71000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........72000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........73000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........74000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........75000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........76000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........77000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........78000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........79000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........80000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........81000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........82000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........83000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........84000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........85000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........86000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........87000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........88000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........89000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........90000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........91000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........92000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........93000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........94000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........95000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........96000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........97000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........98000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........99000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........100000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........101000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........102000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........103000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........104000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........105000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........106000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........107000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........108000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........109000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........110000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........111000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........112000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........113000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........114000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........115000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........116000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........117000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........118000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........119000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........120000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........121000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........122000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........123000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........124000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........125000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........126000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........127000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........128000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........129000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........130000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........131000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........132000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........133000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........134000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........135000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........136000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........137000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........138000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........139000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........140000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........141000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........142000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........143000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........144000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........145000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........146000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........147000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........148000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........149000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........150000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........151000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........152000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........153000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........154000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........155000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........156000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........157000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........158000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........159000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........160000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........161000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........162000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........163000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........164000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........165000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........166000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........167000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........168000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........169000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........170000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........171000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........172000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........173000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........174000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........175000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........176000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........177000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........178000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........179000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........180000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........181000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........182000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........183000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........184000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........185000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........186000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........187000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........188000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........189000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........190000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........191000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........192000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........193000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........194000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........195000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........196000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........197000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........198000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........199000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........200000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........201000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........202000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........203000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........204000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........205000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........206000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........207000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........208000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........209000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........210000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........211000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........212000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........213000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........214000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........215000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........216000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........217000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........218000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........219000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........220000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........221000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........222000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........223000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........224000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........225000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........226000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........227000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........228000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........229000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........230000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........231000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........232000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........233000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........234000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........235000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........236000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........237000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........238000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........239000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........240000
+.........:.........:.........:.........:.........:.........:.........:.........:.........:.........241000
+.........:.........:......  Total: 241264
+Computing degenerate peptides for 3695 proteins: 0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Computing probabilities for 4061 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 4061 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 4061 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 4061 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Computing probabilities for 4061 proteins.  Loop 1: 0%...20%...40%...60%...80%...100%  Loop 2: 0%...20%...40%...60%...80%...100%
+Calculating sensitivity...and error tables...
+Computing MU for 4061 proteins: 0%...10%...20%...30%...40%INFO: mu=2.8092e-06, db_size=146778649
+...50%...60%...70%...80%...90%...100%
+time="05:38:09" level=info msg=Done
+Process 'ProteinProphet' finished, exit code: 0
+PhilosopherDbAnnotate [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher database --annotate /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas --prefix rev_
+time="05:38:09" level=info msg="Executing Database  v5.0.0"
+time="05:38:09" level=info msg="Annotating the database"
+time="05:38:11" level=info msg=Done
+Process 'PhilosopherDbAnnotate' finished, exit code: 0
+PhilosopherFilter [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher filter --picked --prot 0.01 --tag rev_ --pepxml /metaEx/Results/00.DDAspectrallib --protxml /metaEx/Results/00.DDAspectrallib/combined.prot.xml --razor
+time="05:38:11" level=info msg="Executing Filter  v5.0.0"
+time="05:38:11" level=info msg="Processing peptide identification files"
+time="05:38:11" level=info msg="Parsing /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml"
+time="05:38:14" level=info msg="1+ Charge profile" decoy=8 target=36
+time="05:38:14" level=info msg="2+ Charge profile" decoy=2635 target=10769
+time="05:38:14" level=info msg="3+ Charge profile" decoy=798 target=4300
+time="05:38:14" level=info msg="4+ Charge profile" decoy=52 target=499
+time="05:38:14" level=info msg="5+ Charge profile" decoy=0 target=35
+time="05:38:14" level=info msg="6+ Charge profile" decoy=0 target=0
+time="05:38:14" level=info msg="Database search results" ions=11313 peptides=10144 psms=19132
+time="05:38:14" level=info msg="Converged to 1.00 % FDR with 9810 PSMs" decoy=98 threshold=0.7867 total=9908
+time="05:38:14" level=info msg="Converged to 1.00 % FDR with 3002 Peptides" decoy=30 threshold=0.9335 total=3032
+time="05:38:14" level=info msg="Converged to 1.00 % FDR with 3906 Ions" decoy=39 threshold=0.9075 total=3945
+time="05:38:14" level=info msg="Protein inference results" decoy=354 target=2692
+time="05:38:14" level=info msg="Converged to 0.96 % FDR with 1663 Proteins" decoy=16 threshold=0.9691 total=1679
+time="05:38:14" level=info msg="2D FDR estimation: Protein mirror image" decoy=1663 target=1663
+time="05:38:14" level=info msg="Second filtering results" ions=4586 peptides=3525 psms=11564
+time="05:38:14" level=info msg="Converged to 0.78 % FDR with 11474 PSMs" decoy=90 threshold=0.0503 total=11564
+time="05:38:14" level=info msg="Converged to 0.99 % FDR with 3323 Peptides" decoy=33 threshold=0.2215 total=3356
+time="05:38:14" level=info msg="Converged to 0.99 % FDR with 4341 Ions" decoy=43 threshold=0.1751 total=4384
+time="05:38:14" level=info msg="Post processing identifications"
+time="05:38:15" level=info msg="Assigning protein identifications to layers"
+time="05:38:21" level=info msg="Processing protein inference"
+time="05:38:23" level=info msg="Synchronizing PSMs and proteins"
+time="05:38:23" level=info msg="Final report numbers after FDR filtering, and post-processing" ions=4316 peptides=3299 proteins=1663 psms=11426
+time="05:38:23" level=info msg=Saving
+time="05:38:23" level=info msg=Done
+Process 'PhilosopherFilter' finished, exit code: 0
+PhilosopherReport [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher report
+time="05:38:24" level=info msg="Executing Report  v5.0.0"
+time="05:38:24" level=info msg="Creating reports"
+time="05:38:24" level=info msg=Done
+Process 'PhilosopherReport' finished, exit code: 0
+SpecLibGen [Work dir: /metaEx/Results/00.DDAspectrallib]
+/opt/conda/bin/python -u /metaEx/software/fragpipe20.0/tools/speclib/gen_con_spec_lib.py /metaEx/Results/00.DDAspectrallib/2024-03-23-decoys-IGC_unique.catalogue_modify_shuffle_humanswiss_contam_irt.fasta.fas /metaEx/Results/00.DDAspectrallib unused /metaEx/Results/00.DDAspectrallib True unused use_easypqp ciRT:noIM 39 "--max_delta_unimod 0.02 --max_delta_ppm 15.0 --fragment_types [\'b\',\'y\',] " "--rt_lowess_fraction 0.0" delete_intermediate_files /metaEx/Results/00.DDAspectrallib/filelist_speclibgen.txt
+File list provided
+Using (un)calibrated.mzML files.
+Spectral library building
+Commands to execute:
+/opt/conda/bin/easypqp convert --max_delta_unimod 0.02 --max_delta_ppm 15.0 --fragment_types '['"'"'b'"'"','"'"'y'"'"',]' --enable_unannotated --pepxml /metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml --spectra /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537_uncalibrated.mzML --exclude-range -1.5,3.5 --psms N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.psmpkl --peaks N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.peakpkl
+/opt/conda/bin/easypqp library --psmtsv /metaEx/Results/00.DDAspectrallib/psm.tsv --peptidetsv /metaEx/Results/00.DDAspectrallib/peptide.tsv --rt_reference /metaEx/Results/00.DDAspectrallib/irt.tsv --out easypqp_lib_openswath.tsv --rt_lowess_fraction 0.0 /metaEx/Results/00.DDAspectrallib/filelist_easypqp_library.txt
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+easypqp, version 0.1.35
+Executing ['/opt/conda/bin/easypqp', 'convert', '--max_delta_unimod', '0.02', '--max_delta_ppm', '15.0', '--fragment_types', "['b','y',]", '--enable_unannotated', '--pepxml', '/metaEx/Results/00.DDAspectrallib/interact-N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.pep.xml', '--spectra', '/metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537_uncalibrated.mzML', '--exclude-range', '-1.5,3.5', '--psms', 'N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.psmpkl', '--peaks', 'N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.peakpkl']
+Info: There are psm.tsv and peptide.tsv. Will ignore --psm_fdr_threshold, --peptide_fdr_threshold, --protein_fdr_threshold, --pi0_lambda, --proteotypic, and --no-proteotypic.
+Info: Reading file /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.psmpkl.
+Info: 10184 redundant PSMs identified after filtering with /metaEx/Results/00.DDAspectrallib/psm.tsv and /metaEx/Results/00.DDAspectrallib/peptide.tsv
+Info: easypqp_rt_alignment_N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537; Peptide overlap between run and reference: 162.
+Info: easypqp_rt_alignment_N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537; Lowess fraction used: 0.08.
+                                       base_name  modified_peptide
+0  N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537              4132
+Info: easypqp_im_alignment_N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537; Peptide overlap between run and reference: 4132.
+Info: Parsing file /metaEx/Results/00.DDAspectrallib/N20220923sunyy_MPW_dda_lib15_Slot2-15_1_15537.peakpkl.
+Info: Library successfully generated.
+Done generating spectral library
+2024-03-23 05:40:50,100:INFO:took 0:02:23.886232
+Process 'SpecLibGen' finished, exit code: 0
+WorkspaceClean [Work dir: /metaEx/Results/00.DDAspectrallib]
+/metaEx/software/fragpipe20.0/software/philosopher-5.0.0/philosopher workspace --clean --nocheck
+time="05:40:50" level=info msg="Executing Workspace  v5.0.0"
+time="05:40:50" level=info msg="Removing workspace"
+time="05:40:50" level=info msg=Done
+Process 'WorkspaceClean' finished, exit code: 0
+
+Please cite:
+(Any searches) MSFragger: ultrafast and comprehensive peptide identification in mass spectrometry?based proteomics. Nat Methods 14:513 (2017)
+(Any searches) Fast deisotoping algorithm and its implementation in the MSFragger search engine. J. Proteome Res. 20:498 (2021)
+(Open search) Identification of modified peptides using localization-aware open search. Nat Commun. 11:4065 (2020)
+(Glyco/labile search) Fast and comprehensive N- and O-glycoproteomics analysis with MSFragger-Glyco. Nat Methods 17:1125 (2020)
+(timsTOF PASEF) Fast quantitative analysis of timsTOF PASEF data with MSFragger and IonQuant. Mol Cell Proteomics 19:1575 (2020)
+(PSM validation with PeptideProphet)Empirical statistical model to estimate the accuracy of peptide identifications made by MS/MS and database search. Anal. Chem. 74:5383 (2002)
+(Protein inference with ProteinProphet)A statistical model for identifying proteins by tandem mass spectrometry. Anal. Chem. 75:4646 (2003)
+(FDR filtering and reporting) Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat Methods 17:869 (2020)
+(Visualization with FragPipe-PDV) PDV: an integrative proteomics data viewer. Bioinformatics. 35(7):1249 (2019)
+
+=============================================================ALL JOBS DONE IN 104.8 MINUTES=============================================================
+total_dir	/metaEx

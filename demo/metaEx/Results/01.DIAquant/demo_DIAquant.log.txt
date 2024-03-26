@@ -1,0 +1,169 @@
+DIA-NN 1.8 (Data-Independent Acquisition by Neural Networks)
+Compiled on Jun 28 2021 10:59:57
+Current date and time: Sat Mar 23 05:40:52 2024
+Logical CPU cores: 40
+/metaEx/software/usr/diann/1.8/diann-1.8 --dir /metaEx/DIAraw --lib /metaEx/Results/00.DDAspectrallib/library.tsv --threads 40 --verbose 1 --out /metaEx/Results/01.DIAquant/demo_DIAquant.tsv --qvalue 0.01 --matrices --var-mods 1 --var-mod UniMod:35,15.994915,M --mass-acc 10 --mass-acc-ms1 10 --individual-mass-acc --individual-windows --no-prot-inf --smart-profiling --peak-center --no-ifs-removal 
+
+Thread number set to 40
+Output will be filtered at 0.01 FDR
+Precursor/protein x samples expression level matrices will be saved along with the main report
+Maximum number of variable modifications set to 1
+Modification UniMod:35 with mass delta 15.9949 at M will be considered as variable
+Mass accuracy will be determined separately for different runs
+Scan windows will be inferred separately for different runs
+Protein inference will not be performed
+When generating a spectral library, in silico predicted spectra will be retained if deemed more reliable than experimental ones
+Fixed-width center of each elution peak will be used for quantification
+Interference removal from fragment elution curves disabled
+Mass accuracy will be fixed to 1e-05 (MS2) and 1e-05 (MS1)
+
+7 files will be processed
+[0:00] Loading spectral library /metaEx/Results/00.DDAspectrallib/library.tsv
+[0:00] Finding proteotypic peptides (assuming that the list of UniProt ids provided for each peptide is complete)
+[0:00] Spectral library loaded: 1663 protein isoforms, 1663 protein groups and 4132 precursors in 3404 elution groups.
+[0:00] Initialising library
+[0:00] Saving the library to /metaEx/Results/00.DDAspectrallib/library.tsv.speclib
+
+[0:00] File #1/7
+[0:00] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_27_Slot2-53_1_5291.d
+[0:56] 3804 library precursors are potentially detectable
+[0:56] Processing...
+[1:05] RT window set to 1.75101
+[1:05] Ion mobility window set to 0.04
+[1:05] Peak width: 5.96
+[1:05] Scan window radius set to 13
+[1:05] Recommended MS1 mass accuracy setting: 16.281 ppm
+[1:07] Removing low confidence identifications
+[1:07] Removing interfering precursors
+[1:07] Training neural networks: 3705 targets, 3696 decoys
+[1:07] Number of IDs at 0.01 FDR: 1417
+[1:07] Calculating protein q-values
+[1:07] Number of protein isoforms identified at 1% FDR: 700 (precursor-level), 641 (protein-level) (inference performed using proteotypic peptides only)
+[1:07] Quantification
+[1:09] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_27_Slot2-53_1_5291.d.quant.
+
+[1:10] File #2/7
+[1:10] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_1_Slot2-1_1_5259.d
+[2:43] 3804 library precursors are potentially detectable
+[2:43] Processing...
+[2:49] RT window set to 1.64649
+[2:49] Ion mobility window set to 0.04
+[2:49] Peak width: 6.06
+[2:49] Scan window radius set to 13
+[2:49] Recommended MS1 mass accuracy setting: 20.2794 ppm
+[2:51] Removing low confidence identifications
+[2:51] Removing interfering precursors
+[2:51] Training neural networks: 3700 targets, 3724 decoys
+[2:51] Number of IDs at 0.01 FDR: 1891
+[2:51] Calculating protein q-values
+[2:51] Number of protein isoforms identified at 1% FDR: 888 (precursor-level), 835 (protein-level) (inference performed using proteotypic peptides only)
+[2:51] Quantification
+[2:54] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_1_Slot2-1_1_5259.d.quant.
+
+[2:55] File #3/7
+[2:55] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_2_Slot2-2_1_5260.d
+[4:33] 3804 library precursors are potentially detectable
+[4:33] Processing...
+[4:38] RT window set to 1.66196
+[4:38] Ion mobility window set to 0.04
+[4:38] Peak width: 6.236
+[4:38] Scan window radius set to 13
+[4:38] Recommended MS1 mass accuracy setting: 18.1417 ppm
+[4:41] Removing low confidence identifications
+[4:41] Removing interfering precursors
+[4:41] Training neural networks: 3695 targets, 3727 decoys
+[4:41] Number of IDs at 0.01 FDR: 1663
+[4:41] Calculating protein q-values
+[4:41] Number of protein isoforms identified at 1% FDR: 802 (precursor-level), 718 (protein-level) (inference performed using proteotypic peptides only)
+[4:41] Quantification
+[4:45] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_2_Slot2-2_1_5260.d.quant.
+
+[4:46] File #4/7
+[4:46] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_10_Slot2-10_1_5270.d
+[6:14] 3804 library precursors are potentially detectable
+[6:14] Processing...
+[6:19] RT window set to 1.60356
+[6:19] Ion mobility window set to 0.04
+[6:19] Peak width: 6.132
+[6:19] Scan window radius set to 13
+[6:19] Recommended MS1 mass accuracy setting: 17.528 ppm
+[6:22] Removing low confidence identifications
+[6:22] Removing interfering precursors
+[6:22] Training neural networks: 3734 targets, 3746 decoys
+[6:22] Number of IDs at 0.01 FDR: 1866
+[6:22] Calculating protein q-values
+[6:22] Number of protein isoforms identified at 1% FDR: 841 (precursor-level), 830 (protein-level) (inference performed using proteotypic peptides only)
+[6:22] Quantification
+[6:25] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_10_Slot2-10_1_5270.d.quant.
+
+[6:25] File #5/7
+[6:25] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_20_Slot2-20_1_5283.d
+[7:49] 3804 library precursors are potentially detectable
+[7:49] Processing...
+[7:55] RT window set to 1.61917
+[7:55] Ion mobility window set to 0.04
+[7:55] Peak width: 6.256
+[7:55] Scan window radius set to 13
+[7:55] Recommended MS1 mass accuracy setting: 17.6905 ppm
+[7:57] Removing low confidence identifications
+[7:57] Removing interfering precursors
+[7:57] Training neural networks: 3733 targets, 3744 decoys
+[7:58] Number of IDs at 0.01 FDR: 1817
+[7:58] Calculating protein q-values
+[7:58] Number of protein isoforms identified at 1% FDR: 839 (precursor-level), 793 (protein-level) (inference performed using proteotypic peptides only)
+[7:58] Quantification
+[8:00] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_20_Slot2-20_1_5283.d.quant.
+
+[8:01] File #6/7
+[8:01] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_21_Slot2-21_1_5284.d
+[9:05] 3804 library precursors are potentially detectable
+[9:05] Processing...
+[9:10] RT window set to 1.66491
+[9:10] Ion mobility window set to 0.04
+[9:10] Peak width: 6.728
+[9:10] Scan window radius set to 14
+[9:10] Recommended MS1 mass accuracy setting: 18.4669 ppm
+[9:12] Removing low confidence identifications
+[9:12] Removing interfering precursors
+[9:12] Training neural networks: 3730 targets, 3717 decoys
+[9:12] Number of IDs at 0.01 FDR: 1653
+[9:12] Calculating protein q-values
+[9:12] Number of protein isoforms identified at 1% FDR: 734 (precursor-level), 684 (protein-level) (inference performed using proteotypic peptides only)
+[9:12] Quantification
+[9:14] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_21_Slot2-21_1_5284.d.quant.
+
+[9:15] File #7/7
+[9:15] Loading run /metaEx/DIAraw/N20210503liangs_GNHSF_b14_24_Slot2-24_1_5288.d
+[10:32] 3804 library precursors are potentially detectable
+[10:32] Processing...
+[10:37] RT window set to 1.57813
+[10:37] Ion mobility window set to 0.04
+[10:37] Peak width: 6.448
+[10:37] Scan window radius set to 14
+[10:37] Recommended MS1 mass accuracy setting: 16.7973 ppm
+[10:40] Removing low confidence identifications
+[10:40] Removing interfering precursors
+[10:40] Training neural networks: 3735 targets, 3737 decoys
+[10:40] Number of IDs at 0.01 FDR: 2081
+[10:40] Calculating protein q-values
+[10:40] Number of protein isoforms identified at 1% FDR: 946 (precursor-level), 914 (protein-level) (inference performed using proteotypic peptides only)
+[10:40] Quantification
+[10:43] Quantification information saved to /metaEx/DIAraw/N20210503liangs_GNHSF_b14_24_Slot2-24_1_5288.d.quant.
+
+[10:43] Cross-run analysis
+[10:43] Reading quantification information: 7 files
+[10:43] Quantifying peptides
+[10:44] Quantifying proteins
+[10:44] Calculating q-values for protein and gene groups
+[10:44] Calculating global q-values for protein and gene groups
+[10:44] Writing report
+[10:44] Report saved to /metaEx/Results/01.DIAquant/demo_DIAquant.tsv.
+[10:44] Saving precursor levels matrix
+[10:44] Precursor levels matrix (1% precursor and protein group FDR) saved to /metaEx/Results/01.DIAquant/demo_DIAquant.pr_matrix.tsv.
+[10:44] Saving protein group levels matrix
+[10:44] Protein group levels matrix (1% precursor FDR and protein group FDR) saved to /metaEx/Results/01.DIAquant/demo_DIAquant.pg_matrix.tsv.
+[10:44] Saving gene group levels matrix
+[10:44] Gene groups levels matrix (1% precursor FDR and protein group FDR) saved to /metaEx/Results/01.DIAquant/demo_DIAquant.gg_matrix.tsv.
+[10:44] Saving unique genes levels matrix
+[10:44] Unique genes levels matrix (1% precursor FDR and protein group FDR) saved to /metaEx/Results/01.DIAquant/demo_DIAquant.unique_genes_matrix.tsv.
+[10:44] Stats report saved to /metaEx/Results/01.DIAquant/demo_DIAquant.stats.tsv
