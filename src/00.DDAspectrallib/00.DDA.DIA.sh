@@ -2,7 +2,7 @@
 
 OPTIONS=hvl:f:
 
-PARSED_OPTIONS=$(getopt -n "$0" -o $OPTIONS --long help,version,total_dir:,project_name:,fragpipe_switch:,diann_switch:,fragpipe_path:,db_split:,dda_threads:,fasta_name:,dda_peplen_min:,dda_peplen_max:,dda_miss_cleav:,dda_precur_tole:,dda_frag_unit:,dda_frag_tole:,dia_threads:,dia_miss_cleav:,dia_precur_tole:,dia_frag_tole: -- "$@")
+PARSED_OPTIONS=$(getopt -n "$0" -o $OPTIONS --long help,version,total_dir:,project_name:,fragpipe_switch:,diann_switch:,fragpipe_path:,db_split:,dda_threads:,fasta_name:,dda_peplen_min:,dda_peplen_max:,dda_miss_cleav:,dda_precur_tole:,dda_frag_unit:,dda_frag_tole:,dia_threads:,dia_miss_cleav:,dia_precur_tole:,dia_frag_tole:,rm_frag_medfiles:,rm_diann_medfiles: -- "$@")
 
 if [ $? -ne 0 ]; then
 echo "Parameter parsing error"
@@ -19,6 +19,8 @@ diann_switch="on"
 fragpipe_path=""
 db_split=20
 fasta_name=""
+rm_frag_medfiles="y"
+rm_diann_medfiles="y"
 
 dda_threads=20
 dda_peplen_min=7
@@ -58,6 +60,8 @@ echo "-diat, --dia_threads <value>   DIA-MS run threads, default: 20"
 echo "-r, --dia_miss_cleav <value>   DIA-MS run allowed missed cleavage, default: 1"
 echo "-s, --dia_precur_tole <value>   DIA-MS run precursor mass tolerance (unit ppm), default: 10"
 echo "-t, --dia_frag_tole <value>   DIA-MS run fragment mass tolerance, default: 10"
+echo "-rm_f, --rm_frag_medfiles <value>   remove the intermediate files of FragPipe, default: y"
+echo "-rm_d, --rm_diann_medfiles <value>   remove the intermediate files of DIA-NN, default: y"
 exit 0
 ;;
 -v|--version)
@@ -154,6 +158,16 @@ dia_frag_tole=$2
 echo "DIA-MS run fragment mass tolerance, default: 10; $dia_frag_tole"
 shift 2
 ;;
+-rm_f|--rm_frag_medfiles)
+rm_frag_medfiles=$2
+echo "remove the intermediate files of FragPipe, default: y; $rm_frag_medfiles"
+shift 2
+;;
+-rm_d|--rm_diann_medfiles)
+rm_frag_medfiles=$2
+echo "remove the intermediate files of DIA-NN, default: y; $rm_diann_medfiles"
+shift 2
+;;
 --)
 shift
 break
@@ -204,10 +218,10 @@ export XDG_CONFIG_HOME
 ## FragPipe dir
 echo $fragpipe_path
 
-fragpipePath="$fragpipe_path/bin/fragpipe"
-msfraggerPath="$fragpipe_path/software/MSFragger-3.8/MSFragger-3.8.jar"
-philosopherPath="$fragpipe_path/software/philosopher-5.0.0/philosopher"
-ionquantPath="$fragpipe_path/software/IonQuant-1.9.8/IonQuant-1.9.8.jar"
+fragpipePath=$(find $fragpipe_path -type f -name "fragpipe")
+msfraggerPath=$(find $fragpipe_path -type f -name "MSFragger-*.jar")
+philosopherPath=$(find $fragpipe_path -type f -name "philosopher")
+ionquantPath=$(find $fragpipe_path -type f -name "IonQuant-*.jar")
 pythonPath=/opt/conda/bin/python
 workflowPathOri=$DDA_command_dir/MPW_FP_splitDB_peptideprophet_20231025.workflow
 
@@ -233,6 +247,16 @@ perl $DDA_command_dir/01.format.workflow.pl -td $total_dir -thr $dda_threads -db
 $fragpipePath --headless --workflow $DDA_work_dir/MPW_FP_splitDB_peptideprophet_20231025.workflow --manifest $DDA_work_dir/manifest.nogroup.nobiorep.manifest --workdir $DDA_work_dir --config-msfragger $msfraggerPath --config-ionquant $ionquantPath --config-philosopher $philosopherPath --config-python $pythonPath >> $DDA_work_dir/00.DDAspectrallib.log.txt 2>&1 && \
 
 rm -rf $DDA_work_dir/*.${rawtype}
+
+if [[ "$rm_frag_medfiles" == "y" ]]; then
+echo "Remove the intermediate files of FragPipe!"
+rm -rf $DDA_work_dir/*.pepXML
+rm -rf $DDA_work_dir/*.pin
+rm -rf $DDA_work_dir/*.pep.xml
+rm -rf $DDA_work_dir/easypqp*
+rm -rf $DDA_work_dir/FragPipe
+rm -rf $DDA_work_dir/matplotlib
+fi
 
 ## generate pep2pro file
 perl $DDA_command_dir/02.library.pl -td $total_dir >> $DDA_work_dir/00.DDAspectrallib.log.txt 2>&1
@@ -267,6 +291,11 @@ touch $DIA_work_dir/01.DIAquant.log.txt
 echo "$mydate: Start DIA-NN quantification\n" >> $DIA_work_dir/01.DIAquant.log.txt
 $total_dir/software/usr/diann/1.8/diann-1.8 --dir $DIA_raw_dir --lib $DDA_spectral_lib_dir/$DDA_spectral_lib_new --threads $dia_threads --verbose 1 --out $DIA_work_dir/$DIA_out_name --qvalue 0.01 --matrices --var-mods 1 --var-mod UniMod:35,15.994915,M --mass-acc $dia_precur_tole --mass-acc-ms1 $dia_frag_tole --individual-mass-acc --individual-windows --no-prot-inf --smart-profiling --peak-center --no-ifs-removal >> $DIA_work_dir/01.DIAquant.log.txt 2>&1
 echo "$mydate: DIA-NN quantification DONE\n" >> $DIA_work_dir/01.DIAquant.log.txt
+
+if [[ "$rm_diann_medfiles" == "y" ]]; then
+echo "Remove the intermediate files of DIA-NN!"
+rm -rf $DIA_raw_dir/*.quant
+fi
 
 else
 echo "Skip DIA-NN-based peptide and protein quantification!"

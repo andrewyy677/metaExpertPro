@@ -1,7 +1,7 @@
 #!/bin/bash
 OPTIONS=hvl:f:
 
-PARSED_OPTIONS=$(getopt -n "$0" -o $OPTIONS --long help,version,total_dir:,project_name:,sample_label:,database:,input_pr_mat_name:,input_pg_mat_name:,anno_threads:,unipept_switch:,eggnog_switch:,kegg_switch: -- "$@")
+PARSED_OPTIONS=$(getopt -n "$0" -o $OPTIONS --long help,version,total_dir:,project_name:,sample_label:,database:,input_pr_mat_name:,input_pg_mat_name:,anno_threads:,unipept_switch:,eggnog_switch:,kegg_switch:,rm_annotation_medfiles: -- "$@")
 
 if [ $? -ne 0 ]; then
 echo "Parameter parsing error"
@@ -21,6 +21,7 @@ anno_threads=20
 unipept_switch="on"
 eggnog_switch="on"
 kegg_switch="on"
+rm_annotation_medfiles="n"
 
 while true; do
 case "$1" in
@@ -38,6 +39,7 @@ echo "-t, --anno_threads <value>   Annotation threads, default: 20"
 echo "-u --unipept_switch <value>   Run Unipept for taxonomic annotation, default: on"
 echo "-e --eggnog_switch <value>   Run eggnog for eggnog annotation, default: on"
 echo "-k --kegg_switch <value>   Run kegg matrix generation, default: on"
+echo "-rm_a, --rm_annotation_medfiles <value>   remove the intermediate files of Annotation, default: n"
 exit 0
 ;;
 -v|--version)
@@ -92,6 +94,11 @@ shift 2
 -k|--kegg_switch)
 kegg_switch=$2
 echo "Run kegg matrix generation, default: on; $kegg_switch"
+shift 2
+;;
+-rm_a|--rm_annotation_medfiles)
+rm_frag_medfiles=$2
+echo "remove the intermediate files of Annotation, default: n; $rm_annotation_medfiles"
 shift 2
 ;;
 --)
@@ -443,3 +450,10 @@ cp $Anno_work_dir/05.eggnog.run/02.matrix/*/qc/* qc
 cp $Anno_work_dir/05.eggnog.run/03.cogcat.matrix/*/qc/* qc
 cp $Anno_work_dir/06.kegg.run/02.matrix/*/qc/* qc
 cp $Anno_work_dir/06.kegg.run/03.keggcat.matrix/*/qc/* qc
+
+if [[ "$rm_annotation_medfiles" == "n" ]]; then
+echo "Leave the intermediate files of Annotation!"
+else
+echo "Remove the intermediate files of Annotation!"
+rm -rf $Anno_work_dir/04.pep2taxon $Anno_work_dir/05.eggnog.run $Anno_work_dir/06.kegg.run
+fi
