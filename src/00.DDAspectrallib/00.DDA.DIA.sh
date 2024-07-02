@@ -199,7 +199,7 @@ raw_format_type="mzML"
 rawnum=`find $DDA_raw_dir -name *.mzML | wc -l`
 fi
 
-echo $rawtype
+echo $raw_format_type
 echo $rawnum
 mydate=`date`
 
@@ -225,6 +225,11 @@ ionquantPath=$(find $fragpipe_path -type f -name "IonQuant-*.jar")
 pythonPath=/opt/conda/bin/python
 workflowPathOri=$DDA_command_dir/MPW_FP_splitDB_peptideprophet_20231025.workflow
 
+echo "fragpipe: $fragpipePath"
+echo "msfragger: $msfraggerPath"
+echo "philosopher: $philosopherPath"
+echo "ionquant: $ionquantPath"
+
 
 ## dir_generate and run FP
 touch $DDA_work_dir/00.DDAspectrallib.log.txt
@@ -246,7 +251,7 @@ perl $DDA_command_dir/01.format.workflow.pl -td $total_dir -thr $dda_threads -db
 
 $fragpipePath --headless --workflow $DDA_work_dir/MPW_FP_splitDB_peptideprophet_20231025.workflow --manifest $DDA_work_dir/manifest.nogroup.nobiorep.manifest --workdir $DDA_work_dir --config-msfragger $msfraggerPath --config-ionquant $ionquantPath --config-philosopher $philosopherPath --config-python $pythonPath >> $DDA_work_dir/00.DDAspectrallib.log.txt 2>&1 && \
 
-rm -rf $DDA_work_dir/*.${rawtype}
+rm -rf $DDA_work_dir/*.${raw_format_type}
 
 if [[ "$rm_frag_medfiles" == "y" ]]; then
 echo "Remove the intermediate files of FragPipe!"
