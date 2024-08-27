@@ -139,7 +139,9 @@ close MED; close MEDF1; close MEDF2; close MEDF3; close MEDF4; close MEDF5; clos
 
 
 my @filter = qw /1 2 3 5 10 15 20/;
+
 for my $filter (@filter) {
+	system("mkdir $workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter");
 	for my $k1 (sort keys %taxpepcount) {
 		open (OUT, ">$workdir/04.pep2taxon/01.matrix/02.taxon_matrix/filter$filter/$project\_diann_$database\_micropeptide_all_unipept_filter$filter\_$k1\_matrix.txt") or die $!;
 		my $headp = join "\t", "Taxon_name", @mhead[1..$#mhead];
@@ -147,7 +149,9 @@ for my $filter (@filter) {
 		for my $k2 (sort keys %{$taxpepcount{$k1}}) {
 			my @data;
 			for my $i (1..$#mhead) {
-				my $pepcount = keys %{$taxpepcount{$k1}{$k2}{$mhead[$i]}};
+				my $taxnow = (split /\|/, $k2)[-1];
+				my $pepcount = $taxeachpepcount{$taxnow};
+				#my $pepcount = keys %{$taxpepcount{$k1}{$k2}{$mhead[$i]}};
 				if ($pepcount >= $filter) {
 					if (($taxquan{$k1}{$k2}{$mhead[$i]} == 0) or (($taxquan{$k1}{$k2}{$mhead[$i]} eq ""))){
 						$taxquan{$k1}{$k2}{$mhead[$i]} = "NA";
